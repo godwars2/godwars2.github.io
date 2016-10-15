@@ -10,7 +10,7 @@ title:            God Wars 2 Library
 tagline:          'God Wars 2 Library'
 description:      'Details for the awesome game of God Wars 2'
 url:              https://mleo2003.github.io
-baseurl:          /
+baseurl:          /gw2
 
 author:
   name:           'Matthew Robinson'
