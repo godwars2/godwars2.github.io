@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Character Concepts Guide
 ---
 
 ## Character Concepts Guide

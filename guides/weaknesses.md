@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Weaknesses Guide
 ---
 
 ## Weaknesses for Mobs, Ages 100 - 500, and Winterland
@@ -183,7 +184,7 @@ Original guide by Xakarii on the God Wars 2 Forums ([here](http://clanscw.brinks
   - Mehktish bladedancer
   - Mehktish warlord
 - Silverdale: 40000 -64320
-  - Dire mammoths
+  - Dire mammoths: Weak vs mental.
 
 ### <a name='winterland'></a>Winterland
 - Music Mountain:
