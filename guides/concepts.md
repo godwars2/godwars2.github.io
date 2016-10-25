@@ -978,15 +978,15 @@ apart with fang and claw.
 |Improvised|50|||Bear|50|
 
 #### Equipment
-A demonsteel full helm with a raised visor on your head, face and neck.
-A black cotton cloak around your neck.
-A demonsteel breastplate on your body and back.
-A black cotton shirt on your neck, body, back and arms.
-A pair of hardened leather bracers on your arms.
-A black leather belt around your waist.
-A pair of hardened leather greaves on your legs.
-A pair of black leather trousers on your groin and legs.
-A pair of black hardened leather boots on your feet.
+- A demonsteel full helm with a raised visor on your head, face and neck.
+- A black cotton cloak around your neck.
+- A demonsteel breastplate on your body and back.
+- A black cotton shirt on your neck, body, back and arms.
+- A pair of hardened leather bracers on your arms.
+- A black leather belt around your waist.
+- A pair of hardened leather greaves on your legs.
+- A pair of black leather trousers on your groin and legs.
+- A pair of black hardened leather boots on your feet.
 
 
 ### <a name='witch'></a>Witch
