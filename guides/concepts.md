@@ -7,16 +7,16 @@ title: Character Concepts Guide
 
 Original guide by Xoren on the God Wars 2 forums ([here](http://clanscw.brinkster.net/godwars/topic.asp?TOPIC_ID=2291))
 
-|[Amazon](#amazon)|[Barbarian](#barbarian)|[Berserker](#berserker)|[Blade Dancer](#bladedancer)|
-|[Blade Master](#blademaster)|[Fencer](#fencer)|[Knife Fighter](#knifefighter)|[Knight](#knight)|
+|[Amazon](#amazon)|[Barbarian](#barbarian)|[Berserker](#berserker)|[Blade Dancer](#blade-dancer)|
+|[Blade Master](#blade-master)|[Fencer](#fencer)|[Knife Fighter](#knife-fighter)|[Knight](#knight)|
 |[Mentalist](#mentalist)|[Monk](#monk)|[Samurai](#samurai)|[Templar](#templar)|
-|[Bloodguard](#bloodguard)|[Nightblade](#nightblade)|[Shadowcaster](#shadowcaster)|[Winged Dhampir](#wingeddhampir)|
-|[Forest Wolfkin](#forestwolfkin)|[Arctic Wolfkin](#arcticwolfkin)|[Desert Wolfkin](#desertwolfkin)|[Swamp Wolfkin](#swampwolfkin)|
+|[Bloodguard](#bloodguard)|[Nightblade](#nightblade)|[Shadowcaster](#shadowcaster)|[Winged Dhampir](#winged-dhampir)|
+|[Forest Wolfkin](#forest-wolfkin)|[Arctic Wolfkin](#arctic-wolfkin)|[Desert Wolfkin](#desert-wolfkin)|[Swamp Wolfkin](#swamp-wolfkin)|
 |[Pyromancer](#pyromancer)|[Aeromancer](#aeromancer)|[Geomancer](#geomancer)|[Hydromancer](#hydromancer)|
-|[Dark Reaver](#darkreaver)|[Dark Fanatic](#darkfanatic)|[Fiend Spawn](#fiendspawn)|[Witch](#witch)|
-|[Green Dragon](#greendragon)|[Red Dragon](#reddragon)|[White Dragon](#whitedragon)|[Dragon Rider](#dragonrider)|
+|[Dark Reaver](#dark-reaver)|[Dark Fanatic](#dark-fanatic)|[Fiend Spawn](#fiend-spawn)|[Witch](#witch)|
+|[Green Dragon](#green-dragon)|[Red Dragon](#red-dragon)|[White Dragon](#white-dragon)|[Dragon Rider](#dragon-rider)|
 
-### <a name='amazon'></a>Amazon
+### Amazon
 
 The Amazons are a nation of female warriors and hunters. Their traditional
 weapons are the bow, spear, axe and pelta shield, and their style of fighting
@@ -52,8 +52,7 @@ emphasises speed and agility.
 - A brown leather belt around your waist.
 - A pair of leather sandals on your feet.
 
-
-### <a name='barbarian'></a>Barbarian
+### Barbarian
 
 The barbarian is a huge, powerful warrior from the northern wastelands.
 Dressed in animal furs and wielding a huge battleaxe, he makes a formidable
@@ -94,7 +93,7 @@ foe indeed.
 - An iron dagger tucked into your left boot.
 
 
-### <a name='berserker'></a>Berserker
+### Berserker
 
 The berserker is a ferocious warrior who wades into combat with a huge morning
 star, striking down anyone or anything that gets in his way.
@@ -130,7 +129,7 @@ star, striking down anyone or anything that gets in his way.
 - A pair of leather sandals on your feet.
 
 
-### <a name='bladedancer'></a>Blade Dancer
+### Blade Dancer
 
 The bladedancer is a skilled fighter, highly trained in both swords and
 unarmed combat, and specialising in the cat-like fighting styles.
@@ -166,7 +165,7 @@ unarmed combat, and specialising in the cat-like fighting styles.
 - A pair of blue leather boots on your feet.
 
 
-### <a name='blademaster'></a>Blade Master
+### Blade Master
 
 The blademaster is a deadly warrior who has dedicated his life to mastering
 the bastard sword, a weapon he wields with unrivalled skill.
@@ -204,7 +203,7 @@ the bastard sword, a weapon he wields with unrivalled skill.
 - A pair of black leather boots on your feet.
 
 
-### <a name='fencer'></a>Fencer
+### Fencer
 
 The fencer is a light and agile warrior who fights with the traditional
 duelling weapons of rapier and main gauche. He relies on speed rather than
@@ -240,8 +239,7 @@ strength to overcome his enemies.
 - A pair of black leather boots on your feet.
 
 
-### <a name='knifefighter'></a>Knife Fighter
-
+### Knife Fighter
 
 The knife fighter is a skilled warrior who fights with knives and daggers,
 relying on speed and agility to overcome his or her foes.
@@ -279,7 +277,7 @@ relying on speed and agility to overcome his or her foes.
 - A pair of steel stilettos tucked into your boots.
 
 
-### <a name='knight'></a>Knight
+### Knight
 
 The knight is a heavily armoured warrior who typically fights from horseback,
 but is also a powerful (albeit slow) fighter on foot.
@@ -320,7 +318,7 @@ but is also a powerful (albeit slow) fighter on foot.
 - A steel kite shield in your left hand.
 
 
-### <a name='mentalist'></a>Mentalist
+### Mentalist
 
 The mentalist is someone who has achieved great mental discipline, unlocking
 the secrets of their own mind and learning to harness and wield their innate
@@ -354,7 +352,7 @@ psionic powers.
 - A pair of black leather shoes on your feet.
 
 
-### <a name='monk'></a>Monk
+### Monk
 
 The monk is trained in unarmed combat from a very young age. He is also
 highly proficient with various martial weapons.
@@ -389,7 +387,7 @@ highly proficient with various martial weapons.
 - A pair of leather sandals on your feet.
 
 
-### <a name='samurai'></a>Samurai
+### Samurai
 
 The samurai are a class of warrior from the far east, who live and die by their
 code of honour. They are fearsome warriors, lightly armoured so as to maximise
@@ -431,7 +429,7 @@ their maneuverability and trained in a range of exotic weapons.
 - A pair of tabi socks on your feet.
 
 
-### <a name='templar'></a>Templar
+### Templar
 
 The templar is a holy knight who draws power from his faith, and dedicates
 his life to the eradication of evil.
@@ -470,7 +468,7 @@ his life to the eradication of evil.
 - A pair of white hardened leather boots on your feet.
 
 
-### <a name='bloodguard'></a>Bloodguard
+### Bloodguard
 
 The Bloodguard are a faction of elite soldiers descended from vampires. Their
 mystical heritage grants them minor supernatural powers, and they ever strive
@@ -507,7 +505,7 @@ towards achieving full vampiric status.
 - A pair of red hardened leather boots on your feet.
 
 
-### <a name='nightblade'></a>Nightblade
+### Nightblade
 
 The assassins of House DarkBlade are deadly warriors of vampiric descent. They
 primarily rely on stealth and speed to defeat their opponents, but their blades
@@ -543,7 +541,7 @@ of elemental shadow make them dangerous warriors even in fair and open fights.
 - A pair of black leather boots on your feet.
 
 
-### <a name='shadowcaster'></a>Shadowcaster
+### Shadowcaster
 
 The dark sorcerers of House ShadowSworn are powerful spellcasters of vampiric
 descent. Legend tells how they were once a cabal of mortal wizards who turned
@@ -577,7 +575,7 @@ to vampirism as a way of achieving immortality.
 - A pair of black leather boots on your feet.
 
 
-### <a name='wingeddhampir'></a>Winged Dhampir
+### Winged Dhampir
 
 The Winged Dhampir are the elite commandos of House NightWing, able to travel
 very quickly to the scene of a battle and strike while the enemy is unprepared.
@@ -610,7 +608,7 @@ very quickly to the scene of a battle and strike while the enemy is unprepared.
 - A bronze codpiece on your groin.
 
 
-### <a name='forestwolfkin'></a>Forest Wolfkin
+### Forest Wolfkin
 
 The wolfkin are those who are descended from werewolves. Although they are
 not true lycanthropes, they still possess minor supernatural powers, and many
@@ -647,7 +645,7 @@ preferring instead to tear their victims apart with fangs and claws.
 - A pair of brown wolfskin boots on your feet.
 
 
-### <a name='arcticwolfkin'></a>Arctic Wolfkin
+### Arctic Wolfkin
 
 You are one of the Arctic Wolfkin, a tribe of werewolf descendants who live in
 the frozen, windy plains of the tundra. While they are not true lycanthropes,
@@ -682,7 +680,7 @@ the wolfkin still possess minor supernatural powers.
 - A pair of white wolfskin boots on your feet.
 
 
-### <a name='desertwolfkin'></a>Desert Wolfkin
+### Desert Wolfkin
 
 You are one of the Desert Wolfkin, a tribe of werewolf descendants who live in
 the hot desert wastelands of the north. While they are not true lycanthropes,
@@ -716,7 +714,7 @@ the wolfkin still possess minor supernatural powers.
 - A pair of bone stilettos tucked into your boots.
 
 
-### <a name='swampwolfkin'></a>Swamp Wolfkin
+### Swamp Wolfkin
 
 You are one of the Swamp Wolfkin, a tribe of werewolf descendants who live in
 the fetid swamps and marshes. While they are not true lycanthropes, the
@@ -752,7 +750,7 @@ wolfkin still possess minor supernatural powers.
 - A pair of black wolfskin boots on your feet.
 
 
-### <a name='pyromancer'></a>Pyromancer
+### Pyromancer
 
 The pyromancer is a natural adept of fire magic, with the potential to become
 a powerful mage.
@@ -785,7 +783,7 @@ a powerful mage.
 - A pair of red leather shoes on your feet.
 
 
-### <a name='aeromancer'></a>Aeromancer
+### Aeromancer
 
 The aeromancer is a natural adept of air magic, with the potential to become
 a powerful mage.
@@ -818,7 +816,7 @@ a powerful mage.
 - A pair of white leather shoes on your feet.
 
 
-### <a name='geomancer'></a>Geomancer
+### Geomancer
 
 The geomancer is a natural adept of earth magic, with the potential to become
 a powerful mage.
@@ -853,7 +851,7 @@ a powerful mage.
 - A pair of brown leather shoes on your feet.
 
 
-### <a name='hydromancer'></a>Hydromancer
+### Hydromancer
 
 The hydromancer is a natural adept of water magic, with the potential to become
 a powerful mage.
@@ -886,7 +884,7 @@ a powerful mage.
 - A pair of blue leather shoes on your feet.
 
 
-### <a name='darkreaver'></a>Dark Reaver
+### Dark Reaver
 
 The Dark Reavers are deadly warriors who have made deals with fell creatures
 in return for supernatural powers.
@@ -922,7 +920,7 @@ in return for supernatural powers.
 - A pair of black hardened leather boots on your feet.
 
 
-### <a name='darkfanatic'></a>Dark Fanatic
+### Dark Fanatic
 
 The Dark Fanatics are insane cultists who draw their power from their belief in
 the infernal forces of hell.
@@ -955,7 +953,7 @@ the infernal forces of hell.
 - A pair of leather sandals on your feet.
 
 
-### <a name='fiendspawn'></a>Fiend Spawn
+### Fiend Spawn
 
 The Fiend Spawn are cruel and vicious demonic soldiers who tear their victims
 apart with fang and claw.
@@ -989,7 +987,7 @@ apart with fang and claw.
 - A pair of black hardened leather boots on your feet.
 
 
-### <a name='witch'></a>Witch
+### Witch
 
 The witch achieves power by making bargains with demonic powers. In the case
 of mortal witches, the bargaining usually involves giving up their soul - but
@@ -1022,7 +1020,7 @@ generally content simply to corrupt the power-hungry individual.
 - A pair of black leather boots on your feet.
 
 
-### <a name='greendragon'></a>Green Dragon
+### Green Dragon
 
 Green Dragons typically live in forests and woodland areas. They are unable to
 use weapons or armour, instead relying on their tough scales for protection and
@@ -1047,7 +1045,7 @@ this concept allows you to begin play as a hatchling, not a full-grown dragon.
 |||||Dragon|50|
 
 
-### <a name='reddragon'></a>Red Dragon
+### Red Dragon
 
 Red Dragons usually live in deserts or near volcanos. They are unable to use
 weapons or armour, instead relying on their tough scales for protection and
@@ -1070,7 +1068,7 @@ this concept allows you to begin play as a hatchling, not a full-grown dragon.
 |||||Dragon|50|
 
 
-### <a name='whitedragon'></a>White Dragon
+### White Dragon
 
 White Dragons live on the frozen plains of the arctic tundra. They are unable
 to use weapons or armour, instead relying on their tough scales for protection
@@ -1095,7 +1093,7 @@ that this concept represents a hatchling, not a full-grown dragon.
 |||||Dragon|50|
 
 
-### <a name='dragonrider'></a>Dragon Rider
+### Dragon Rider
 
 Dragon Riders are fearsome warriors who ride into battle on their drake mounts,
 wielding dragonbone axes and dressed from head to foot in dragonscale armour.
@@ -1130,3 +1128,7 @@ wielding dragonbone axes and dressed from head to foot in dragonscale armour.
 - A pair of green dragonscale greaves on your legs.
 - A green dragonscale codpiece on your groin.
 - A pair of reinforced green dragonscale boots on your feet.
+
+<script>
+  anchors.add('h3');
+</script>
