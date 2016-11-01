@@ -9,3 +9,4 @@ title: Guides
 
 [Tasks and Rewards](tasks)
 
+[Epic Details](epics)
