@@ -92,7 +92,7 @@ Size/reach | Adds three encumbrance, and has a melee reach of one foot.
 Material   | Platinum with 50% durability.
 Techniques | 4 (0 mounted, 0 style-specific and 1 behind the scenes).
 Special    | This item is classified as heavy armour.
-Bonus      | Wing attacks inflict dual cut damage (or a cut burst).we'
+Bonus      | Wing attacks inflict dual cut damage (or a cut burst).
 
 #### Possible Enhancements
 
