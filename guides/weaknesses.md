@@ -68,7 +68,7 @@ Original guide by Xakarii on the God Wars 2 Forums ([here](http://clanscw.brinks
   - Dire Apes (day): Weak vs crush, heat.
   - Treants (night): Weak vs cut, heat.
 - Whispering Wood: 20000 -20000
-  - Giant spider: 8000 -12000 Weak vs crush, heat.
+  - Giant spider: 8000 -20000 Weak vs crush, heat.
   - Young treant (day): Weak vs cut, shock.
   - Treant (night)
   - Forest trolls: Weak vs cut, heat.
@@ -80,7 +80,7 @@ Original guide by Xakarii on the God Wars 2 Forums ([here](http://clanscw.brinks
   - Swamp trolls (night)
 - Brightcrown Peak: -6000 -60000
   - Adult white dragons (day)
-- Crescent Forest: 1000 -56000
+- Crescent Forest: 7560 -59300
   - Cerberi: Weak vs stab, heat.
 - Hunger Marsh: 46000 -17000
   - Ratling Nightrunner: Weak vs cut, heat. Uses crossbow and scimitars.
