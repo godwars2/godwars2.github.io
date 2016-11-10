@@ -16,7 +16,7 @@ Dark cave^          |50 |6006&nbsp;4026     |the goblin king    |0     |100     
 Damp cave^          |50 |11550&nbsp;9174    |the naga queen     |0     |100      |
 Mine^               |50 |0&nbsp;9900        |gnome chieftain    |0     |100      |
 Labyrinth^          |50 |-4290&nbsp;-4026   |the minotaur lord  |0     |100      |
-Crater^             |50 |2707&nbsp;15774    |the young dragon   |0     |100      |
+Crater^             |50 |2706&nbsp;15774    |the young dragon   |0     |100      |
 Black knights tower^|50 |594&nbsp;-600      |The Black Knight   |50    |0        |Vorpal Longsword
 Elemental Isle      |100|-19200&nbsp;5300   |the erdgheist      |1000  |0        |an elemental ring of earth
 Skyreach Mountain   |100|-18600&nbsp;3900   |the sylph          |1000  |0        |an elemental ring of air
