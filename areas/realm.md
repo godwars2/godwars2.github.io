@@ -13,9 +13,35 @@ title: Area - Realm
 |[Darkroot River](#darkroot-river)|[Eel River](#eel-river)|[Firetop Mountain](#firetop-mountain)|[Firetop Volcano](#firetop-volcano)|
 |[Glyphstone Village](#glyphstone-village)|[Greenleaf Forest](#greenleaf-forest)|[Mirror Lake](#mirror-lake)|[Misty Forest](#misty-forest)|
 |[Mount Stormreach](#mount-stormreach)|[Shadowglade Forest](#shadowglade-forest)|[Shimmer Pond](#shimmer-pond)|[Snow River](#snow-river)|
-|[Storm River](#storm-river)|[Tartarus](#tartarus)|[The Abandoned Temple](#the-abandoned-temple)|[The Black Castle](#the-black-castle)|
-|[The Crimson River](#the-crimson-river)|[The Cursed Swamp](#the-cursed-swamp)|[The Northern Desert](#the-northern-desert)|[The Ooze](#the-ooze)|
-|[The Serpent River](#the-serpent-river)|[The Silver River](#the-silver-river)|[Thunder River](#thunder-river)|[Twilight Wood](#twilight-wood)|
+|[Storm River](#storm-river)|[The Abandoned Temple](#the-abandoned-temple)|[The Black Castle](#the-black-castle)|[The Crimson River](#the-crimson-river)|
+|[The Cursed Swamp](#the-cursed-swamp)|[The Northern Desert](#the-northern-desert)|[The Ooze](#the-ooze)|[The Serpent River](#the-serpent-river)|
+|[The Silver River](#the-silver-river)|[Thunder River](#thunder-river)|[Twilight Wood](#twilight-wood)|
+
+## Places of Interest
+
+[The Crypt](#the-crypt),
+[The Dark Cave](#the-dark-cave),
+[The Damp Cave](#the-damp-cave),
+[The Labyrinth](#the-labyrinth),
+[The Mine](#the-mine),
+[The Crater](#the-crater)
+
+[Blood Warrens](#blood-warrens),
+[Wolfkin Den](#wolfkin-den),
+[Arcane Catacombs](#arcane-catacombs),
+[Hellmouth](#hellmouth),
+[Tartarus](#tartarus)
+
+### Arcane Catacombs
+
+Coordinates | Area type | Inhabitants
+---|---|---
+20460 -3960 | Class Dungeon | Magi, elementals
+
+Near the mouth of Crescent River on the eastern island, a complex of catacombs
+serves as experimentation grounds to a school of magi. Aspiring mages can
+journey here to seek enlightenment and pass the final trial by besting the
+local magi and their summoned creatures in combat, to receive their tokens.
 
 ### Blackstone Mountain
 
@@ -50,6 +76,19 @@ Coordinates | Area type | Inhabitants
 The western island is divided in half by this river, as it flows north down the
 slopes of Blackstone Mountain and then takes a sharp turn east along the
 northern edge of Blackwood Forest, towards the sea.
+
+### Blood Warrens
+
+Coordinates | Area type | Inhabitants
+---|---|---
+15114 3234 | Class Dungeon | Rats, wolves
+
+The Blood Warrens lie just north of Storm River, on the eastern island. Wolves
+that may not be wolves at all and rats that may not be rats have been spotted
+here, and some of those that have visited the place have returned as vampires.
+If you believe that should be your fate, seek the bloodguard champions and
+obtain your tokens from them. But be warned that they will not give them up
+without a fight.
 
 ### Crescent River
 
@@ -137,6 +176,18 @@ Mountain and the western shore of Mirror Lake, a short ride northeast from
 Glyphstone Village.  Wolves and bears prowl around during the day, and at night
 goblins emerge from a dark cave in the heart of the forest and scout the
 landscape, looking for small prey.
+
+### Hellmouth
+
+Coordinates | Area type | Inhabitants
+---|---|---
+21714 0 | Class Dungeon | Demons
+
+A deep abyss on the eastern slopes of Mount Stormreach is told to connect the
+Realm Plane with Hell. Although the portal itself has never been found, the
+demonic creatures inhabiting this place give credibility to the rumours. It is
+told that by defeating the Dark Reaver champions and gaining their tokens, one
+can become a demon, forever bound to the infernal plane.
 
 ### Mirror Lake
 
@@ -253,6 +304,20 @@ proximity of the castle and the easy journey, has fallen victim to his blade -
 or has defeated him only to find themselves face to face with a bloodthirsty
 suprenaturalis. Unlike most of the realm, the tower is a playerkilling area.
 
+### The Crater
+
+Coordinates | Area type | Inhabitants
+---|---|---
+2706 15774 | Dungeon | Fire elementals, dragons
+
+Legends say that a mighty firebreathing dragon lives deep within the crater of
+the Firetop Mountain, and even attribute the occasional eruption to this beast.
+Whether the latter is true, opinions differ, but scorched adventurers, some of
+them missing limbs, make it back to Glyphstone village from time to time,
+telling tales of strange beings formed of plasma and of a she-dragon that can
+bite off a man's head as if it were candy.  Only one way to find out if these
+tales are true - but what fool would venture into a lava-filled crater?
+
 ### The Crimson River
 
 Coordinates | Area type | Inhabitants
@@ -264,6 +329,19 @@ flowing lazily to the western shores where it meets the ocean.  Far upstream,
 where it winds its way southwards from the goblin cave, it flows more swiftly,
 forming small rapids and whirlpools between cliffs and tree roots.
 
+### The Crypt
+
+Coordinates | Area type | Inhabitants
+---|---|---
+-792 2376 | Dungeon | Undead, cadaver eaters
+
+Located a short ride to the northwest from the village is an abandoned temple,
+with its crypt lying in ruins.  Various undead beings and cadaver eaters have
+infested its dark corridors, but an avatar with some training should be able to
+handle these primitive beasts rather easily - and, who knows, maybe leave with
+magical treasure.  If you are looking for your first dungeon adventure, enter
+the temple from the north and try your luck in the crypt.
+
 ### The Cursed Swamp
 
 Coordinates | Area type | Inhabitants
@@ -274,6 +352,59 @@ A dead branch of Mirror Lake, known as The Ooze, disappears south of the lake,
 into the marshy grounds of the Cursed Swamp.  Crocodiles so large that they can
 swallow a grown warrior alive, as well as the waterlogged soil and bog holes
 make most travellers avoid the area.
+
+### The Damp Cave
+
+Coordinates | Area type | Inhabitants
+---|---|---
+11550 9174 | Dungeon | Nagas
+
+A half-submerged cavern complex on the northern shore of Mirror Lake is home to
+a tribe of nagas, led by their queen.  The naga males are mostly warriors,
+skilled with kris and trident, as are the females of the lower castes.  The
+higher caste females, easily recognised by the blue colour of their skin, are
+talented magic users.  The queen herself is a powerful psionic, and is known
+wide and far for her skill with two whips.
+
+### The Dark Cave
+
+Coordinates | Area type | Inhabitants
+---|---|---
+6006 4026 | Dungeon | Goblins
+
+Deep within Greenleaf Forest, near the source of the Crimson River, a smelly
+hole leads into a goblin lair.  The goblins will protect their lair and their
+king with crude weapons and primitive magic, and gnaw on the bones of any
+intruder they manage to corner and defeat.  While even a single fanatic can
+catch an unprepared adventurer by surprise, the goblins' main strength lies in
+numbers.
+
+### The Labyrinth
+
+Coordinates | Area type | Inhabitants
+---|---|---
+-4290 -4026 | Dungeon | Minotaurs
+
+Nobody knows who built the labyrinth on the southern slopes of Blackstone
+Mountain, but scholars agree it was not the minotaurs.  More likely, the
+minotaurs have been once guardians of whatever purpose the structure served,
+and formed their own society after the labyrinth had been deserted.  Having
+been bred for fighting, they know little else and will attack intruders on
+sight.  The labyrinth is a dangerous place to explore, best left to those with
+a lot of combat expertise - or those bored with life.
+
+### The Mine
+
+Coordinates | Area type | Inhabitants
+---|---|---
+0 9900 | Dungeon | Gnomes
+
+Gnomes operate a mine at the southwestern side of Firetop Mountain.  The work
+is hard, and the threat of being attacked by a basilisk, a promethean, or even
+a treasure hunter is omnipresent.  Gnome soldiers try their best to protect the
+miners as they go about their work, but the monsters inhabiting the dark
+tunnels are fierce, and fatalities are an everyday reality.  Somehow, however,
+the gnomes manage to carry on working to the satisfaction of their chieftain.
 
 ### The Northern Desert
 
@@ -342,3 +473,14 @@ treacherous terrain and wild bears and wolves lurking in the shadows.  When the
 night falls, wraiths emerge from the mists hanging low above the Blackroot
 River, their numbers getting stronger with each victim they lure to a watery
 death.
+
+### Wolfkin Den
+
+Coordinates | Area type | Inhabitants
+---|---|---
+21054 5940 | Class Dungeon | Wolfkin
+
+Far to the east, on an island, the wolfkin have built a den in a misty forest.
+Should you want to become one of the pack, a werewolf, you will need to prove
+yourself by defeating their champion and earning magical tokens as a prize for
+your victory.
