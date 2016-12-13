@@ -13,9 +13,6 @@ reqs:
   Banned talents      : Sign of the Blood Moon
 ---
 
-You were born under a blue moon - the third full moon in a season which has
-four full moons.  This very rare birth sign represents a natural aptitude for
-sensing atmospheric disturbances and channelling the power of the storm.
+You were born under a blue moon - the third full moon in a season which has four full moons. This very rare birth sign represents a natural aptitude for sensing atmospheric disturbances and channelling the power of the storm.
 
-This talent gives a bonus of +5 ranks in Ride the Storm and Storm Talons.  You
-only receive this bonus for powers in which you have trained at least 1 rank.
+This talent gives a bonus of +5 ranks in Ride the Storm and Storm Talons. You only receive this bonus for powers in which you have trained at least 1 rank.

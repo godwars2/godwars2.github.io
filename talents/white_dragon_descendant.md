@@ -13,8 +13,4 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You are descended from one of the great white dragons, renowned for both their
-grace and speed.  The Range, Ascendancy and Power of your frost breath attack
-is doubled, and your opponent's armour is reduced by 20% against all cold
-attacks you make (not just frost breath attacks).  In addition, you receive a
-natural 50% armour to all body locations against cold damage.
+You are descended from one of the great white dragons, renowned for both their grace and speed. The Range, Ascendancy and Power of your frost breath attack is doubled, and your opponent's armour is reduced by 20% against all cold attacks you make (not just frost breath attacks). In addition, you receive a natural 50% armour to all body locations against cold damage.

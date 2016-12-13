@@ -15,15 +15,10 @@ reqs:
                         Child of the Waxing Moon
 ---
 
-You were born under the waning moon, and exist between the spirit world and
-the real world.  As you've grown older and more powerful, you've learned to
-draw upon your birthright and the power it represents.
+You were born under the waning moon, and exist between the spirit world and the real world. As you've grown older and more powerful, you've learned to draw upon your birthright and the power it represents.
 
-Your fangs and claws inflict dual mental damage.  Talents and powers which add
-bypass to your fangs or claws will also add their bonuses to the mental bypass.
+Your fangs and claws inflict dual mental damage. Talents and powers which add bypass to your fangs or claws will also add their bonuses to the mental bypass.
 
-Your Storm Talons inflict dual mental damage, and their ranked bypass bonus is
-doubled (i.e., +2 per rank, or +4 with Shock/Burn/Freeze).  This also applies
-to the mental damage, which gets +2 bypass per rank, or +4 with Psionics.
+Your Storm Talons inflict dual mental damage, and their ranked bypass bonus is doubled (i.e., +2 per rank, or +4 with Shock/Burn/Freeze). This also applies to the mental damage, which gets +2 bypass per rank, or +4 with Psionics.
 
 Finally, this talent gives you a bonus of +5 ranks in Lunar Tattoos.

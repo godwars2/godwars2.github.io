@@ -17,8 +17,6 @@ reqs:
 
 This talent provides you with +25% critical bypass for all mental attacks.
 
-If you have Psychic Mastery, the critical bypass is increased to +50%, and you
-gain a further +1 mental bypass per rank in Mind Magic, Greater Crow Spirit or
-Living Nightmare.
+If you have Psychic Mastery, the critical bypass is increased to +50%, and you gain a further +1 mental bypass per rank in Mind Magic, Greater Crow Spirit or Living Nightmare.
 
 See 'help critical-bypass' for more details on how critical bypass works.

@@ -12,7 +12,4 @@ reqs:
   Required skills     : Swords 75+
 ---
 
-This talent gives you a +25 bonus to your Swords skill when using an ethereal
-blade, such as a soulblade or fireblade.  This bonus will not show up in your
-score, but is instead added afterwards (meaning that it isn't counted towards
-improvement difficulty or skill maximum).
+This talent gives you a +25 bonus to your Swords skill when using an ethereal blade, such as a soulblade or fireblade. This bonus will not show up in your score, but is instead added afterwards (meaning that it isn't counted towards improvement difficulty or skill maximum).

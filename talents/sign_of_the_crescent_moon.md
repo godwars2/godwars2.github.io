@@ -14,10 +14,6 @@ reqs:
   Banned talents      : Sign of the Gibbous Moon and Sign of the Half Moon
 ---
 
-Those born under the waning or waxing moon are able to further strengthen their
-spiritual ties.  Your birth sign is that of the crescent moon, which represents
-gaining power from the spirits by earning their trust and respect.
+Those born under the waning or waxing moon are able to further strengthen their spiritual ties. Your birth sign is that of the crescent moon, which represents gaining power from the spirits by earning their trust and respect.
 
-This talent gives you a bonus of +5 ranks in Greater Bear Spirit, Greater Crow
-Spirit, Greater Fox Spirit, Greater Shark Spirit and Lesser Totem Spirit.  You
-only receive this bonus for powers in which you have trained at least 1 rank.
+This talent gives you a bonus of +5 ranks in Greater Bear Spirit, Greater Crow Spirit, Greater Fox Spirit, Greater Shark Spirit and Lesser Totem Spirit. You only receive this bonus for powers in which you have trained at least 1 rank.

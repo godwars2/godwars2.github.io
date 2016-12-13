@@ -12,10 +12,4 @@ reqs:
   Banned traits       : Dishonourable
 ---
 
-This talent gives you a +25 bonus to your Swords skill when using a katana or
-wakizashi, a +25 bonus to your Daggers skill when using a tanto and a +25 bonus
-to your Polearms skill when using a naginata.  This bonus will not show up in
-your score, but is instead added afterwards (meaning that it isn't counted
-towards improvement difficulty or skill maximum).  Note also that weapons you
-have the appropriate Mastery for take half damage when they strike other
-weapons in combat, and have their encumbrance reduced by one.
+This talent gives you a +25 bonus to your Swords skill when using a katana or wakizashi, a +25 bonus to your Daggers skill when using a tanto and a +25 bonus to your Polearms skill when using a naginata. This bonus will not show up in your score, but is instead added afterwards (meaning that it isn't counted towards improvement difficulty or skill maximum). Note also that weapons you have the appropriate Mastery for take half damage when they strike other weapons in combat, and have their encumbrance reduced by one.

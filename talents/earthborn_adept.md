@@ -12,9 +12,6 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You possess a natural affinity for earth magic, granting you access to a range
-of earth-based spells, and +1% natural armour vs physical damage for each point
-of Aura you possess.  If you are also a mage with Earth Magic, each rank will
-give you an additional +1 crush bypass.
+You possess a natural affinity for earth magic, granting you access to a range of earth-based spells, and +1% natural armour vs physical damage for each point of Aura you possess. If you are also a mage with Earth Magic, each rank will give you an additional +1 crush bypass.
 
 This talent gives you the Barkskin, Stone Maul and Giant Growth spells.

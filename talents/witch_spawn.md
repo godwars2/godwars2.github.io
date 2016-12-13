@@ -13,11 +13,6 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-Through careful research, dark deals and binding pacts, you have uncovered the
-deep secrets of infernal witchcraft.  This provides you with access to a range
-of hand-based spells, which you can activate by typing 'magic'.  As well as
-providing the standard spells, this talent also gives you Hellfire Bolt, Summon
-Guardian, Fireblade and Dark Blessing.
+Through careful research, dark deals and binding pacts, you have uncovered the deep secrets of infernal witchcraft. This provides you with access to a range of hand-based spells, which you can activate by typing 'magic'. As well as providing the standard spells, this talent also gives you Hellfire Bolt, Summon Guardian, Fireblade and Dark Blessing.
 
-If you are also a demon, your Pathway to Hell power will unlock additional
-spells as you gain ranks.
+If you are also a demon, your Pathway to Hell power will unlock additional spells as you gain ranks.

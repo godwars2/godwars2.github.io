@@ -11,6 +11,4 @@ reqs:
   Banned talents      : Mental Barrier and Primordial Strike
 ---
 
-Whenever you inflict a critical hit with your fists or forehead, you project
-your chi energy from the blow, resulting in a powerful dual crush/mental burst
-attack.  This burst gains +1 bypass for each point of Discipline you have.
+Whenever you inflict a critical hit with your fists or forehead, you project your chi energy from the blow, resulting in a powerful dual crush/mental burst attack. This burst gains +1 bypass for each point of Discipline you have.

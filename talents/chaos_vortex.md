@@ -12,18 +12,8 @@ reqs:
   Required talents    : Dark Conduit
 ---
 
-You are able to draw upon the swirling chaos of the abyss, surrounding yourself
-with a vortex of pure chaos energy.  This renders you nearly invulnerable for a
-short period of time.  All physical and mental damage will be reduced by 95%,
-and this is treated as a second immunity layer.  Energy and poison damage will
-still hurt you normally.
+You are able to draw upon the swirling chaos of the abyss, surrounding yourself with a vortex of pure chaos energy. This renders you nearly invulnerable for a short period of time. All physical and mental damage will be reduced by 95%, and this is treated as a second immunity layer. Energy and poison damage will still hurt you normally.
 
-The vortex can be activated using 'hv' (head vortex), and it lasts 1 second
-per rank in Inferno, starting from the moment you are successfully struck by a
-physical or mental attack.  It takes 60 seconds to recharge, although you may
-reactive a partial chaos vortex after 30 seconds of recharging.  The partial
-version gives only 1% invulnerability per rank in Inferno.
+The vortex can be activated using 'hv' (head vortex), and it lasts 1 second per rank in Inferno, starting from the moment you are successfully struck by a physical or mental attack. It takes 60 seconds to recharge, although you may reactive a partial chaos vortex after 30 seconds of recharging. The partial version gives only 1% invulnerability per rank in Inferno.
 
-If you have a warp which grants another type of vortex, you cannot use it while
-your Chaos Vortex is active, or vice versa.  However the other vortex will also
-gain the option for a partial activation after 30 seconds.
+If you have a warp which grants another type of vortex, you cannot use it while your Chaos Vortex is active, or vice versa. However the other vortex will also gain the option for a partial activation after 30 seconds.

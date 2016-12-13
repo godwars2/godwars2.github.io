@@ -17,8 +17,6 @@ reqs:
 
 This talent provides you with +25% critical bypass for all breath attacks.
 
-If you also have Burn, Freeze, Shock, Venom or Psionics, the critical bypass is
-increased to +50% for heat, cold, shock, poison or mental damage breath attacks
-respectively.
+If you also have Burn, Freeze, Shock, Venom or Psionics, the critical bypass is increased to +50% for heat, cold, shock, poison or mental damage breath attacks respectively.
 
 See 'help critical-bypass' for more details on how critical bypass works.

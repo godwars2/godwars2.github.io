@@ -12,11 +12,6 @@ reqs:
   Banned traits       : Any other Heritage
 ---
 
-This talent indicates that you possess a natural gift for magic, granting you
-a +10 bonus to all five colours of magic.  This bonus will not show up in your
-score, but is instead added afterwards (meaning that it isn't counted towards
-improvement difficulty or skill maximum).  You should use the 'magic' command
-to switch your hands into spellcasting mode.
+This talent indicates that you possess a natural gift for magic, granting you a +10 bonus to all five colours of magic. This bonus will not show up in your score, but is instead added afterwards (meaning that it isn't counted towards improvement difficulty or skill maximum). You should use the 'magic' command to switch your hands into spellcasting mode.
 
-You gain a +25% bonus to Mana, applied after your primary stats and any class
-bonuses, but before magical items, the Meditate percentage modifier, or spells.
+You gain a +25% bonus to Mana, applied after your primary stats and any class bonuses, but before magical items, the Meditate percentage modifier, or spells.

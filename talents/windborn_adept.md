@@ -12,10 +12,6 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You possess a natural affinity for air magic, granting you access to a range of
-air-based spells, and +1% natural armour vs shock damage for each point of Aura
-you possess.  If you are also a mage with Air Magic, each rank will give you an
-additional +1 shock bypass.
+You possess a natural affinity for air magic, granting you access to a range of air-based spells, and +1% natural armour vs shock damage for each point of Aura you possess. If you are also a mage with Air Magic, each rank will give you an additional +1 shock bypass.
 
-This talent gives you the Lightning Bolt, Lightning Stream, Shockblade, Mystic
-Armour and Windblast spells.
+This talent gives you the Lightning Bolt, Lightning Stream, Shockblade, Mystic Armour and Windblast spells.

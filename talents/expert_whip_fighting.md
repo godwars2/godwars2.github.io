@@ -13,7 +13,4 @@ reqs:
   Required talents    : Whip Mastery
 ---
 
-This talent improves your fighting ability with whips, enhancing several of the
-existing techniques as well as unlocking new ones.  It also provides you with a
-range of upgraded techniques when using paired whips, representing an extremely
-complex style of fighting that only those with this talent can really master.
+This talent improves your fighting ability with whips, enhancing several of the existing techniques as well as unlocking new ones. It also provides you with a range of upgraded techniques when using paired whips, representing an extremely complex style of fighting that only those with this talent can really master.

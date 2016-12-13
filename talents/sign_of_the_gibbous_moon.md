@@ -14,10 +14,6 @@ reqs:
   Banned talents      : Sign of the Crescent Moon and Sign of the Half Moon
 ---
 
-Those born under the waning or waxing moon are able to further strengthen their
-spiritual ties.  Your birth sign is that of the gibbous moon, which represents
-gaining mastery over the spirits through control and domination.
+Those born under the waning or waxing moon are able to further strengthen their spiritual ties. Your birth sign is that of the gibbous moon, which represents gaining mastery over the spirits through control and domination.
 
-This talent gives you a bonus of +5 ranks in Fang Forging, Lunar Forging and
-Moon Weaving.  You only receive this bonus for powers in which you have trained
-at least 1 rank.
+This talent gives you a bonus of +5 ranks in Fang Forging, Lunar Forging and Moon Weaving. You only receive this bonus for powers in which you have trained at least 1 rank.

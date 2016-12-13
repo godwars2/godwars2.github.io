@@ -15,11 +15,6 @@ reqs:
                         Moon
 ---
 
-Those born under the waning or waxing moon are able to further strengthen their
-spiritual ties.  Your birth sign is that of the half moon, which refers to both
-the first- and third-quarter moons, and represents the neutral voice of reason
-between the two extremes of full and dark moon.  Your balanced perspective of
-the world makes you a natural leader among your kind.
+Those born under the waning or waxing moon are able to further strengthen their spiritual ties. Your birth sign is that of the half moon, which refers to both the first- and third-quarter moons, and represents the neutral voice of reason between the two extremes of full and dark moon. Your balanced perspective of the world makes you a natural leader among your kind.
 
-This talent provides a bonus of +5 ranks in Summon Wolf and Beast Master.  You
-only receive this bonus for powers in which you have trained at least 1 rank.
+This talent provides a bonus of +5 ranks in Summon Wolf and Beast Master. You only receive this bonus for powers in which you have trained at least 1 rank.

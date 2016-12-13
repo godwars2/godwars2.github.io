@@ -12,13 +12,10 @@ reqs:
   Banned talents      : Natural Fortitude
 ---
 
-You have a knack for turning your body when struck so that the most resilient
-parts of your armour intercept incoming attacks.
+You have a knack for turning your body when struck so that the most resilient parts of your armour intercept incoming attacks.
 
 When you are wearing heavy armour, its soak and auto-absorb are doubled.
 
-You are able to wear heavy armour as if it were one encumbrance point lighter,
-representing the natural ease with which you wear such armour.
+You are able to wear heavy armour as if it were one encumbrance point lighter, representing the natural ease with which you wear such armour.
 
-This talent also raises your maximum post-bypass soak percentage to 90% for all
-worn armour (not just heavy armour), although it won't help natural armour.
+This talent also raises your maximum post-bypass soak percentage to 90% for all worn armour (not just heavy armour), although it won't help natural armour.

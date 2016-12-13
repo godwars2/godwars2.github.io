@@ -13,8 +13,4 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You are descended from one of the great red dragons, renowned for both their
-strength and size.  The Range, Ascendancy and Power of your fire breath attack
-is doubled, and your opponent's armour is reduced by 20% against all heat
-attacks you make (not just fire breath attacks).  In addition, you receive a
-natural 50% armour to all body locations against heat damage.
+You are descended from one of the great red dragons, renowned for both their strength and size. The Range, Ascendancy and Power of your fire breath attack is doubled, and your opponent's armour is reduced by 20% against all heat attacks you make (not just fire breath attacks). In addition, you receive a natural 50% armour to all body locations against heat damage.

@@ -13,11 +13,6 @@ reqs:
                         Mastery
 ---
 
-This talent greatly improves your attacks when firing a longbow, shortbow or
-crossbow at long range.  A ranged weapon usually gives your opponent a +1 bonus
-to Defence (applied after all other modifiers) for each foot of distance beyond
-the first ten.  With this talent, the bonus is reduced to +1 Defence for every
-five feet of distance beyond the first hundred.  In addition, the half-damage
-penalty for attacks made at over half the maximum range is no longer applied.
+This talent greatly improves your attacks when firing a longbow, shortbow or crossbow at long range. A ranged weapon usually gives your opponent a +1 bonus to Defence (applied after all other modifiers) for each foot of distance beyond the first ten. With this talent, the bonus is reduced to +1 Defence for every five feet of distance beyond the first hundred. In addition, the half-damage penalty for attacks made at over half the maximum range is no longer applied.
 
 This talent also lowers both your reload and aiming times by 1 second.

@@ -13,12 +13,6 @@ reqs:
   Banned talents      : Enhanced Deflection and Instinctive Dodge
 ---
 
-After successfully performing a defensive move, the defending location requires
-some time to recover before it can be used again (see 'help cooldown').  This
-talent allows you to perform shield blocks even during cooldown, although you
-can do so at only a third of your normal Defence rating.  In addition, the cost
-for performing shield defence commands is reduced by 25 AP.
+After successfully performing a defensive move, the defending location requires some time to recover before it can be used again (see 'help cooldown'). This talent allows you to perform shield blocks even during cooldown, although you can do so at only a third of your normal Defence rating. In addition, the cost for performing shield defence commands is reduced by 25 AP.
 
-Shields are able to soak damage in the same way as armour, but their soak is
-normally halved while they are performing techniques or during cooldown.  This
-talent prevents the soak from being halved.
+Shields are able to soak damage in the same way as armour, but their soak is normally halved while they are performing techniques or during cooldown. This talent prevents the soak from being halved.

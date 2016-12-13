@@ -13,8 +13,4 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You are descended from one of the great blue dragons, renowned for both their
-tenacity and endurance.  The Range, Ascendancy and Power of your lightning
-breath attack is doubled, and your opponent's armour is reduced by 20% against
-all shock attacks you make (not just lightning breath attacks).  In addition,
-you receive a natural 50% armour to all body locations against shock damage.
+You are descended from one of the great blue dragons, renowned for both their tenacity and endurance. The Range, Ascendancy and Power of your lightning breath attack is doubled, and your opponent's armour is reduced by 20% against all shock attacks you make (not just lightning breath attacks). In addition, you receive a natural 50% armour to all body locations against shock damage.

@@ -11,10 +11,8 @@ reqs:
   Required divine age : 200+
 ---
 
-Many vampires are able to control wolves and vermin, but you possess a natural
-talent that grants you a special empathic relationship with such beasts.
+Many vampires are able to control wolves and vermin, but you possess a natural talent that grants you a special empathic relationship with such beasts.
 
-Your wolves and vermin gain +1 bypass and +1% critical bypass for each rank you
-have in Summon Wolf and Summon Vermin respectively.
+Your wolves and vermin gain +1 bypass and +1% critical bypass for each rank you have in Summon Wolf and Summon Vermin respectively.
 
 This talent also gives you a bonus of +5 ranks in Beast Master.

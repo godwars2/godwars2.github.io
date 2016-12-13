@@ -12,10 +12,6 @@ reqs:
   Required skills     : All magic colours 25+
 ---
 
-Many spells have the option of being enhanced, although this invariably comes
-with a mana cost (see 'help magic').  This talent halves the mana cost for all
-enhanced spells, and sometimes provides them with an additional bonus as well.
+Many spells have the option of being enhanced, although this invariably comes with a mana cost (see 'help magic'). This talent halves the mana cost for all enhanced spells, and sometimes provides them with an additional bonus as well.
 
-Note that certain spells and powers may drain your entire remaining mana for a
-greatly enhanced effect - in this case, your mana will still be drained, but it
-will be treated as if you had twice your actual remaining mana.
+Note that certain spells and powers may drain your entire remaining mana for a greatly enhanced effect - in this case, your mana will still be drained, but it will be treated as if you had twice your actual remaining mana.

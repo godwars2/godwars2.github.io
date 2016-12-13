@@ -12,6 +12,4 @@ reqs:
   Required talents    : Shortbow Mastery or Longbow Mastery
 ---
 
-When using a longbow or shortbow, your effective range is increased by 50%.
-Crossbows do not receive this bonus, as it is not possible to pull the string
-back any further than is intended.
+When using a longbow or shortbow, your effective range is increased by 50%. Crossbows do not receive this bonus, as it is not possible to pull the string back any further than is intended.

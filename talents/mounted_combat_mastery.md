@@ -11,6 +11,4 @@ reqs:
   Required skills     : Riding 75+
 ---
 
-This talent gives you a +25 bonus to your Riding skill when mounted.  This
-will not show up in your score, but is instead added afterwards (meaning that
-it isn't counted towards improvement difficulty or skill maximum).
+This talent gives you a +25 bonus to your Riding skill when mounted. This will not show up in your score, but is instead added afterwards (meaning that it isn't counted towards improvement difficulty or skill maximum).

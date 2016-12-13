@@ -12,10 +12,6 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You possess a natural affinity for fire magic, granting you access to a range
-of fire-based spells, and +1% natural armour vs heat damage for each point of
-Aura you possess.  If you are also a mage with Fire Magic, each rank will give
-you an additional +1 heat bypass.
+You possess a natural affinity for fire magic, granting you access to a range of fire-based spells, and +1% natural armour vs heat damage for each point of Aura you possess. If you are also a mage with Fire Magic, each rank will give you an additional +1 heat bypass.
 
-This talent gives you the Firebolt, Fireball, Immolate, Firestorm, Fireblade,
-Fever and Summon Elemental spells.
+This talent gives you the Firebolt, Fireball, Immolate, Firestorm, Fireblade, Fever and Summon Elemental spells.

@@ -11,13 +11,8 @@ reqs:
   Banned traits       : Any other Heritage
 ---
 
-You are descended from a deity, and divine blood runs in your veins.  While not
-a full god, your physical prowess is far beyond that of a normal mortal.
+You are descended from a deity, and divine blood runs in your veins. While not a full god, your physical prowess is far beyond that of a normal mortal.
 
-You gain a +10 bonus to all of your weapon skills.  This bonus will not show up
-in your score, but is instead added afterwards (meaning that it isn't counted
-towards improvement difficulty or skill maximum).
+You gain a +10 bonus to all of your weapon skills. This bonus will not show up in your score, but is instead added afterwards (meaning that it isn't counted towards improvement difficulty or skill maximum).
 
-If you have Mighty Blow, Focused Blow or Swift Blow, you gain +5 to your Brawn,
-Grace or Wits respectively.  If you don't have one of those talents, but have
-both Toughness and Resist Style Mastery, you instead gain +5 Mettle.
+If you have Mighty Blow, Focused Blow or Swift Blow, you gain +5 to your Brawn, Grace or Wits respectively. If you don't have one of those talents, but have both Toughness and Resist Style Mastery, you instead gain +5 Mettle.

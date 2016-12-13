@@ -12,9 +12,4 @@ reqs:
   Required talents    : Psionics or Chi Strike
 ---
 
-This talent indicates that you have learned how to build a strong psychic wall
-within your mind, helping you block mental probes and attacks.  This provides
-you with natural mental immunity of 25% on all locations.  It also grants a +25
-bonus to Protection, added before percentages, and - because the mental defence
-is automatic - pain penalties will no longer reduce the result.  Note that this
-talent also upgrades your psychokinetic barrier, and reduces its cooldown by 1.
+This talent indicates that you have learned how to build a strong psychic wall within your mind, helping you block mental probes and attacks. This provides you with natural mental immunity of 25% on all locations. It also grants a +25 bonus to Protection, added before percentages, and - because the mental defence is automatic - pain penalties will no longer reduce the result. Note that this talent also upgrades your psychokinetic barrier, and reduces its cooldown by 1.

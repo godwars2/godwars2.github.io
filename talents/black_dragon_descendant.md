@@ -13,8 +13,4 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You are descended from one of the great black dragons, renowned for both their
-tenacity and discipline.  The Range, Ascendancy and Power of your acid breath
-attack is doubled, and your opponent's armour is reduced by 20% against all
-poison attacks you make (not just acid breath attacks).  In addition, you
-receive a natural 50% armour to all body locations against poison damage.
+You are descended from one of the great black dragons, renowned for both their tenacity and discipline. The Range, Ascendancy and Power of your acid breath attack is doubled, and your opponent's armour is reduced by 20% against all poison attacks you make (not just acid breath attacks). In addition, you receive a natural 50% armour to all body locations against poison damage.

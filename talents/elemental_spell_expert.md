@@ -15,13 +15,8 @@ reqs:
                         Weapon
 ---
 
-This talent provides you with +25% critical bypass for all heat, cold and shock
-spells you cast, including psionic spells as well as those cast from wands and
-other devices.
+This talent provides you with +25% critical bypass for all heat, cold and shock spells you cast, including psionic spells as well as those cast from wands and other devices.
 
-If you have Burn, Freeze and/or Shock, the critical bypass is increased to +50%
-for the appropriate damage type, and you gain a further +1 bypass per rank in
-Fire Magic, Water Magic and/or Air Magic respectively (although once again this
-bypass bonus only applies when casting spells).
+If you have Burn, Freeze and/or Shock, the critical bypass is increased to +50% for the appropriate damage type, and you gain a further +1 bypass per rank in Fire Magic, Water Magic and/or Air Magic respectively (although once again this bypass bonus only applies when casting spells).
 
 See 'help critical-bypass' for more details on how critical bypass works.

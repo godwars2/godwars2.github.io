@@ -12,13 +12,8 @@ reqs:
   Required talents    : Berserker Rage
 ---
 
-This talent negates the -5 Speed and -10 Attack, Defence and Damage that you
-would normally suffer after a Berserker Rage, and reduces the duration of your
-exhaustion by 1 second for each point of base Mettle you have.
+This talent negates the -5 Speed and -10 Attack, Defence and Damage that you would normally suffer after a Berserker Rage, and reduces the duration of your exhaustion by 1 second for each point of base Mettle you have.
 
-In addition, your Speed bonus from Berserker Rage will be equal to your naked
-Tenacity rather than your base Tenacity.  If your naked Tenacity exceeds 10,
-then only every second point beyond that counts (so a Tenacity of 12 would give
-you a +11 Speed bonus while raging, Tenacity 20 would give +15, and so on).
+In addition, your Speed bonus from Berserker Rage will be equal to your naked Tenacity rather than your base Tenacity. If your naked Tenacity exceeds 10, then only every second point beyond that counts (so a Tenacity of 12 would give you a +11 Speed bonus while raging, Tenacity 20 would give +15, and so on).
 
 Finally, your Speed cap is increased by 5 points while you are raging.

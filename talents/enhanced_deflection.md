@@ -14,10 +14,4 @@ reqs:
   Banned talents      : Instinctive Dodge and Rapid Shield Block
 ---
 
-After successfully performing a dodge, your feet require some time to recover
-before they can be used again (see 'help cooldown').  The 'Defensive Shield'
-bonus granted from certain spells and shapechanged forms allows you to continue
-using your feet Defence during cooldown, although only at one third of your
-normal Defence rating.  With this talent, that Defence will be increased to 90%
-during cooldown, although only if you are affected by a spell which gives the
-'Enhanced Shield' bonus (such as the 'forcefield' spell).
+After successfully performing a dodge, your feet require some time to recover before they can be used again (see 'help cooldown'). The 'Defensive Shield' bonus granted from certain spells and shapechanged forms allows you to continue using your feet Defence during cooldown, although only at one third of your normal Defence rating. With this talent, that Defence will be increased to 90% during cooldown, although only if you are affected by a spell which gives the 'Enhanced Shield' bonus (such as the 'forcefield' spell).

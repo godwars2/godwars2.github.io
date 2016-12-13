@@ -13,10 +13,4 @@ reqs:
   Banned talents      : Berserker Rage, Blood Rage and Serenity
 ---
 
-You have learned to concentrate the potency of the vampiric blood that runs
-through your veins, allowing you to draw upon its full potential.  When you
-activate Blood Legacy, you can type 'legacy full' to gain the combined bonuses
-of Puissance, Swiftness and Fortitude at the same time.  This counts as using
-all three bonus types simultaneously for the purposes of any other abilities,
-such as the Sanguine Blood Rune.  You cannot activate the combined bonuses
-while raging, nor can you activate Rage of the Beast while they are active.
+You have learned to concentrate the potency of the vampiric blood that runs through your veins, allowing you to draw upon its full potential. When you activate Blood Legacy, you can type 'legacy full' to gain the combined bonuses of Puissance, Swiftness and Fortitude at the same time. This counts as using all three bonus types simultaneously for the purposes of any other abilities, such as the Sanguine Blood Rune. You cannot activate the combined bonuses while raging, nor can you activate Rage of the Beast while they are active.

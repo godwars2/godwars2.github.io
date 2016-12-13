@@ -12,9 +12,6 @@ reqs:
   Required talents    : Fire Giant, Frost Giant or Storm Giant
 ---
 
-You are able to breathe primordial energy at your opponent by typing 'hc' (head
-concentrate) followed by 'hb' (head bite).  This will be treated as a ranged
-physical attack, and it gains the same bonuses as Precise Throw.
+You are able to breathe primordial energy at your opponent by typing 'hc' (head concentrate) followed by 'hb' (head bite). This will be treated as a ranged physical attack, and it gains the same bonuses as Precise Throw.
 
-The type of breath depends on your Lesser Calling.  Fire Giants breathe fire,
-Frost Giants breathe frost and Storm Giants breathe lightning.
+The type of breath depends on your Lesser Calling. Fire Giants breathe fire, Frost Giants breathe frost and Storm Giants breathe lightning.

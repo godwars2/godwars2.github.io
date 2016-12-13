@@ -12,9 +12,6 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-You possess a natural affinity for water magic, granting you access to a range
-of water-based spells, and +1% natural armour vs cold damage for each point of
-Aura you possess.  If you are also a mage with Water Magic, each rank will give
-you an additional +1 cold bypass.
+You possess a natural affinity for water magic, granting you access to a range of water-based spells, and +1% natural armour vs cold damage for each point of Aura you possess. If you are also a mage with Water Magic, each rank will give you an additional +1 cold bypass.
 
 This talent gives you the Icebolt, Icestorm, Iceblade and Frost spells.

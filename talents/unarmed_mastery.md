@@ -11,7 +11,4 @@ reqs:
   Required skills     : Unarmed 75+
 ---
 
-This talent gives you a +25 bonus to your Unarmed skill when using your fists,
-feet, or other natural weapons.  This bonus will not show up in your score,
-but is instead added afterwards (meaning it isn't counted towards improvement
-difficulty or skill maximum).
+This talent gives you a +25 bonus to your Unarmed skill when using your fists, feet, or other natural weapons. This bonus will not show up in your score, but is instead added afterwards (meaning it isn't counted towards improvement difficulty or skill maximum).

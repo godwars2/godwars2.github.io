@@ -12,11 +12,6 @@ reqs:
   Banned talents      : Cleave and Pierce
 ---
 
-This talent provides you with +30 armour bypass with any crushing or smashing
-attacks you make, which is subtracted from the soak percentage of each piece
-of armour it passes through until all 30 has been applied.  For example, if
-your opponent had a 10% soak cap over a 50% soak coif, their cap would be
-reduced to 0% soak, while their coif would be reduced to 30% soak.  This also
-works against armour talents.  See 'help bypass' for more details.
+This talent provides you with +30 armour bypass with any crushing or smashing attacks you make, which is subtracted from the soak percentage of each piece of armour it passes through until all 30 has been applied. For example, if your opponent had a 10% soak cap over a 50% soak coif, their cap would be reduced to 0% soak, while their coif would be reduced to 30% soak. This also works against armour talents. See 'help bypass' for more details.
 
 If you also have the Smash talent, both bonuses will be added together.

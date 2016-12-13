@@ -12,8 +12,6 @@ reqs:
                         Dragon Descendant
 ---
 
-This talent provides you with +20 armour bypass with any poison-based attacks
-you make, which is subtracted from the soak percentage of each layer of armour
-it passes through until all 20 has been applied.
+This talent provides you with +20 armour bypass with any poison-based attacks you make, which is subtracted from the soak percentage of each layer of armour it passes through until all 20 has been applied.
 
 See 'help bypass' for more details on how armour bypass works.

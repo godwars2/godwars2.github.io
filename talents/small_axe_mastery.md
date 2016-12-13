@@ -11,9 +11,4 @@ reqs:
   Required skills     : Axes 75+
 ---
 
-This talent gives you a +25 bonus to your Axes skill when using a hand axe or
-throwing axe.  This bonus will not show up in your score, but is instead added
-afterwards (meaning it isn't counted towards improvement difficulty or skill
-maximum).  Note also that weapons you have the appropriate Mastery for take
-half damage when they strike other weapons in combat, and their encumbrance is
-reduced by one.
+This talent gives you a +25 bonus to your Axes skill when using a hand axe or throwing axe. This bonus will not show up in your score, but is instead added afterwards (meaning it isn't counted towards improvement difficulty or skill maximum). Note also that weapons you have the appropriate Mastery for take half damage when they strike other weapons in combat, and their encumbrance is reduced by one.

@@ -13,12 +13,6 @@ reqs:
   Banned talents      : Focused Blow and Mighty Blow
 ---
 
-You have adopted a specialised style of fighting which allows you to perform
-swift attacks by adding a '+' after the two-letter command - for example to
-execute a swift right-handed slash, type 'rs+'.  A swift technique costs half
-the normal AP, but also has half the normal Attack and Damage (applied before
-other modifiers, such as Two-Weapon Fighting or styles).  If the Delay of the
-technique is greater than 2, then that will also be reduced by 1.
+You have adopted a specialised style of fighting which allows you to perform swift attacks by adding a '+' after the two-letter command - for example to execute a swift right-handed slash, type 'rs+'. A swift technique costs half the normal AP, but also has half the normal Attack and Damage (applied before other modifiers, such as Two-Weapon Fighting or styles). If the Delay of the technique is greater than 2, then that will also be reduced by 1.
 
-If your attack has a burst, Swift Blow will also apply to the burst.  Paused
-attacks (such as jousting with a lance) are not affected by this talent.
+If your attack has a burst, Swift Blow will also apply to the burst. Paused attacks (such as jousting with a lance) are not affected by this talent.

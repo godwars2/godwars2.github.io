@@ -14,8 +14,6 @@ reqs:
                         Spell Focus
 ---
 
-This talent provides you with +10 armour bypass for all heat, cold and shock
-breath attacks.  If you have Burn, Freeze and/or Shock, the bypass is increased
-to +20 armour bypass for heat, cold and/or shock damage respectively.
+This talent provides you with +10 armour bypass for all heat, cold and shock breath attacks. If you have Burn, Freeze and/or Shock, the bypass is increased to +20 armour bypass for heat, cold and/or shock damage respectively.
 
 See 'help bypass' for more details on how armour bypass works.

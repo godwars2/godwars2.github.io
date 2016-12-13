@@ -11,8 +11,6 @@ reqs:
   Banned traits       : Any other Lesser Calling
 ---
 
-The Cyclopes are a primordial race of giants, each possessing a single eye in
-the middle of its forehead.  They were among the earliest of Mother Earth's
-offspring, and each of them are blacksmiths of extraordinary skill.
+The Cyclopes are a primordial race of giants, each possessing a single eye in the middle of its forehead. They were among the earliest of Mother Earth's offspring, and each of them are blacksmiths of extraordinary skill.
 
 Your innate heat immunity is doubled (see 'help innate').

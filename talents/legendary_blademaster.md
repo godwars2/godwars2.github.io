@@ -12,6 +12,4 @@ reqs:
   Required talents    : Mystical Blade Mastery
 ---
 
-You can use two epic items, as long as at least one of them is a weapon which
-benefits from Mystical Blade Mastery.  Any epic items you use which don't
-benefit from Mystical Blade Mastery cost twice their normal radiation.
+You can use two epic items, as long as at least one of them is a weapon which benefits from Mystical Blade Mastery. Any epic items you use which don't benefit from Mystical Blade Mastery cost twice their normal radiation.

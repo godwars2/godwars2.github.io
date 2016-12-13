@@ -13,10 +13,6 @@ reqs:
   Required talents    : Morning Star Mastery
 ---
 
-The morning star is a devastating weapon, but that power comes with a hefty
-price; whenever you miss, there's at least a 5% chance of hitting yourself,
-and the chance increases to 10% if your opponent manages to block your attack
-rather than simply dodge it.  If you haven't even mastered the morning star,
-your chances of injuring yourself increase significantly.
+The morning star is a devastating weapon, but that power comes with a hefty price; whenever you miss, there's at least a 5% chance of hitting yourself, and the chance increases to 10% if your opponent manages to block your attack rather than simply dodge it. If you haven't even mastered the morning star, your chances of injuring yourself increase significantly.
 
 This talent prevents you from accidently hitting yourself with a morning star.

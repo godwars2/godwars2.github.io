@@ -12,10 +12,4 @@ reqs:
   Banned talents      : Dragon Blooded
 ---
 
-This talent indicates your ability to summon and ride drakes - the smaller and
-less aggressive cousins of the dragon.  It doesn't actually allow you to summon
-full dragons, although those with this talent will often refer to their mounts
-as such.  To summon a drake, type 'hs' (head summon).  To mount it, type 'mount
-drake' (see 'help mount').  To make your drake perform claws or breath attacks,
-or to make it travel to another destination, use your feet table while you are
-riding it (eg 'fc' to make your drake perform a claw attack).
+This talent indicates your ability to summon and ride drakes - the smaller and less aggressive cousins of the dragon. It doesn't actually allow you to summon full dragons, although those with this talent will often refer to their mounts as such. To summon a drake, type 'hs' (head summon). To mount it, type 'mount drake' (see 'help mount'). To make your drake perform claws or breath attacks, or to make it travel to another destination, use your feet table while you are riding it (eg 'fc' to make your drake perform a claw attack).

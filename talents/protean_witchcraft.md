@@ -15,7 +15,6 @@ reqs:
 
 You have learned how to adapt your hellfire to the weaknesses of your opponent.
 
-When casting Hellfire Bolt or Hellfire Storm, the damage type is determined by
-your Protean Nemesis power, rather than always being heat.
+When casting Hellfire Bolt or Hellfire Storm, the damage type is determined by your Protean Nemesis power, rather than always being heat.
 
 This talent also gives you a bonus of +5 ranks in Pathway to Hell.

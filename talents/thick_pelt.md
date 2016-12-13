@@ -13,14 +13,8 @@ reqs:
   Banned talents      : Rigid Feathers, Tough Hide and Dracolich Aberration
 ---
 
-This talent provides you with particularly thick fur when using Beasthide or
-Dragonhide, although the latter only applies while in Dragon Form; although
-most dragons are hairless, a small minority have fur or feathers.
+This talent provides you with particularly thick fur when using Beasthide or Dragonhide, although the latter only applies while in Dragon Form; although most dragons are hairless, a small minority have fur or feathers.
 
-The duration of your Beasthide or Dragonhide is doubled, and while it is active
-you gain a bonus to Defence equal to twice the Resistance bonus, as well as a
-spell armour bonus of +10% to all locations against physical damage.
+The duration of your Beasthide or Dragonhide is doubled, and while it is active you gain a bonus to Defence equal to twice the Resistance bonus, as well as a spell armour bonus of +10% to all locations against physical damage.
 
-In addition, the mana cost for boosting Beasthide or Dragonhide is reduced by
-half, the casting time is reduced from 2 seconds to 1, and the AP cost reduced
-from 75 to 50.
+In addition, the mana cost for boosting Beasthide or Dragonhide is reduced by half, the casting time is reduced from 2 seconds to 1, and the AP cost reduced from 75 to 50.

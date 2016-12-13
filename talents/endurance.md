@@ -10,6 +10,4 @@ reqs:
   Requirements        : None
 ---
 
-Your body is able to withstand more punishment than would normally be expected
-for someone of your physique.  You gain a +25% bonus to Health, applied before
-magical items and your Athletics percentage modifier.
+Your body is able to withstand more punishment than would normally be expected for someone of your physique. You gain a +25% bonus to Health, applied before magical items and your Athletics percentage modifier.

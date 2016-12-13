@@ -13,10 +13,6 @@ reqs:
   Banned talents      : Focused Blow and Swift Blow
 ---
 
-You have adopted a specialised style of fighting which allows you to perform
-mighty attacks by adding a '+' after the two-letter command - for example to
-execute a mighty right-handed slash, type 'rs+'.  A mighty attack suffers a +1
-second delay penalty, and the resulting technique has its Damage doubled.
+You have adopted a specialised style of fighting which allows you to perform mighty attacks by adding a '+' after the two-letter command - for example to execute a mighty right-handed slash, type 'rs+'. A mighty attack suffers a +1 second delay penalty, and the resulting technique has its Damage doubled.
 
-If your attack has a burst, Mighty Blow will also apply to the burst.  Paused
-attacks (such as jousting with a lance) are not affected by this talent.
+If your attack has a burst, Mighty Blow will also apply to the burst. Paused attacks (such as jousting with a lance) are not affected by this talent.

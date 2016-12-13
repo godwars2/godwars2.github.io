@@ -12,8 +12,6 @@ reqs:
   Required talents    : Celestial Sigils
 ---
 
-This talent indicates that you have mastered the final level of dragon magic,
-that of the Khaos Sigils.  This unlocks the dimensional anchor, sixth sense
-and death ward spell sigils.
+This talent indicates that you have mastered the final level of dragon magic, that of the Khaos Sigils. This unlocks the dimensional anchor, sixth sense and death ward spell sigils.
 
 Your umbral sight and umbral chameleon spells are also enhanced by this talent.
