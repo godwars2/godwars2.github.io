@@ -33,6 +33,29 @@ You are affected by two spells/powers (type '</font><font color="#FFFFFF"><u>aff
 </font><font color="#FFFFFF">See also</font><font color="#C0C0C0">   : score skills/stats/affects/armour/inventory/talents/powers
 -------------------------------------------------------------------------------
 
+subclass
+------------------------------[ FERAL CHAMPION ]-------------------------------
+</font><font color="#FFFFFF">Required Age</font><font color="#C0C0C0">                  : </font><font color="#00FFFF">400  
+</font><font color="#C0C0C0">----------------------------[ BASIC STAT BONUSES ]-----------------------------
+</font><font color="#FFFFFF">Brawn</font><font color="#C0C0C0">      : </font><font color="#00FFFF">+11</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Grace</font><font color="#C0C0C0">      : </font><font color="#00FFFF">+5 </font><font color="#C0C0C0">   </font><font color="#FFFFFF">Mettle</font><font color="#C0C0C0">     : </font><font color="#00FFFF">+11</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Size</font><font color="#C0C0C0">       : </font><font color="#00FFFF">+6
+</font><font color="#FFFFFF">Wits</font><font color="#C0C0C0">       : </font><font color="#00FFFF">+5 </font><font color="#C0C0C0">   </font><font color="#FFFFFF">Tenacity</font><font color="#C0C0C0">   : </font><font color="#00FFFF">+5 </font><font color="#C0C0C0">   </font><font color="#FFFFFF">Discipline</font><font color="#C0C0C0"> : </font><font color="#00FFFF">+4 </font><font color="#C0C0C0">   </font><font color="#FFFFFF">Aura</font><font color="#C0C0C0">       : </font><font color="#00FFFF">+3
+</font><font color="#C0C0C0">-------------------------[ BONUS STAT FROM TRAINING ]--------------------------
+</font><font color="#FFFFFF">Brawn</font><font color="#C0C0C0">      : </font><font color="#00FFFF">25%</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Grace</font><font color="#C0C0C0">      : </font><font color="#00FFFF">25%</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Mettle</font><font color="#C0C0C0">     : </font><font color="#00FFFF">25%</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Size</font><font color="#C0C0C0">       : </font><font color="#FF0000">00%
+</font><font color="#FFFFFF">Wits</font><font color="#C0C0C0">       : </font><font color="#00FFFF">10%</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Tenacity</font><font color="#C0C0C0">   : </font><font color="#00FFFF">05%</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Discipline</font><font color="#C0C0C0"> : </font><font color="#00FFFF">05%</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Aura</font><font color="#C0C0C0">       : </font><font color="#00FFFF">05%
+</font><font color="#C0C0C0">-------------------------------[ BONUS TALENTS ]-------------------------------
+</font><font color="#FFFFFF">Toughness</font><font color="#C0C0C0">                : You gain +10% Resistance and natural damage absorb.
+</font><font color="#FFFFFF">Thick Pelt</font><font color="#C0C0C0">               : Your thick pelt is particularly resilient.
+</font><font color="#FFFFFF">Serenity</font><font color="#C0C0C0">                 : You fight best with a calm and focused mind.
+-------------------------------[ BONUS POWERS ]--------------------------------
+</font><font color="#FFFFFF">Lunar Tattoos</font><font color="#C0C0C0"> </font><font color="#00FFFF">+4</font><font color="#C0C0C0">         : You can mark your body with spiritual tattoos.
+</font><font color="#FFFFFF">Lupine Fortitude</font><font color="#C0C0C0"> </font><font color="#00FFFF">+4</font><font color="#C0C0C0">      : Your wolf pelt is as resilient as armour.
+</font><font color="#FFFFFF">Regeneration</font><font color="#C0C0C0"> </font><font color="#00FFFF">+4</font><font color="#C0C0C0">          : You are able to regenerate injuries very quickly.
+</font><font color="#FFFFFF">Self Control</font><font color="#C0C0C0"> </font><font color="#00FFFF">+4</font><font color="#C0C0C0">          : Improved bonuses in wolfman form.
+</font><font color="#FFFFFF">Spirit Binding</font><font color="#C0C0C0"> </font><font color="#00FFFF">+4</font><font color="#C0C0C0">        : You may bind animal spirits into your weapons.
+-------------------------[ FURTHER SUBCLASS TRAINING ]-------------------------
+This subclass cannot be trained further.
+-------------------------------------------------------------------------------
+
 powers
 ------------------------------[ CURRENT  POWERS ]------------------------------
 </font><font color="#FF0000">Beast Master</font><font color="#C0C0C0">        : 0    Your summoned animals are tougher than normal.
