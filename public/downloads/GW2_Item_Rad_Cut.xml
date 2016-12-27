@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE muclient>
+<!-- Saved on Friday, July 22, 2011, 10:30 AM -->
+<!-- MuClient version 4.77 -->
+
+<muclient>
+<plugin
+   name="GW2_Item_Rad_Cut"
+   author="Matthew"
+   id="9a6834d68917198134d4889b"
+   language="Lua"
+   purpose="Display the rad cut for items"
+   date_written="2011-07-22 10:28:25"
+   requires="4.72"
+   version="1.0"
+   >
+
+</plugin>
+
+
+<!--  Triggers  -->
+
+<triggers>
+  <trigger
+   enabled="y"
+   match="^Magic type \: An? (\w+) (\w+) .*with (\d+) .+$"
+   regexp="y"
+   script="start_item"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   enabled="n"
+   group="modifiers"
+   match="^Bonus      \: (.+)\.$"
+   omit_from_output="y"
+   regexp="y"
+   script="bonus_entry"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   enabled="n"
+   group="modifiers"
+   match="^Penalty    \: (.+)\.$"
+   omit_from_output="y"
+   regexp="y"
+   script="penalty_entry"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   enabled="n"
+   group="modifiers"
+   match="^\-+$"
+   omit_from_output="y"
+   regexp="y"
+   script="end_capture"
+   sequence="100"
+  >
+  </trigger>
+</triggers>
+<script>
+
+<![CDATA[
+
+rarity    = ''
+quality   = ''
+radiation = 0
+calc_rad  = 0
+
+function start_item (name, line, wildcards, styles)
+  rarity    = wildcards[1]
+  quality   = wildcards[2]
+  radiation = tonumber(wildcards[3])
+  calc_rad  = 0
+
+  EnableTriggerGroup("modifiers")
+end -- start_item
+
+-- Item Tables, one for each Category of Items
+
+BonusTable = {
+  brawn        = 40,
+  grace        = 40,
+  mettle       = 40,
+  size         = 40,
+  wits         = 40,
+  tenacity     = 40,
+  discipline   = 40,
+  aura         = 40,
+  detect_invis = 40,
+
+  attack       = 5,
+  defence      = 5,
+  health       = 1,
+  health_regen = 100, -- 1 point per 0.01
+  damage       = 10,
+  resistance   = 8,
+  speed        = 12,
+  agility      = 10,
+  running      = 10,
+  movement     = 10,
+  balance      = 1,
+  ascendancy   = 4,
+  protection   = 4,
+  power        = 8,
+  mana         = 2,
+  mana_regen   = 100, -- 1 point per 0.01
+  durability   = 1,
+
+  armour        = 10,
+  armour_heat   = 5,
+  armour_cold   = 5,
+  armour_shock  = 5,
+  armour_poison = 6,
+  armour_mental = 6,
+
+  physical_soak = 2,
+  energy_soak   = 2,
+  cut_soak      = 1,
+  stab_soak     = 1,
+  crush_soak    = 1,
+  heat_soak     = 1,
+  cold_soak     = 1,
+  shock_soak    = 1,
+  mental_soak   = 1,
+  poison_soak   = 1,
+
+  physical_absorb = 5,
+  energy_absorb   = 5,
+  cut_absorb      = 2,
+  stab_absorb     = 2,
+  crush_absorb    = 2,
+  heat_absorb     = 2,
+  cold_absorb     = 2,
+  shock_absorb    = 2,
+  mental_absorb   = 2,
+  poison_absorb   = 2,
+
+  both_physical = 18,
+  both_cleave   = 12,
+  both_pierce   = 12,
+  both_smash    = 12,
+  both_burn     = 12,
+  both_freeze   = 12,
+  both_shock    = 12,
+  both_mental   = 15,
+  both_poison   = 15,
+
+  punching        = 5,
+  kicking         = 5,
+  tail_striking   = 5,
+  tail_bypass     = 8,
+  hand_smashing   = 12,
+  feet_bypass     = 8,
+  wing_bashing    = 5,
+  wing_smashing   = 8,
+  bite_bypass     = 5,
+  headbutt_bypass = 5,
+  breath_bypass   = 5,
+
+  infinite_ammo   = 10, -- arrows/bolts
+  flame_ammo      = 10, -- arrows/bolts
+  lightning_ammo  = 10, -- arrows/bolts
+  ice_ammo        = 10, -- arrows/bolts
+}
+
+GlovesBonusTable = {
+  hand_smashing = 10,
+}
+
+WeaponBonusTable = {
+  attack      = 3,
+  defence     = 3,
+  damage      = 6,
+  speed       = 10,
+  durability  = 1,
+  resistance  = 8,
+
+  cut_bypass   = 8,
+  stab_bypass  = 8,
+  crush_bypass = 8,
+  returning    = 100,
+
+  physical_soak = 2,
+  energy_soak   = 2,
+  cut_soak      = 1,
+  stab_soak     = 1,
+  crush_soak    = 1,
+  heat_soak     = 1,
+  cold_soak     = 1,
+  shock_soak    = 1,
+  mental_soak   = 1,
+  poison_soak   = 1,
+
+  encumbrance = 20,
+
+  energy_damage = 10, -- Cosmic Branding
+  fire_damage   = 10, -- Cosmic Branding
+  air_damage    = 10, -- Cosmic Branding
+  earth_damage  = 10, -- Cosmic Branding
+  water_damage  = 10, -- Cosmic Branding
+}
+
+FangBonusTable = {
+  brawn        = 40,
+  grace        = 40,
+  mettle       = 40,
+  wits         = 40,
+  tenacity     = 40,
+  discipline   = 40,
+
+  speed        = 12,
+  health       = 1,
+  mana         = 2,
+
+  armour        = 10,
+  armour_heat   = 5,
+  armour_cold   = 5,
+  armour_shock  = 5,
+  armour_poison = 6,
+  armour_mental = 6,
+
+  punching      = 5,
+  biting        = 5,
+  hand_smashing = 12,
+
+  both_cleave = 12,
+  both_pierce = 12,
+  both_smash  = 12,
+  both_burn   = 12,
+  both_freeze = 12,
+  both_shock  = 12,
+  both_mental = 15,
+
+  -- These bonus's are discounted from normal items
+  damage       = 8,
+  resistance   = 7,
+  attack       = 4,
+  defence      = 4,
+  ascendancy   = 3,
+  protection   = 3,
+  power        = 6,
+}
+
+TableMap = {
+  -- Fangs, in all their forms
+  fang     = FangBonusTable,
+  tooth    = FangBonusTable,
+  mandible = FangBonusTable,
+  tusk     = FangBonusTable,
+
+  -- Weapons (may need expansion for the types we cannot fabricate)
+  longsword               = WeaponBonusTable,
+  broadsword              = WeaponBonusTable,
+  ['bastard sword']       = WeaponBonusTable,
+  greatsword              = WeaponBonusTable,
+  shortsword              = WeaponBonusTable,
+  scimitar                = WeaponBonusTable,
+  falchion                = WeaponBonusTable,
+  sabre                   = WeaponBonusTable,
+  rapier                  = WeaponBonusTable,
+  dagger                  = WeaponBonusTable,
+  ['sacrificial dagger']  = WeaponBonusTable,
+  kris                    = WeaponBonusTable,
+  stiletto                = WeaponBonusTable,
+  ['main gauche']         = WeaponBonusTable,
+  swordbreaker            = WeaponBonusTable,
+  knife                   = WeaponBonusTable,
+  ['throwing knife']      = WeaponBonusTable,
+  shuriken                = WeaponBonusTable,
+  ['butterfly knife']     = WeaponBonusTable,
+  ['tiger claw']          = WeaponBonusTable,
+  katar                   = WeaponBonusTable,
+  katana                  = WeaponBonusTable,
+  wakizashi               = WeaponBonusTable,
+  tanto                   = WeaponBonusTable,
+  ninjatou                = WeaponBonusTable,
+  battleaxe               = WeaponBonusTable,
+  greataxe                = WeaponBonusTable,
+  ['hand axe']            = WeaponBonusTable,
+  kama                    = WeaponBonusTable,
+  ['throwing axe']        = WeaponBonusTable,
+  cudgel                  = WeaponBonusTable,
+  mace                    = WeaponBonusTable,
+  ['war hammer']          = WeaponBonusTable,
+  maul                    = WeaponBonusTable,
+  shortbow                = WeaponBonusTable,
+  ['composite shortbow']  = WeaponBonusTable,
+  longbow                 = WeaponBonusTable,
+  crossbow                = WeaponBonusTable,
+  whip                    = WeaponBonusTable,
+  ['morning star']        = WeaponBonusTable,
+  halberd                 = WeaponBonusTable,
+  naginata                = WeaponBonusTable,
+  spear                   = WeaponBonusTable,
+  trident                 = WeaponBonusTable,
+  quarterstaff            = WeaponBonusTable,
+  ['tower shield']        = WeaponBonusTable,
+  ['kite shield']         = WeaponBonusTable,
+  ['target shield']       = WeaponBonusTable,
+  ['crescent shield']     = WeaponBonusTable,
+  buckler                 = WeaponBonusTable,
+  net                     = WeaponBonusTable,
+  ['jousting lance']      = WeaponBonusTable,
+  wand                    = WeaponBonusTable,
+}
+
+BonusStrings = {
+  [ [[^%+(%d+) to (.*)$]] ]                                                     = '', -- Basic Stat Lookups
+  [ [[^%+(%d+) (.*) %(applied to the weapon, not you%)$]] ]                     = '', -- Weapon Stat Lookups
+  [ [[^%+(%d+) durability$]] ]                                                  = 'durability',
+  [ [[^(%d+)%% chance of landing on your feet when swept$]] ]                   = 'balance',
+  [ [[^%+(.*) regen rate when healing at full speed %(see 'help healing'%)$]] ] = 'health_regen',
+  [ [[^+(.*) mana regen rate$]] ]                                               = 'mana_regen',
+  [ [[^%-(%d+) AP cost for feet commands, and %-1 feet cooldown$]] ]            = 'agility',
+  [ [[^Increases your running and jogging speed by (%d+) feet per second$]] ]   = 'running',
+  [ [[^Automatically returns to your hand after being thrown$]] ]               = 'returning',
+  [ [[^%-(%d+) AP cost for this weapon's commands, and %-1 to its cooldown$]] ] = 'speed',
+  [ [[^%+(%d+) Attack and Damage for bite attacks$]] ]                          = 'biting',
+  [ [[^%-(%d+) encumbrance %(to a maximum of 0%)$]] ]                           = 'encumbrance',
+  [ [[^%+(%d+) to Detect invisibility$]] ]                                      = 'detect_invis',
+  [ [[^%+(%d+) armour bypass for unarmed hand attacks$]] ]                      = 'hand_smashing',
+
+  [ [[^%+(%d+) Attack and Damage for unarmed hand techniques$]] ]               = 'punching',
+  [ [[^%+(%d+) Attack and Damage for feet techniques$]] ]                       = 'kicking',
+
+  [ [[^This item contains an endless supply of ammunition$]] ]                  = 'infinite_ammo',
+  [ [[^This item contains flame%-enhanced ammunition$]] ]                       = 'flame_ammo',
+  [ [[^This item contains ice%-enhanced ammunition$]] ]                         = 'ice_ammo',
+  [ [[^This item contains lightning%-enhanced ammunition$]] ]                   = 'lightning_ammo',
+
+  [ [[^(%d+)%% armour to all locations vs physical damage$]] ]                  = 'armour',
+  [ [[^(%d+)%% armour to all locations vs heat damage$]] ]                      = 'armour_heat',
+  [ [[^(%d+)%% armour to all locations vs cold damage$]] ]                      = 'armour_cold',
+  [ [[^(%d+)%% armour to all locations vs shock damage$]] ]                     = 'armour_shock',
+  [ [[^(%d+)%% armour to all locations vs poison damage$]] ]                    = 'armour_poison',
+  [ [[^(%d+)%% armour to all locations vs mental damage$]] ]                    = 'armour_mental',
+
+  [ [[^%+(%d+) armour bypass with all hand%-based physical attacks]] ]          = 'both_physical',
+  [ [[^%+(%d+) armour bypass with all hand%-based cut attacks]] ]               = 'both_cleave',
+  [ [[^%+(%d+) armour bypass with all hand%-based pierce attacks]] ]            = 'both_pierce',
+  [ [[^%+(%d+) armour bypass with all hand%-based smash attacks]] ]             = 'both_cleave',
+  [ [[^%+(%d+) armour bypass with all hand%-based heat attacks]] ]              = 'both_burn',
+  [ [[^%+(%d+) armour bypass with all hand%-based cold attacks]] ]              = 'both_freeze',
+  [ [[^%+(%d+) armour bypass with all hand%-based shock attacks]] ]             = 'both_shock',
+  [ [[^%+(%d+) armour bypass with all hand%-based mental attacks]] ]            = 'both_mental',
+  [ [[^%+(%d+) armour bypass with all hand%-based poison attacks]] ]            = 'both_poison',
+
+  [ [[^%+(%d+) armour bypass with cut attacks$]] ]                              = 'cut_bypass',
+  [ [[^%+(%d+) armour bypass with stab attacks$]] ]                             = 'stab_bypass',
+  [ [[^%+(%d+) armour bypass with crush attacks$]] ]                            = 'crush_bypass',
+  [ [[^%+(%d+) armour bypass with physical feet attacks$]] ]                    = 'feet_bypass',
+
+  [ [[^%+(%d+)%% soak vs physical damage$]] ]                                   = 'physical_soak',
+  [ [[^%+(%d+)%% soak vs cut damage$]] ]                                        = 'cut_soak',
+  [ [[^%+(%d+)%% soak vs stab damage$]] ]                                       = 'stab_soak',
+  [ [[^%+(%d+)%% soak vs crush damage$]] ]                                      = 'crush_soak',
+  [ [[^%+(%d+)%% soak vs poison damage$]] ]                                     = 'poison_soak',
+  [ [[^%+(%d+)%% soak vs energy damage$]] ]                                     = 'energy_soak',
+  [ [[^%+(%d+)%% soak vs heat damage$]] ]                                       = 'heat_soak',
+  [ [[^%+(%d+)%% soak vs cold damage$]] ]                                       = 'cold_soak',
+  [ [[^%+(%d+)%% soak vs shock damage$]] ]                                      = 'shock_soak',
+  [ [[^%+(%d+)%% soak vs mental damage$]] ]                                     = 'mental_soak',
+
+  [ [[^Auto%-absorbs (%d+) points of physical damage %(see 'help armour'%)$]] ] = 'physical_absorb',
+  [ [[^Auto%-absorbs (%d+) points of cut damage %(see 'help armour'%)$]] ]      = 'cut_absorb',
+  [ [[^Auto%-absorbs (%d+) points of stab damage %(see 'help armour'%)$]] ]     = 'stab_absorb',
+  [ [[^Auto%-absorbs (%d+) points of crush damage %(see 'help armour'%)$]] ]    = 'crush_absorb',
+  [ [[^Auto%-absorbs (%d+) points of poison damage %(see 'help armour'%)$]] ]   = 'poison_absorb',
+  [ [[^Auto%-absorbs (%d+) points of energy damage %(see 'help armour'%)$]] ]   = 'energy_absorb',
+  [ [[^Auto%-absorbs (%d+) points of heat damage %(see 'help armour'%)$]] ]     = 'heat_absorb',
+  [ [[^Auto%-absorbs (%d+) points of cold damage %(see 'help armour'%)$]] ]     = 'cold_absorb',
+  [ [[^Auto%-absorbs (%d+) points of shock damage %(see 'help armour'%)$]] ]    = 'shock_absorb',
+  [ [[^Auto%-absorbs (%d+) points of mental damage %(see 'help armour'%)$]] ]   = 'mental_absorb',
+
+  -- split out based on types
+  -- [ [[^%+(%d+) armour bypass with .* attacks$]] ]                               = '',
+}
+
+function lookup_modifier(mod, item_type)
+  local ModifierTable = TableMap[item_type] or BonusTable -- Defaults to the regular bonus table, more items of that type, and makes a good base for lookups
+
+  for search, default_stat in pairs(BonusStrings) do
+    local amount, stat = mod:match(search)
+    stat = stat or default_stat
+    stat = stat:lower()
+    if amount ~= nil and ModifierTable[stat] ~= nil then
+      amount = tonumber(amount) or 1
+      if item_type == 'gloves' and stat == 'hand_smashing' then
+        return amount * GlovesBonusTable[stat] -- Special modifier only for this item and this bonus
+      end
+      return amount * ModifierTable[stat]
+    end
+  end
+
+  -- Assume no bonus
+  return 0
+end
+
+-- Percentage of Total Rad to actually see on items
+-- { Best Case Rad Multiplier, Worst Case Rad Multiplier }
+rad_discounts = {
+  common_magical   = {90, 105},
+  common_legendary = {83, 98},
+  common_mythical  = {76, 91},
+  common_relic     = {69, 84},
+  common_artifact  = {62, 77},
+
+  uncommon_magical   = {75, 90},
+  uncommon_legendary = {68, 83},
+  uncommon_mythical  = {61, 76},
+  uncommon_relic     = {57, 69},
+  uncommon_artifact  = {53, 65},
+
+  rare_magical   = {60, 75},
+  rare_legendary = {56, 68},
+  rare_mythical  = {52, 64},
+  rare_relic     = {50, 60}, -- 48, 60, except we can't go below 50
+  rare_artifact  = {50, 60}, -- 44, 56, except we can't go below 50
+}
+
+function lookup_reduction(l_rarity, l_quality)
+  if rad_discounts[string.format('%s_%s', l_rarity, l_quality)] ~= nil then
+    return unpack(rad_discounts[string.format('%s_%s', l_rarity, l_quality)])
+  end
+  return 0, 0
+end
+
+function bonus_entry (name, line, wildcards, styles)
+  local modifier = wildcards[1]
+  local cost = lookup_modifier(modifier, item_type)
+
+  calc_rad = calc_rad + cost
+  -- parse modifier for stat/amount, display to user
+  ColourTell('white', '', 'Bonus      ')
+  ColourTell('silver', '', ': ')
+  ColourTell('silver', '', modifier)
+  if cost > 0 then
+    Tell(' ')
+    ColourTell('silver', '', '(' )
+    ColourTell('green', '', cost )
+    ColourTell('silver', '', ' Radiation)' )
+  end
+  Note()
+end -- append_entry
+function penalty_entry (name, line, wildcards, styles)
+  local modifier = wildcards[1]
+
+  -- parse modifier for stat/amount, display to user
+  ColourTell('white', '', 'Penalty    ')
+  ColourTell('silver', '', ': ')
+  ColourTell('silver', '', modifier)
+  Note()
+end -- append_entry
+
+function end_capture (name, line, wildcards, styles)
+  EnableTriggerGroup("modifiers", false)
+
+  if calc_rad > 0 then
+    local rad_cut = radiation / calc_rad * 100
+    local expected_lower, expected_upper = lookup_reduction(rarity, quality)
+    local lower_rad = math.floor(calc_rad * expected_lower / 100)
+    local upper_rad = math.floor(calc_rad * expected_upper / 100)
+    -- Note(string.format('Expected Rad: %d', calc_rad))
+    -- Note(string.format('Expected Range: %d to %d', lower_rad, upper_rad))
+    -- Note(string.format('Actual Rad: %d', radiation))
+
+    local norm_cut = nil
+
+    ColourTell('white', '', 'Rad Cut    ')
+    ColourTell('silver', '', ': ')
+    if radiation < lower_rad then
+      ColourTell('green', '', string.format('%4.2f', 100-rad_cut))
+    elseif radiation > upper_rad then
+      ColourTell('red', '', string.format('%4.2f', 100-rad_cut))
+    else
+      if upper_rad - lower_rad == 0 then
+        norm_cut = 100
+      else
+        norm_cut = 100-((radiation - lower_rad)/(upper_rad - lower_rad))*100
+      end
+      ColourTell('yellow', '', string.format('%4.2f', 100-rad_cut))
+    end
+    ColourTell('silver', '', '% Reduction')
+    if norm_cut ~= nil then
+      local color = 'red'
+      if norm_cut >= 25 then color = 'fuchsia' end
+      if norm_cut >= 50 then color = 'blue' end
+      if norm_cut >= 75 then color = 'aqua' end
+      ColourTell('silver', '', ' (')
+      ColourTell(color, '', string.format('%4.2f', norm_cut))
+      ColourTell('silver', '', '% avail)')
+    end
+    Note()
+  end
+
+  ColourNote('silver', "", "-------------------------------------------------------------------------------")
+end -- end_capture
+
+mxpLatest = {}
+inventoryOn = false
+item_type = ''
+
+function parseargs(s)
+  local arg = {}
+  string.gsub(s, "(%w+)=([\"'])(.-)%2", function (w, _, a)
+    arg[w] = a
+  end)
+  return arg
+end
+
+function OnPluginMXPopenTag (name)
+  local parts = utils.split(name, ",")
+  local tag, args = parts[1], parseargs(parts[2] or "")
+
+  mxpLatest = {
+    tag = tag,
+    args = args
+  }
+end
+function OnPluginMXPcloseTag (name)
+  local parts = utils.split(name, ",")
+  local tag, text = parts[1], parts[2]
+
+  if mxpLatest.tag == tag then mxpLatest.text = text end
+
+  if mxpLatest.args.hint ~= nil then
+    item_type = mxpLatest.text
+  end
+end
+
+]]>
+</script>
+
+</muclient>

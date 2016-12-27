@@ -10,6 +10,8 @@ shows the radiation cost for each bonus, and then the total reduction as
 compared to the total radiation cost it should have vs the radiation the item
 actually has.
 
+[Download Here]({{ site.baseurl }}/public/downloads/GW2_Item_Rad_Cut.xml)
+
 <!-- Produced by MUSHclient v 5.03 - www.mushclient.com -->
 <pre style="background-color: black;"><code><font size="2" face="Courier New, FixedSys, Lucida Console, Courier New, Courier"><font color="#C0C0C0">You examine a gold </font><font color="#FF00FF"><u>ring</u></font><font color="#C0C0C0"> of hitting.
 -------------------------------------------------------------------------------
