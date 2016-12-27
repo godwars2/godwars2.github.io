@@ -12,6 +12,32 @@ actually has.
 
 [Download Here]({{ site.baseurl }}/public/downloads/GW2_Item_Rad_Cut.xml)
 
+The output is color coded for the Rad Cut line. The first percentage is the
+radiation discount the item has compared to the total radiation cost the item
+should have for all bonus's. It is colored based on how much reduction the item
+of the given rarity and quality should have. Yellow means the item is within
+the normal range of reduction. Green means the item has a higher radiation
+reduciton than other items of that rarity/quality normally have. Red means the
+item has a lower radiation reduction than other items. Red is usually an
+indicator of a missing bonus from the plugin, or a possible bug in the item
+generation code on the mud.
+
+For items in the correct ranges, the 2nd percentage (available) is displayed.
+This tells you that for its given rarity/quality how good a rad cut you got, and
+not just how good overall the item is. It shows different colors based on how
+high in its given range the item received a bonus for. You can see the bonus
+ranges for each rarity/quality combination in the following chart:
+
+||Common|Uncommon|Rare|
+|---|---|---|---|
+Magical|-5% to 10%|10% to 25%|25% to 40%
+Legendary|2% to 17%|17% to 32%|32% to 44%
+Mythical|9% to 24%|24% to 39%|36% to 48%
+Relic|16% to 31%|31% to 43%|40% to 50%
+Artifact|23% to 38%|35% to 47%|40% to 50%
+
+Example Output:
+
 <!-- Produced by MUSHclient v 5.03 - www.mushclient.com -->
 <pre style="background-color: black;"><code><font size="2" face="Courier New, FixedSys, Lucida Console, Courier New, Courier"><font color="#C0C0C0">You examine a gold </font><font color="#FF00FF"><u>ring</u></font><font color="#C0C0C0"> of hitting.
 -------------------------------------------------------------------------------
