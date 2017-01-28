@@ -11,11 +11,31 @@
    language="Lua"
    purpose="Display the rad cut for items"
    date_written="2011-07-22 10:28:25"
+   save_state="y"
    requires="4.72"
-   version="1.0.1"
+   version="1.2"
    >
 
 </plugin>
+
+<!--  Aliases  -->
+
+<aliases>
+  <alias
+   match="inv comb"
+   enabled="y"
+   send_to="12"
+   sequence="100"
+  >
+  <send>combined_output = not combined_output
+  Tell('Combined output is now ')
+  if combined_output then
+    Note('enabled.')
+  else
+    Note('disabled.')
+  end</send>
+  </alias>
+</aliases>
 
 
 <!--  Triggers  -->
@@ -23,9 +43,37 @@
 <triggers>
   <trigger
    enabled="y"
+   match="^You examine (.*?)\.$"
+   regexp="y"
+   send_to="12"
+   sequence="100"
+  >
+  <send>item_name = [[%1]]</send>
+  </trigger>
+  <trigger
+   enabled="y"
    match="^Magic type \: An? (\w+) (\w+) .*with (\d+) .+$"
+   omit_from_output="y"
    regexp="y"
    script="start_item"
+   sequence="100"
+  >
+  </trigger>
+  <trigger
+   enabled="y"
+   match="^Magic type \: An epic item with (\d+) points? of Fame and (\d+) points? of radiation\.$"
+   omit_from_output="y"
+   regexp="y"
+   script="start_epic"
+   sequence="99"
+  >
+  </trigger>
+  <trigger
+   enabled="y"
+   match="^Magic type \: A custom-built magical item with (\d+) points of radiation\.$"
+   omit_from_output="y"
+   regexp="y"
+   script="start_custom"
    sequence="100"
   >
   </trigger>
@@ -64,19 +112,55 @@
 
 <![CDATA[
 
+-- doing it this way makes them default to true the first time around
+combined_output = not (GetVariable("combined_output") == "false")
+
 rarity    = ''
 quality   = ''
 radiation = 0
 calc_rad  = 0
 
+bonuses = {}
+
+function show_styles(styles)
+  for _,v in ipairs (styles) do
+    ColourTell (RGBColourToName (v.textcolour), RGBColourToName (v.backcolour), v.text)
+  end -- for
+  Note ()  -- finish line off
+end -- show_styles
+
 function start_item (name, line, wildcards, styles)
+  item_type = 'magical'
   rarity    = wildcards[1]
   quality   = wildcards[2]
   radiation = tonumber(wildcards[3])
   calc_rad  = 0
 
+  bonuses = { (line:gsub('Magic type : ', ''):gsub('.$', '')) }
   EnableTriggerGroup("modifiers")
+  if not combined_output then show_styles(styles) end
 end -- start_item
+
+function start_epic (name, line, wildcards, styles)
+  item_type = 'epic'
+  fame      = tonumber(wildcards[1])
+  radiation = tonumber(wildcards[2])
+  calc_rad  = 0
+
+  bonuses = { (line:gsub('Magic type : ', ''):gsub('.$', '')) }
+  EnableTriggerGroup("modifiers")
+  if not combined_output then show_styles(styles) end
+end -- start_epic
+
+function start_custom (name, line, wildcards, styles)
+  item_type = 'custom'
+  radiation = tonumber(wildcards[1])
+  calc_rad  = 0
+
+  bonuses = { (line:gsub('Magic type : ', ''):gsub('.$', '')) }
+  EnableTriggerGroup("modifiers")
+  if not combined_output then show_styles(styles) end
+end -- start_epic
 
 -- Item Tables, one for each Category of Items
 
@@ -325,6 +409,7 @@ BonusStrings = {
 
   [ [[^%+(%d+) Attack and Damage for unarmed hand techniques$]] ]               = 'punching',
   [ [[^%+(%d+) Attack and Damage for feet techniques$]] ]                       = 'kicking',
+  [ [[^%+(%d+) Attack and Damage for tail techniques$]]]                        = 'tail_striking',
 
   [ [[^This item contains an endless supply of ammunition$]] ]                  = 'infinite_ammo',
   [ [[^This item contains flame%-enhanced ammunition$]] ]                       = 'flame_ammo',
@@ -352,6 +437,7 @@ BonusStrings = {
   [ [[^%+(%d+) armour bypass with stab attacks$]] ]                             = 'stab_bypass',
   [ [[^%+(%d+) armour bypass with crush attacks$]] ]                            = 'crush_bypass',
   [ [[^%+(%d+) armour bypass with physical feet attacks$]] ]                    = 'feet_bypass',
+  [ [[^%+(%d+) armour bypass with tail attacks$]] ]                             = 'tail_bypass',
 
   [ [[^%+(%d+)%% soak vs physical damage$]] ]                                   = 'physical_soak',
   [ [[^%+(%d+)%% soak vs cut damage$]] ]                                        = 'cut_soak',
@@ -432,18 +518,21 @@ function bonus_entry (name, line, wildcards, styles)
   local modifier = wildcards[1]
   local cost = lookup_modifier(modifier, item_type)
 
+  bonuses[#bonuses+1] = line:gsub('Bonus      : ', ''):gsub('.$', '')
   calc_rad = calc_rad + cost
   -- parse modifier for stat/amount, display to user
-  ColourTell('white', '', 'Bonus      ')
-  ColourTell('silver', '', ': ')
-  ColourTell('silver', '', modifier)
-  if cost > 0 then
-    Tell(' ')
-    ColourTell('silver', '', '(' )
-    ColourTell('green', '', cost )
-    ColourTell('silver', '', ' Radiation)' )
+  if not combined_output then
+    ColourTell('white', '', 'Bonus      ')
+    ColourTell('silver', '', ': ')
+    ColourTell('silver', '', modifier)
+    if cost > 0 then
+      Tell(' ')
+      ColourTell('silver', '', '(' )
+      ColourTell('green', '', cost )
+      ColourTell('silver', '', ' Radiation)' )
+    end
+    Note()
   end
-  Note()
 end -- append_entry
 function penalty_entry (name, line, wildcards, styles)
   local modifier = wildcards[1]
@@ -469,31 +558,38 @@ function end_capture (name, line, wildcards, styles)
 
     local norm_cut = nil
 
-    ColourTell('white', '', 'Rad Cut    ')
-    ColourTell('silver', '', ': ')
-    if radiation < lower_rad then
-      ColourTell('green', '', string.format('%4.2f', 100-rad_cut))
-    elseif radiation > upper_rad then
-      ColourTell('red', '', string.format('%4.2f', 100-rad_cut))
-    else
-      if upper_rad - lower_rad == 0 then
-        norm_cut = 100
+    if not combined_output then
+      ColourTell('white', '', 'Rad Cut    ')
+      ColourTell('silver', '', ': ')
+      if radiation < lower_rad then
+        ColourTell('green', '', string.format('%4.2f', 100-rad_cut))
+      elseif radiation > upper_rad then
+        ColourTell('red', '', string.format('%4.2f', 100-rad_cut))
       else
-        norm_cut = 100-((radiation - lower_rad)/(upper_rad - lower_rad))*100
+        if upper_rad - lower_rad == 0 then
+          norm_cut = 100
+        else
+          norm_cut = 100-((radiation - lower_rad)/(upper_rad - lower_rad))*100
+        end
+        ColourTell('yellow', '', string.format('%4.2f', 100-rad_cut))
       end
-      ColourTell('yellow', '', string.format('%4.2f', 100-rad_cut))
+      ColourTell('silver', '', '% Reduction')
+      if norm_cut ~= nil then
+        local color = 'red'
+        if norm_cut >= 25 then color = 'fuchsia' end
+        if norm_cut >= 50 then color = 'blue' end
+        if norm_cut >= 75 then color = 'aqua' end
+        ColourTell('silver', '', ' (')
+        ColourTell(color, '', string.format('%4.2f', norm_cut))
+        ColourTell('silver', '', '% avail)')
+      end
+      Note()
+    else
+      ColourTell('silver', '', 'You examine ' .. item_name .. '. ')
+      ColourTell('silver', '', table.concat(bonuses, ', ') .. '. ')
+      ColourTell('silver', '', string.format('%4.2f', 100-rad_cut) .. '% of ' .. calc_rad .. ' total radiation.')
+      Note()
     end
-    ColourTell('silver', '', '% Reduction')
-    if norm_cut ~= nil then
-      local color = 'red'
-      if norm_cut >= 25 then color = 'fuchsia' end
-      if norm_cut >= 50 then color = 'blue' end
-      if norm_cut >= 75 then color = 'aqua' end
-      ColourTell('silver', '', ' (')
-      ColourTell(color, '', string.format('%4.2f', norm_cut))
-      ColourTell('silver', '', '% avail)')
-    end
-    Note()
   end
 
   ColourNote('silver', "", "-------------------------------------------------------------------------------")
@@ -530,6 +626,11 @@ function OnPluginMXPcloseTag (name)
     item_type = mxpLatest.text
   end
 end
+
+function OnPluginSaveState ()
+    -- save echo/timestamp status
+    SetVariable ("combined_output", tostring (combined_output))
+end -- function OnPluginSaveState
 
 ]]>
 </script>
