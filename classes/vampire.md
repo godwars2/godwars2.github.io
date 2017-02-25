@@ -3,74 +3,1295 @@ layout: default
 title: Classes - Vampire
 ---
 
-Subclass | Age | BRA | GRA | MET | SIZ | WIT | TEN | DIS | AUR | Talents | Powers | Further&nbsp;Subclass
---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-Fledgling | 100 | +10<br />20% | +10<br />20% | +10<br />20% | +0<br />0% | +5<br />10% | +5<br />10% | +5<br />10% | +5<br />10% | | | Elder&nbsp;Vampire<br />Beast&nbsp;Handler<br />Blood&nbsp;Knight<br />Dark&nbsp;Sorcerer<br />Lupine&nbsp;Stalker<br />Vermin&nbsp;Brother<br />Raging&nbsp;Beast<br />Shadow&nbsp;Warrior<br />Umbral&nbsp;Seer
+# Classes - Vampire
+<strong>Fledgling</strong> <em>(100)</em>
+<table>
+  <tr>
+    <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+  </tr>
+  <tr>
+    <td>+10<br />20%</td>
+    <td>+10<br />20%</td>
+    <td>+10<br />20%</td>
+    <td>+0<br />0%</td>
+    <td>+5<br />10%</td>
+    <td>+5<br />10%</td>
+    <td>+5<br />10%</td>
+    <td>+5<br />10%</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
 
-Subclass | Age | BRA | GRA | MET | SIZ | WIT | TEN | DIS | AUR | Talents | Powers | Further&nbsp;Subclass
---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-Elder&nbsp;Vampire | 200 | +10<br />20% | +10<br />20% | +10<br />20%| +0<br />0% | +5<br />10% | +5<br />10% | +5<br />10% | +5<br />10% | Toughness | Blood&nbsp;Legacy&nbsp;+1<br />Blood&nbsp;Runes&nbsp;+1<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+1<br />Regeneration&nbsp;+1 | Vampire&nbsp;Lord
-Beast&nbsp;Handler | 200 | +10<br />20% | +10<br />20% | +10<br />20%| +0<br />0% | +5<br />10% | +5<br />10% | +5<br />10% | +5<br />10% | Beast&nbsp;Whisperer | Summon&nbsp;Wolf&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Beast&nbsp;Master&nbsp;+1 | Master&nbsp;of&nbsp;Beasts<br />Master&nbsp;of&nbsp;Vermin<br />Master&nbsp;of&nbsp;Wolves
-Blood&nbsp;Knight | 200 | +11<br />25% | +8<br />15% | +11<br />25% | +0<br />0% | +4<br />10% | +8<br />15% | +4<br />5% | +4<br />5% | House&nbsp;BloodStone | Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Forging&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+1 | Blood&nbsp;Lord<br />Blood&nbsp;Reaver<br />Blood&nbsp;Templar
-Dark&nbsp;Sorcerer | 200 | +8<br />15% | +8<br />15% | +8<br />15% | +0<br />0% | +5<br />10% | +6<br />15% | +6<br />15% | +9<br />15% | Magically&nbsp;Gifted | Mind&nbsp;Magic&nbsp;+2<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+1 | Dark&nbsp;Warlock<br />Dark&nbsp;Wizard<br />Dark&nbsp;Empath
-Lupine&nbsp;Stalker | 200 | +12<br />25% | +10<br />20% | +12<br />25% | +0<br />0% | +5<br />10% | +5<br />10% | +3<br />5% | +3<br />5% | Razor&nbsp;Claws | Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+1 | Lupine&nbsp;Hunter<br />Shadow&nbsp;Lupine<br />Lupine&nbsp;Shifter
-Vermin&nbsp;Brother | 200 | +9<br />20% | +12<br />25% | +10<br />20% | +0<br />0% | +6<br />10% | +5<br />10% | +4<br />5% | +4<br />10% | Evasion | Summon&nbsp;Vermin&nbsp;+2<br />Bat&nbsp;Form&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1 | Vermin&nbsp;Lord<br />NightWing&nbsp;Warlord<br />Bat&nbsp;Lord
-Raging&nbsp;Beast | 200 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +5<br />10% | +5<br />10% | +3<br />5% | +3<br />5% | Berserker&nbsp;Rage | Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+2<br />Extended&nbsp;Rage&nbsp;+2<br />Regeneration&nbsp;+1 | Rampaging&nbsp;Beast<br />Raging&nbsp;Lupine<br />Raging&nbsp;Shifter
-Shadow&nbsp;Warrior | 200 | +10<br />20% | +12<br />25% | +10<br />20% | +0<br />0% | +6<br />20% | +4<br />5% | +4<br />5% | +4<br />5% | Assassin&nbsp;Training | Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Blade&nbsp;of&nbsp;Darkness&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+1 | Shadow&nbsp;Knight<br />DarkBlade&nbsp;Assassin<br />Shadow&nbsp;Master
-Umbral&nbsp;Seer | 200 | +10<br />20% | +10<br />20% | +10<br />20% | +0<br />0% | +5<br />10% | +5<br />10% | +5<br />10% | +5<br />10% | Dark&nbsp;Conduit | Mind&nbsp;Magic&nbsp;+3<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2 | Umbral&nbsp;Augur<br />Umbral&nbsp;Oracle<br />Umbral&nbsp;Prophet
+<div class="clt">
+  <ul>
+    <li>
+    <strong>Elder Vampire</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+10<br />20%</td>
+        <td>+10<br />20%</td>
+        <td>+10<br />20%</td>
+        <td>+0<br />0%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>Toughness</td>
+        <td>Blood&nbsp;Legacy&nbsp;+1<br />Blood&nbsp;Runes&nbsp;+1<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+1<br />Regeneration&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Vampire Lord</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+10<br />20%</td>
+            <td>+10<br />20%</td>
+            <td>+10<br />20%</td>
+            <td>+0<br />0%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>Toughness<br />Dark&nbsp;Lineage</td>
+            <td>Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+2<br />Regeneration&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Master Vampire</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>Toughness<br />Dark&nbsp;Lineage<br />Unarmed&nbsp;Mastery</td>
+                <td>Blood&nbsp;Legacy&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+4<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+4<br />Regeneration&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Beast Handler</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+10<br />20%</td>
+        <td>+10<br />20%</td>
+        <td>+10<br />20%</td>
+        <td>+0<br />0%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>Beast&nbsp;Whisperer</td>
+        <td>Summon&nbsp;Wolf&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Beast&nbsp;Master&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Master of Beasts</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+10<br />20%</td>
+            <td>+10<br />20%</td>
+            <td>+10<br />20%</td>
+            <td>+0<br />0%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack</td>
+            <td>Beast&nbsp;Master&nbsp;+4<br />Summon&nbsp;Wolf&nbsp;+3<br />Summon&nbsp;Vermin&nbsp;+3</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Prince of Beasts</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack<br />Pack&nbsp;Bond</td>
+                <td>Beast&nbsp;Master&nbsp;+8<br />Summon&nbsp;Wolf&nbsp;+6<br />Summon&nbsp;Vermin&nbsp;+6</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Master of Vermin</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+10<br />20%</td>
+            <td>+10<br />20%</td>
+            <td>+10<br />20%</td>
+            <td>+0<br />0%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>Beast&nbsp;Whisperer<br />Blind&nbsp;Fighting</td>
+            <td>Beast&nbsp;Master&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Prince of Vermin</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>Beast&nbsp;Whisperer<br />Blind&nbsp;Fighting<br />Instinctive&nbsp;Dodge</td>
+                <td>Beast&nbsp;Master&nbsp;+8<br />Summon&nbsp;Vermin&nbsp;+8<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Master of Wolves</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+10<br />20%</td>
+            <td>+12<br />25%</td>
+            <td>+0<br />0%</td>
+            <td>+5<br />10%</td>
+            <td>+5<br />10%</td>
+            <td>+3<br />5%</td>
+            <td>+3<br />5%</td>
+            <td>Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack</td>
+            <td>Summon&nbsp;Wolf&nbsp;+3<br />Beast&nbsp;Master&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+2<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+1</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Prince of Wolves</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />25%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack<br />Pack&nbsp;Bond</td>
+                <td>Summon&nbsp;Wolf&nbsp;+6<br />Beast&nbsp;Master&nbsp;+4<br />Wolf&nbsp;Form&nbsp;+4<br />Lupine&nbsp;Fortitude&nbsp;+4<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Blood Knight</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+11<br />25%</td>
+        <td>+8<br />15%</td>
+        <td>+11<br />25%</td>
+        <td>+0<br />0%</td>
+        <td>+4<br />10%</td>
+        <td>+8<br />15%</td>
+        <td>+4<br />5%</td>
+        <td>+4<br />5%</td>
+        <td>House&nbsp;BloodStone</td>
+        <td>Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Forging&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Blood Lord</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+8<br />10%</td>
+            <td>+12<br />25%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />20%</td>
+            <td>+2<br />5% </td>
+            <td>+2<br />5%</td>
+            <td>House&nbsp;BloodStone<br />Psionics</td>
+            <td>Mind&nbsp;Magic&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+3<br />Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Forging&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Blood Prince</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+8<br />10%</td>
+                <td>+12<br />25%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />20%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>House&nbsp;BloodStone<br />Psionics<br />Psychic&nbsp;Mastery</td>
+                <td>Mind&nbsp;Magic&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+6<br />Blood&nbsp;Legacy&nbsp;+4<br />Blood&nbsp;Forging&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Blood Reaver</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+14<br />30%</td>
+            <td>+8<br />10%</td>
+            <td>+10<br />20%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />20%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>House&nbsp;BloodStone<br />Blood&nbsp;Rage</td>
+            <td>Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+3<br />Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Forging&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Blood Fanatic</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+14<br />30%</td>
+                <td>+8<br />10%</td>
+                <td>+10<br />20%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />20%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>House&nbsp;BloodStone<br />Blood&nbsp;Rage<br />Berserker&nbsp;Rage</td>
+                <td>Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+6<br />Blood&nbsp;Legacy&nbsp;+4<br />Blood&nbsp;Forging&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Blood Templar</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+8<br />10%</td>
+            <td>+12<br />25%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />20%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>House&nbsp;BloodStone<br />Chivalry</td>
+            <td>Blood&nbsp;Legacy&nbsp;+3<br />Blood&nbsp;Forging&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+3<br />Regeneration&nbsp;+1</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Blood Champion</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+8<br />10%</td>
+                <td>+12<br />25%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />20%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>House&nbsp;BloodStone<br />Chivalry<br />Blood&nbsp;Potency</td>
+                <td>Blood&nbsp;Legacy&nbsp;+6<br />Blood&nbsp;Forging&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+6<br />Regeneration&nbsp;+2</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Dark Sorcerer</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+8<br />15%</td>
+        <td>+8<br />15%</td>
+        <td>+8<br />15%</td>
+        <td>+0<br />0%</td>
+        <td>+5<br />10%</td>
+        <td>+6<br />15%</td>
+        <td>+6<br />15%</td>
+        <td>+9<br />15%</td>
+        <td>Magically&nbsp;Gifted</td>
+        <td>Mind&nbsp;Magic&nbsp;+2<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Dark Warlock</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />10%</td>
+            <td>+8<br />10%</td>
+            <td>+12<br />10%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />15%</td>
+            <td>+2<br />15%</td>
+            <td>+2<br />30%</td>
+            <td>House&nbsp;ShadowSworn<br />Great&nbsp;Freeze</td>
+            <td>Path&nbsp;of&nbsp;Shadows&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+2<br />Mind&nbsp;Magic&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Witch-King</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />5%</td>
+                <td>+8<br />10%</td>
+                <td>+12<br />5%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />15%</td>
+                <td>+2<br />15%</td>
+                <td>+2<br />40%</td>
+                <td>House&nbsp;ShadowSworn<br />Great&nbsp;Freeze<br />Dark&nbsp;Conduit</td>
+                <td>Path&nbsp;of&nbsp;Shadows&nbsp;+8<br />Shadow&nbsp;Infusion&nbsp;+4<br />Mind&nbsp;Magic&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Dark Wizard</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />10%</td>
+            <td>+8<br />10%</td>
+            <td>+12<br />10%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />15%</td>
+            <td>+2<br />15%</td>
+            <td>+2<br />30%</td>
+            <td>Magically&nbsp;Gifted<br />Enhanced&nbsp;Deflection</td>
+            <td>Mist&nbsp;Form&nbsp;+3<br />Shadow&nbsp;Crafting&nbsp;+3<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Mind&nbsp;Magic&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Dark Archwizard</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />5%</td>
+                <td>+8<br />10%</td>
+                <td>+12<br />5%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />15%</td>
+                <td>+2<br />15%</td>
+                <td>+2<br />40%</td>
+                <td>Magically&nbsp;Gifted<br />Enhanced&nbsp;Deflection<br />Strong&nbsp;Magical&nbsp;Shields</td>
+                <td>Mist&nbsp;Form&nbsp;+6<br />Shadow&nbsp;Crafting&nbsp;+5<br />Path&nbsp;of&nbsp;Shadows&nbsp;+5<br />Mind&nbsp;Magic&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Dark Empath</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />10%</td>
+            <td>+8<br />10%</td>
+            <td>+12<br />10%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />20%</td>
+            <td>+2<br />20%</td>
+            <td>+2<br />20%</td>
+            <td>Magically&nbsp;Gifted<br />Psionics</td>
+            <td>Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Dark Telepath</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />4%</td>
+                <td>+8<br />9%</td>
+                <td>+12<br />4%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />9%</td>
+                <td>+10<br />18%</td>
+                <td>+2<br />18%</td>
+                <td>+2<br />36%</td>
+                <td>Magically&nbsp;Gifted<br />Psionics<br />Expert&nbsp;Telepath</td>
+                <td>Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Lupine Stalker</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+12<br />25%</td>
+        <td>+10<br />20%</td>
+        <td>+12<br />25%</td>
+        <td>+0<br />0%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+3<br />5%</td>
+        <td>+3<br />5%</td>
+        <td>Razor&nbsp;Claws</td>
+        <td>Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Lupine Hunter</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+8<br />20%</td>
+            <td>+12<br />25%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Razor&nbsp;Claws<br />Thick&nbsp;Pelt</td>
+            <td>Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Lupine Huntmaster</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+8<br />20%</td>
+                <td>+12<br />25%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Razor&nbsp;Claws<br />Thick&nbsp;Pelt<br />Blind&nbsp;Fighting</td>
+                <td>Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Wolf&nbsp;Form&nbsp;+4<br />Lupine&nbsp;Fortitude&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Shadow Lupine</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+8<br />20%</td>
+            <td>+12<br />25%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Razor&nbsp;Claws<br />Instinctive&nbsp;Dodge</td>
+            <td>Wolf&nbsp;Form&nbsp;+3<br />Lupine&nbsp;Fortitude&nbsp;+3<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Shadow&nbsp;Infusion&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Umbral Lupine</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+8<br />20%</td>
+                <td>+12<br />25%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Razor&nbsp;Claws<br />Instinctive&nbsp;Dodge<br />Great&nbsp;Cleave</td>
+                <td>Wolf&nbsp;Form&nbsp;+6<br />Lupine&nbsp;Fortitude&nbsp;+6<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Lupine Shifter</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+8<br />20%</td>
+            <td>+12<br />25%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Razor&nbsp;Claws<br />Evasion</td>
+            <td>Wolf&nbsp;Form&nbsp;+3<br />Shapechanging&nbsp;+3<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Beastial Shifter</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+8<br />20%</td>
+                <td>+12<br />25%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Razor&nbsp;Claws<br />Evasion<br />Sure&nbsp;Footed</td>
+                <td>Wolf&nbsp;Form&nbsp;+6<br />Shapechanging&nbsp;+6<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Lupine&nbsp;Fortitude&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Vermin Brother</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+9<br />20%</td>
+        <td>+12<br />25%</td>
+        <td>+10<br />20%</td>
+        <td>+0<br />0%</td>
+        <td>+6<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+4<br />5%</td>
+        <td>+4<br />10%</td>
+        <td>Evasion</td>
+        <td>Summon&nbsp;Vermin&nbsp;+2<br />Bat&nbsp;Form&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Vermin Lord</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+8<br />25%</td>
+            <td>+12<br />20%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />10%</td>
+            <td>Evasion<br />Venom</td>
+            <td>Bat&nbsp;Form&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+2<br />Shapechanging&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Vermin King</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+8<br />25%</td>
+                <td>+12<br />20%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />10%</td>
+                <td>Evasion<br />Venom<br />Blind&nbsp;Fighting</td>
+                <td>Bat&nbsp;Form&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Shapechanging&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+3<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+3</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>NightWing Warlord</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+8<br />25%</td>
+            <td>+12<br />20%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />10%</td>
+            <td>Evasion<br />House&nbsp;NightWing</td>
+            <td>Bat&nbsp;Form&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+2<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>NightWing Overlord</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+8<br />25%</td>
+                <td>+12<br />20%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />10%</td>
+                <td>Evasion<br />House&nbsp;NightWing<br />Blood&nbsp;Rage</td>
+                <td>Bat&nbsp;Form&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Bat Lord</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+8<br />25%</td>
+            <td>+12<br />20%</td>
+            <td>+0<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />10%</td>
+            <td>Evasion<br />Great&nbsp;Cleave</td>
+            <td>Bat&nbsp;Form&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+2<br />Shadow&nbsp;Infusion&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Bat King</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+8<br />25%</td>
+                <td>+12<br />20%</td>
+                <td>+0<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />10%</td>
+                <td>Evasion<br />Great&nbsp;Cleave<br />Unarmed&nbsp;Mastery</td>
+                <td>Bat&nbsp;Form&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Raging Beast</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+12<br />25%</td>
+        <td>+9<br />20%</td>
+        <td>+12<br />25%</td>
+        <td>+1<br />0%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+3<br />5%</td>
+        <td>+3<br />5%</td>
+        <td>Berserker&nbsp;Rage</td>
+        <td>Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+2<br />Extended&nbsp;Rage&nbsp;+2<br />Regeneration&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Rampaging Beast</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+9<br />20%</td>
+            <td>+12<br />25%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Berserker&nbsp;Rage<br />Tireless&nbsp;Rage</td>
+            <td>Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+3<br />Regeneration&nbsp;+3</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Bloodfeaster</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />25%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Berserker&nbsp;Rage<br />Tireless&nbsp;Rage<br />Blood&nbsp;Rage</td>
+                <td>Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Blood&nbsp;Legacy&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Regeneration&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Raging Lupine</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+9<br />20%</td>
+            <td>+12<br />25%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Berserker&nbsp;Rage<br />Instinctive&nbsp;Dodge</td>
+            <td>Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+3<br />Extended&nbsp;Rage&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Regeneration&nbsp;+1</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Frenzied Lupine</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />25%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Berserker&nbsp;Rage<br />Instinctive&nbsp;Dodge<br />Desert&nbsp;Wolfkin</td>
+                <td>Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Extended&nbsp;Rage&nbsp;+4<br />Wolf&nbsp;Form&nbsp;+4<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Regeneration&nbsp;+2</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Raging Shifter</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />25%</td>
+            <td>+9<br />20%</td>
+            <td>+12<br />25%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Berserker&nbsp;Rage<br />Evasion</td>
+            <td>Shapechanging&nbsp;+3<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+3<br />Extended&nbsp;Rage&nbsp;+2<br />Regeneration&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Frenzied Shifter</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />25%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />25%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Berserker&nbsp;Rage<br />Evasion<br />Tireless&nbsp;Rage</td>
+                <td>Shapechanging&nbsp;+6<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Extended&nbsp;Rage&nbsp;+4<br />Regeneration&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Shadow Warrior</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+10<br />20%</td>
+        <td>+12<br />25%</td>
+        <td>+10<br />20%</td>
+        <td>+0<br />0%</td>
+        <td>+6<br />20%</td>
+        <td>+4<br />5%</td>
+        <td>+4<br />5%</td>
+        <td>+4<br />5%</td>
+        <td>Assassin&nbsp;Training</td>
+        <td>Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Blade&nbsp;of&nbsp;Darkness&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+1</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Shadow Knight</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+9<br />25%</td>
+            <td>+12<br />20%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />20%</td>
+            <td>+10<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Chivalry<br />House&nbsp;DarkBlade</td>
+            <td>Blade&nbsp;of&nbsp;Darkness&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2<br />Blood&nbsp;Legacy&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Shadow Champion</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />25%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />20%</td>
+                <td>+10<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Chivalry<br />House&nbsp;DarkBlade<br />Mounted&nbsp;Combat&nbsp;Mastery</td>
+                <td>Blade&nbsp;of&nbsp;Darkness&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+4<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4<br />Blood&nbsp;Legacy&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>DarkBlade Assassin</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />15%</td>
+            <td>+9<br />25%</td>
+            <td>+12<br />15%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />25%</td>
+            <td>+10<br />5%</td>
+            <td>+2<br />10%</td>
+            <td>+2<br />5%</td>
+            <td>Assassin&nbsp;Training<br />House&nbsp;DarkBlade</td>
+            <td>Blade&nbsp;of&nbsp;Darkness&nbsp;+3<br />Shadow&nbsp;Crafting&nbsp;+3<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Shadow&nbsp;Infusion&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>DarkBlade Deathlord</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />15%</td>
+                <td>+9<br />25%</td>
+                <td>+12<br />15%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />25%</td>
+                <td>+10<br />5%</td>
+                <td>+2<br />10%</td>
+                <td>+2<br />5%</td>
+                <td>Assassin&nbsp;Training<br />House&nbsp;DarkBlade<br />Dark&nbsp;Conduit</td>
+                <td>Blade&nbsp;of&nbsp;Darkness&nbsp;+6<br />Shadow&nbsp;Crafting&nbsp;+6<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+4</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Shadow Master</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+9<br />25%</td>
+            <td>+12<br />20%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />20%</td>
+            <td>+10<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>+2<br />5%</td>
+            <td>Assassin&nbsp;Training<br />Blind&nbsp;Fighting</td>
+            <td>Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Blade&nbsp;of&nbsp;Darkness&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Shadow Prince</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />25%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />20%</td>
+                <td>+10<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>+2<br />5%</td>
+                <td>Assassin&nbsp;Training<br />Blind&nbsp;Fighting<br />Serenity</td>
+                <td>Cloak&nbsp;of&nbsp;Shadows&nbsp;+5<br />Blade&nbsp;of&nbsp;Darkness&nbsp;+5<br />Mind&nbsp;Magic&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+3<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+    <li>
+    <strong>Umbral Seer</strong> <em>(200)</em>
+    <table>
+      <tr>
+        <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+      </tr>
+      <tr>
+        <td>+10<br />20%</td>
+        <td>+10<br />20%</td>
+        <td>+10<br />20%</td>
+        <td>+0<br />0%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>+5<br />10%</td>
+        <td>Dark&nbsp;Conduit</td>
+        <td>Mind&nbsp;Magic&nbsp;+3<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2</td>
+      </tr>
+    </table>
+    <ul>
+      <li>
+        <strong>Umbral Augur</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+9<br />20%</td>
+            <td>+12<br />20%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />10%</td>
+            <td>+2<br />10%</td>
+            <td>Dark&nbsp;Conduit<br />Blind&nbsp;Fighting</td>
+            <td>Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+3</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Umbral Diviner</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>Dark&nbsp;Conduit<br />Blind&nbsp;Fighting<br />Instinctive&nbsp;Dodge</td>
+                <td>Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+6<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+6</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Umbral Oracle</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+9<br />20%</td>
+            <td>+12<br />20%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />10%</td>
+            <td>+2<br />10%</td>
+            <td>Dark&nbsp;Conduit<br />Psionics</td>
+            <td>Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3<br />Mist&nbsp;Form&nbsp;+3</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Umbral Telepath</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>Psionics<br />Psychic&nbsp;Mastery<br />Expert&nbsp;Telepath</td>
+                <td>Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+6<br />Mist&nbsp;Form&nbsp;+6</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+      <li>
+        <strong>Umbral Prophet</strong> <em>(300)</em>
+        <table>
+          <tr>
+            <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+          </tr>
+          <tr>
+            <td>+12<br />20%</td>
+            <td>+9<br />20%</td>
+            <td>+12<br />20%</td>
+            <td>+1<br />0%</td>
+            <td>+4<br />10%</td>
+            <td>+10<br />10%</td>
+            <td>+2<br />10%</td>
+            <td>+2<br />10%</td>
+            <td>Dark&nbsp;Conduit<br />Mind&nbsp;Over&nbsp;Matter</td>
+            <td>Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3<br />Shadow&nbsp;Infusion&nbsp;+3</td>
+          </tr>
+        </table>
+        <ul>
+          <li>
+            <strong>Umbral Clairvoyant</strong> <em>(400)</em>
+            <table>
+              <tr>
+                <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+              </tr>
+              <tr>
+                <td>+12<br />20%</td>
+                <td>+9<br />20%</td>
+                <td>+12<br />20%</td>
+                <td>+1<br />0%</td>
+                <td>+4<br />10%</td>
+                <td>+10<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>+2<br />10%</td>
+                <td>Dark&nbsp;Conduit<br />Mind&nbsp;Over&nbsp;Matter<br />Iron&nbsp;Will</td>
+                <td>Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+6<br />Shadow&nbsp;Infusion&nbsp;+6</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    </li>
+  </ul>
+ </div>
 
-Subclass | Age | BRA | GRA | MET | SIZ | WIT | TEN | DIS | AUR | Talents | Powers | Further&nbsp;Subclass
---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-Vampire&nbsp;Lord | 300 | +10<br />20% | +10<br />20% | +10<br />20% | +0<br />0% | +5<br />10% | +5<br />10% | +5<br />10% | +5<br />10% | Toughness<br />Dark&nbsp;Lineage | Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+2<br />Regeneration&nbsp;+2 | Master&nbsp;Vampire
-Master&nbsp;of&nbsp;Beasts | 300 | +10<br />20% | +10<br />20% | +10<br />20% | +0<br />0% | +5<br />10% | +5<br />10% | +5<br />10% | +5<br />10% | Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack | Beast&nbsp;Master&nbsp;+4<br />Summon&nbsp;Wolf&nbsp;+3<br />Summon&nbsp;Vermin&nbsp;+3 | Prince&nbsp;of&nbsp;Beasts
-Master&nbsp;of&nbsp;Vermin | 300 | +10<br />20% | +10<br />20% | +10<br />20% | +0<br />0% | +5<br />10% | +5<br />10% | +5<br />10% | +5<br />10% | Beast&nbsp;Whisperer<br />Blind&nbsp;Fighting | Beast&nbsp;Master&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2 | Prince&nbsp;of&nbsp;Vermin
-Master&nbsp;of&nbsp;Wolves | 300 | +12<br />25% | +10<br />20% | +12<br />25% | +0<br />0% | +5<br />10% | +5<br />10% | +3<br />5% | +3<br />5% | Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack | Summon&nbsp;Wolf&nbsp;+3<br />Beast&nbsp;Master&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+2<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+1 | Prince&nbsp;of&nbsp;Wolves
-Blood&nbsp;Lord | 300 | +12<br />25% | +8<br />10% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />20% | +2<br />5% | +2<br />5% | House&nbsp;BloodStone<br />Psionics | Mind&nbsp;Magic&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+3<br />Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Forging&nbsp;+2 | Blood&nbsp;Prince
-Blood&nbsp;Reaver | 300 | +14<br />30% | +8<br />10% | +10<br />20% | +0<br />0% | +4<br />10% | +10<br />20% | +2<br />5% | +2<br />5% | House&nbsp;BloodStone<br />Blood&nbsp;Rage | Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+3<br />Blood&nbsp;Legacy&nbsp;+2<br />Blood&nbsp;Forging&nbsp;+2 | Blood&nbsp;Fanatic
-Blood&nbsp;Templar | 300 | +12<br />25% | +8<br />10% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />20% | +2<br />5% | +2<br />5% | House&nbsp;BloodStone<br />Chivalry | Blood&nbsp;Legacy&nbsp;+3<br />Blood&nbsp;Forging&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+3<br />Regeneration&nbsp;+1 | Blood&nbsp;Champion
-Dark&nbsp;Warlock | 300 | +12<br />10% | +8<br />10% | +12<br />10% | +0<br />0% | +4<br />10% | +10<br />15% | +2<br />15% | +2<br />30% | House&nbsp;ShadowSworn<br />Great&nbsp;Freeze | Path&nbsp;of&nbsp;Shadows&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+2<br />Mind&nbsp;Magic&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2 | Witch-King
-Dark&nbsp;Wizard | 300 | +12<br />10% | +8<br />10% | +12<br />10% | +0<br />0% | +4<br />10% | +10<br />15% | +2<br />15% | +2<br />30% | Magically&nbsp;Gifted<br />Enhanced&nbsp;Deflection | Mist&nbsp;Form&nbsp;+3<br />Shadow&nbsp;Crafting&nbsp;+3<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Mind&nbsp;Magic&nbsp;+2 | Dark&nbsp;Archwizard
-Dark&nbsp;Empath | 300 | +12<br />10% | +8<br />10% | +12<br />10% | +0<br />0% | +4<br />10% | +10<br />20% | +2<br />20% | +2<br />20% | Magically&nbsp;Gifted<br />Psionics | Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2 | Dark&nbsp;Telepath
-Lupine&nbsp;Hunter | 300 | +12<br />25% | +8<br />20% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Razor&nbsp;Claws<br />Thick&nbsp;Pelt | Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2 | Lupine&nbsp;Huntmaster
-Shadow&nbsp;Lupine |  300 | +12<br />25% | +8<br />20% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Razor&nbsp;Claws<br />Instinctive&nbsp;Dodge | Wolf&nbsp;Form&nbsp;+3<br />Lupine&nbsp;Fortitude&nbsp;+3<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Shadow&nbsp;Infusion&nbsp;+2 | Umbral&nbsp;Lupine
-Lupine&nbsp;Shifter | 300 | +12<br />25% | +8<br />20% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Razor&nbsp;Claws<br />Evasion | Wolf&nbsp;Form&nbsp;+3<br />Shapechanging&nbsp;+3<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Lupine&nbsp;Fortitude&nbsp;+2 | Bestial&nbsp;Shifter
-Vermin&nbsp;Lord | 300 | +12<br />20% | +8<br />25% | +12<br />20% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />10% | Evasion<br />Venom | Bat&nbsp;Form&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+2<br />Shapechanging&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1 | Vermin&nbsp;King
-NightWing&nbsp;Warlord | 300 | +12<br />20% | +8<br />25% | +12<br />20% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />10% | Evasion<br />House&nbsp;NightWing | Bat&nbsp;Form&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+2<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1 | NightWing&nbsp;Overlord
-Bat&nbsp;Lord | 300 | +12<br />20% | +8<br />25% | +12<br />20% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />10% | Evasion<br />Great&nbsp;Cleave | Bat&nbsp;Form&nbsp;+3<br />Blood&nbsp;Runes&nbsp;+2<br />Shadow&nbsp;Infusion&nbsp;+2<br />Summon&nbsp;Vermin&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+1 | Bat&nbsp;King
-Rampaging&nbsp;Beast | 300 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Berserker&nbsp;Rage<br />Tireless&nbsp;Rage | Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+3<br />Regeneration&nbsp;+3 | Bloodfeaster
-Raging&nbsp;Lupine | 300 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Berserker&nbsp;Rage<br />Instinctive&nbsp;Dodge | Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+3<br />Extended&nbsp;Rage&nbsp;+2<br />Wolf&nbsp;Form&nbsp;+2<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2<br />Regeneration&nbsp;+1 | Frenzied&nbsp;Lupine
-Raging&nbsp;Shifter | 300 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Berserker&nbsp;Rage<br />Evasion | Shapechanging&nbsp;+3<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+3<br />Extended&nbsp;Rage&nbsp;+2<br />Regeneration&nbsp;+2 | Frenzied&nbsp;Shifter
-Shadow&nbsp;Knight | 300 | +12<br />20% | +9<br />25% | +12<br />20% | +1<br />0% | +4<br />20% | +10<br />5% | +2<br />5% | +2<br />5% | Chivalry<br />House&nbsp;DarkBlade | Blade&nbsp;of&nbsp;Darkness&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Blood&nbsp;Runes&nbsp;+2<br />Blood&nbsp;Legacy&nbsp;+2 | Shadow&nbsp;Champion
-DarkBlade&nbsp;Assassin | 300 | +12<br />15% | +9<br />25% | +12<br />15% | +1<br />0% | +4<br />25% | +10<br />5% | +2<br />10% | +2<br />5% | Assassin&nbsp;Training<br />House&nbsp;DarkBlade | Blade&nbsp;of&nbsp;Darkness&nbsp;+3<br />Shadow&nbsp;Crafting&nbsp;+3<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Shadow&nbsp;Infusion&nbsp;+2 | DarkBlade&nbsp;Deathlord
-Shadow&nbsp;Master | 300 | +12<br />20% | +9<br />25% | +12<br />20% | +1<br />0% | +4<br />20% | +10<br />5% | +2<br />5% | +2<br />5% | Assassin&nbsp;Training<br />Blind&nbsp;Fighting | Cloak&nbsp;of&nbsp;Shadows&nbsp;+2<br />Blade&nbsp;of&nbsp;Darkness&nbsp;+2<br />Shadow&nbsp;Crafting&nbsp;+2<br />Path&nbsp;of&nbsp;Shadows&nbsp;+2<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2 | Shadow&nbsp;Prince
-Umbral&nbsp;Augur | 300 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Dark&nbsp;Conduit<br />Blind&nbsp;Fighting | Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+3 | Umbral&nbsp;Diviner
-Umbral&nbsp;Oracle | 300 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Dark&nbsp;Conduit<br />Psionics | Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3<br />Mist&nbsp;Form&nbsp;+3 | Umbral&nbsp;Telepath
-Umbral&nbsp;Prophet | 300 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Dark&nbsp;Conduit<br />Mind&nbsp;Over&nbsp;Matter | Mind&nbsp;Magic&nbsp;+4<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3<br />Shadow&nbsp;Infusion&nbsp;+3 | Umbral&nbsp;Clairvoyant
-
-Subclass | Age | BRA | GRA | MET | SIZ | WIT | TEN | DIS | AUR | Talents | Powers | Further&nbsp;Subclass
---- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | ---
-Master&nbsp;Vampire | 400 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Toughness<br />Dark&nbsp;Lineage<br />Unarmed&nbsp;Mastery | Blood&nbsp;Legacy&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+4<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+4<br />Regeneration&nbsp;+4
-Prince&nbsp;of&nbsp;Beasts | 400 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack<br />Pack&nbsp;Bond | Beast&nbsp;Master&nbsp;+8<br />Summon&nbsp;Wolf&nbsp;+6<br />Summon&nbsp;Vermin&nbsp;+6
-Prince&nbsp;of&nbsp;Vermin | 400 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Beast&nbsp;Whisperer<br />Blind&nbsp;Fighting<br />Instinctive&nbsp;Dodge | Beast&nbsp;Master&nbsp;+8<br />Summon&nbsp;Vermin&nbsp;+8<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+4
-Prince&nbsp;of&nbsp;Wolves | 400 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Beast&nbsp;Whisperer<br />Lead&nbsp;the&nbsp;Pack<br />Pack&nbsp;Bond | Summon&nbsp;Wolf&nbsp;+6<br />Beast&nbsp;Master&nbsp;+4<br />Wolf&nbsp;Form&nbsp;+4<br />Lupine&nbsp;Fortitude&nbsp;+4<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+2
-Blood&nbsp;Prince | 400 | +12<br />25% | +8<br />10% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />20% | +2<br />5% | +2<br />5% | House&nbsp;BloodStone<br />Psionics<br />Psychic&nbsp;Mastery | Mind&nbsp;Magic&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+6<br />Blood&nbsp;Legacy&nbsp;+4<br />Blood&nbsp;Forging&nbsp;+4
-Blood&nbsp;Fanatic | 400 | +14<br />30% | +8<br />10% | +10<br />20% | +0<br />0% | +4<br />10% | +10<br />20% | +2<br />5% | +2<br />5% | House&nbsp;BloodStone<br />Blood&nbsp;Rage<br />Berserker&nbsp;Rage | Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+6<br />Blood&nbsp;Legacy&nbsp;+4<br />Blood&nbsp;Forging&nbsp;+4
-Blood&nbsp;Champion | 400 | +12<br />25% | +8<br />10% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />20% | +2<br />5% | +2<br />5% | House&nbsp;BloodStone<br />Chivalry<br />Blood&nbsp;Potency | Blood&nbsp;Legacy&nbsp;+6<br />Blood&nbsp;Forging&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+6<br />Regeneration&nbsp;+2
-Witch-King | 400 | +12<br />5% | +8<br />10% | +12<br />5% | +0<br />0% | +4<br />10% | +10<br />15% | +2<br />15% | +2<br />40% | House&nbsp;ShadowSworn<br />Great&nbsp;Freeze<br />Dark&nbsp;Conduit | Path&nbsp;of&nbsp;Shadows&nbsp;+8<br />Shadow&nbsp;Infusion&nbsp;+4<br />Mind&nbsp;Magic&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+4
-Dark&nbsp;Archwizard | 400 | +12<br />5% | +8<br />10% | +12<br />5% | +0<br />0% | +4<br />10% | +10<br />15% | +2<br />15% | +2<br />40% | Magically&nbsp;Gifted<br />Enhanced&nbsp;Deflection<br />Strong&nbsp;Magical&nbsp;Shields | Mist&nbsp;Form&nbsp;+6<br />Shadow&nbsp;Crafting&nbsp;+5<br />Path&nbsp;of&nbsp;Shadows&nbsp;+5<br />Mind&nbsp;Magic&nbsp;+4
-Dark&nbsp;Telepath | 400 | +12<br />4% | +8<br />9% | +12<br />4% | +0<br />0% | +4<br />9% | +10<br />18% | +2<br />18% | +2<br />36% | Magically&nbsp;Gifted<br />Psionics<br />Expert&nbsp;Telepath | Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4
-Lupine&nbsp;Huntmaster | 400 | +12<br />25% | +8<br />20% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Razor&nbsp;Claws<br />Thick&nbsp;Pelt<br />Blind&nbsp;Fighting | Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Wolf&nbsp;Form&nbsp;+4<br />Lupine&nbsp;Fortitude&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4
-Umbral&nbsp;Lupine | 400 | +12<br />25% | +8<br />20% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Razor&nbsp;Claws<br />Instinctive&nbsp;Dodge<br />Great&nbsp;Cleave | Wolf&nbsp;Form&nbsp;+6<br />Lupine&nbsp;Fortitude&nbsp;+6<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+4
-Bestial&nbsp;Shifter | 400 | +12<br />25% | +8<br />20% | +12<br />25% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Razor&nbsp;Claws<br />Evasion<br />Sure&nbsp;Footed | Wolf&nbsp;Form&nbsp;+6<br />Shapechanging&nbsp;+6<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Lupine&nbsp;Fortitude&nbsp;+4
-Vermin&nbsp;King | 400 | +12<br />20% | +8<br />25% | +12<br />20% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />10% | Evasion<br />Venom<br />Blind&nbsp;Fighting | Bat&nbsp;Form&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Shapechanging&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+3<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+3
-NightWing&nbsp;Overlord | 400 | +12<br />20% | +8<br />25% | +12<br />20% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />10% | Evasion<br />House&nbsp;NightWing<br />Blood&nbsp;Rage | Bat&nbsp;Form&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2
-Bat&nbsp;King | 400 | +12<br />20% | +8<br />25% | +12<br />20% | +0<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />10% | Evasion<br />Great&nbsp;Cleave<br />Unarmed&nbsp;Mastery | Bat&nbsp;Form&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+4<br />Summon&nbsp;Vermin&nbsp;+4<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+2
-Bloodfeaster | 400 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Berserker&nbsp;Rage<br />Tireless&nbsp;Rage<br />Blood&nbsp;Rage | Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Blood&nbsp;Legacy&nbsp;+6<br />Blood&nbsp;Runes&nbsp;+4<br />Regeneration&nbsp;+4
-Frenzied&nbsp;Lupine | 400 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Berserker&nbsp;Rage<br />Instinctive&nbsp;Dodge<br />Desert&nbsp;Wolfkin | Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Extended&nbsp;Rage&nbsp;+4<br />Wolf&nbsp;Form&nbsp;+4<br />Claws&nbsp;of&nbsp;the&nbsp;Wolf&nbsp;+4<br />Regeneration&nbsp;+2
-Frenzied&nbsp;Shifter | 400 | +12<br />25% | +9<br />20% | +12<br />25% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />5% | +2<br />5% | Berserker&nbsp;Rage<br />Evasion<br />Tireless&nbsp;Rage | Shapechanging&nbsp;+6<br />Rage&nbsp;of&nbsp;the&nbsp;Beast&nbsp;+6<br />Extended&nbsp;Rage&nbsp;+4<br />Regeneration&nbsp;+4
-Shadow&nbsp;Champion | 400 | +12<br />20% | +9<br />25% | +12<br />20% | +1<br />0% | +4<br />20% | +10<br />5% | +2<br />5% | +2<br />5% | Chivalry<br />House&nbsp;DarkBlade<br />Mounted&nbsp;Combat&nbsp;Mastery | Blade&nbsp;of&nbsp;Darkness&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+4<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+4<br />Blood&nbsp;Runes&nbsp;+4<br />Blood&nbsp;Legacy&nbsp;+4
-DarkBlade&nbsp;Deathlord | 400 | +12<br />15% | +9<br />25% | +12<br />15% | +1<br />0% | +4<br />25% | +10<br />5% | +2<br />10% | +2<br />5% | Assassin&nbsp;Training<br />House&nbsp;DarkBlade<br />Dark&nbsp;Conduit | Blade&nbsp;of&nbsp;Darkness&nbsp;+6<br />Shadow&nbsp;Crafting&nbsp;+6<br />Cloak&nbsp;of&nbsp;Shadows&nbsp;+4<br />Shadow&nbsp;Infusion&nbsp;+4
-Shadow&nbsp;Prince | 400 | +12<br />20% | +9<br />25% | +12<br />20% | +1<br />0% | +4<br />20% | +10<br />5% | +2<br />5% | +2<br />5% | Assassin&nbsp;Training<br />Blind&nbsp;Fighting<br />Serenity | Cloak&nbsp;of&nbsp;Shadows&nbsp;+5<br />Blade&nbsp;of&nbsp;Darkness&nbsp;+5<br />Mind&nbsp;Magic&nbsp;+4<br />Shadow&nbsp;Crafting&nbsp;+3<br />Path&nbsp;of&nbsp;Shadows&nbsp;+3
-Umbral&nbsp;Diviner | 400 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Dark&nbsp;Conduit<br />Blind&nbsp;Fighting<br />Instinctive&nbsp;Dodge | Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+6<br />Ears&nbsp;of&nbsp;the&nbsp;Bat&nbsp;+6
-Umbral&nbsp;Telepath | 400 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Psionics<br />Psychic&nbsp;Mastery<br />Expert&nbsp;Telepath | Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+6<br />Mist&nbsp;Form&nbsp;+6
-Umbral&nbsp;Clairvoyant | 400 | +12<br />20% | +9<br />20% | +12<br />20% | +1<br />0% | +4<br />10% | +10<br />10% | +2<br />10% | +2<br />10% | Dark&nbsp;Conduit<br />Mind&nbsp;Over&nbsp;Matter<br />Iron&nbsp;Will | Mind&nbsp;Magic&nbsp;+8<br />Path&nbsp;of&nbsp;Shadows&nbsp;+6<br />Shadow&nbsp;Infusion&nbsp;+6
+<!--
+<table>
+  <tr>
+    <th>BRA</th><th>GRA</th><th>MET</th><th>SIZ</th><th>WIT</th><th>TEN</th><th>DIS</th><th>AUR</th><th>Talents</th><th>Powers</th>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+ -->
