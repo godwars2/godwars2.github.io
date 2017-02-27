@@ -1,106 +1,2107 @@
 - name: Feral Pup
+  age: 100
+
+  brawn_bonus: 10
+  grace_bonus: 5
+  mettle_bonus: 10
+  size_bonus: 5
+  wits_bonus: 5
+  tenacity_bonus: 5
+  discipline_bonus: 5
+  aura_bonus: 5
+
+  brawn_percentage: 25
+  grace_percentage: 25
+  mettle_percentage: 25
+  size_percentage: 0
+  wits_percentage: 10
+  tenacity_percentage: 5
+  discipline_percentage: 5
+  aura_percentage: 5
+
   subclasses:
     - name: Loup-Garou
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 25
+      grace_percentage: 25
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Endurance
+
+      powers:
+        - Feral Senses +1
+        - Lupine Fortitude +1
+        - Regeneration +1
+        - Self Control +1
+        - Spirit Of Fenris +1
+
       subclasses:
         - name: Wolf Lord
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Endurance
+            - Thick Pelt
+
+          powers:
+            - Feral Senses +2
+            - Lupine Fortitude +2
+            - Regeneration +2
+            - Self Control +2
+            - Spirit Of Fenris +2
+
           subclasses:
             - name: Wolf King
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Endurance
+                - Thick Pelt
+                - Unarmed Mastery
+
+              powers:
+                - Feral Senses +4
+                - Lupine Fortitude +4
+                - Regeneration +4
+                - Self Control +4
+                - Spirit Of Fenris +4
+
     - name: Lunar Warrior
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 25
+      grace_percentage: 25
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Sure Footed
+
+      powers:
+        - Regeneration +2
+        - Lunar Forging +2
+        - Spirit Binding +1
+
       subclasses:
         - name: Lunar Avenger
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Sure Footed
+            - Armour Proficiency
+
+          powers:
+            - Lunar Forging +3
+            - Spirit Binding +3
+            - Moon Weaving +2
+            - Regeneration +2
+
           subclasses:
-            -name: Gibbous Lord
+            - name: Gibbous Lord
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Sure Footed
+                - Armour Proficiency
+                - Sign of the Gibbous Moon
+
+              powers:
+                - Lunar Forging +6
+                - Spirit Binding +6
+                - Moon Weaving +6
+                - Regeneration +2
+
         - name: Lunar Dancer
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Sure Footed
+            - Evasion
+
+          powers:
+            - Lunar Tattoos +3
+            - Moon Weaving +2
+            - Regeneration +2
+            - Lunar Forging +2
+            - Spirit Binding +1
+
           subclasses:
-            -name: Lunar Dervish
+            - name: Lunar Dervish
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Sure Footed
+                - Evasion
+                - Instinctive Dodge
+
+              powers:
+                - Lunar Tattoos +6
+                - Moon Weaving +4
+                - Regeneration +4
+                - Lunar Forging +4
+                - Spirit Binding +2
+
         - name: Lunar Savage
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Sure Footed
+            - Iron Talons
+
+          powers:
+            - Regeneration +2
+            - Lunar Forging +2
+            - Spirit Binding +2
+            - Storm Talons +2
+            - Talons of the Bear +2
+
           subclasses:
-            -name: Lunar Slayer
+            - name: Lunar Slayer
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Sure Footed
+                - Iron Talons
+                - Great Cleave
+
+              powers:
+                - Regeneration +4
+                - Lunar Forging +4
+                - Spirit Binding +4
+                - Storm Talons +4
+                - Talons of the Bear +4
+
     - name: Feral Beast
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 4
+      mettle_bonus: 12
+      size_bonus: 6
+      wits_bonus: 4
+      tenacity_bonus: 5
+      discipline_bonus: 4
+      aura_bonus: 3
+
+      brawn_percentage: 30
+      grace_percentage: 20
+      mettle_percentage: 30
+      size_percentage: 0
+      wits_percentage: 5
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Berserker Rage
+
+      powers:
+        - Spirit Of Fenris +2
+        - Extended Rage +2
+        - Talons of the Bear +1
+
       subclasses:
         - name: Lupine Beast
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 4
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 4
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 30
+          grace_percentage: 20
+          mettle_percentage: 30
+          size_percentage: 0
+          wits_percentage: 5
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Thick Pelt
+
+          powers:
+            - Wolf Form +2
+            - Lupine Fortitude +2
+            - Talons of the Bear +2
+            - Spirit Of Fenris +2
+            - Extended Rage +2
+
           subclasses:
             - name: Lupine Monster
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 4
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 4
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 30
+              grace_percentage: 20
+              mettle_percentage: 30
+              size_percentage: 0
+              wits_percentage: 5
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Thick Pelt
+                - Iron Talons
+
+              powers:
+                - Wolf Form +4
+                - Lupine Fortitude +4
+                - Talons of the Bear +4
+                - Spirit Of Fenris +4
+                - Extended Rage +4
+
         - name: Rabid Beast
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 4
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 4
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 30
+          grace_percentage: 20
+          mettle_percentage: 30
+          size_percentage: 0
+          wits_percentage: 5
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Tireless Rage
+
+          powers:
+            - Spirit Of Fenris +3
+            - Extended Rage +3
+            - Talons of the Bear +2
+            - Greater Bear Spirit +2
+
           subclasses:
             - name: Frenzied Beast
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 4
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 4
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 30
+              grace_percentage: 20
+              mettle_percentage: 30
+              size_percentage: 0
+              wits_percentage: 5
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Tireless Rage
+                - Powerful Metabolism
+
+              powers:
+                - Spirit Of Fenris +6
+                - Extended Rage +6
+                - Talons of the Bear +4
+                - Greater Bear Spirit +4
+
         - name: Storm Beast
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 4
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 4
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 30
+          grace_percentage: 20
+          mettle_percentage: 30
+          size_percentage: 0
+          wits_percentage: 5
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Shock
+
+          powers:
+            - Spirit Of Fenris +2
+            - Extended Rage +2
+            - Ride the Storm +2
+            - Storm Talons +2
+            - Talons of the Bear +2
+
           subclasses:
             - name: Storm Hellion
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 4
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 4
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 30
+              grace_percentage: 20
+              mettle_percentage: 30
+              size_percentage: 0
+              wits_percentage: 5
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Shock
+                - Iron Talons
+
+              powers:
+                - Spirit Of Fenris +5
+                - Extended Rage +5
+                - Ride the Storm +4
+                - Storm Talons +4
+                - Talons of the Bear +2
+
     - name: Feral Warrior
+      age: 200
+
+      brawn_bonus: 11
+      grace_bonus: 5
+      mettle_bonus: 11
+      size_bonus: 6
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 4
+      aura_bonus: 3
+
+      brawn_percentage: 25
+      grace_percentage: 25
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Toughness
+
+      powers:
+        - Self Control +2
+        - Lupine Fortitude +2
+        - Regeneration +1
+
       subclasses:
         - name: Beta Werewolf
+          age: 300
+
+          brawn_bonus: 11
+          grace_bonus: 5
+          mettle_bonus: 11
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Toughness
+            - Iron Talons
+
+          powers:
+            - Self Control +3
+            - Lupine Fortitude +3
+            - Regeneration +2
+            - Talons of the Bear +2
+
           subclasses:
             - name: Alpha Werewolf
+              age: 400
+
+              brawn_bonus: 11
+              grace_bonus: 5
+              mettle_bonus: 11
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Toughness
+                - Iron Talons
+                - Serenity
+
+              powers:
+                - Self Control +6
+                - Lupine Fortitude +6
+                - Regeneration +4
+                - Talons of the Bear +4
+
         - name: Feral Marauder
+          age: 300
+
+          brawn_bonus: 11
+          grace_bonus: 5
+          mettle_bonus: 11
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Toughness
+            - Evasion
+
+          powers:
+            - Self Control +2
+            - Lupine Fortitude +2
+            - Regeneration +2
+            - Spirit Of Fenris +2
+            - Thundering Roar +2
+
           subclasses:
             - name: Feral Crusader
+              age: 400
+
+              brawn_bonus: 11
+              grace_bonus: 5
+              mettle_bonus: 11
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Toughness
+                - Evasion
+                - Mind Over Matter
+
+              powers:
+                - Self Control +4
+                - Lupine Fortitude +4
+                - Regeneration +4
+                - Spirit Of Fenris +4
+                - Thundering Roar +4
+
         - name: Feral Warlord
+          age: 300
+
+          brawn_bonus: 11
+          grace_bonus: 5
+          mettle_bonus: 11
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Toughness
+            - Thick Pelt
+
+          powers:
+            - Self Control +2
+            - Lupine Fortitude +2
+            - Regeneration +2
+            - Spirit Binding +2
+            - Lunar Tattoos +2
+
           subclasses:
             - name: Feral Champion
+              age: 400
+
+              brawn_bonus: 11
+              grace_bonus: 5
+              mettle_bonus: 11
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Toughness
+                - Thick Pelt
+                - Serenity
+
+              powers:
+                - Self Control +4
+                - Lupine Fortitude +4
+                - Regeneration +4
+                - Spirit Binding +4
+                - Lunar Tattoos +4
+
     - name: Feral Scout
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 6
+      mettle_bonus: 10
+      size_bonus: 6
+      wits_bonus: 6
+      tenacity_bonus: 5
+      discipline_bonus: 4
+      aura_bonus: 3
+
+      brawn_percentage: 25
+      grace_percentage: 25
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Evasion
+
+      powers:
+        - Feral Senses +2
+        - Thundering Roar +2
+        - Regeneration +1
+
       subclasses:
         - name: Feral Stalker
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 6
+          mettle_bonus: 10
+          size_bonus: 6
+          wits_bonus: 6
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Evasion
+            - Sure Footed
+
+          powers:
+            - Feral Senses +4
+            - Thundering Roar +2
+            - Regeneration +2
+            - Lunar Tattoos +2
+
           subclasses:
             - name: Feral Prowler
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 6
+              mettle_bonus: 10
+              size_bonus: 6
+              wits_bonus: 6
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Evasion
+                - Sure Footed
+                - Blind Fighting
+
+              powers:
+                - Feral Senses +6
+                - Self Control +6
+                - Thundering Roar +3
+                - Regeneration +3
+                - Lunar Tattoos +2
+
         - name: Feral Howler
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 6
+          mettle_bonus: 10
+          size_bonus: 6
+          wits_bonus: 6
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Evasion
+            - Psionics
+
+          powers:
+            - Thundering Roar +4
+            - Feral Senses +2
+            - Regeneration +2
+            - Lunar Tattoos +2
+
           subclasses:
             - name: Feral Watcher
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 6
+              mettle_bonus: 10
+              size_bonus: 6
+              wits_bonus: 6
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Evasion
+                - Psionics
+                - Psychic Mastery
+
+              powers:
+                - Thundering Roar +6
+                - Feral Senses +5
+                - Regeneration +3
+                - Lunar Tattoos +3
+                - Self Control +3
+
         - name: Feral Assassin
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 6
+          mettle_bonus: 10
+          size_bonus: 6
+          wits_bonus: 6
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Evasion
+            - Assassin Training
+
+          powers:
+            - Feral Senses +3
+            - Lunar Tattoos +3
+            - Thundering Roar +2
+            - Regeneration +2
+
           subclasses:
             - name: Feral Slayer
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 6
+              mettle_bonus: 10
+              size_bonus: 6
+              wits_bonus: 6
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Evasion
+                - Assassin Training
+                - Sure Footed
+
+              powers:
+                - Feral Senses +6
+                - Self Control +5
+                - Lunar Tattoos +5
+                - Thundering Roar +2
+                - Regeneration +2
+
     - name: Savage Beast
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 7
+      mettle_bonus: 10
+      size_bonus: 7
+      wits_bonus: 5
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 3
+
+      brawn_percentage: 25
+      grace_percentage: 25
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Hybrid Affinity
+
+      powers:
+        - Self Control +2
+        - Feral Senses +2
+        - Fang Forging +1
+
       subclasses:
         - name: Savage Brute
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 7
+          mettle_bonus: 10
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Hybrid Affinity
+            - Natural Fortitude
+
+          powers:
+            - Self Control +4
+            - Feral Senses +4
+            - Fang Forging +2
+
           subclasses:
             - name: Savage Monster
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 7
+              mettle_bonus: 10
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Hybrid Affinity
+                - Natural Fortitude
+                - Mind Over Matter
+
+              powers:
+                - Self Control +8
+                - Feral Senses +8
+                - Fang Forging +4
+
         - name: Raging Brute
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 7
+          mettle_bonus: 10
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Hybrid Affinity
+            - Berserker Rage
+
+          powers:
+            - Self Control +3
+            - Feral Senses +3
+            - Fang Forging +2
+            - Spirit Of Fenris +2
+
           subclasses:
             - name: Raging Monster
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 7
+              mettle_bonus: 10
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Hybrid Affinity
+                - Berserker Rage
+                - Tireless Rage
+
+              powers:
+                - Self Control +5
+                - Feral Senses +5
+                - Fang Forging +5
+                - Spirit Of Fenris +5
+
         - name: Wild Brute
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 7
+          mettle_bonus: 10
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Hybrid Affinity
+            - Endurance
+
+          powers:
+            - Self Control +3
+            - Feral Senses +3
+            - Fang Forging +2
+            - Lunar Tattoos +2
+
           subclasses:
             - name: Fanatic Brute
     - name: Savage Wolf
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 5
+      mettle_bonus: 12
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 3
+
+      brawn_percentage: 25
+      grace_percentage: 25
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Iron Talons
+
+      powers:
+        - Wolf Form +2
+        - Lupine Fortitude +2
+        - Talons of the Bear +1
+
       subclasses:
         - name: Rabid Wolf
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Iron Talons
+            - Powerful Metabolism
+
+          powers:
+            - Wolf Form +3
+            - Lupine Fortitude +3
+            - Talons of the Bear +2
+            - Greater Shark Spirit +2
+
           subclasses:
             - name: Monstrous Wolf
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Iron Talons
+                - Powerful Metabolism
+                - Thick Pelt
+
+              powers:
+                - Wolf Form +6
+                - Lupine Fortitude +6
+                - Talons of the Bear +4
+                - Greater Shark Spirit +4
+
         - name: Beta Wolf
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Iron Talons
+            - Lead the Pack
+
+          powers:
+            - Wolf Form +2
+            - Lupine Fortitude +2
+            - Talons of the Bear +2
+            - Summon Wolf +2
+            - Beast Master +2
+
           subclasses:
             - name: Alph Wolf
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Iron Talons
+                - Lead the Pack
+                - Pack Bond
+
+              powers:
+                - Wolf Form +4
+                - Lupine Fortitude +4
+                - Talons of the Bear +4
+                - Summon Wolf +4
+                - Beast Master +4
+
         - name: Storm Wolf
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 25
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Iron Talons
+            - Great Cleave
+
+          powers:
+            - Wolf Form +3
+            - Lupine Fortitude +3
+            - Talons of the Bear +2
+            - Storm Talons +2
+
           subclasses:
             - name: Tempest Wolf
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Iron Talons
+                - Great Cleave
+                - Great Shock
+
+              powers:
+                - Wolf Form +6
+                - Lupine Fortitude +6
+                - Talons of the Bear +4
+                - Storm Talons +4
+
     - name: Spirit Shaman
+      age: 200
+
+      brawn_bonus: 8
+      grace_bonus: 5
+      mettle_bonus: 8
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 6
+      discipline_bonus: 6
+      aura_bonus: 7
+
+      brawn_percentage: 15
+      grace_percentage: 15
+      mettle_percentage: 15
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 15
+      discipline_percentage: 15
+      aura_percentage: 15
+
+      talents:
+        - Spirit Wolfkin
+
+      powers:
+        - Ride the Storm +2
+        - Fang Forging +2
+        - Lesser Totem Spirit +1
+
       subclasses:
         - name: Storm Shaman
+          age: 300
+
+          brawn_bonus: 8
+          grace_bonus: 5
+          mettle_bonus: 8
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 6
+          discipline_bonus: 6
+          aura_bonus: 7
+
+          brawn_percentage: 15
+          grace_percentage: 15
+          mettle_percentage: 15
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 15
+
+          talents:
+            - Spirit Wolfkin
+            - Elemental Spell Focus
+
+          powers:
+            - Ride the Storm +3
+            - Fang Forging +3
+            - Lesser Totem Spirit +2
+            - Greater Crow Spirit +2
+
           subclasses:
             - name: Tempest Shaman
+              age: 400
+
+              brawn_bonus: 8
+              grace_bonus: 5
+              mettle_bonus: 8
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 6
+              discipline_bonus: 6
+              aura_bonus: 7
+
+              brawn_percentage: 5
+              grace_percentage: 15
+              mettle_percentage: 5
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 35
+
+              talents:
+                - Spirit Wolfkin
+                - Elemental Spell Focus
+                - Elemental Spell Expert
+
+              powers:
+                - Ride the Storm +6
+                - Fang Forging +6
+                - Lesser Totem Spirit +4
+                - Greater Crow Spirit +4
+
         - name: Lunar Mystic
+          age: 300
+
+          brawn_bonus: 8
+          grace_bonus: 5
+          mettle_bonus: 8
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 6
+          discipline_bonus: 6
+          aura_bonus: 7
+
+          brawn_percentage: 15
+          grace_percentage: 15
+          mettle_percentage: 15
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 15
+
+          talents:
+            - Spirit Wolfkin
+            - Enhanced Deflection
+
+          powers:
+            - Ride the Storm +3
+            - Fang Forging +2
+            - Moon Weaving +2
+            - Lunar Tattoos +2
+            - Lesser Totem Spirit +1
+
           subclasses:
             - name: Spiritwalker
+              age: 400
+
+              brawn_bonus: 8
+              grace_bonus: 5
+              mettle_bonus: 8
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 6
+              discipline_bonus: 6
+              aura_bonus: 7
+
+              brawn_percentage: 15
+              grace_percentage: 15
+              mettle_percentage: 15
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 15
+
+              talents:
+                - Spirit Wolfkin
+                - Enhanced Deflection
+                - Strong Magical Shields
+
+              powers:
+                - Ride the Storm +6
+                - Fang Forging +4
+                - Moon Weaving +4
+                - Lunar Tattoos +4
+                - Lesser Totem Spirit +2
+
         - name: Feral Seer
+          age: 300
+
+          brawn_bonus: 8
+          grace_bonus: 5
+          mettle_bonus: 8
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 6
+          discipline_bonus: 6
+          aura_bonus: 7
+
+          brawn_percentage: 15
+          grace_percentage: 15
+          mettle_percentage: 15
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 15
+
+          talents:
+            - Spirit Wolfkin
+            - Blind Fighting
+
+          powers:
+            - Ride the Storm +2
+            - Fang Forging +2
+            - Lesser Totem Spirit +2
+            - Self Control +2
+            - Feral Senses +2
+
           subclasses:
             - name: Feral Oracle
+              age: 400
+
+              brawn_bonus: 8
+              grace_bonus: 5
+              mettle_bonus: 8
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 6
+              discipline_bonus: 6
+              aura_bonus: 7
+
+              brawn_percentage: 15
+              grace_percentage: 15
+              mettle_percentage: 15
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 15
+
+              talents:
+                - Spirit Wolfkin
+                - Blind Fighting
+                - Elemental Spell Expert
+
+              powers:
+                - Ride the Storm +4
+                - Fang Forging +4
+                - Lesser Totem Spirit +4
+                - Self Control +4
+                - Feral Senses +4
+
     - name: Feral Fox
+      age: 200
+
+      brawn_bonus: 8
+      grace_bonus: 8
+      mettle_bonus: 8
+      size_bonus: 3
+      wits_bonus: 8
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 20
+      grace_percentage: 30
+      mettle_percentage: 20
+      size_percentage: 0
+      wits_percentage: 15
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Foxkin Family
+
+      powers:
+        - Greater Fox Spirit +2
+        - Lunar Tattoos +2
+        - Feral Senses +1
+
       subclasses:
         - name: Vulpine Assassin
+          age: 300
+
+          brawn_bonus: 8
+          grace_bonus: 8
+          mettle_bonus: 8
+          size_bonus: 3
+          wits_bonus: 8
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 30
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 15
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Foxkin Family
+            - Assassin Training
+
+          powers:
+            - Greater Fox Spirit +3
+            - Lunar Tattoos +3
+            - Feral Senses +3
+            - Regeneration +1
+
           subclasses:
             - name: Vulpine Slayer
+              age: 400
+
+              brawn_bonus: 8
+              grace_bonus: 8
+              mettle_bonus: 8
+              size_bonus: 3
+              wits_bonus: 8
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 30
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 15
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Foxkin Family
+                - Assassin Training
+                - Mystical Blade Mastery
+
+              powers:
+                - Greater Fox Spirit +5
+                - Lunar Tattoos +5
+                - Feral Senses +5
+                - Self Control +4
+                - Regeneration +1
+
         - name: Vulpine Scout
+          age: 300
+
+          brawn_bonus: 8
+          grace_bonus: 8
+          mettle_bonus: 8
+          size_bonus: 3
+          wits_bonus: 8
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 30
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 15
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Foxkin Family
+            - Sure Footed
+
+          powers:
+            - Greater Fox Spirit +4
+            - Lunar Tattoos +3
+            - Feral Senses +3
+
           subclasses:
             - name: Vulpine Ranger
+              age: 400
+
+              brawn_bonus: 8
+              grace_bonus: 8
+              mettle_bonus: 8
+              size_bonus: 3
+              wits_bonus: 8
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 30
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 15
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Foxkin Family
+                - Sure Footed
+                - Unarmed Mastery
+
+              powers:
+                - Greater Fox Spirit +8
+                - Lunar Tattoos +4
+                - Feral Senses +4
+                - Self Control +4
+
         - name: Vulpine Wardancer
+          age: 300
+
+          brawn_bonus: 9
+          grace_bonus: 10
+          mettle_bonus: 9
+          size_bonus: 3
+          wits_bonus: 10
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 20
+          grace_percentage: 30
+          mettle_percentage: 15
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Foxkin Family
+            - Evasion
+
+          powers:
+            - Greater Fox Spirit +4
+            - Lunar Tattoos +3
+            - Feral Senses +3
+
           subclasses:
             - name: Vulpine Dervish
+              age: 400
+
+              brawn_bonus: 9
+              grace_bonus: 10
+              mettle_bonus: 9
+              size_bonus: 3
+              wits_bonus: 10
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 20
+              grace_percentage: 30
+              mettle_percentage: 15
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Foxkin Family
+                - Evasion
+                - Instinctive Dodge
+
+              powers:
+                - Greater Fox Spirit +6
+                - Self Control +6
+                - Lunar Tattoos +4
+                - Feral Senses +4
+
     - name: Ursine Barbarian
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 4
+      mettle_bonus: 10
+      size_bonus: 10
+      wits_bonus: 4
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 4
+
+      brawn_percentage: 30
+      grace_percentage: 15
+      mettle_percentage: 30
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Bearkin Family
+
+      powers:
+        - Greater Bear Spirit +2
+        - Talons of the Bear +2
+        - Spirit Of Fenris +1
+
       subclasses:
         - name: Ursine Hunter
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 4
+          mettle_bonus: 10
+          size_bonus: 10
+          wits_bonus: 4
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 30
+          grace_percentage: 15
+          mettle_percentage: 30
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Bearkin Family
+            - Endurance
+
+          powers:
+            - Greater Bear Spirit +3
+            - Talons of the Bear +2
+            - Self Control +2
+            - Feral Senses +2
+            - Spirit Of Fenris +1
+
           subclasses:
             - name: Ursine Predator
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 4
+              mettle_bonus: 10
+              size_bonus: 10
+              wits_bonus: 4
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 30
+              grace_percentage: 15
+              mettle_percentage: 30
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Bearkin Family
+                - Endurance
+                - Blind Fighting
+
+              powers:
+                - Greater Bear Spirit +6
+                - Talons of the Bear +4
+                - Feral Senses +4
+                - Spirit Of Fenris +4
+                - Self Control +2
+
         - name: Ursine Savage
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 4
+          mettle_bonus: 12
+          size_bonus: 12
+          wits_bonus: 4
+          tenacity_bonus: 2
+          discipline_bonus: 2
+          aura_bonus: 2
+
+          brawn_percentage: 30
+          grace_percentage: 15
+          mettle_percentage: 30
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Bearkin Family
+            - Berserker Rage
+
+          powers:
+            - Spirit Of Fenris +3
+            - Talons of the Bear +3
+            - Greater Bear Spirit +2
+            - Lunar Tattoos +2
+
           subclasses:
             - name: Ursine Ravager
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 4
+              mettle_bonus: 12
+              size_bonus: 12
+              wits_bonus: 4
+              tenacity_bonus: 2
+              discipline_bonus: 2
+              aura_bonus: 2
+
+              brawn_percentage: 30
+              grace_percentage: 15
+              mettle_percentage: 30
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Bearkin Family
+                - Berserker Rage
+                - Tireless Rage
+
+              powers:
+                - Spirit Of Fenris +6
+                - Talons of the Bear +6
+                - Greater Bear Spirit +4
+                - Lunar Tattoos +4
+
         - name: Ursine Warlord
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 4
+          mettle_bonus: 10
+          size_bonus: 10
+          wits_bonus: 4
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 30
+          grace_percentage: 15
+          mettle_percentage: 30
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Bearkin Family
+            - Natural Fortitude
+
+          powers:
+            - Greater Bear Spirit +3
+            - Talons of the Bear +3
+            - Lupine Fortitude +3
+            - Spirit Of Fenris +1
+
           subclasses:
             - name: Ursine Destroyer
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 4
+              mettle_bonus: 10
+              size_bonus: 10
+              wits_bonus: 4
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 30
+              grace_percentage: 15
+              mettle_percentage: 30
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Bearkin Family
+                - Natural Fortitude
+                - Endurance
+
+              powers:
+                - Greater Bear Spirit +5
+                - Talons of the Bear +5
+                - Lupine Fortitude +5
+                - Spirit Of Fenris +5
+
