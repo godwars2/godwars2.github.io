@@ -1,0 +1,106 @@
+- name: Feral Pup
+  subclasses:
+    - name: Loup-Garou
+      subclasses:
+        - name: Wolf Lord
+          subclasses:
+            - name: Wolf King
+    - name: Lunar Warrior
+      subclasses:
+        - name: Lunar Avenger
+          subclasses:
+            -name: Gibbous Lord
+        - name: Lunar Dancer
+          subclasses:
+            -name: Lunar Dervish
+        - name: Lunar Savage
+          subclasses:
+            -name: Lunar Slayer
+    - name: Feral Beast
+      subclasses:
+        - name: Lupine Beast
+          subclasses:
+            - name: Lupine Monster
+        - name: Rabid Beast
+          subclasses:
+            - name: Frenzied Beast
+        - name: Storm Beast
+          subclasses:
+            - name: Storm Hellion
+    - name: Feral Warrior
+      subclasses:
+        - name: Beta Werewolf
+          subclasses:
+            - name: Alpha Werewolf
+        - name: Feral Marauder
+          subclasses:
+            - name: Feral Crusader
+        - name: Feral Warlord
+          subclasses:
+            - name: Feral Champion
+    - name: Feral Scout
+      subclasses:
+        - name: Feral Stalker
+          subclasses:
+            - name: Feral Prowler
+        - name: Feral Howler
+          subclasses:
+            - name: Feral Watcher
+        - name: Feral Assassin
+          subclasses:
+            - name: Feral Slayer
+    - name: Savage Beast
+      subclasses:
+        - name: Savage Brute
+          subclasses:
+            - name: Savage Monster
+        - name: Raging Brute
+          subclasses:
+            - name: Raging Monster
+        - name: Wild Brute
+          subclasses:
+            - name: Fanatic Brute
+    - name: Savage Wolf
+      subclasses:
+        - name: Rabid Wolf
+          subclasses:
+            - name: Monstrous Wolf
+        - name: Beta Wolf
+          subclasses:
+            - name: Alph Wolf
+        - name: Storm Wolf
+          subclasses:
+            - name: Tempest Wolf
+    - name: Spirit Shaman
+      subclasses:
+        - name: Storm Shaman
+          subclasses:
+            - name: Tempest Shaman
+        - name: Lunar Mystic
+          subclasses:
+            - name: Spiritwalker
+        - name: Feral Seer
+          subclasses:
+            - name: Feral Oracle
+    - name: Feral Fox
+      subclasses:
+        - name: Vulpine Assassin
+          subclasses:
+            - name: Vulpine Slayer
+        - name: Vulpine Scout
+          subclasses:
+            - name: Vulpine Ranger
+        - name: Vulpine Wardancer
+          subclasses:
+            - name: Vulpine Dervish
+    - name: Ursine Barbarian
+      subclasses:
+        - name: Ursine Hunter
+          subclasses:
+            - name: Ursine Predator
+        - name: Ursine Savage
+          subclasses:
+            - name: Ursine Ravager
+        - name: Ursine Warlord
+          subclasses:
+            - name: Ursine Destroyer
