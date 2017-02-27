@@ -1,0 +1,1911 @@
+- name: Fledgling
+  age: 100
+
+  brawn_bonus: 10
+  grace_bonus: 10
+  mettle_bonus: 10
+  size_bonus: 0
+  wits_bonus: 5
+  tenacity_bonus: 5
+  discipline_bonus: 5
+  aura_bonus: 5
+
+  brawn_percentage: 20
+  grace_percentage: 20
+  mettle_percentage: 20
+  size_percentage: 0
+  wits_percentage: 10
+  tenacity_percentage: 10
+  discipline_percentage: 10
+  aura_percentage: 10
+
+  subclasses:
+    - name: Elder Vampire
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 10
+      mettle_bonus: 10
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 20
+      grace_percentage: 20
+      mettle_percentage: 20
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 10
+
+      talents:
+        - Toughness
+
+      powers:
+        - Blood Legacy +1
+        - Blood Runes +1
+        - Ears of the Bat +1
+        - Rage of the Beast +1
+        - Regeneration +1
+
+      subclasses:
+        - name: Vampire Lord
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 10
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 20
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Toughness
+            - Dark Lineage
+
+          powers:
+            - Blood Legacy +2
+            - Blood Runes +2
+            - Ears of the Bat +2
+            - Rage of the Beast +2
+            - Regeneration +2
+
+          subclasses:
+            - name: Master Vampire
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 9
+              mettle_bonus: 12
+              size_bonus: 1
+              wits_bonus: 4
+              tenacity_bonus: 10
+              discipline_bonus: 2
+              aura_bonus: 2
+
+              brawn_percentage: 20
+              grace_percentage: 20
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Toughness
+                - Dark Lineage
+                - Unarmed Mastery
+
+              powers:
+                - Blood Legacy +4
+                - Blood Runes +4
+                - Ears of the Bat +4
+                - Rage of the Beast +4
+                - Regeneration +4
+
+    - name: Beast Handler
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 10
+      mettle_bonus: 10
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 20
+      grace_percentage: 20
+      mettle_percentage: 20
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 10
+
+      talents:
+        - Beast Whisperer
+
+      powers:
+        - Summon Wolf +2
+        - Summon Vermin +2
+        - Beast Master +1
+
+      subclasses:
+        - name: Master of Beasts
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 10
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 20
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Beast Whisperer
+            - Lead the Pack
+
+          powers:
+            - Beast Master +4
+            - Summon Wolf +3
+            - Summon Vermin +3
+
+          subclasses:
+            - name: Prince of Beasts
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 10
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 20
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Beast Whisperer
+                - Lead the Pack
+                - Pack Bond
+
+              powers:
+                - Beast Master +8
+                - Summon Wolf +6
+                - Summon Vermin +6
+
+        - name: Master of Vermin
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 10
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 20
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Beast Whisperer
+            - Blind Fighting
+
+          powers:
+            - Beast Master +4
+            - Summon Vermin +4
+            - Ears of the Bat +2
+
+          subclasses:
+            - name: Prince of Vermin
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 10
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 20
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Beast Whisperer
+                - Blind Fighting
+                - Instinctive Dodge
+
+              powers:
+                - Beast Master +8
+                - Summon Vermin +8
+                - Ears of the Bat +4
+
+        - name: Master of Wolves
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 10
+          mettle_bonus: 12
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 20
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Beast Whisperer
+            - Lead the Pack
+
+          powers:
+            - Summon Wolf +3
+            - Beast Master +2
+            - Wolf Form +2
+            - Lupine Fortitude +2
+            - Claws of the Wolf +1
+
+          subclasses:
+            - name: Prince of Wolves
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 10
+              mettle_bonus: 12
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 20
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Beast Whisperer
+                - Lead the Pack
+                - Pack Bond
+
+              powers:
+                - Summon Wolf +6
+                - Beast Master +4
+                - Wolf Form +4
+                - Lupine Fortitude +4
+                - Claws of the Wolf +2
+
+
+    - name: Blood Knight
+      age: 200
+
+      brawn_bonus: 11
+      grace_bonus: 8
+      mettle_bonus: 11
+      size_bonus: 0
+      wits_bonus: 4
+      tenacity_bonus: 8
+      discipline_bonus: 4
+      aura_bonus: 4
+
+      brawn_percentage: 25
+      grace_percentage: 15
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 15
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - House BloodStone
+
+      powers:
+        - Blood Legacy +2
+        - Blood Forging +2
+        - Blood Runes +1
+
+      subclasses:
+        - name: Blood Lord
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 8
+          mettle_bonus: 12
+          size_bonus: 0
+          wits_bonus: 4
+          tenacity_bonus: 10
+          discipline_bonus: 2
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 20
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - House BloodStone
+            - Psionics
+
+          powers:
+            - Mind Magic +3
+            - Blood Runes +3
+            - Blood Legacy +2
+            - Blood Forging +2
+
+          subclasses:
+            - name: Blood Prince
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 8
+              mettle_bonus: 12
+              size_bonus: 0
+              wits_bonus: 4
+              tenacity_bonus: 10
+              discipline_bonus: 2
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 20
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - House BloodStone
+                - Psionics
+                - Psychic Mastery
+
+              powers:
+                - Mind Magic +6
+                - Blood Runes +6
+                - Blood Legacy +4
+                - Blood Forging +4
+
+        - name: Blood Reaver
+          age: 300
+
+          brawn_bonus: 14
+          grace_bonus: 8
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 4
+          tenacity_bonus: 10
+          discipline_bonus: 2
+          aura_bonus: 2
+
+          brawn_percentage: 30
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 20
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - House BloodStone
+            - Blood Rage
+
+          powers:
+            - Rage of the Beast +3
+            - Blood Runes +3
+            - Blood Legacy +2
+            - Blood Forging +2
+
+          subclasses:
+            - name: Blood Fanatic
+              age: 400
+
+              brawn_bonus: 14
+              grace_bonus: 8
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 4
+              tenacity_bonus: 10
+              discipline_bonus: 2
+              aura_bonus: 2
+
+              brawn_percentage: 30
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 20
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - House BloodStone
+                - Blood Rage
+                - Berserker Rage
+
+              powers:
+                - Rage of the Beast +6
+                - Blood Runes +6
+                - Blood Legacy +4
+                - Blood Forging +4
+
+        - name: Blood Templar
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 8
+          mettle_bonus: 12
+          size_bonus: 0
+          wits_bonus: 4
+          tenacity_bonus: 10
+          discipline_bonus: 2
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 20
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - House BloodStone
+            - Chivalry
+
+          powers:
+            - Blood Legacy +3
+            - Blood Forging +3
+            - Blood Runes +3
+            - Regeneration +1
+
+          subclasses:
+            - name: Blood Champion
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 8
+              mettle_bonus: 12
+              size_bonus: 0
+              wits_bonus: 4
+              tenacity_bonus: 10
+              discipline_bonus: 2
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 20
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - House BloodStone
+                - Chivalry
+                - Blood Potency
+
+              powers:
+                - Blood Legacy +6
+                - Blood Forging +6
+                - Blood Runes +6
+                - Regeneration +2
+
+
+    - name: Dark Sorcerer
+      age: 200
+
+      brawn_bonus: 8
+      grace_bonus: 8
+      mettle_bonus: 8
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 6
+      discipline_bonus: 6
+      aura_bonus: 9
+
+      brawn_percentage: 15
+      grace_percentage: 15
+      mettle_percentage: 15
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 15
+      discipline_percentage: 15
+      aura_percentage: 15
+
+      talents:
+        - Magically Gifted
+
+      powers:
+        - Mind Magic +2
+        - Path of Shadows +2
+        - Shadow Crafting +1
+
+      subclasses:
+        - name: Dark Warlock
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 7
+          mettle_bonus: 7
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 7
+          discipline_bonus: 7
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 30
+
+          talents:
+            - House ShadowSworn
+            - Great Freeze
+
+          powers:
+            - Path of Shadows +4
+            - Shadow Infusion +2
+            - Mind Magic +2
+            - Shadow Crafting +2
+
+          subclasses:
+            - name: Witch-King
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 7
+              mettle_bonus: 7
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 7
+              discipline_bonus: 7
+              aura_bonus: 10
+
+              brawn_percentage: 5
+              grace_percentage: 10
+              mettle_percentage: 5
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 40
+
+              talents:
+                - House ShadowSworn
+                - Great Freeze
+                - Dark Conduit
+
+              powers:
+                - Path of Shadows +8
+                - Shadow Infusion +4
+                - Mind Magic +4
+                - Shadow Crafting +4
+
+        - name: Dark Wizard
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 7
+          mettle_bonus: 7
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 7
+          discipline_bonus: 7
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 30
+
+          talents:
+            - Magically Gifted
+            - Enhanced Deflection
+
+          powers:
+            - Mist Form +3
+            - Shadow Crafting +3
+            - Path of Shadows +2
+            - Mind Magic +2
+
+          subclasses:
+            - name: Dark Archwizard
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 7
+              mettle_bonus: 7
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 7
+              discipline_bonus: 7
+              aura_bonus: 10
+
+              brawn_percentage: 5
+              grace_percentage: 10
+              mettle_percentage: 5
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 40
+
+              talents:
+                - Magically Gifted
+                - Enhanced Deflection
+                - Strong Magical Shields
+
+              powers:
+                - Mist Form +6
+                - Shadow Crafting +5
+                - Path of Shadows +5
+                - Mind Magic +4
+
+        - name: Dark Empath
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 7
+          mettle_bonus: 7
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 8
+          discipline_bonus: 8
+          aura_bonus: 8
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 20
+
+          talents:
+            - Magically Gifted
+            - Psionics
+
+          powers:
+            - Mind Magic +4
+            - Path of Shadows +2
+            - Shadow Crafting +2
+            - Blood Runes +2
+
+          subclasses:
+            - name: Dark Telepath
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 7
+              mettle_bonus: 7
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 8
+              discipline_bonus: 8
+              aura_bonus: 8
+
+              brawn_percentage: 4
+              grace_percentage: 9
+              mettle_percentage: 4
+              size_percentage: 0
+              wits_percentage: 9
+              tenacity_percentage: 18
+              discipline_percentage: 18
+              aura_percentage: 36
+
+              talents:
+                - Magically Gifted
+                - Psionics
+                - Expert Telepath
+
+              powers:
+                - Mind Magic +8
+                - Path of Shadows +4
+                - Shadow Crafting +4
+                - Blood Runes +4
+
+
+
+    - name: Lupine Stalker
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 10
+      mettle_bonus: 12
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 3
+      aura_bonus: 3
+
+      brawn_percentage: 25
+      grace_percentage: 20
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Razor Claws
+
+      powers:
+        - Claws of the Wolf +2
+        - Wolf Form +2
+        - Lupine Fortitude +1
+
+      subclasses:
+        - name: Lupine Hunter
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 10
+          mettle_bonus: 12
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 20
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Razor Claws
+            - Thick Pelt
+
+          powers:
+            - Claws of the Wolf +2
+            - Wolf Form +2
+            - Lupine Fortitude +2
+            - Ears of the Bat +2
+            - Blood Runes +2
+
+          subclasses:
+            - name: Lupine Huntmaster
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 10
+              mettle_bonus: 12
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 20
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Razor Claws
+                - Thick Pelt
+                - Blind Fighting
+
+              powers:
+                - Claws of the Wolf +4
+                - Wolf Form +4
+                - Lupine Fortitude +4
+                - Ears of the Bat +4
+                - Blood Runes +4
+
+        - name: Shadow Lupine
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 10
+          mettle_bonus: 12
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 20
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Razor Claws
+            - Instinctive Dodge
+
+          powers:
+            - Wolf Form +3
+            - Lupine Fortitude +3
+            - Claws of the Wolf +2
+            - Shadow Infusion +2
+
+          subclasses:
+            - name: Umbral Lupine
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 10
+              mettle_bonus: 12
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 20
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Razor Claws
+                - Instinctive Dodge
+                - Great Cleave
+
+              powers:
+                - Wolf Form +6
+                - Lupine Fortitude +6
+                - Claws of the Wolf +4
+                - Shadow Infusion +4
+
+        - name: Lupine Shifter
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 10
+          mettle_bonus: 12
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 20
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Razor Claws
+            - Evasion
+
+          powers:
+            - Wolf Form +3
+            - Shapechanging +3
+            - Claws of the Wolf +2
+            - Lupine Fortitude +2
+
+          subclasses:
+            - name: Bestial Shifter
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 10
+              mettle_bonus: 12
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 20
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Razor Claws
+                - Evasion
+                - Sure Footed
+
+              powers:
+                - Wolf Form +6
+                - Shapechanging +6
+                - Claws of the Wolf +4
+                - Lupine Fortitude +4
+
+
+
+    - name: Vermin Brother
+      age: 200
+
+      brawn_bonus: 9
+      grace_bonus: 12
+      mettle_bonus: 10
+      size_bonus: 0
+      wits_bonus: 6
+      tenacity_bonus: 5
+      discipline_bonus: 4
+      aura_bonus: 4
+
+      brawn_percentage: 20
+      grace_percentage: 25
+      mettle_percentage: 20
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 5
+      aura_percentage: 10
+
+      talents:
+        - Evasion
+
+      powers:
+        - Summon Vermin +2
+        - Bat Form +2
+        - Ears of the Bat +1
+
+      subclasses:
+        - name: Vermin Lord
+          age: 300
+
+          brawn_bonus: 9
+          grace_bonus: 12
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 6
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 20
+          grace_percentage: 25
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 10
+
+          talents:
+            - Evasion
+            - Venom
+
+          powers:
+            - Bat Form +3
+            - Blood Runes +2
+            - Shapechanging +2
+            - Summon Vermin +2
+            - Ears of the Bat +1
+
+          subclasses:
+            - name: Vermin King
+              age: 400
+
+              brawn_bonus: 9
+              grace_bonus: 12
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 6
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 20
+              grace_percentage: 25
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 10
+
+              talents:
+                - Evasion
+                - Venom
+                - Blind Fighting
+
+              powers:
+                - Bat Form +6
+                - Blood Runes +4
+                - Shapechanging +4
+                - Summon Vermin +3
+                - Ears of the Bat +3
+
+        - name: NightWing Warlord
+          age: 300
+
+          brawn_bonus: 9
+          grace_bonus: 12
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 6
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 20
+          grace_percentage: 25
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 10
+
+          talents:
+            - Evasion
+            - House NightWing
+
+          powers:
+            - Bat Form +3
+            - Blood Runes +2
+            - Rage of the Beast +2
+            - Summon Vermin +2
+            - Ears of the Bat +1
+
+          subclasses:
+            - name: NightWing Overlord
+              age: 400
+
+              brawn_bonus: 9
+              grace_bonus: 12
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 6
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 20
+              grace_percentage: 25
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 10
+
+              talents:
+                - Evasion
+                - House NightWing
+                - Blood Rage
+
+              powers:
+                - Bat Form +6
+                - Blood Runes +4
+                - Rage of the Beast +4
+                - Summon Vermin +4
+                - Ears of the Bat +2
+
+        - name: Bat Lord
+          age: 300
+
+          brawn_bonus: 9
+          grace_bonus: 12
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 6
+          tenacity_bonus: 5
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 20
+          grace_percentage: 25
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 10
+
+          talents:
+            - Evasion
+            - Great Cleave
+
+          powers:
+            - Bat Form +3
+            - Blood Runes +2
+            - Shadow Infusion +2
+            - Summon Vermin +2
+            - Ears of the Bat +1
+
+          subclasses:
+            - name: Bat King
+              age: 400
+
+              brawn_bonus: 9
+              grace_bonus: 12
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 6
+              tenacity_bonus: 5
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 20
+              grace_percentage: 25
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 10
+
+              talents:
+                - Evasion
+                - Great Cleave
+                - Unarmed Mastery
+
+              powers:
+                - Bat Form +6
+                - Blood Runes +4
+                - Shadow Infusion +4
+                - Summon Vermin +4
+                - Ears of the Bat +2
+
+
+
+    - name: Raging Beast
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 9
+      mettle_bonus: 12
+      size_bonus: 1
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 3
+      aura_bonus: 3
+
+      brawn_percentage: 25
+      grace_percentage: 20
+      mettle_percentage: 25
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Berserker Rage
+
+      powers:
+        - Rage of the Beast +2
+        - Extended Rage +2
+        - Regeneration +1
+
+      subclasses:
+        - name: Rampaging Beast
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 9
+          mettle_bonus: 12
+          size_bonus: 1
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 20
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Tireless Rage
+
+          powers:
+            - Rage of the Beast +4
+            - Blood Runes +3
+            - Regeneration +3
+
+          subclasses:
+            - name: Bloodfeaster
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 9
+              mettle_bonus: 12
+              size_bonus: 1
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 20
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Tireless Rage
+                - Blood Rage
+
+              powers:
+                - Rage of the Beast +6
+                - Blood Legacy +6
+                - Blood Runes +4
+                - Regeneration +4
+
+        - name: Raging Lupine
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 9
+          mettle_bonus: 12
+          size_bonus: 1
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 20
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Instinctive Dodge
+
+          powers:
+            - Rage of the Beast +3
+            - Extended Rage +2
+            - Wolf Form +2
+            - Claws of the Wolf +2
+            - Regeneration +1
+
+          subclasses:
+            - name: Frenzied Lupine
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 9
+              mettle_bonus: 12
+              size_bonus: 1
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 20
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Instinctive Dodge
+                - Desert Wolfkin
+
+              powers:
+                - Rage of the Beast +6
+                - Extended Rage +4
+                - Wolf Form +4
+                - Claws of the Wolf +4
+                - Regeneration +2
+
+        - name: Raging Shifter
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 9
+          mettle_bonus: 12
+          size_bonus: 1
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 20
+          mettle_percentage: 25
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Evasion
+
+          powers:
+            - Shapechanging +3
+            - Rage of the Beast +3
+            - Extended Rage +2
+            - Regeneration +2
+
+          subclasses:
+            - name: Frenzied Shifter
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 9
+              mettle_bonus: 12
+              size_bonus: 1
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 20
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Evasion
+                - Tireless Rage
+
+              powers:
+                - Shapechanging +6
+                - Rage of the Beast +6
+                - Extended Rage +4
+                - Regeneration +4
+
+
+
+    - name: Shadow Warrior
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 12
+      mettle_bonus: 10
+      size_bonus: 0
+      wits_bonus: 6
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 4
+
+      brawn_percentage: 20
+      grace_percentage: 25
+      mettle_percentage: 20
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Assassin Training
+
+      powers:
+        - Cloak of Shadows +2
+        - Blade of Darkness +2
+        - Shadow Crafting +1
+
+      subclasses:
+        - name: Shadow Knight
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 12
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 6
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 20
+          grace_percentage: 25
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Chivalry
+            - House DarkBlade
+
+          powers:
+            - Blade of Darkness +2
+            - Shadow Crafting +2
+            - Cloak of Shadows +2
+            - Blood Runes +2
+            - Blood Legacy +2
+
+          subclasses:
+            - name: Shadow Champion
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 12
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 6
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 20
+              grace_percentage: 25
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Chivalry
+                - House DarkBlade
+                - Mounted Combat Mastery
+
+              powers:
+                - Blade of Darkness +4
+                - Shadow Crafting +4
+                - Cloak of Shadows +4
+                - Blood Runes +4
+                - Blood Legacy +4
+
+        - name: DarkBlade Assassin
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 12
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 6
+          tenacity_bonus: 3
+          discipline_bonus: 6
+          aura_bonus: 3
+
+          brawn_percentage: 15
+          grace_percentage: 25
+          mettle_percentage: 15
+          size_percentage: 0
+          wits_percentage: 25
+          tenacity_percentage: 5
+          discipline_percentage: 10
+          aura_percentage: 5
+
+          talents:
+            - Assassin Training
+            - House DarkBlade
+
+          powers:
+            - Blade of Darkness +3
+            - Shadow Crafting +3
+            - Cloak of Shadows +2
+            - Shadow Infusion +2
+
+          subclasses:
+            - name: DarkBlade Deathlord
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 12
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 6
+              tenacity_bonus: 3
+              discipline_bonus: 6
+              aura_bonus: 3
+
+              brawn_percentage: 15
+              grace_percentage: 25
+              mettle_percentage: 15
+              size_percentage: 0
+              wits_percentage: 25
+              tenacity_percentage: 5
+              discipline_percentage: 10
+              aura_percentage: 5
+
+              talents:
+                - Assassin Training
+                - House DarkBlade
+                - Dark Conduit
+
+              powers:
+                - Blade of Darkness +6
+                - Shadow Crafting +6
+                - Cloak of Shadows +4
+                - Shadow Infusion +4
+
+        - name: Shadow Master
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 12
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 6
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 20
+          grace_percentage: 25
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Assassin Training
+            - Blind Fighting
+
+          powers:
+            - Cloak of Shadows +2
+            - Blade of Darkness +2
+            - Shadow Crafting +2
+            - Path of Shadows +2
+            - Ears of the Bat +2
+
+          subclasses:
+            - name: Shadow Prince
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 12
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 6
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 20
+              grace_percentage: 25
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Assassin Training
+                - Blind Fighting
+                - Serenity
+
+              powers:
+                - Cloak of Shadows +5
+                - Blade of Darkness +5
+                - Mind Magic +4
+                - Shadow Crafting +3
+                - Path of Shadows +3
+
+
+
+    - name: Umbral Seer
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 10
+      mettle_bonus: 10
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 20
+      grace_percentage: 20
+      mettle_percentage: 20
+      size_percentage: 0
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 10
+
+      talents:
+        - Dark Conduit
+
+      powers:
+        - Mind Magic +3
+        - Path of Shadows +2
+
+      subclasses:
+        - name: Umbral Augur
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 10
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 20
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Dark Conduit
+            - Blind Fighting
+
+          powers:
+            - Mind Magic +4
+            - Path of Shadows +3
+            - Ears of the Bat +3
+
+          subclasses:
+            - name: Umbral Diviner
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 10
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 20
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Dark Conduit
+                - Blind Fighting
+                - Instinctive Dodge
+
+              powers:
+                - Mind Magic +8
+                - Path of Shadows +6
+                - Ears of the Bat +6
+
+        - name: Umbral Oracle
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 10
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 20
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Dark Conduit
+            - Psionics
+
+          powers:
+            - Mind Magic +4
+            - Path of Shadows +3
+            - Mist Form +3
+
+          subclasses:
+            - name: Umbral Telepath
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 10
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 20
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Psionics
+                - Psychic Mastery
+                - Expert Telepath
+
+              powers:
+                - Mind Magic +8
+                - Path of Shadows +6
+                - Mist Form +6
+
+        - name: Umbral Prophet
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 10
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 20
+          mettle_percentage: 20
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Dark Conduit
+            - Mind Over Matter
+
+          powers:
+            - Mind Magic +4
+            - Path of Shadows +3
+            - Shadow Infusion +3
+
+          subclasses:
+            - name: Umbral Clairvoyant
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 10
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 20
+              mettle_percentage: 20
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Dark Conduit
+                - Mind Over Matter
+                - Iron Will
+
+              powers:
+                - Mind Magic +8
+                - Path of Shadows +6
+                - Shadow Infusion +6
