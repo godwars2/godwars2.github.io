@@ -1337,7 +1337,7 @@
             - Beast Master +2
 
           subclasses:
-            - name: Alph Wolf
+            - name: Alpha Wolf
               age: 400
 
               brawn_bonus: 12
