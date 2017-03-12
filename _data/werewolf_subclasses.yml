@@ -1210,6 +1210,36 @@
 
           subclasses:
             - name: Fanatic Brute
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 7
+              mettle_bonus: 10
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 25
+              mettle_percentage: 25
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Hybrid Affinity
+                - Endurance
+                - Mind Over Matter
+
+              powers:
+                - Self Control +6
+                - Feral Senses +6
+                - Fang Forging +4
+                - Lunar Tattoos +4
     - name: Savage Wolf
       age: 200
 
