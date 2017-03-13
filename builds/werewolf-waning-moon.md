@@ -3,15 +3,12 @@ layout: default
 title: Werewolf Waning Moon
 ---
 
+# Werewolf - Child of the Waning Moon (478)
+
+
+
 <!-- Produced by MUSHclient v 5.03 - www.mushclient.com -->
 <pre style="background-color: black;"><code><font face="Courier New, FixedSys, Lucida Console, Courier New, Courier" size="2"><font color="#C0C0C0">score
--------------------------[ </font><font color="#00FFFF">Rayrd the Feral Champion</font><font color="#C0C0C0"> ]--------------------------
-</font><font color="#FFFFFF">Divine Age</font><font color="#C0C0C0"> : 478    </font><font color="#FFFFFF">Potential</font><font color="#C0C0C0">  : 99%    </font><font color="#FFFFFF">Played</font><font color="#C0C0C0">: 1774:16:26  </font><font color="#FFFFFF">Since</font><font color="#C0C0C0">: 01-Sep-2012
--------------------------------------------------------------------------------
-</font><font color="#FFFFFF">Encumbrance</font><font color="#C0C0C0">: </font><font color="#00FFFF">0</font><font color="#C0C0C0">      </font><font color="#FFFFFF">Explored</font><font color="#C0C0C0">   : 100.0% </font><font color="#FFFFFF">Fame/Glory</font><font color="#C0C0C0"> : 46/52  </font><font color="#FFFFFF">Kills/Death</font><font color="#C0C0C0">: 24/48
-</font><font color="#FFFFFF">Primal</font><font color="#C0C0C0">     : 9468   </font><font color="#FFFFFF">Safe Primal</font><font color="#C0C0C0">: 0      </font><font color="#FFFFFF">Primal Cap</font><font color="#C0C0C0"> : 45696  </font><font color="#FFFFFF">SP</font><font color="#C0C0C0">: 1242983
--------------------------------------------------------------------------------
-</font><font color="#FFFFFF">Karma</font><font color="#C0C0C0">      : 0      </font><font color="#FFFFFF">Transferred</font><font color="#C0C0C0">: 2288158 </font><font color="#FFFFFF">Pan. Kills</font><font color="#C0C0C0"> : 0      </font><font color="#FFFFFF">Pan. Deaths</font><font color="#C0C0C0">: 38
 -------------------------------------------------------------------------------
 </font><font color="#FFFFFF">Brawn</font><font color="#C0C0C0">      : 6</font><font color="#00FFFF">+147</font><font color="#C0C0C0">  </font><font color="#FFFFFF">Grace</font><font color="#C0C0C0">      : 8</font><font color="#00FFFF">+58</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Mettle</font><font color="#C0C0C0">     : 6</font><font color="#00FFFF">+155</font><font color="#C0C0C0">  </font><font color="#FFFFFF">Size</font><font color="#C0C0C0">       : 5</font><font color="#00FFFF">+11</font><font color="#C0C0C0">  
 </font><font color="#FFFFFF">Wits</font><font color="#C0C0C0">       : 6</font><font color="#00FFFF">+24</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Tenacity</font><font color="#C0C0C0">   : 5</font><font color="#00FFFF">+13</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Discipline</font><font color="#C0C0C0"> : 8</font><font color="#00FFFF">+15</font><font color="#C0C0C0">   </font><font color="#FFFFFF">Aura</font><font color="#C0C0C0">       : 6</font><font color="#00FFFF">+10</font><font color="#C0C0C0">  

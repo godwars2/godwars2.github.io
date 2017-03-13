@@ -1,10 +1,11 @@
 ---
 layout: class
-title: Classes - Werewolf
+title: Mage
+description: Mages are powerful Illuminati who have learned to control and manipulate the elements.
 ---
 
 <div class="clt">
-{% for subclass in site.data.werewolf_subclasses %}
+{% for subclass in site.data.mage_subclasses %}
   <strong>{{ subclass.name }}</strong> <em>({{ subclass.age }})</em>
   <table>
     <tr>

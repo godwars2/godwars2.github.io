@@ -1,6 +1,6 @@
 ---
-layout: class
-title: Classes - Vampire
+layout: default
+title: Vampire Subclasses
 ---
 
 <div class="clt">
@@ -17,7 +17,7 @@ title: Classes - Vampire
       <td>+{{ subclass.size_bonus }}<br />{{ subclass.size_percentage }}%</td>
       <td>+{{ subclass.wits_bonus }}<br />{{ subclass.wits_percentage }}%</td>
       <td>+{{ subclass.tenacity_bonus }}<br />{{ subclass.tenacity_percentage }}%</td>
-      <td>+{{ subclass.discipline_bonus }}<br />{{ subclass.discipline_bonus }}%</td>
+      <td>+{{ subclass.discipline_bonus }}<br />{{ subclass.discipline_percentage }}%</td>
       <td>+{{ subclass.aura_bonus }}<br />{{ subclass.aura_percentage }}%</td>
       <td>{{ subclass.talents | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
       <td>{{ subclass.powers | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
@@ -39,7 +39,7 @@ title: Classes - Vampire
           <td>+{{ alpha_class.size_bonus }}<br />{{ alpha_class.size_percentage }}%</td>
           <td>+{{ alpha_class.wits_bonus }}<br />{{ alpha_class.wits_percentage }}%</td>
           <td>+{{ alpha_class.tenacity_bonus }}<br />{{ alpha_class.tenacity_percentage }}%</td>
-          <td>+{{ alpha_class.discipline_bonus }}<br />{{ alpha_class.discipline_bonus }}%</td>
+          <td>+{{ alpha_class.discipline_bonus }}<br />{{ alpha_class.discipline_percentage }}%</td>
           <td>+{{ alpha_class.aura_bonus }}<br />{{ alpha_class.aura_percentage }}%</td>
           <td>{{ alpha_class.talents | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
           <td>{{ alpha_class.powers | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
@@ -61,7 +61,7 @@ title: Classes - Vampire
               <td>+{{ beta_class.size_bonus }}<br />{{ beta_class.size_percentage }}%</td>
               <td>+{{ beta_class.wits_bonus }}<br />{{ beta_class.wits_percentage }}%</td>
               <td>+{{ beta_class.tenacity_bonus }}<br />{{ beta_class.tenacity_percentage }}%</td>
-              <td>+{{ beta_class.discipline_bonus }}<br />{{ beta_class.discipline_bonus }}%</td>
+              <td>+{{ beta_class.discipline_bonus }}<br />{{ beta_class.discipline_percentage }}%</td>
               <td>+{{ beta_class.aura_bonus }}<br />{{ beta_class.aura_percentage }}%</td>
               <td>{{ beta_class.talents | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
               <td>{{ beta_class.powers | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
@@ -83,7 +83,7 @@ title: Classes - Vampire
                   <td>+{{ gamma_class.size_bonus }}<br />{{ gamma_class.size_percentage }}%</td>
                   <td>+{{ gamma_class.wits_bonus }}<br />{{ gamma_class.wits_percentage }}%</td>
                   <td>+{{ gamma_class.tenacity_bonus }}<br />{{ gamma_class.tenacity_percentage }}%</td>
-                  <td>+{{ gamma_class.discipline_bonus }}<br />{{ gamma_class.discipline_bonus }}%</td>
+                  <td>+{{ gamma_class.discipline_bonus }}<br />{{ gamma_class.discipline_percentage }}%</td>
                   <td>+{{ gamma_class.aura_bonus }}<br />{{ gamma_class.aura_percentage }}%</td>
                   <td>{{ gamma_class.talents | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
                   <td>{{ gamma_class.powers | join:'\n' | replace:' ','&nbsp;' | replace:'\n','<br />' }}</td>
