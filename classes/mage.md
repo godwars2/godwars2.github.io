@@ -1,5 +1,5 @@
 ---
-layout: class
+layout: default
 title: Mage
 description: Mages are powerful Illuminati who have learned to control and manipulate the elements.
 ---
