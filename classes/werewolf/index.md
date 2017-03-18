@@ -31,5 +31,31 @@ Then focus on one of the following power/talent combinations:
 Base Subclass: Feral Pup
 
 Loup-Garou -> Wolf Lord -> Wolf King
-
+Lunar Warrior -> Lunar Avenger -> Gibbous Lord
+Lunar Warrior -> Lunar Dancer -> Lunar Dervish
+Lunar Warrior -> Lunar Savage -> Lunar Slayer
+Feral Beast -> Lupine Beast -> Lupine Monster
+Feral Beast -> Rabid Beast -> Frenzied Beast
+Feral Beast -> Storm Beast -> Storm Hellion
+Feral Warrior -> Beta Werewolf -> Alpha Werewolf
+Feral Warrior -> Feral Marauder -> Feral Crusader
+Feral Warrior -> Feral Warlord -> Feral Champion
+Feral Scout -> Feral Stalker -> Feral Prowler
+Feral Scout -> Feral Howler -> Feral Watcher
+Feral Scout -> Feral Assassin -> Feral Slayer
+Savage Beast -> Savage Brute -> Savage Monster
+Savage Beast -> Raging Brute -> Raging Monster
+Savage Beast -> Wild Brute -> Fanatic Brute
+Savage Wolf -> Rabid Wolf -> Monstrous Wolf
+Savage Wolf -> Beta Wolf -> Alpha Wolf
+Savage Wolf -> Storm Wolf -> Tempest Wolf
+Spirit Shaman -> Storm Shaman -> Tempest Shaman
+Spirit Shaman -> Lunar Mystic -> Spiritwalker
+Spirit Shaman -> Feral Seer -> Feral Oracle
+Feral Fox -> Vulpine Assassin -> Vulpine Slayer
+Feral Fox -> Vulpine Scout -> Vulpine Ranger
+Feral Fox -> Vulpine Wardancer -> Vulpine Dervish
+Ursine Barbarian -> Ursine Hunter -> Ursine Predator
+Ursine Barbarian -> Ursine Savage -> Ursine Ravager
+Ursine Barbarian -> Ursine Warlord -> Ursine Destroyer
 ```
