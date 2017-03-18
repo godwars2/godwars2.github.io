@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: subpage
 title: Character Concepts Guide
 ---
-
-## Character Concepts Guide
 
 Original guide by Xoren on the God Wars 2 forums ([here](http://clanscw.brinkster.net/godwars/topic.asp?TOPIC_ID=2291))
 

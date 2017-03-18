@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: subpage
 title: Area - Dragon Realm
 ---
-
-# Area - Dragon Realm
 
 ![Dragon Realm Map]({{ site.baseurl }}/public/dragon_realm.png)
 

@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: subpage
 title: Epics Details
 ---
-
-## Epic Details
 
 You may use the 'epic' command to add your Glory points to your epic items and
 customise their bonuses, with each point of Glory adding 1 Fame, 25 radiation

@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: subpage
 title: Weaknesses Guide
 ---
-
-## Weaknesses for Mobs, Ages 100 - 500, and Winterland
 
 Original guide by Xakarii on the God Wars 2 Forums ([here](http://clanscw.brinkster.net/godwars/topic.asp?TOPIC_ID=2108))
 

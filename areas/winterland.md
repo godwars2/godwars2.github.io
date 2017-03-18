@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: subpage
 title: Area - Winterland
 ---
 <!--
@@ -8,8 +8,6 @@ titanic snowman: The second is for fishing, and the source of this world.
 swarm of tiny elves: The third (and last) is the beginning of the end.
 animated snowball: Speak the answer to Odin, in one of his forms.
 -->
-
-# Area - Winterland
 
 ![Nexus Map]({{ site.baseurl }}/public/winterland.png)
 

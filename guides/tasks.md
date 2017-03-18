@@ -1,9 +1,7 @@
 ---
-layout: default
-title: Task Locations
+layout: subpage
+title: Task Locations and Rewards
 ---
-
-## Task Locations and Rewards
 
 [Original](http://xakarii.yolasite.com/taskdb.php) by Khain. Edited and amended by Xakarii, Animalia
 

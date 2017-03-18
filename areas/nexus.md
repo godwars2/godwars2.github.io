@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: subpage
 title: Area - Nexus
 ---
-
-# Area - Nexus Plane
 
 ![Nexus Map]({{ site.baseurl }}/public/nexus.png)
 

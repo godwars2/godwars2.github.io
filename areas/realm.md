@@ -1,9 +1,7 @@
 ---
-layout: default
+layout: subpage
 title: Area - Realm
 ---
-
-# Area - Realm Plane
 
 ![Realm Map]({{ site.baseurl }}/public/realm.png)
 
