@@ -1,0 +1,1695 @@
+- name: Apprentice
+  age: 100
+
+  brawn_bonus: 0
+  grace_bonus: 0
+  mettle_bonus: 0
+  size_bonus: 0
+  wits_bonus: 5
+  tenacity_bonus: 10
+  discipline_bonus: 10
+  aura_bonus: 25
+
+  brawn_percentage: 0
+  grace_percentage: 0
+  mettle_percentage: 0
+  size_percentage: 0
+  wits_percentage: 20
+  tenacity_percentage: 20
+  discipline_percentage: 20
+  aura_percentage: 40
+
+  subclasses:
+    - name: Elementalist
+      age: 200
+
+      brawn_bonus: 0
+      grace_bonus: 0
+      mettle_bonus: 0
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 10
+      discipline_bonus: 10
+      aura_bonus: 25
+
+      brawn_percentage: 0
+      grace_percentage: 0
+      mettle_percentage: 0
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 20
+      discipline_percentage: 20
+      aura_percentage: 40
+
+      talents:
+        - Elemental Spell Focus
+
+      powers:
+        - Fire Magic +1
+        - Air Magic +1
+        - Earth Magic +1
+        - Water Magic +1
+        - Elemental Infusion +1
+
+      subclasses:
+        - name: Master Elementalist
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Elemental Spell Focus
+            - Elemental Spell Expert
+
+          powers:
+            - Fire Magic +2
+            - Air Magic +2
+            - Earth Magic +2
+            - Water Magic +2
+            - Elemental Infusion +2
+
+          subclasses:
+            - name: Lord of the Elements
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Elemental Spell Focus
+                - Elemental Spell Expert
+                - Strong Magical Shields
+
+              powers:
+                - Fire Magic +4
+                - Air Magic +4
+                - Earth Magic +4
+                - Water Magic +4
+                - Elemental Infusion +4
+
+    - name: Enchanter
+      age: 200
+
+      brawn_bonus: 0
+      grace_bonus: 0
+      mettle_bonus: 0
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 10
+      discipline_bonus: 10
+      aura_bonus: 25
+
+      brawn_percentage: 0
+      grace_percentage: 0
+      mettle_percentage: 0
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 20
+      discipline_percentage: 20
+      aura_percentage: 40
+
+      talents:
+        - Magical Attunement
+
+      powers:
+        - Enchantment +2
+        - Elemental Binding +2
+        - Conjure Soulblade +1
+
+      subclasses:
+        - name: Master Enchanter
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Magical Attunement
+            - Ethereal Blade Mastery
+
+          powers:
+            - Enchantment +5
+            - Elemental Binding +2
+            - Mind Magic +2
+            - Conjure Soulblade +1
+
+          subclasses:
+            - name: Lord of Enchantment
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Magical Attunement
+                - Ethereal Blade Mastery
+                - Psionics
+
+              powers:
+                - Enchantment +8
+                - Elemental Binding +5
+                - Mind Magic +5
+                - Conjure Soulblade +2
+
+        - name: Master Alchemist
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Magical Attunement
+            - Wand Mastery
+
+          powers:
+            - Enchantment +3
+            - Elemental Binding +3
+            - Water Magic +3
+            - Conjure Soulblade +1
+
+          subclasses:
+            - name: Lord of Alchemy
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Magical Attunement
+                - Wand Mastery
+                - Channelling
+
+              powers:
+                - Enchantment +6
+                - Elemental Binding +6
+                - Water Magic +6
+                - Conjure Soulblade +2
+
+        - name: Master Artificer
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Magical Attunement
+            - Wand Mastery
+
+          powers:
+            - Elemental Binding +5
+            - Enchantment +2
+            - Mind Magic +2
+            - Conjure Soulblade +1
+
+          subclasses:
+            - name: Lord of Artifice
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Magical Attunement
+                - Wand Mastery
+                - Psionics
+
+              powers:
+                - Elemental Binding +8
+                - Enchantment +5
+                - Mind Magic +5
+                - Conjure Soulblade +2
+
+    - name: Battle Mage
+      age: 200
+
+      brawn_bonus: 2
+      grace_bonus: 3
+      mettle_bonus: 2
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 9
+      discipline_bonus: 9
+      aura_bonus: 20
+
+      brawn_percentage: 5
+      grace_percentage: 10
+      mettle_percentage: 5
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 15
+      discipline_percentage: 15
+      aura_percentage: 30
+
+      talents:
+        - Enhanced Deflection
+
+      powers:
+        - Conjure Soulblade +2
+        - Elemental Infusion +2
+        - Mind Magic +1
+
+      subclasses:
+        - name: War Mage
+          age: 300
+
+          brawn_bonus: 2
+          grace_bonus: 3
+          mettle_bonus: 2
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 9
+          discipline_bonus: 9
+          aura_bonus: 20
+
+          brawn_percentage: 5
+          grace_percentage: 10
+          mettle_percentage: 5
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 30
+
+          talents:
+            - Enhanced Deflection
+            - Strong Magical Shields
+
+          powers:
+            - Conjure Soulblade +2
+            - Elemental Infusion +2
+            - Mind Magic +2
+            - Elemental Binding +2
+            - Enchantment +2
+
+          subclasses:
+            - name: Battle Archmage
+              age: 400
+
+              brawn_bonus: 2
+              grace_bonus: 3
+              mettle_bonus: 2
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 9
+              discipline_bonus: 9
+              aura_bonus: 20
+
+              brawn_percentage: 5
+              grace_percentage: 10
+              mettle_percentage: 5
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 30
+
+              talents:
+                - Enhanced Deflection
+                - Strong Magical Shields
+                - Ethereal Blade Mastery
+
+              powers:
+                - Conjure Soulblade +4
+                - Elemental Infusion +4
+                - Mind Magic +4
+                - Elemental Binding +4
+                - Enchantment +4
+
+        - name: Sword Mage
+          age: 300
+
+          brawn_bonus: 3
+          grace_bonus: 6
+          mettle_bonus: 3
+          size_bonus: 0
+          wits_bonus: 6
+          tenacity_bonus: 8
+          discipline_bonus: 8
+          aura_bonus: 16
+
+          brawn_percentage: 5
+          grace_percentage: 10
+          mettle_percentage: 5
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 30
+
+          talents:
+            - Enhanced Deflection
+            - Psionics
+
+          powers:
+            - Conjure Soulblade +5
+            - Elemental Infusion +3
+            - Mind Magic +2
+
+          subclasses:
+            - name: Sword Archmage
+              age: 400
+
+              brawn_bonus: 3
+              grace_bonus: 6
+              mettle_bonus: 3
+              size_bonus: 0
+              wits_bonus: 6
+              tenacity_bonus: 8
+              discipline_bonus: 8
+              aura_bonus: 16
+
+              brawn_percentage: 5
+              grace_percentage: 10
+              mettle_percentage: 5
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 30
+
+              talents:
+                - Enhanced Deflection
+                - Psionics
+                - Ethereal Blade Mastery
+
+              powers:
+                - Conjure Soulblade +8
+                - Elemental Infusion +8
+                - Mind Magic +4
+
+        - name: High Mage
+          age: 300
+
+          brawn_bonus: 2
+          grace_bonus: 3
+          mettle_bonus: 2
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 9
+          discipline_bonus: 9
+          aura_bonus: 20
+
+          brawn_percentage: 5
+          grace_percentage: 10
+          mettle_percentage: 5
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 30
+
+          talents:
+            - Enhanced Deflection
+            - Elemental Spell Focus
+
+          powers:
+            - Conjure Soulblade +2
+            - Elemental Infusion +2
+            - Mind Magic +2
+            - Fire Magic +1
+            - Air Magic +1
+            - Earth Magic +1
+            - Water Magic +1
+
+          subclasses:
+            - name: High Archmage
+              age: 400
+
+              brawn_bonus: 2
+              grace_bonus: 3
+              mettle_bonus: 2
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 9
+              discipline_bonus: 9
+              aura_bonus: 20
+
+              brawn_percentage: 5
+              grace_percentage: 10
+              mettle_percentage: 5
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 30
+
+              talents:
+                - Enhanced Deflection
+                - Elemental Spell Focus
+                - Elemental Spell Expert
+
+              powers:
+                - Conjure Soulblade +4
+                - Elemental Infusion +4
+                - Mind Magic +4
+                - Fire Magic +2
+                - Air Magic +2
+                - Earth Magic +2
+                - Water Magic +2
+
+    - name: Mind Mage
+      age: 200
+
+      brawn_bonus: 0
+      grace_bonus: 2
+      mettle_bonus: 0
+      size_bonus: 0
+      wits_bonus: 8
+      tenacity_bonus: 10
+      discipline_bonus: 10
+      aura_bonus: 20
+
+      brawn_percentage: 0
+      grace_percentage: 5
+      mettle_percentage: 0
+      size_percentage: 0
+      wits_percentage: 25
+      tenacity_percentage: 20
+      discipline_percentage: 20
+      aura_percentage: 30
+
+      talents:
+        - Psionics
+
+      powers:
+        - Mind Magic +3
+        - Conjure Soulblade +2
+
+      subclasses:
+        - name: Enlightened Mage
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 2
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 8
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 20
+
+          brawn_percentage: 0
+          grace_percentage: 5
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 25
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 30
+
+          talents:
+            - Psionics
+            - Divine Insight
+
+          powers:
+            - Mind Magic +5
+            - Enlightenment +3
+            - Conjure Soulblade +2
+
+          subclasses:
+            - name: Ennlightened Archmage
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 2
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 8
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 20
+
+              brawn_percentage: 0
+              grace_percentage: 5
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 25
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 30
+
+              talents:
+                - Psionics
+                - Divine Insight
+                - Psychic Mastery
+
+              powers:
+                - Mind Magic +8
+                - Enlightenment +8
+                - Conjure Soulblade +4
+
+        - name: Ascended Mage
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 2
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 8
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 20
+
+          brawn_percentage: 0
+          grace_percentage: 5
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 25
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 30
+
+          talents:
+            - Psionics
+            - Psychic Wall
+
+          powers:
+            - Mind Magic +5
+            - Ascension +3
+            - Conjure Soulblade +2
+
+          subclasses:
+            - name: Ascended Archmage
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 2
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 8
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 20
+
+              brawn_percentage: 0
+              grace_percentage: 5
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 25
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 30
+
+              talents:
+                - Psionics
+                - Psychic Wall
+                - Psychic Mastery
+
+              powers:
+                - Mind Magic +8
+                - Ascension +8
+                - Conjure Soulblade +4
+
+        - name: Transcendent Mage
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 2
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 8
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 20
+
+          brawn_percentage: 0
+          grace_percentage: 5
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 25
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 30
+
+          talents:
+            - Psionics
+            - Mind Over Matter
+
+          powers:
+            - Mind Magic +5
+            - Transcendence +3
+            - Conjure Soulblade +2
+
+          subclasses:
+            - name: Transcendent Archmage
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 2
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 8
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 20
+
+              brawn_percentage: 0
+              grace_percentage: 5
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 25
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 30
+
+              talents:
+                - Psionics
+                - Mind Over Matter
+                - Serenity
+
+              powers:
+                - Mind Magic +8
+                - Transcendence +8
+                - Conjure Soulblade +4
+
+    - name: Summoner
+      age: 200
+
+      brawn_bonus: 0
+      grace_bonus: 0
+      mettle_bonus: 0
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 10
+      discipline_bonus: 10
+      aura_bonus: 25
+
+      brawn_percentage: 0
+      grace_percentage: 0
+      mettle_percentage: 0
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 20
+      discipline_percentage: 20
+      aura_percentage: 40
+
+      talents:
+        - Elemental Summoner
+
+      powers:
+        - Animal Familiar +1
+        - Fire Elemental +1
+        - Air Elemental +1
+        - Earth Elemental +1
+        - Water Elemental +1
+
+      subclasses:
+        - name: Fire Summoner
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Elemental Summoner
+            - Flameborn Adept
+
+          powers:
+            - Fire Magic +3
+            - Fire Elemental +3
+            - Animal Familiar +2
+            - Air Elemental +1
+            - Earth Elemental +1
+
+          subclasses:
+            - name: Inferno Summoner
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Elemental Summoner
+                - Flameborn Adept
+                - Burn
+
+              powers:
+                - Fire Magic +8
+                - Fire Elemental +8
+                - Animal Familiar +2
+                - Air Elemental +1
+                - Earth Elemental +1
+
+        - name: Air Summoner
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Elemental Summoner
+            - Windborn Adept
+
+          powers:
+            - Air Magic +3
+            - Air Elemental +3
+            - Animal Familiar +2
+            - Fire Elemental +1
+            - Water Elemental +1
+
+          subclasses:
+            - name: Tornado Summoner
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Elemental Summoner
+                - Windborn Adept
+                - Shock
+
+              powers:
+                - Air Magic +8
+                - Air Elemental +8
+                - Animal Familiar +2
+                - Fire Elemental +1
+                - Water Elemental +1
+
+        - name: Earth Summoner
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Elemental Summoner
+            - Earthborn Adept
+
+          powers:
+            - Earth Magic +3
+            - Earth Elemental +3
+            - Animal Familiar +2
+            - Fire Elemental +1
+            - Water Elemental +1
+
+          subclasses:
+            - name: Chthonic Summoner
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Elemental Summoner
+                - Earthborn Adept
+                - Smash
+
+              powers:
+                - Earth Magic +8
+                - Earth Elemental +8
+                - Animal Familiar +2
+                - Fire Elemental +1
+                - Water Elemental +1
+
+        - name: Water Summoner
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 40
+
+          talents:
+            - Elemental Summoner
+            - Waterborn Adept
+
+          powers:
+            - Water Magic +3
+            - Water Elemental +3
+            - Animal Familiar +2
+            - Earth Elemental +1
+            - Air Elemental +1
+
+          subclasses:
+            - name: Maelstrom Summoner
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 40
+
+              talents:
+                - Elemental Summoner
+                - Waterborn Adept
+                - Freeze
+
+              powers:
+                - Water Magic +8
+                - Water Elemental +8
+                - Animal Familiar +2
+                - Earth Elemental +1
+                - Air Elemental +1
+
+    - name: Fire Adept
+      age: 200
+
+      brawn_bonus: 1
+      grace_bonus: 0
+      mettle_bonus: 0
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 10
+      discipline_bonus: 9
+      aura_bonus: 25
+
+      brawn_percentage: 5
+      grace_percentage: 0
+      mettle_percentage: 0
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 20
+      discipline_percentage: 15
+      aura_percentage: 40
+
+      talents:
+        - Flameborn Adept
+
+      powers:
+        - Fire Magic +2
+        - Form of Fire +2
+        - Fire Elemental +1
+
+      subclasses:
+        - name: Fire Archmage
+          age: 300
+
+          brawn_bonus: 1
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 9
+          aura_bonus: 25
+
+          brawn_percentage: 5
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 15
+          aura_percentage: 40
+
+          talents:
+            - Flameborn Adept
+            - Great Burn
+
+          powers:
+            - Fire Magic +4
+            - Form of Fire +4
+            - Fire Elemental +2
+
+          subclasses:
+            - name: Inferno Archmage
+              age: 400
+
+              brawn_bonus: 1
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 9
+              aura_bonus: 25
+
+              brawn_percentage: 5
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 15
+              aura_percentage: 40
+
+              talents:
+                - Flameborn Adept
+                - Great Burn
+                - Elemental Spell Expert
+
+              powers:
+                - Fire Magic +8
+                - Form of Fire +8
+                - Fire Elemental +4
+
+        - name: Lord of Fire
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 10
+          discipline_bonus: 5
+          aura_bonus: 20
+
+          brawn_percentage: 20
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 20
+          discipline_percentage: 10
+          aura_percentage: 30
+
+          talents:
+            - Flameborn Adept
+            - Elemental Scion
+
+          powers:
+            - Fire Magic +4
+            - Form of Fire +4
+            - Fire Elemental +2
+
+          subclasses:
+            - name: Ifrit Lord
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 10
+              discipline_bonus: 5
+              aura_bonus: 20
+
+              brawn_percentage: 20
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 20
+              discipline_percentage: 10
+              aura_percentage: 30
+
+              talents:
+                - Flameborn Adept
+                - Elemental Scion
+                - Burn
+
+              powers:
+                - Fire Magic +8
+                - Form of Fire +8
+                - Fire Elemental +4
+
+    - name: Air Adept
+      age: 200
+
+      brawn_bonus: 0
+      grace_bonus: 0
+      mettle_bonus: 0
+      size_bonus: 0
+      wits_bonus: 5
+      tenacity_bonus: 9
+      discipline_bonus: 10
+      aura_bonus: 26
+
+      brawn_percentage: 0
+      grace_percentage: 0
+      mettle_percentage: 0
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 15
+      discipline_percentage: 20
+      aura_percentage: 45
+
+      talents:
+        - Windborn Adept
+
+      powers:
+        - Air Magic +2
+        - Form of Air +2
+        - Air Elemental +1
+
+      subclasses:
+        - name: Air Archmage
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 0
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 9
+          discipline_bonus: 10
+          aura_bonus: 26
+
+          brawn_percentage: 0
+          grace_percentage: 0
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 15
+          discipline_percentage: 20
+          aura_percentage: 45
+
+          talents:
+            - Windborn Adept
+            - Great Shock
+
+          powers:
+            - Air Magic +4
+            - Form of Air +4
+            - Air Elemental +2
+
+          subclasses:
+            - name: Tornado Archmage
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 0
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 9
+              discipline_bonus: 10
+              aura_bonus: 26
+
+              brawn_percentage: 0
+              grace_percentage: 0
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 15
+              discipline_percentage: 20
+              aura_percentage: 45
+
+              talents:
+                - Windborn Adept
+                - Great Shock
+                - Elemental Spell Expert
+
+              powers:
+                - Air Magic +8
+                - Form of Air +8
+                - Air Elemental +4
+
+        - name: Lord of Air
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 5
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 10
+          aura_bonus: 25
+
+          brawn_percentage: 0
+          grace_percentage: 15
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 15
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 40
+
+          talents:
+            - Windborn Adept
+            - Elemental Scion
+
+          powers:
+            - Air Magic +4
+            - Form of Air +4
+            - Air Elemental +2
+          subclasses:
+            - name: Sylph Prince
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 5
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 10
+              aura_bonus: 25
+
+              brawn_percentage: 0
+              grace_percentage: 15
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 15
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 40
+
+              talents:
+                - Windborn Adept
+                - Elemental Scion
+                - Shock
+
+              powers:
+                - Air Magic +8
+                - Form of Air +8
+                - Air Elemental +4
+
+    - name: Earth Adept
+      age: 200
+
+      brawn_bonus: 0
+      grace_bonus: 0
+      mettle_bonus: 1
+      size_bonus: 1
+      wits_bonus: 5
+      tenacity_bonus: 9
+      discipline_bonus: 9
+      aura_bonus: 25
+
+      brawn_percentage: 0
+      grace_percentage: 0
+      mettle_percentage: 10
+      size_percentage: 0
+      wits_percentage: 20
+      tenacity_percentage: 15
+      discipline_percentage: 15
+      aura_percentage: 40
+
+      talents:
+        - Earthborn Adept
+
+      powers:
+        - Earth Magic +2
+        - Form of Earth +2
+        - Earth Elemental +1
+
+      subclasses:
+        - name: Earth Archmage
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 0
+          mettle_bonus: 5
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 6
+          discipline_bonus: 6
+          aura_bonus: 18
+
+          brawn_percentage: 10
+          grace_percentage: 0
+          mettle_percentage: 10
+          size_percentage: 0
+          wits_percentage: 20
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 30
+
+          talents:
+            - Earthborn Adept
+            - Great Smash
+
+          powers:
+            - Earth Magic +4
+            - Form of Earth +4
+            - Earth Elemental +2
+
+          subclasses:
+            - name: Chthonic Archmage
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 0
+              mettle_bonus: 5
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 6
+              discipline_bonus: 6
+              aura_bonus: 18
+
+              brawn_percentage: 10
+              grace_percentage: 0
+              mettle_percentage: 10
+              size_percentage: 0
+              wits_percentage: 20
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 30
+
+              talents:
+                - Earthborn Adept
+                - Great Smash
+                - Elemental Spell Expert
+
+              powers:
+                - Earth Magic +8
+                - Form of Earth +8
+                - Earth Elemental +4
+
+        - name: Lord of Earth
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 0
+          mettle_bonus: 10
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 15
+          grace_percentage: 0
+          mettle_percentage: 15
+          size_percentage: 10
+          wits_percentage: 15
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 15
+
+          talents:
+            - Earthborn Adept
+            - Elemental Scion
+
+          powers:
+            - Earth Magic +4
+            - Form of Earth +4
+            - Earth Elemental +2
+
+          subclasses:
+            - name: Erdgeist Lord
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 0
+              mettle_bonus: 10
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 15
+              grace_percentage: 0
+              mettle_percentage: 15
+              size_percentage: 10
+              wits_percentage: 15
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 15
+
+              talents:
+                - Earthborn Adept
+                - Elemental Scion
+                - Smash
+
+              powers:
+                - Earth Magic +8
+                - Form of Earth +8
+                - Earth Elemental +4
+
+    - name: Water Adept
+      age: 200
+
+      brawn_bonus: 0
+      grace_bonus: 1
+      mettle_bonus: 0
+      size_bonus: 0
+      wits_bonus: 6
+      tenacity_bonus: 9
+      discipline_bonus: 9
+      aura_bonus: 25
+
+      brawn_percentage: 0
+      grace_percentage: 5
+      mettle_percentage: 0
+      size_percentage: 0
+      wits_percentage: 25
+      tenacity_percentage: 15
+      discipline_percentage: 15
+      aura_percentage: 40
+
+      talents:
+        - Waterborn Adept
+
+      powers:
+        - Water Magic +2
+        - Form of Water +2
+        - Water Elemental +1
+
+      subclasses:
+        - name: Water Archmage
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 5
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 10
+          tenacity_bonus: 8
+          discipline_bonus: 8
+          aura_bonus: 19
+
+          brawn_percentage: 0
+          grace_percentage: 5
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 25
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 40
+
+          talents:
+            - Waterborn Adept
+            - Great Freeze
+
+          powers:
+            - Water Magic +4
+            - Form of Water +4
+            - Water Elemental +2
+
+          subclasses:
+            - name: Maelstrom Archmage
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 5
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 10
+              tenacity_bonus: 8
+              discipline_bonus: 8
+              aura_bonus: 19
+
+              brawn_percentage: 0
+              grace_percentage: 5
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 25
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 40
+
+              talents:
+                - Waterborn Adept
+                - Great Freeze
+                - Elemental Spell Expert
+
+              powers:
+                - Water Magic +8
+                - Form of Water +8
+                - Water Elemental +4
+
+        - name: Lord of Water
+          age: 300
+
+          brawn_bonus: 0
+          grace_bonus: 10
+          mettle_bonus: 0
+          size_bonus: 0
+          wits_bonus: 15
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 15
+
+          brawn_percentage: 0
+          grace_percentage: 20
+          mettle_percentage: 0
+          size_percentage: 0
+          wits_percentage: 25
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 25
+
+          talents:
+            - Waterborn Adept
+            - Elemental Scion
+
+          powers:
+            - Water Magic +4
+            - Form of Water +4
+            - Water Elemental +2
+
+          subclasses:
+            - name: Undine Prince
+              age: 400
+
+              brawn_bonus: 0
+              grace_bonus: 10
+              mettle_bonus: 0
+              size_bonus: 0
+              wits_bonus: 15
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 15
+
+              brawn_percentage: 0
+              grace_percentage: 20
+              mettle_percentage: 0
+              size_percentage: 0
+              wits_percentage: 25
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 25
+
+              talents:
+                - Waterborn Adept
+                - Elemental Scion
+                - Freeze
+
+              powers:
+                - Water Magic +8
+                - Form of Water +8
+                - Water Elemental +4
