@@ -1,0 +1,2022 @@
+- name: Young Dragon
+  age: 100
+
+  brawn_bonus: 5
+  grace_bonus: 5
+  mettle_bonus: 5
+  size_bonus: 10
+  wits_bonus: 5
+  tenacity_bonus: 5
+  discipline_bonus: 5
+  aura_bonus: 10
+
+  brawn_percentage: 10
+  grace_percentage: 10
+  mettle_percentage: 10
+  size_percentage: 20
+  wits_percentage: 10
+  tenacity_percentage: 10
+  discipline_percentage: 10
+  aura_percentage: 20
+
+  subclasses:
+    - name: Adult Chromatic Dragon
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Chromatic Pedigree
+
+      powers:
+        - Dragon Form +2
+        - Lashing Tail +2
+        - Salamanders Gift +1
+
+      subclasses:
+        - name: Old Chromatic Dragon
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Chromatic Pedigree
+            - Tough Hide
+
+          powers:
+            - Treasure Hoard +4
+            - Dragon Form +3
+            - Lashing Tail +2
+            - Salamanders Gift +1
+
+          subclasses:
+            - name: Ancient Chromatic Dragon
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Chromatic Pedigree
+                - Tough Hide
+                - Iron Talons
+
+              powers:
+                - Treasure Hoard +8
+                - Dragon Form +6
+                - Lashing Tail +4
+                - Salamanders Gift +2
+
+        - name: Armoured Chromatic Dragon
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Chromatic Pedigree
+            - Tough Hide
+
+          powers:
+            - Dragon Barding +4
+            - Dragon Form +3
+            - Lashing Tail +2
+            - Salamanders Gift +1
+
+          subclasses:
+            - name: Armoured Chromatic Wyrm
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Chromatic Pedigree
+                - Tough Hide
+                - Powerful Metabolism
+
+              powers:
+                - Dragon Barding +8
+                - Dragon Form +6
+                - Lashing Tail +4
+                - Salamanders Gift +2
+
+    - name: Adult Crystal Dragon
+      age: 200
+
+      brawn_bonus: 4
+      grace_bonus: 5
+      mettle_bonus: 4
+      size_bonus: 8
+      wits_bonus: 5
+      tenacity_bonus: 6
+      discipline_bonus: 6
+      aura_bonus: 12
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 10
+      wits_percentage: 10
+      tenacity_percentage: 15
+      discipline_percentage: 15
+      aura_percentage: 20
+
+      talents:
+        - Crystal Pedigree
+
+      powers:
+        - Dragon Form +2
+        - Chill of the Tundra +1
+        - Eye of the Storm +1
+        - Fires of the Volcano +1
+
+      subclasses:
+        - name: Old Crystal Dragon
+          age: 300
+
+          brawn_bonus: 3
+          grace_bonus: 5
+          mettle_bonus: 3
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 7
+          discipline_bonus: 7
+          aura_bonus: 15
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 20
+
+          talents:
+            - Crystal Pedigree
+            - Terrestrial Sigils
+
+          powers:
+            - Dragon Form +2
+            - Chill of the Tundra +2
+            - Eye of the Storm +2
+            - Fires of the Volcano +2
+            - Treasure Hoard +2
+
+          subclasses:
+            - name: Ancient Crystal Dragon
+              age: 400
+
+              brawn_bonus: 3
+              grace_bonus: 5
+              mettle_bonus: 3
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 7
+              discipline_bonus: 7
+              aura_bonus: 15
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 20
+
+              talents:
+                - Crystal Pedigree
+                - Terrestrial Sigils
+                - Celestial Sigils
+
+              powers:
+                - Dragon Form +4
+                - Chill of the Tundra +4
+                - Eye of the Storm +4
+                - Fires of the Volcano +4
+                - Treasure Hoard +4
+
+        - name: Armoured Crystal Dragon
+          age: 300
+
+          brawn_bonus: 3
+          grace_bonus: 5
+          mettle_bonus: 3
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 7
+          discipline_bonus: 7
+          aura_bonus: 15
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 20
+
+          talents:
+            - Crystal Pedigree
+            - Terrestrial Sigils
+
+          powers:
+            - Dragon Form +2
+            - Chill of the Tundra +2
+            - Eye of the Storm +2
+            - Fires of the Volcano +2
+            - Dragon Barding +2
+
+          subclasses:
+            - name: Armoured Crystal Wyrm
+              age: 400
+
+              brawn_bonus: 3
+              grace_bonus: 5
+              mettle_bonus: 3
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 7
+              discipline_bonus: 7
+              aura_bonus: 15
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 20
+
+              talents:
+                - Crystal Pedigree
+                - Terrestrial Sigils
+                - Elemental Spell Focus
+
+              powers:
+                - Dragon Form +4
+                - Chill of the Tundra +4
+                - Eye of the Storm +4
+                - Fires of the Volcano +4
+                - Dragon Barding +4
+
+    - name: Adult Metallic Dragon
+      age: 200
+
+      brawn_bonus: 6
+      grace_bonus: 5
+      mettle_bonus: 6
+      size_bonus: 12
+      wits_bonus: 5
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 8
+
+      brawn_percentage: 15
+      grace_percentage: 10
+      mettle_percentage: 15
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 10
+
+      talents:
+        - Metallic Pedigree
+
+      powers:
+        - Dragon Form +2
+        - Draconic Rage +2
+        - Extended Rage +1
+
+      subclasses:
+        - name: Old Metallic Dragon
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 5
+          mettle_bonus: 7
+          size_bonus: 15
+          wits_bonus: 5
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 5
+
+          brawn_percentage: 15
+          grace_percentage: 10
+          mettle_percentage: 15
+          size_percentage: 25
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 5
+
+          talents:
+            - Metallic Pedigree
+            - Berserker Rage
+
+          powers:
+            - Treasure Hoard +4
+            - Dragon Form +3
+            - Draconic Rage +2
+            - Extended Rage +1
+
+          subclasses:
+            - name: Ancient Metallic Dragon
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 5
+              mettle_bonus: 7
+              size_bonus: 15
+              wits_bonus: 5
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 5
+
+              brawn_percentage: 15
+              grace_percentage: 10
+              mettle_percentage: 15
+              size_percentage: 25
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 5
+
+              talents:
+                - Metallic Pedigree
+                - Berserker Rage
+                - Tireless Rage
+
+              powers:
+                - Treasure Hoard +8
+                - Dragon Form +6
+                - Draconic Rage +4
+                - Extended Rage +2
+
+        - name: Armoured Metallic Dragon
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 5
+          mettle_bonus: 7
+          size_bonus: 15
+          wits_bonus: 5
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 5
+
+          brawn_percentage: 15
+          grace_percentage: 10
+          mettle_percentage: 15
+          size_percentage: 25
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 5
+
+          talents:
+            - Metallic Pedigree
+            - Berserker Rage
+
+          powers:
+            - Dragon Barding +4
+            - Dragon Form +3
+            - Draconic Rage +2
+            - Extended Rage +1
+
+          subclasses:
+            - name: Armoured Metallic Wyrm
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 5
+              mettle_bonus: 7
+              size_bonus: 15
+              wits_bonus: 5
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 5
+
+              brawn_percentage: 15
+              grace_percentage: 10
+              mettle_percentage: 15
+              size_percentage: 25
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 5
+
+              talents:
+                - Metallic Pedigree
+                - Berserker Rage
+                - Iron Talons
+
+              powers:
+                - Dragon Barding +8
+                - Dragon Form +6
+                - Draconic Rage +4
+                - Extended Rage +2
+
+    - name: Adult Celestial Dragon
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Celestial Pedigree
+
+      powers:
+        - Dragon Form +2
+        - Winds of the Mind +2
+        - Salamanders Gift +1
+
+      subclasses:
+        - name: Old Celestial Dragon
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Celestial Pedigree
+            - Psionics
+
+          powers:
+            - Dragon Form +3
+            - Winds of the Mind +3
+            - Treasure Hoard +3
+            - Salamanders Gift +1
+
+          subclasses:
+            - name: Ancient Celestial Dragon
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Celestial Pedigree
+                - Psionics
+                - Psychic Mastery
+
+              powers:
+                - Dragon Form +6
+                - Winds of the Mind +6
+                - Treasure Hoard +6
+                - Salamanders Gift +2
+
+        - name: Armoured Celestial Dragon
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Celestial Pedigree
+            - Psionics
+
+          powers:
+            - Dragon Form +3
+            - Winds of the Mind +3
+            - Dragon Barding +3
+            - Salamanders Gift +1
+
+          subclasses:
+            - name: Armoured Celestial Wyrm
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Celestial Pedigree
+                - Psionics
+                - Psychic Wall
+
+              powers:
+                - Dragon Form +6
+                - Winds of the Mind +6
+                - Dragon Barding +6
+                - Salamanders Gift +2
+
+    - name: Draconian Warrior
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Hybrid Affinity
+
+      powers:
+        - Draconian Form +2
+        - Chameleonic Gift +2
+        - Salamanders Gift +1
+
+      subclasses:
+        - name: Draconian Warlord
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 6
+          mettle_bonus: 7
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 15
+          grace_percentage: 10
+          mettle_percentage: 15
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Hybrid Affinity
+            - Unarmed Mastery
+
+          powers:
+            - Draconian Form +4
+            - Chameleonic Gift +4
+            - Salamanders Gift +2
+
+          subclasses:
+            - name: Draconian Champion
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 6
+              mettle_bonus: 7
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 15
+              grace_percentage: 10
+              mettle_percentage: 15
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Hybrid Affinity
+                - Unarmed Mastery
+                - Serenity
+
+              powers:
+                - Draconian Form +6
+                - Chameleonic Gift +6
+                - Salamanders Gift +4
+                - Winds of the Mind +4
+
+        - name: Draconian Berserker
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Hybrid Affinity
+            - Berserker Rage
+
+          powers:
+            - Draconian Form +4
+            - Chameleonic Gift +4
+            - Salamanders Gift +1
+            - Draconic Rage +1
+
+          subclasses:
+            - name: Draconian Rager
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Hybrid Affinity
+                - Berserker Rage
+                - Tireless Rage
+
+              powers:
+                - Draconian Form +6
+                - Chameleonic Gift +6
+                - Salamanders Gift +4
+                - Draconic Rage +4
+
+        - name: Draconian Shaman
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 5
+          wits_bonus: 6
+          tenacity_bonus: 7
+          discipline_bonus: 7
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 20
+
+          talents:
+            - Hybrid Affinity
+            - Elemental Spell Focus
+
+          powers:
+            - Draconian Form +3
+            - Chameleonic Gift +3
+            - Salamanders Gift +1
+            - Chill of the Tundra +1
+            - Eye of the Storm +1
+            - Fires of the Volcano +1
+
+          subclasses:
+            - name: Draconian Mystic
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 5
+              wits_bonus: 6
+              tenacity_bonus: 7
+              discipline_bonus: 7
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 20
+
+              talents:
+                - Hybrid Affinity
+                - Elemental Spell Focus
+                - Elemental Spell Expert
+
+              powers:
+                - Draconian Form +4
+                - Chameleonic Gift +4
+                - Winds of the Mind +4
+                - Salamanders Gift +2
+                - Chill of the Tundra +2
+                - Eye of the Storm +2
+                - Fires of the Volcano +2
+
+    - name: Dragon Knight
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Endurance
+
+      powers:
+        - Human Form +2
+        - Draconic Glyphs +1
+        - Dragonbone Forging +1
+        - Dragonscale Crafting +1
+
+      subclasses:
+        - name: Dragon Lord
+          age: 300
+
+          brawn_bonus: 8
+          grace_bonus: 7
+          mettle_bonus: 7
+          size_bonus: 8
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 15
+          grace_percentage: 15
+          mettle_percentage: 15
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 10
+
+          talents:
+            - Endurance
+            - Dragon Rider
+
+          powers:
+            - Human Form +2
+            - Draconic Glyphs +2
+            - Dragonbone Forging +2
+            - Dragonscale Crafting +2
+            - Dragon Mount +2
+
+          subclasses:
+            - name: Dragon Highlord
+              age: 400
+
+              brawn_bonus: 8
+              grace_bonus: 7
+              mettle_bonus: 7
+              size_bonus: 8
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 15
+              grace_percentage: 15
+              mettle_percentage: 15
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 10
+
+              talents:
+                - Endurance
+                - Dragon Rider
+                - Mounted Combat Mastery
+
+              powers:
+                - Human Form +4
+                - Draconic Glyphs +4
+                - Dragonbone Forging +4
+                - Dragonscale Crafting +4
+                - Dragon Mount +4
+
+        - name: Dragon Templar
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 10
+          mettle_bonus: 10
+          size_bonus: 0
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 20
+          grace_percentage: 20
+          mettle_percentage: 20
+          size_percentage: 5
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 5
+
+          talents:
+            - Endurance
+            - Armour Proficiency
+
+          powers:
+            - Dragonbone Forging +3
+            - Dragonscale Crafting +3
+            - Human Form +2
+            - Draconic Glyphs +2
+
+          subclasses:
+            - name: Dragon Paladin
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 10
+              mettle_bonus: 10
+              size_bonus: 0
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 20
+              grace_percentage: 20
+              mettle_percentage: 20
+              size_percentage: 5
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 5
+
+              talents:
+                - Endurance
+                - Armour Proficiency
+                - Heavy Armour Expert
+
+              powers:
+                - Dragonbone Forging +6
+                - Dragonscale Crafting +6
+                - Human Form +4
+                - Draconic Glyphs +4
+
+        - name: Dragonblooded Sorcerer
+          age: 300
+
+          brawn_bonus: 3
+          grace_bonus: 3
+          mettle_bonus: 3
+          size_bonus: 0
+          wits_bonus: 3
+          tenacity_bonus: 9
+          discipline_bonus: 9
+          aura_bonus: 20
+
+          brawn_percentage: 5
+          grace_percentage: 10
+          mettle_percentage: 5
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 30
+
+          talents:
+            - Endurance
+            - Terrestrial Sigils
+
+          powers:
+            - Draconic Glyphs +3
+            - Winds of the Mind +3
+            - Human Form +2
+            - Dragonbone Forging +1
+            - Dragonscale Crafting +1
+
+          subclasses:
+            - name: Dragonblooded Archwizard
+              age: 400
+
+              brawn_bonus: 3
+              grace_bonus: 3
+              mettle_bonus: 3
+              size_bonus: 0
+              wits_bonus: 3
+              tenacity_bonus: 9
+              discipline_bonus: 9
+              aura_bonus: 20
+
+              brawn_percentage: 5
+              grace_percentage: 10
+              mettle_percentage: 5
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 30
+
+              talents:
+                - Endurance
+                - Terrestrial Sigils
+                - Celestial Sigils
+
+              powers:
+                - Draconic Glyphs +6
+                - Winds of the Mind +6
+                - Human Form +4
+                - Dragonbone Forging +2
+                - Dragonscale Crafting +2
+
+    - name: Lesser Hydra
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Hydra Breed
+
+      powers:
+        - Dragon Form +2
+        - Salamanders Gift +2
+        - Treasure Hoard +1
+
+      subclasses:
+        - name: Elemental Hydra
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Hydra Breed
+            - Elemental Breath Focus
+
+          powers:
+            - Dragon Form +3
+            - Salamanders Gift +3
+            - Chill of the Tundra +1
+            - Eye of the Storm +1
+            - Fires of the Volcano +1
+            - Treasure Hoard +1
+
+          subclasses:
+            - name: Primordial Hydra
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Hydra Breed
+                - Elemental Breath Focus
+                - Potent Breath Weapon
+
+              powers:
+                - Dragon Form +6
+                - Salamanders Gift +6
+                - Chill of the Tundra +2
+                - Eye of the Storm +2
+                - Fires of the Volcano +2
+                - Treasure Hoard +2
+
+        - name: Spitting Hydra
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Hydra Breed
+            - Venom
+
+          powers:
+            - Dragon Form +3
+            - Salamanders Gift +3
+            - Fumes of the Pit +2
+            - Treasure Hoard +2
+
+          subclasses:
+            - name: Corrosive Hydra
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Hydra Breed
+                - Venom
+                - Caustic Breath
+
+              powers:
+                - Dragon Form +6
+                - Salamanders Gift +6
+                - Treasure Hoard +4
+                - Fumes of the Pit +2
+                - Fires of the Volcano +2
+
+        - name: Psychic Hydra
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Hydra Breed
+            - Psionics
+
+          powers:
+            - Dragon Form +3
+            - Salamanders Gift +3
+            - Winds of the Mind +2
+            - Treasure Hoard +2
+
+          subclasses:
+            - name: Astral Hydra
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Hydra Breed
+                - Psionics
+                - Psychic Mastery
+
+              powers:
+                - Dragon Form +6
+                - Salamanders Gift +5
+                - Winds of the Mind +5
+                - Treasure Hoard +4
+
+    - name: Lesser Serpent
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Serpent Breed
+
+      powers:
+        - Dragon Form +1
+        - Chill of the Tundra +1
+        - Eye of the Storm +1
+        - Fires of the Volcano +1
+        - Fumes of the Pit +1
+
+      subclasses:
+        - name: Chthonic Serpent
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Serpent Breed
+            - Powerful Metabolism
+
+          powers:
+            - Dragon Form +2
+            - Lord of the Lands +2
+            - Draconic Aura +2
+            - Chill of the Tundra +1
+            - Eye of the Storm +1
+            - Fires of the Volcano +1
+            - Fumes of the Pit +1
+
+          subclasses:
+            - name: Ancient Chthonic Serpent
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Serpent Breed
+                - Powerful Metabolism
+                - Elemental Spell Expert
+
+              powers:
+                - Dragon Form +4
+                - Lord of the Lands +4
+                - Draconic Aura +4
+                - Chill of the Tundra +2
+                - Eye of the Storm +2
+                - Fires of the Volcano +2
+                - Fumes of the Pit +2
+
+        - name: Sea Serpent
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Serpent Breed
+            - Terrestrial Sigils
+
+          powers:
+            - Dragon Form +2
+            - Lord of the Seas +2
+            - Lashing Tail +2
+            - Chill of the Tundra +1
+            - Eye of the Storm +1
+            - Fires of the Volcano +1
+            - Fumes of the Pit +1
+
+          subclasses:
+            - name: Ancient Sea Serpent
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Serpent Breed
+                - Terrestrial Sigils
+                - Elemental Spell Expert
+
+              powers:
+                - Dragon Form +4
+                - Lord of the Seas +4
+                - Lashing Tail +4
+                - Chill of the Tundra +2
+                - Eye of the Storm +2
+                - Fires of the Volcano +2
+                - Fumes of the Pit +2
+
+        - name: Winged Serpent
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Serpent Breed
+            - Psionics
+
+          powers:
+            - Dragon Form +2
+            - Lord of the Skies +2
+            - Winds of the Mind +2
+            - Chill of the Tundra +1
+            - Eye of the Storm +1
+            - Fires of the Volcano +1
+            - Fumes of the Pit +1
+
+          subclasses:
+            - name: Ancient Winged Serpent
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Serpent Breed
+                - Psionics
+                - Expert Telepath
+
+              powers:
+                - Dragon Form +4
+                - Lord of the Skies +4
+                - Winds of the Mind +4
+                - Chill of the Tundra +2
+                - Eye of the Storm +2
+                - Fires of the Volcano +2
+                - Fumes of the Pit +2
+
+    - name: Lesser Wyvern
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Wyvern Breed
+
+      powers:
+        - Dragon Form +2
+        - Lashing Tail +2
+        - Treasure Hoard +1
+
+      subclasses:
+        - name: Raging Wyvern
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Wyvern Breed
+            - Berserker Rage
+
+          powers:
+            - Dragon Form +2
+            - Lashing Tail +2
+            - Treasure Hoard +2
+            - Draconic Rage +2
+            - Extended Rage +2
+
+          subclasses:
+            - name: Ancient Raging Wyvern
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Wyvern Breed
+                - Berserker Rage
+                - Tireless Rage
+
+              powers:
+                - Dragon Form +6
+                - Lashing Tail +4
+                - Treasure Hoard +4
+                - Draconic Rage +4
+                - Extended Rage +2
+
+        - name: Lashing Wyvern
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Wyvern Breed
+            - Venom
+
+          powers:
+            - Dragon Form +4
+            - Lashing Tail +4
+            - Treasure Hoard +2
+
+          subclasses:
+            - name: Ancient Lashing Wyvern
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Wyvern Breed
+                - Venom
+                - Pierce
+
+              powers:
+                - Dragon Form +8
+                - Lashing Tail +8
+                - Treasure Hoard +4
+
+        - name: Swooping Wyvern
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Wyvern Breed
+            - Toughness
+
+          powers:
+            - Dragon Form +3
+            - Lord of the Skies +3
+            - Dragon Barding +2
+            - Lashing Tail +2
+
+          subclasses:
+            - name: Ancient Swooping Wyvern
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Wyvern Breed
+                - Toughness
+                - Whip Mastery
+
+              powers:
+                - Dragon Form +6
+                - Lord of the Skies +6
+                - Dragon Barding +4
+                - Lashing Tail +4
+
+    - name: Rotting Dragon
+      age: 200
+
+      brawn_bonus: 5
+      grace_bonus: 5
+      mettle_bonus: 5
+      size_bonus: 10
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 10
+
+      brawn_percentage: 10
+      grace_percentage: 10
+      mettle_percentage: 10
+      size_percentage: 20
+      wits_percentage: 10
+      tenacity_percentage: 10
+      discipline_percentage: 10
+      aura_percentage: 20
+
+      talents:
+        - Dracolich Aberration
+
+      powers:
+        - Dragon Form +2
+        - Winds of the Mind +2
+        - Salamanders Gift +1
+
+      subclasses:
+        - name: Mummified Dragon
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Dracolich Aberration
+            - Dracolich Mummy
+
+          powers:
+            - Dragon Form +3
+            - Winds of the Mind +3
+            - Fumes of the Pit +3
+            - Salamanders Gift +1
+
+          subclasses:
+            - name: Desiccated Dragon
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Dracolich Aberration
+                - Dracolich Mummy
+                - Unarmed Mastery
+
+              powers:
+                - Dragon Form +6
+                - Winds of the Mind +6
+                - Fumes of the Pit +6
+                - Salamanders Gift +2
+
+        - name: Skeletal Dragon
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Dracolich Aberration
+            - Dracolich Skeleton
+
+          powers:
+            - Dragon Form +4
+            - Winds of the Mind +4
+            - Salamanders Gift +2
+
+          subclasses:
+            - name: Bone Dragon
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Dracolich Aberration
+                - Dracolich Skeleton
+                - Sure Footed
+
+              powers:
+                - Dragon Form +8
+                - Winds of the Mind +8
+                - Salamanders Gift +4
+
+        - name: Spectral Dragon
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 10
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 10
+
+          brawn_percentage: 10
+          grace_percentage: 10
+          mettle_percentage: 10
+          size_percentage: 20
+          wits_percentage: 10
+          tenacity_percentage: 10
+          discipline_percentage: 10
+          aura_percentage: 20
+
+          talents:
+            - Dracolich Aberration
+            - Dracolich Spectre
+
+          powers:
+            - Dragon Form +3
+            - Winds of the Mind +3
+            - Chill of the Tundra +3
+            - Salamanders Gift +1
+
+          subclasses:
+            - name: Phantom Dragon
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 10
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 10
+
+              brawn_percentage: 10
+              grace_percentage: 10
+              mettle_percentage: 10
+              size_percentage: 20
+              wits_percentage: 10
+              tenacity_percentage: 10
+              discipline_percentage: 10
+              aura_percentage: 20
+
+              talents:
+                - Dracolich Aberration
+                - Dracolich Spectre
+                - Psychic Mastery
+
+              powers:
+                - Dragon Form +6
+                - Winds of the Mind +6
+                - Chill of the Tundra +6
+                - Salamanders Gift +2
