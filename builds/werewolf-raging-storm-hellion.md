@@ -6,9 +6,7 @@ title: Werewolf Raging Storm Hellion
 # Werewolf - Raging Storm Hellion (500)
 
 <!-- Produced by MUSHclient v 5.05 - www.mushclient.com -->
-<table border=0 cellpadding=5 bgcolor="#000000">
-<tr><td>
-<pre><code><font size=2 face="Courier New, FixedSys, Lucida Console, Courier New, Courier"><font color="#0">
+<pre style="background-color: black;"><code><font color="#0">
 </font><font color="#00FFFF">7162</font><font color="#C0C0C0">/</font><font color="#00FFFF">7162</font><font color="#C0C0C0">HP (</font><font color="#00FFFF">2740</font><font color="#C0C0C0">AP)&gt;
 score
 subclass
@@ -555,4 +553,3 @@ You are equipped with the following:
 </font><font color="#00FFFF">7162</font><font color="#C0C0C0">/</font><font color="#00FFFF">7162</font><font color="#C0C0C0">HP (</font><font color="#00FFFF">2740</font><font color="#C0C0C0">AP)&gt;
 </font><font color="#00FFFF">7162</font><font color="#C0C0C0">/</font><font color="#00FFFF">7162</font><font color="#C0C0C0">HP (</font><font color="#00FFFF">2740</font><font color="#C0C0C0">AP)&gt;
 </font></font></code></pre>
-</td></tr></table>
