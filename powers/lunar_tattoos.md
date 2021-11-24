@@ -26,3 +26,20 @@ Each tattoo has different bonuses, depending on where it's placed.  You may
 place the same type of tattoo on multiple locations, or different types on
 different locations, as you see fit.  If you place a new tattoo over an old
 one, the previous tattoo will fade away and vanish.
+
+### Tattoo Information
+
+Name                                                                          | Description
+---                                                                           | ---
+[Grizzly Bear]({% link knowledge/tattoo_grizzly_bear.md %})                   | Improves regen, physical armour and cut bypass.
+[Wild Boar]({% link knowledge/tattoo_wild_boar.md %})           | Improves the bonuses of your boar totem spirit.
+[King Cobra]({% link knowledge/tattoo_king_cobra.md %}) | Grants poison-related bonuses.
+[Electric Eel]({% link knowledge/tattoo_electric_eel.md %})         | Grants lightning-related bonuses.
+[Gray Fox]({% link knowledge/tattoo_gray_fox.md %})           | Grants speed-related bonuses.
+[Mountain Gazelle]({% link knowledge/tattoo_mountain_gazelle.md %})             | Improves speed and defence.
+[Moon Hare]({% link knowledge/tattoo_moon_hare.md %}) | Provides Moon Weaving and Lunar Forging bonuses.
+[Cave Lion]({% link knowledge/tattoo_cave_lion.md %})   | Increases roar, resistance, unarmed attacks and recovery.
+[Imperial Mammoth]({% link knowledge/tattoo_imperial_mammoth.md %})     | Grants heat-oriented bonuses.
+[Forest Raven]({% link knowledge/tattoo_forest_raven.md %})         | Grants magic-oriented bonuses.
+[Woolly Rhino]({% link knowledge/tattoo_woolly_rhino.md %})   | Grants cold-oriented bonuses.
+[Bull Shark]({% link knowledge/tattoo_bull_shark.md %})               | Improves head bypass and water movement.
