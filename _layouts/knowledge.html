@@ -1,0 +1,38 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+  <h3 id="general-info">General Info</h3>
+
+<table>
+  <tbody>
+    {% assign info_list = page.info %}
+    {% for info in info_list %}
+    <tr>
+      <td>{{ info[0] }}</td>
+      <td>{{ info[1] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3 id="requirements">Requirements</h3>
+
+<table>
+  <tbody>
+    {% assign req_list = page.reqs %}
+    {% for req in req_list %}
+    <tr>
+      <td>{{ req[0] }}</td>
+      <td>{{ req[1] }}</td>
+    </tr>
+    {% endfor %}
+  </tbody>
+</table>
+
+<h3 id="description">Description</h3>
+
+  {{ content }}
+</div>
