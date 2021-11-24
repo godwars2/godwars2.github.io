@@ -27,3 +27,19 @@ Each rune has different bonuses, depending on where it's placed and which form
 you are in.  You may place the same type of rune on multiple locations, or
 different types on different locations, as you see fit.  If you place a new
 rune over an old one, the previous rune will fade away and vanish.
+
+### Rune Information
+
+Name                                                                          | Description
+---                                                                           | ---
+[Aegis]({{ site.baseurl }}{% link knowledge/rune_aegis.md %})                   | Provides natural soak.
+[Animus]({{ site.baseurl }}{% link knowledge/rune_animus.md %})           | Provides bypass bonuses.
+[Canidae]({{ site.baseurl }}{% link knowledge/rune_canidae.md %}) | Provides wolf-oriented bonuses.
+[Chiroptera]({{ site.baseurl }}{% link knowledge/rune_chiroptera.md %})         | Provides bat-oriented bonuses.
+[Ember]({{ site.baseurl }}{% link knowledge/rune_ember.md %})           | Provides fire-oriented bonuses.
+[Sanguine]({{ site.baseurl }}{% link knowledge/rune_sanguine.md %})             | Provides blood-oriented bonuses.
+[Savagery]({{ site.baseurl }}{% link knowledge/rune_savagery.md %}) | Provides rage-oriented bonuses.
+[Spiritus]({{ site.baseurl }}{% link knowledge/rune_spiritus.md %})   | Provides mental-oriented bonuses.
+[Thunder]({{ site.baseurl }}{% link knowledge/rune_thunder.md %})     | Provides shock-oriented bonuses.
+[Umbrage]({{ site.baseurl }}{% link knowledge/rune_umbrage.md %})         | Provides shadow-oriented bonuses.
+[Valor]({{ site.baseurl }}{% link knowledge/rune_valor.md %})   | Provides bravery bonuses.
