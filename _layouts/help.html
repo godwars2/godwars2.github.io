@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="page">
+  <h1 class="page-title">{{ page.title }}</h1>
+
+<ul>
+  {% assign syntax_list = page.syntax %}
+  {% for syntax in syntax_list %}
+    <li>Syntax: <code>{{ syntax | xml_escape }}</code></li>
+  {% endfor %}
+</ul>
+
+{{ content }}
+</div>
