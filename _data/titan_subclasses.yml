@@ -1,0 +1,640 @@
+- name: Hill Giant
+  age: 100
+
+  brawn_bonus: 10
+  grace_bonus: 5
+  mettle_bonus: 10
+  size_bonus: 20
+  wits_bonus: 5
+  tenacity_bonus: 0
+  discipline_bonus: 0
+  aura_bonus: 0
+
+  brawn_percentage: 20
+  grace_percentage: 10
+  mettle_percentage: 20
+  size_percentage: 40
+  wits_percentage: 10
+  tenacity_percentage: 0
+  discipline_percentage: 0
+  aura_percentage: 0
+
+
+  subclasses:
+    - name: Stone Giant
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 20
+      wits_bonus: 5
+      tenacity_bonus: 0
+      discipline_bonus: 0
+      aura_bonus: 0
+
+      brawn_percentage: 20
+      grace_percentage: 10
+      mettle_percentage: 20
+      size_percentage: 40
+      wits_percentage: 10
+      tenacity_percentage: 0
+      discipline_percentage: 0
+      aura_percentage: 0
+
+      talents:
+        - Stone Giant
+
+      powers:
+        - Hammer Fists +2
+        - Precise Throw +2
+        - Tremor Sense +1
+
+      subclasses:
+        - name: Elder Stone Giant
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - Stone Giant
+            - Endurance
+
+          powers:
+            - Hammer Fists +4
+            - Precise Throw +4
+            - Tremor Sense +2
+
+          subclasses:
+            - name: Venerable Stone Giant
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - Stone Giant
+                - Endurance
+                - Smash
+
+              powers:
+                - Hammer Fists +8
+                - Precise Throw +8
+                - Tremor Sense +4
+
+        - name: Two-Headed Ettin
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - Multi-Headed Giant
+            - Endurance
+
+          powers:
+            - Rock Hard Head +5
+            - Hammer Fists +2
+            - Precise Throw +2
+            - Tremor Sense +1
+
+          subclasses:
+            - name: Three-Headed Ettin
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - Multi-Headed Giant
+                - Endurance
+                - Smash
+
+              powers:
+                - Rock Hard Head +8
+                - Hammer Fists +4
+                - Precise Throw +4
+                - Tremor Sense +4
+
+    - name: Fire Giant
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 20
+      wits_bonus: 5
+      tenacity_bonus: 0
+      discipline_bonus: 0
+      aura_bonus: 0
+
+      brawn_percentage: 20
+      grace_percentage: 10
+      mettle_percentage: 20
+      size_percentage: 40
+      wits_percentage: 10
+      tenacity_percentage: 0
+      discipline_percentage: 0
+      aura_percentage: 0
+
+      talents:
+        - Fire Giant
+
+      powers:
+        - Cosmic Branding +2
+        - Hammer Fists +2
+        - Mighty Leap +1
+
+      subclasses:
+        - name: Elder Fire Giant
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - Fire Giant
+            - Endurance
+
+          powers:
+            - Cosmic Branding +4
+            - Hammer Fists +4
+            - Mighty Leap +2
+
+          subclasses:
+            - name: Venerable Fire Giant
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - Fire Giant
+                - Endurance
+                - Burn
+
+              powers:
+                - Cosmic Branding +8
+                - Hammer Fists +8
+                - Mighty Leap +4
+
+        - name: Cyclops
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - One-Eyed Giant
+            - Endurance
+
+          powers:
+            - Cosmic Branding +5
+            - Hammer Fists +3
+            - Mighty Leap +2
+
+          subclasses:
+            - name: Greater Cyclops
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - One-Eyed Giant
+                - Endurance
+                - Burn
+
+              powers:
+                - Cosmic Branding +8
+                - Hammer Fists +6
+                - Mighty Leap +6
+
+    - name: Frost Giant
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 20
+      wits_bonus: 5
+      tenacity_bonus: 0
+      discipline_bonus: 0
+      aura_bonus: 0
+
+      brawn_percentage: 20
+      grace_percentage: 10
+      mettle_percentage: 20
+      size_percentage: 40
+      wits_percentage: 10
+      tenacity_percentage: 0
+      discipline_percentage: 0
+      aura_percentage: 0
+
+      talents:
+        - Frost Giant
+
+      powers:
+        - Long Stride +2
+        - Macabre Feast +2
+        - Tremor Sense +1
+
+      subclasses:
+        - name: Elder Frost Giant
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - Frost Giant
+            - Endurance
+
+          powers:
+            - Long Stride +4
+            - Macabre Feast +4
+            - Tremor Sense +2
+
+          subclasses:
+            - name: Venerable Frost Giant
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - Frost Giant
+                - Endurance
+                - Freeze
+
+              powers:
+                - Long Stride +8
+                - Macabre Feast +8
+                - Tremor Sense +4
+
+        - name: Wendigo
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - Ravenous Giant
+            - Powerful Metabolism
+
+          powers:
+            - Macabre Feast +5
+            - Long Stride +3
+            - Tremor Sense +2
+
+          subclasses:
+            - name: Greater Wendigo
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - Ravenous Giant
+                - Powerful Metabolism
+                - Freeze
+
+              powers:
+                - Macabre Feast +8
+                - Long Stride +6
+                - Tremor Sense +6
+
+    - name: Storm Giant
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 20
+      wits_bonus: 5
+      tenacity_bonus: 0
+      discipline_bonus: 0
+      aura_bonus: 0
+
+      brawn_percentage: 20
+      grace_percentage: 10
+      mettle_percentage: 20
+      size_percentage: 40
+      wits_percentage: 10
+      tenacity_percentage: 0
+      discipline_percentage: 0
+      aura_percentage: 0
+
+      talents:
+        - Storm Giant
+
+      powers:
+        - Thunderous Clap +2
+        - Long Stride +2
+        - Mighty Leap +1
+
+      subclasses:
+        - name: Elder Storm Giant
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - Storm Giant
+            - Endurance
+
+          powers:
+            - Thunderous Clap +4
+            - Long Stride +4
+            - Mighty Leap +2
+
+          subclasses:
+            - name: Venerable Storm Giant
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - Storm Giant
+                - Endurance
+                - Shock
+
+              powers:
+                - Thunderous Clap +8
+                - Long Stride +8
+                - Mighty Leap +4
+
+        - name: Cloud Giant
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 20
+          wits_bonus: 5
+          tenacity_bonus: 0
+          discipline_bonus: 0
+          aura_bonus: 0
+
+          brawn_percentage: 20
+          grace_percentage: 10
+          mettle_percentage: 20
+          size_percentage: 40
+          wits_percentage: 10
+          tenacity_percentage: 0
+          discipline_percentage: 0
+          aura_percentage: 0
+
+          talents:
+            - Cloud Giant
+            - Endurance
+
+          powers:
+            - Thunderous Clap +5
+            - Long Stride +3
+            - Mighty Leap +2
+
+          subclasses:
+            - name: Elder Cloud Giant
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 20
+              wits_bonus: 5
+              tenacity_bonus: 0
+              discipline_bonus: 0
+              aura_bonus: 0
+
+              brawn_percentage: 20
+              grace_percentage: 10
+              mettle_percentage: 20
+              size_percentage: 40
+              wits_percentage: 10
+              tenacity_percentage: 0
+              discipline_percentage: 0
+              aura_percentage: 0
+
+              talents:
+                - Cloud Giant
+                - Endurance
+                - Shock
+
+              powers:
+                - Thunderous Clap +8
+                - Long Stride +6
+                - Mighty Leap +6

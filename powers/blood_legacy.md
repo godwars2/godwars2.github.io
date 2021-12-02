@@ -19,10 +19,10 @@ of mana you recover is doubled on a critical hit.  Bat Form bite is unaffected.
 
 You may also use the 'legacy' command to focus on one of the following:
 
-Puissance : Gain +10 Damage per rank.
-Swiftness : Gain +10 Attack, +10 Defence and +1 movement rate per rank.
-Fortitude : Gain +15 Resistance per rank.
-Mesmerise : Your opponent is unable to change their target to another creature.
+- Puissance : Gain +10 Damage per rank.
+- Swiftness : Gain +10 Attack, +10 Defence and +1 movement rate per rank.
+- Fortitude : Gain +15 Resistance per rank.
+- Mesmerise : Your opponent is unable to change their target to another creature.
 
 You may only use one of the above bonuses at a time, and the duration is 15
 seconds per rank (except for Mesmerise, which lasts 5 seconds per rank).  After
