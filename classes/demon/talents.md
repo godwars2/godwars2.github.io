@@ -1,21 +1,24 @@
 ---
 layout: subpage
-title: Titan Talents
+title: Demon Talents
 ---
 
-Name                                                                                     | Description
----                                                                                      | ---
-[Chthonic Demigod]({{ site.baseurl }}{% link talents/chthonic_demigod.md %})             | The blood of a primordial god runs in your veins.
-[Cloud Giant]({{ site.baseurl }}{% link talents/cloud_giant.md %})                       | You are a Cloud Giant.
-[Elemental Breath Focus]({{ site.baseurl }}{% link talents/elemental_breath_focus.md %}) | Provides +10/+20 bypass for energy breath attacks.
-[Fire Giant]({{ site.baseurl }}{% link talents/fire_giant.md %})                         | You are a Fire Giant.
-[Frost Giant]({{ site.baseurl }}{% link talents/frost_giant.md %})                       | You are a Frost Giant.
-[Multi-Headed Giant]({{ site.baseurl }}{% link talents/multi_headed_giant.md %})         | You are an Ettin.
-[One-Eyed Giant]({{ site.baseurl }}{% link talents/one_eyed_giant.md %})                 | You are a Cyclops.
-[Potent Breath Weapon]({{ site.baseurl }}{% link talents/potent_breath_weapon.md %})     | Provides +25/+50% critical bypass for breath attacks.
-[Powerful Metabolism]({{ site.baseurl }}{% link talents/powerful_metabolism.md %})       | Your metabolism is supernaturally powerful.
-[Primordial Breath]({{ site.baseurl }}{% link talents/primordial_breath.md %})           | You have a primordial breath attack.
-[Primordial Strike]({{ site.baseurl }}{% link talents/primordial_strike.md %})           | Your unarmed strikes project primordial energy.
-[Ravenous Giant]({{ site.baseurl }}{% link talents/ravenous_giant.md %})                 | You are a Wendigo.
-[Stone Giant]({{ site.baseurl }}{% link talents/stone_giant.md %})                       | You are a Stone Giant.
-[Storm Giant]({{ site.baseurl }}{% link talents/storm_giant.md %})                       | You are a Storm Giant.
+Name                                                                               | Description
+---                                                                                | ---
+[Chaos Vortex]({{ site.baseurl }}{% link talents/chaos_vortex.md %})               | You're able to surround yourself with a chaos vortex.
+[Dark Conduit]({{ site.baseurl }}{% link talents/dark_conduit.md %})               | Your soul is a conduit to dark forces.
+[Demon Spawn]({{ site.baseurl }}{% link talents/demon_spawn.md %})                 | You are the spawn of a Demon Lord.
+[Devil Spawn]({{ site.baseurl }}{% link talents/devil_spawn.md %})                 | You are the spawn of a greater Devil.
+[Expert Telepath]({{ site.baseurl }}{% link talents/expert_telepath.md %})         | Provides +25/+50% critical bypass for mental attacks.
+[Fiend Spawn]({{ site.baseurl }}{% link talents/fiend_spawn.md %})                 | You are the spawn of a greater Fiend.
+[Iron Talons]({{ site.baseurl }}{% link talents/iron_talons.md %})                 | Improved claw damage, and allows weapon blocking.
+[Lead the Pack]({{ site.baseurl }}{% link talents/lead_the_pack.md %})             | You can summon a second wolf or hellhound.
+[Oni Spawn]({{ site.baseurl }}{% link talents/oni_spawn.md %})                     | You are the spawn of an Oni.
+[Pack Bond]({{ site.baseurl }}{% link talents/pack_bond.md %})                     | Your packmates become stronger when you join them.
+[Pack Rage]({{ site.baseurl }}{% link talents/pack_rage.md %})                     | Your packmates join you when you enter a rage.
+[Powerful Metabolism]({{ site.baseurl }}{% link talents/powerful_metabolism.md %}) | Your metabolism is supernaturally powerful.
+[Protean Witchcraft]({{ site.baseurl }}{% link talents/protean_witchcraft.md %})   | You've learned to adapt your witchcraft.
+[Soul Devourer]({{ site.baseurl }}{% link talents/soul_devourer.md %})             | You devour the souls of those you defeat.
+[Tainted Soul]({{ site.baseurl }}{% link talents/tainted_soul.md %})               | Your soul has been tainted by demonic energy.
+[Tough Hide]({{ site.baseurl }}{% link talents/tough_hide.md %})                   | Your scaly hide is supernaturally tough.
+[Witch Spawn]({{ site.baseurl }}{% link talents/witch_spawn.md %})                 | You are a Witch Spawn, a natural at infernal magic.
