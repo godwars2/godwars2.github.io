@@ -17,16 +17,32 @@ should always consider investing a few ranks in each of the following:
 3. Tremor Sense allows you to sense power surges and locate other players.
 
 ### Subclass Tree
-
-```
-Base Subclass: Hill Giant
-
-Stone Giant -> Elder Stone Giant -> Venerable Stone Giant
-Stone Giant -> Two-Headed Ettin -> Three-Headed Ettin
-Fire Giant -> Elder Fire Giant -> Venerable Fire Giant
-Fire Giant -> Cyclops -> Greater Cyclops
-Frost Giant -> Elder Frost Giant -> Venerable Frost Giant
-Frost Giant -> Wendigo -> Greater Wendigo
-Storm Giant -> Elder Storm Giant -> Venerable Storm Giant
-Storm Giant -> Cloud Giant -> Elder Cloud Giant
-```
+<div class="clt">
+{% for subclass in site.data.titan_subclasses %}
+  <strong>{{ subclass.name }}</strong> <em>({{ subclass.age }})</em>
+  {% assign alpha_list = subclass.subclasses %}
+  <ul>
+    {% for alpha_class in alpha_list %}
+    <li>
+      <strong>{{ alpha_class.name }}</strong> <em>({{ alpha_class.age }})</em>
+      {% assign beta_list = alpha_class.subclasses %}
+      <ul>
+        {% for beta_class in beta_list %}
+        <li>
+          <strong>{{ beta_class.name }}</strong> <em>({{ beta_class.age }})</em>
+          {% assign gamma_list = beta_class.subclasses %}
+          <ul>
+            {% for gamma_class in gamma_list %}
+            <li>
+              <strong>{{ gamma_class.name }}</strong> <em>({{ gamma_class.age }})</em>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+ </div>

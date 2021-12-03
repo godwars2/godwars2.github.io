@@ -29,34 +29,32 @@ You should also train up the damage-oriented power that corresponds to your
 Dragon Descendant talent (eg Fires of the Volcano and Red Dragon Descendant).
 
 ### Subclass Tree
-
-```
-Base Subclass: Young Dragon
-
-Adult Chromatic Dragon -> Old Chromatic Dragon -> Ancient Chromatic Dragon
-Adult Chromatic Dragon -> Armoured Chromatic Dragon -> Armoured Chromatic Wyrm
-Adult Crystal Dragon -> Old Crystal Dragon -> Ancient Crystal Dragon
-Adult Crystal Dragon -> Armoured Crystal Dragon -> Armoured Crystal Wyrm
-Adult Metallic Dragon -> Old Metallic Dragon -> Ancient Metallic Dragon
-Adult Metallic Dragon -> Armoured Metallic Dragon -> Armoured Metallic Wyrm
-Adult Celestial Dragon -> Old Celestial Dragon -> Ancient Celestial Dragon
-Adult Celestial Dragon -> Armoured Celestial Dragon -> Armoured Celestial Wyrm
-Draconian Warrior -> Draconian Warlord -> Draconian Champion
-Draconian Warrior -> Draconian Berserker -> Draconian Rager
-Draconian Warrior -> Dracconian Shaman -> Draconian Mystic
-Dragon Knight -> Dragon Lord -> Dragon Highlord
-Dragon Knight -> Dragon Templar -> Dragon Paladin
-Dragon Knight -> Dragonblooded Sorcerer -> Dragonblooded Archwizard
-Lesser Hydra -> Elemental Hydra -> Primordial Hydra
-Lesser Hydra -> Spitting Hydra -> Corrosive Hydra
-Lesser Hydra -> Psychic Hydra -> Astral Hydra
-Lesser Serpent -> Chthonic Serpent -> Ancient Chthonic Serpent
-Lesser Serpent -> Sea Serpent -> Ancient Sea Serpent
-Lesser Serpent -> Winged Serpent -> Ancient Winged Serpent
-Lesser Wyvern -> Raging Wyvern -> Ancient Raging Wyvern
-Lesser Wyvern -> Lashing Wyvern -> Ancient Lashing Wyvern
-Lesser Wyvern -> Swooping Wyvern -> Ancient Swooping Wyvern
-Rotting Dragon -> Mummified Dragon -> Desiccated Dragon
-Rotting Dragon -> Skeletal Dragon -> Bone Dragon
-Rotting Dragon -> Spectral Dragon -> Phantom Dragon
-```
+<div class="clt">
+{% for subclass in site.data.dragon_subclasses %}
+  <strong>{{ subclass.name }}</strong> <em>({{ subclass.age }})</em>
+  {% assign alpha_list = subclass.subclasses %}
+  <ul>
+    {% for alpha_class in alpha_list %}
+    <li>
+      <strong>{{ alpha_class.name }}</strong> <em>({{ alpha_class.age }})</em>
+      {% assign beta_list = alpha_class.subclasses %}
+      <ul>
+        {% for beta_class in beta_list %}
+        <li>
+          <strong>{{ beta_class.name }}</strong> <em>({{ beta_class.age }})</em>
+          {% assign gamma_list = beta_class.subclasses %}
+          <ul>
+            {% for gamma_class in gamma_list %}
+            <li>
+              <strong>{{ gamma_class.name }}</strong> <em>({{ gamma_class.age }})</em>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+ </div>

@@ -29,30 +29,32 @@ Enhanced Deflection and Strong Magical Shields are great for protection, while
 the Enchantment power is very useful for adding bonuses to your equipment.
 
 ### Subclass Tree
-
-```
-Base Subclass: Apprentice
-
-Elementalist -> Master Elementalist -> Lord of the Elements
-Enchanter -> Master Enchanter -> Lord of Enchantment
-Enchanter -> Master Alchemist -> Lord of Alchemy
-Enchanter -> Master Artiificer -> Lord of Artifice
-Battle Mage -> War Mage -> Battle Archmage
-Battle Mage -> Sword Mage -> Sword Archmage
-Battle Mage -> High Mage -> High Archmage
-Mind Mage -> Enlightened Mage -> Enlightened Archmage
-Mind Mage -> Ascended Mage -> Ascended Archmage
-Mind Mage -> Transcendent Mage -> Transcendent Archmage
-Summoner -> Fire Summoner -> Inferno Summoner
-Summoner -> Air Summoner -> Tornado Summoner
-Summoner -> Earth Summoner -> Chthonic Summoner
-Summoner -> Water Summoner -> Maelstrom Summoner
-Fire Adept -> Fire Archmage -> Inferno Archmage
-Fire Adept -> Lord of Fire -> Ifrit Lord
-Air Adept -> Air Archmage -> Tornado Archmage
-Air Adept -> Lord of Air -> Sylph Prince
-Earth Adept -> Earth Archmage -> Chthonic Archmage
-Earth Adept -> Lord of Earth -> Erdgeit Lord
-Water Adept -> Water Archmage -> Maelstrom Archmage
-Water Adept -> Lord of Water -> Undine Prince
-```
+<div class="clt">
+{% for subclass in site.data.mage_subclasses %}
+  <strong>{{ subclass.name }}</strong> <em>({{ subclass.age }})</em>
+  {% assign alpha_list = subclass.subclasses %}
+  <ul>
+    {% for alpha_class in alpha_list %}
+    <li>
+      <strong>{{ alpha_class.name }}</strong> <em>({{ alpha_class.age }})</em>
+      {% assign beta_list = alpha_class.subclasses %}
+      <ul>
+        {% for beta_class in beta_list %}
+        <li>
+          <strong>{{ beta_class.name }}</strong> <em>({{ beta_class.age }})</em>
+          {% assign gamma_list = beta_class.subclasses %}
+          <ul>
+            {% for gamma_class in gamma_list %}
+            <li>
+              <strong>{{ gamma_class.name }}</strong> <em>({{ gamma_class.age }})</em>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+ </div>

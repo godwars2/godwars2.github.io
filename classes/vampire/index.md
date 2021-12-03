@@ -27,33 +27,32 @@ Then focus on one of the following power/talent combinations:
 5. Shadow Crafting, Blade of Darkness, Assassin Training and House DarkBlade.
 
 ### Subclass Tree
-
-```
-Base Subclass: Fledgling
-
-Elder Vampire -> Vampire Lord -> Master Vampire
-Beast Handler -> Master of Beasts -> Prince of Beasts
-Beast Handler -> Master of Vermin -> Prince of Vermin
-Beast Handler -> Master of Wolves -> Prince of Wolves
-Blood Knight -> Blood Lord -> Blood Prince
-Blood Knight -> Blood Reaver -> Blood Fanatic
-Blood Knight -> Blood Templar -> Blood Champion
-Dark Sorcerer -> Dark Warlock -> Witch-King
-Dark Sorcerer -> Dark Wizard -> Dark Archwizard
-Dark Sorcerer -> Dark Empath -> Dark Telepath
-Lupine Stalker -> Lupine Hunter -> Lupine Huntmaster
-Lupine Stalker -> Shadow Lupine -> Umbral Lupine
-Lupine Stalker -> Lupine Shinter -> Bestial Shifter
-Vermin Brother -> Vermin Lord -> Vermin King
-Vermin Brother -> NightWing Warlord -> NightWing Overlord
-Vermin Brother -> Bat Lord -> Bat King
-Raging Beast -> Rampaging Beast -> Bloodfeaster
-Raging Beast -> Raging Lupine -> Frenzied Lupine
-Raging Beast -> Raging Shifter -> Frenzied Shifter
-Shadow Warrior -> Shadow Knight -> Shadow Champion
-Shadow Warrior -> DarkBlade Assassin -> DarkBlade Deathlord
-Shadow Warrior -> Shadow Master -> Shadow Prince
-Umbral Seer -> Umbral Augur -> Umbral Diviner
-Umbral Seer -> Umbral Oracle -> Umbral Telepath
-Umbral Seer -> Umbral Prophet -> Umbral Clairvoyant
-```
+<div class="clt">
+{% for subclass in site.data.vampire_subclasses %}
+  <strong>{{ subclass.name }}</strong> <em>({{ subclass.age }})</em>
+  {% assign alpha_list = subclass.subclasses %}
+  <ul>
+    {% for alpha_class in alpha_list %}
+    <li>
+      <strong>{{ alpha_class.name }}</strong> <em>({{ alpha_class.age }})</em>
+      {% assign beta_list = alpha_class.subclasses %}
+      <ul>
+        {% for beta_class in beta_list %}
+        <li>
+          <strong>{{ beta_class.name }}</strong> <em>({{ beta_class.age }})</em>
+          {% assign gamma_list = beta_class.subclasses %}
+          <ul>
+            {% for gamma_class in gamma_list %}
+            <li>
+              <strong>{{ gamma_class.name }}</strong> <em>({{ gamma_class.age }})</em>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+ </div>

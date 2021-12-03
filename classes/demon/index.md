@@ -1,33 +1,33 @@
 ---
 layout: class
-title: Werewolf
-description: Werewolves are a form of Lycanthrope, infused with great physical strength and power.
+title: Demon
+description: Demons are powerful Nephilim, dark and twisted beings from another dimension who feed upon fear and pain.
 ---
 
 ### [Powers](powers) - [Talents](talents) - [Subclasses](subclasses)
 
 ### Build Basics
 
-Very fast, good attack, powerful bursts (see 'help burst'), focuses
-on shock-based energy.  Can use moonweave clothing and weightless moonsilver
-weapons/armour in human form.  Forms: human, wolfman and wolf.
-
 If you don't know where to start, select one of the following:
 
-1. Spirit of Fenris, Extended Rage, Berserker Rage and Desert Wolfkin.
-2. Self Control, Serenity and a Style Mastery (may also add Martial Gnosis).
-3. Fang Forging, Faith, Berserker Rage and Tireless Rage.
+1. Demonic Rage, Extended Rage, Berserker Rage and Devil Spawn.
+2. Protean Nemesis, Serenity and a Style Mastery (may also add Martial Gnosis).
 
-Then focus on one of the following power/talent combinations:
+Then decide whether you want to play in either demon or human form:
 
-1. Moon Weaving, Lunar Forging, Spirit Binding, Sure Footed and Evasion.
-2. Self Control, Fang Forging, Lupine Fortitude and Natural Fortitude.
-3. Wolf Form, Talons of the Bear, Lupine Fortitude, Sure Footed and Evasion.
-4. Ride the Storm, Greater Crow Spirit, Spirit Wolfkin and Enhanced Deflection.
+1. Demon Form, Infernal Forging (or an unarmoured skin warp) and Tainted Flesh.
+2. Ritual Scarring, Infernal Forging, Tainted Flesh and Warbeast.
+
+You want at least 1 rank in Bladed Tail, Spiked Tail or Venomous Tail.  If you 
+are fighting unarmed get Tainted Talons, otherwise consider Infernal Binding.
+
+For protection, Armour Proficiency and Heavy Armour Expert can work well. If 
+you're using Demon Form you could instead use Toughness with Natural Fortitude
+or perhaps Tough Hide with Strong Magical Shields.
 
 ### Subclass Tree
 <div class="clt">
-{% for subclass in site.data.werewolf_subclasses %}
+{% for subclass in site.data.demon_subclasses %}
   <strong>{{ subclass.name }}</strong> <em>({{ subclass.age }})</em>
   {% assign alpha_list = subclass.subclasses %}
   <ul>

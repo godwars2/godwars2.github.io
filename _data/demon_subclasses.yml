@@ -1,0 +1,1690 @@
+- name: Lesser Demon
+  age: 100
+
+  brawn_bonus: 10
+  grace_bonus: 5
+  mettle_bonus: 10
+  size_bonus: 5
+  wits_bonus: 5
+  tenacity_bonus: 5
+  discipline_bonus: 5
+  aura_bonus: 5
+
+  brawn_percentage: 25
+  grace_percentage: 10
+  mettle_percentage: 25
+  size_percentage: 10
+  wits_percentage: 10
+  tenacity_percentage: 5
+  discipline_percentage: 5
+  aura_percentage: 10
+
+
+  subclasses:
+    - name: Greater Demon
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 25
+      grace_percentage: 10
+      mettle_percentage: 25
+      size_percentage: 10
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 10
+
+      talents:
+        - Toughness
+
+      powers:
+        - Demon Form +1
+        - Demonic Rage +1
+        - Infernal Forging +1
+        - Regeneration +1
+        - Tainted Flesh +1
+
+      subclasses:
+        - name: Demon Lord
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 10
+
+          talents:
+            - Toughness
+            - Unarmed Mastery
+
+          powers:
+            - Demon Form +2
+            - Demonic Rage +2
+            - Infernal Forging +2
+            - Regeneration +2
+            - Tainted Flesh +2
+
+          subclasses:
+            - name: Demon Prince
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 10
+
+              talents:
+                - Toughness
+                - Unarmed Mastery
+                - Dark Conduit
+
+              powers:
+                - Demon Form +4
+                - Demonic Rage +4
+                - Infernal Forging +4
+                - Regeneration +4
+                - Tainted Flesh +4
+
+    - name: Chaos Warrior
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 5
+      mettle_bonus: 12
+      size_bonus: 6
+      wits_bonus: 5
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 2
+
+      brawn_percentage: 25
+      grace_percentage: 10
+      mettle_percentage: 25
+      size_percentage: 15
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Iron Will
+
+      powers:
+        - Protean Nemesis +2
+        - Tainted Flesh +2
+        - Regeneration +1
+
+      subclasses:
+        - name: Chaos Beast
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Iron Will
+            - Demon Spawn
+
+          powers:
+            - Protean Nemesis +3
+            - Tainted Flesh +2
+            - Living Nightmare +2
+            - Demon Form +2
+            - Regeneration +1
+
+          subclasses:
+            - name: Chaos Reaper
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Iron Will
+                - Demon Spawn
+                - Unarmed Mastery
+
+              powers:
+                - Protean Nemesis +6
+                - Tainted Flesh +4
+                - Living Nightmare +4
+                - Demon Form +4
+                - Regeneration +2
+
+        - name: Chaos Marauder
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Iron Will
+            - Armour Proficiency
+
+          powers:
+            - Protean Nemesis +3
+            - Tainted Flesh +2
+            - Living Nightmare +2
+            - Ritual Scarring +2
+            - Regeneration +1
+
+          subclasses:
+            - name: Chaos Champion
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Iron Will
+                - Armour Proficiency
+                - Heavy Armour Expert
+
+              powers:
+                - Protean Nemesis +6
+                - Tainted Flesh +4
+                - Living Nightmare +4
+                - Ritual Scarring +4
+                - Regeneration +2
+
+        - name: Chaos Spawn
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Iron Will
+            - Serenity
+
+          powers:
+            - Protean Nemesis +3
+            - Tainted Flesh +2
+            - Living Nightmare +2
+            - Road of Seven Sins +2
+            - Regeneration +1
+
+          subclasses:
+            - name: Chaos Lord
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Iron Will
+                - Serenity
+                - Martial Gnosis
+
+              powers:
+                - Protean Nemesis +6
+                - Tainted Flesh +4
+                - Living Nightmare +4
+                - Road of Seven Sins +4
+                - Regeneration +2
+
+    - name: Dark Slayer
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 25
+      grace_percentage: 15
+      mettle_percentage: 25
+      size_percentage: 10
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Armour Proficiency
+
+      powers:
+        - Ritual Scarring +2
+        - Infernal Forging +2
+        - Infernal Binding +1
+
+      subclasses:
+        - name: Dark Crusader
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 15
+          mettle_percentage: 25
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Armour Proficiency
+            - Heavy Armour Expert
+
+          powers:
+            - Ritual Scarring +3
+            - Infernal Forging +2
+            - Infernal Binding +2
+            - Warbeast +2
+            - Demonology +1
+
+          subclasses:
+            - name: Dark Destroyer
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 15
+              mettle_percentage: 25
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Armour Proficiency
+                - Heavy Armour Expert
+                - Mounted Combat Mastery
+
+              powers:
+                - Ritual Scarring +6
+                - Infernal Forging +4
+                - Infernal Binding +4
+                - Warbeast +4
+                - Demonology +2
+
+        - name: Dark Warlord
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 15
+          mettle_percentage: 25
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Armour Proficiency
+            - Two-Weapon Fighting
+
+          powers:
+            - Infernal Binding +3
+            - Infernal Forging +3
+            - Ritual Scarring +2
+            - Tainted Flesh +2
+
+          subclasses:
+            - name: Dark Champion
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 15
+              mettle_percentage: 25
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Armour Proficiency
+                - Two-Weapon Fighting
+                - Mystical Blade Mastery
+
+              powers:
+                - Infernal Binding +6
+                - Infernal Forging +6
+                - Ritual Scarring +6
+                - Tainted Flesh +2
+
+        - name: Dark Zealot
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 15
+          mettle_percentage: 25
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Armour Proficiency
+            - Berserker Rage
+
+          powers:
+            - Ritual Scarring +2
+            - Infernal Forging +2
+            - Infernal Binding +2
+            - Demonic Rage +2
+            - Road of Seven Sins +2
+
+          subclasses:
+            - name: Dark Abomination
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 15
+              mettle_percentage: 25
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Armour Proficiency
+                - Berserker Rage
+                - Tireless Rage
+
+              powers:
+                - Ritual Scarring +6
+                - Demonic Rage +6
+                - Infernal Forging +4
+                - Infernal Binding +2
+                - Road of Seven Sins +2
+
+    - name: Devil
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 5
+      mettle_bonus: 12
+      size_bonus: 6
+      wits_bonus: 5
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 2
+
+      brawn_percentage: 25
+      grace_percentage: 10
+      mettle_percentage: 25
+      size_percentage: 15
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Berserker Rage
+
+      powers:
+        - Demonic Rage +2
+        - Extended Rage +2
+        - Demon Form +1
+
+      subclasses:
+        - name: Archdevil
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Tireless Rage
+
+          powers:
+            - Demonic Rage +3
+            - Extended Rage +3
+            - Demon Form +2
+            - Road of Seven Sins +2
+
+          subclasses:
+            - name: Duke of Hell
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Tireless Rage
+                - Sure Footed
+
+              powers:
+                - Demonic Rage +6
+                - Extended Rage +6
+                - Demon Form +4
+                - Road of Seven Sins +4
+
+        - name: Soulbane Devil
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Soul Devourer
+
+          powers:
+            - Demonic Rage +3
+            - Extended Rage +3
+            - Demon Form +2
+            - Regeneration +2
+
+          subclasses:
+            - name: Soulblight Devil
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Soul Devourer
+                - Tainted Soul
+
+              powers:
+                - Demonic Rage +6
+                - Extended Rage +6
+                - Demon Form +4
+                - Regeneration +4
+
+        - name: Trueblooded Devil
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 2
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Berserker Rage
+            - Devil Spawn
+
+          powers:
+            - Demonic Rage +3
+            - Extended Rage +3
+            - Demon Form +2
+            - Tainted Flesh +2
+
+          subclasses:
+            - name: Devil Prince
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 2
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Berserker Rage
+                - Devil Spawn
+                - Dark Conduit
+
+              powers:
+                - Demonic Rage +6
+                - Extended Rage +6
+                - Demon Form +4
+                - Tainted Flesh +4
+
+    - name: Fiend
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 5
+      mettle_bonus: 12
+      size_bonus: 7
+      wits_bonus: 5
+      tenacity_bonus: 3
+      discipline_bonus: 3
+      aura_bonus: 3
+
+      brawn_percentage: 30
+      grace_percentage: 5
+      mettle_percentage: 30
+      size_percentage: 15
+      wits_percentage: 5
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Endurance
+
+      powers:
+        - Demon Form +2
+        - Tainted Flesh +2
+        - Wings of the Abyss +1
+
+      subclasses:
+        - name: Brutal Fiend
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 30
+          grace_percentage: 5
+          mettle_percentage: 30
+          size_percentage: 15
+          wits_percentage: 5
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Endurance
+            - Great Smash
+
+          powers:
+            - Demon Form +3
+            - Tainted Flesh +3
+            - Wings of the Abyss +2
+            - Spiked Tail +2
+
+          subclasses:
+            - name: Brutal Archfiend
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 30
+              grace_percentage: 5
+              mettle_percentage: 30
+              size_percentage: 15
+              wits_percentage: 5
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Endurance
+                - Great Smash
+                - Great Pierce
+
+              powers:
+                - Demon Form +6
+                - Tainted Flesh +6
+                - Wings of the Abyss +4
+                - Spiked Tail +4
+
+        - name: Razor Fiend
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 30
+          grace_percentage: 5
+          mettle_percentage: 30
+          size_percentage: 15
+          wits_percentage: 5
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Endurance
+            - Great Cleave
+
+          powers:
+            - Demon Form +3
+            - Tainted Flesh +3
+            - Wings of the Abyss +2
+            - Bladed Tail +2
+
+          subclasses:
+            - name: Razor Archfiend
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 30
+              grace_percentage: 5
+              mettle_percentage: 30
+              size_percentage: 15
+              wits_percentage: 5
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Endurance
+                - Great Cleave
+                - Great Pierce
+
+              powers:
+                - Demon Form +6
+                - Tainted Flesh +6
+                - Wings of the Abyss +4
+                - Bladed Tail +4
+
+        - name: Venom Fiend
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 30
+          grace_percentage: 5
+          mettle_percentage: 30
+          size_percentage: 15
+          wits_percentage: 5
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Endurance
+            - Great Pierce
+
+          powers:
+            - Demon Form +3
+            - Tainted Flesh +3
+            - Wings of the Abyss +2
+            - Venomous Tail +2
+
+          subclasses:
+            - name: Venom Archfiend
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 30
+              grace_percentage: 5
+              mettle_percentage: 30
+              size_percentage: 15
+              wits_percentage: 5
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Endurance
+                - Great Pierce
+                - Great Cleave
+
+              powers:
+                - Demon Form +6
+                - Tainted Flesh +6
+                - Wings of the Abyss +4
+                - Venomous Tail +4
+
+    - name: Demonologist
+      age: 200
+
+      brawn_bonus: 10
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 5
+      discipline_bonus: 5
+      aura_bonus: 5
+
+      brawn_percentage: 25
+      grace_percentage: 10
+      mettle_percentage: 25
+      size_percentage: 10
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 10
+
+      talents:
+        - Magically Gifted
+
+      powers:
+        - Demonology +2
+        - Imp Servant +1
+        - Hellhound +1
+        - Warbeast +1
+
+      subclasses:
+        - name: Master of Imps
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 10
+
+          talents:
+            - Magically Gifted
+            - Improved Spell Damage
+
+          powers:
+            - Demonology +3
+            - Imp Servant +3
+            - Hellhound +2
+            - Warbeast +2
+
+          subclasses:
+            - name: Lord of Imps
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 10
+
+              talents:
+                - Magically Gifted
+                - Improved Spell Damage
+                - Improved Spell Attack
+
+              powers:
+                - Demonology +6
+                - Imp Servant +6
+                - Hellhound +4
+                - Warbeast +4
+
+        - name: Master of Hellhounds
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 30
+          grace_percentage: 5
+          mettle_percentage: 30
+          size_percentage: 15
+          wits_percentage: 5
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Iron Talons
+            - Lead the Pack
+
+          powers:
+            - Hellhound +3
+            - Demonology +2
+            - Demon Form +2
+            - Tainted Flesh +2
+            - Tainted Talons +1
+
+          subclasses:
+            - name: Lord of Hellhounds
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 30
+              grace_percentage: 5
+              mettle_percentage: 30
+              size_percentage: 15
+              wits_percentage: 5
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Iron Talons
+                - Lead the Pack
+                - Pack Bond
+
+              powers:
+                - Hellhound +6
+                - Demonology +4
+                - Demon Form +4
+                - Tainted Flesh +4
+                - Tainted Talons +2
+
+        - name: Master of Warbeasts
+          age: 300
+
+          brawn_bonus: 10
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 5
+          discipline_bonus: 5
+          aura_bonus: 5
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 10
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 10
+
+          talents:
+            - Magically Gifted
+            - Mounted Combat Mastery
+
+          powers:
+            - Demonology +3
+            - Warbeast +3
+            - Imp Servant +2
+            - Hellhound +2
+
+          subclasses:
+            - name: Lord of Warbeasts
+              age: 400
+
+              brawn_bonus: 10
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 5
+              discipline_bonus: 5
+              aura_bonus: 5
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 10
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 10
+
+              talents:
+                - Magically Gifted
+                - Mounted Combat Mastery
+                - Lead the Pack
+
+              powers:
+                - Demonology +6
+                - Warbeast +6
+                - Imp Servant +4
+                - Hellhound +4
+
+    - name: Infernalist
+      age: 200
+
+      brawn_bonus: 8
+      grace_bonus: 5
+      mettle_bonus: 8
+      size_bonus: 5
+      wits_bonus: 5
+      tenacity_bonus: 6
+      discipline_bonus: 6
+      aura_bonus: 7
+
+      brawn_percentage: 15
+      grace_percentage: 5
+      mettle_percentage: 15
+      size_percentage: 10
+      wits_percentage: 10
+      tenacity_percentage: 15
+      discipline_percentage: 15
+      aura_percentage: 15
+
+      talents:
+        - Witch Spawn
+
+      powers:
+        - Pathway to Hell +2
+        - Road of Seven Sins +2
+        - Imp Servant +1
+
+      subclasses:
+        - name: Infernal Beast
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 5
+          mettle_bonus: 7
+          size_bonus: 4
+          wits_bonus: 5
+          tenacity_bonus: 7
+          discipline_bonus: 7
+          aura_bonus: 8
+
+          brawn_percentage: 15
+          grace_percentage: 5
+          mettle_percentage: 15
+          size_percentage: 5
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 20
+
+          talents:
+            - Witch Spawn
+            - Great Burn
+
+          powers:
+            - Pathway to Hell +3
+            - Demon Form +3
+            - Road of Seven Sins +2
+            - Imp Servant +2
+
+          subclasses:
+            - name: Infernal Reaper
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 5
+              mettle_bonus: 7
+              size_bonus: 4
+              wits_bonus: 5
+              tenacity_bonus: 7
+              discipline_bonus: 7
+              aura_bonus: 8
+
+              brawn_percentage: 15
+              grace_percentage: 5
+              mettle_percentage: 15
+              size_percentage: 5
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 20
+
+              talents:
+                - Witch Spawn
+                - Great Burn
+                - Elemental Spell Expert
+
+              powers:
+                - Pathway to Hell +6
+                - Demon Form +6
+                - Road of Seven Sins +4
+                - Imp Servant +4
+
+        - name: Infernal Corruptor
+          age: 300
+
+          brawn_bonus: 7
+          grace_bonus: 5
+          mettle_bonus: 7
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 7
+          discipline_bonus: 7
+          aura_bonus: 7
+
+          brawn_percentage: 15
+          grace_percentage: 5
+          mettle_percentage: 15
+          size_percentage: 5
+          wits_percentage: 10
+          tenacity_percentage: 15
+          discipline_percentage: 15
+          aura_percentage: 20
+
+          talents:
+            - Witch Spawn
+            - Improved Spell Damage
+
+          powers:
+            - Pathway to Hell +3
+            - Road of Seven Sins +3
+            - Imp Servant +2
+            - Regeneration +2
+
+          subclasses:
+            - name: Infernal Abomination
+              age: 400
+
+              brawn_bonus: 7
+              grace_bonus: 5
+              mettle_bonus: 7
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 7
+              discipline_bonus: 7
+              aura_bonus: 7
+
+              brawn_percentage: 15
+              grace_percentage: 5
+              mettle_percentage: 15
+              size_percentage: 5
+              wits_percentage: 10
+              tenacity_percentage: 15
+              discipline_percentage: 15
+              aura_percentage: 20
+
+              talents:
+                - Witch Spawn
+                - Improved Spell Damage
+                - Improved Spell Attack
+
+              powers:
+                - Pathway to Hell +6
+                - Road of Seven Sins +6
+                - Imp Servant +4
+                - Regeneration +4
+
+        - name: Infernal Wizard
+          age: 300
+
+          brawn_bonus: 5
+          grace_bonus: 5
+          mettle_bonus: 5
+          size_bonus: 5
+          wits_bonus: 5
+          tenacity_bonus: 8
+          discipline_bonus: 8
+          aura_bonus: 9
+
+          brawn_percentage: 10
+          grace_percentage: 5
+          mettle_percentage: 10
+          size_percentage: 0
+          wits_percentage: 10
+          tenacity_percentage: 20
+          discipline_percentage: 20
+          aura_percentage: 25
+
+          talents:
+            - Witch Spawn
+            - Dark Conduit
+
+          powers:
+            - Pathway to Hell +3
+            - Ritual Scarring +3
+            - Road of Seven Sins +2
+            - Imp Servant +2
+
+          subclasses:
+            - name: Infernal Archwizard
+              age: 400
+
+              brawn_bonus: 5
+              grace_bonus: 5
+              mettle_bonus: 5
+              size_bonus: 5
+              wits_bonus: 5
+              tenacity_bonus: 8
+              discipline_bonus: 8
+              aura_bonus: 9
+
+              brawn_percentage: 10
+              grace_percentage: 5
+              mettle_percentage: 10
+              size_percentage: 0
+              wits_percentage: 10
+              tenacity_percentage: 20
+              discipline_percentage: 20
+              aura_percentage: 25
+
+              talents:
+                - Witch Spawn
+                - Dark Conduit
+                - Elemental Spell Focus
+
+              powers:
+                - Pathway to Hell +6
+                - Ritual Scarring +6
+                - Road of Seven Sins +4
+                - Imp Servant +4
+
+    - name: Oni
+      age: 200
+
+      brawn_bonus: 12
+      grace_bonus: 5
+      mettle_bonus: 10
+      size_bonus: 6
+      wits_bonus: 5
+      tenacity_bonus: 4
+      discipline_bonus: 4
+      aura_bonus: 4
+
+      brawn_percentage: 25
+      grace_percentage: 10
+      mettle_percentage: 25
+      size_percentage: 15
+      wits_percentage: 10
+      tenacity_percentage: 5
+      discipline_percentage: 5
+      aura_percentage: 5
+
+      talents:
+        - Oni Spawn
+
+      powers:
+        - Demon Form +2
+        - Tainted Talons +2
+        - Tainted Flesh +1
+
+      subclasses:
+        - name: Dark Oni
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Oni Spawn
+            - Dark Conduit
+
+          powers:
+            - Inferno +3
+            - Pathway to Hell +2
+            - Demon Form +2
+            - Tainted Talons +2
+            - Tainted Flesh +1
+
+          subclasses:
+            - name: Doombringer Oni
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Oni Spawn
+                - Dark Conduit
+                - Sure Footed
+
+              powers:
+                - Inferno +6
+                - Pathway to Hell +4
+                - Demon Form +4
+                - Tainted Talons +4
+                - Tainted Flesh +2
+
+        - name: Nightmare Oni
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 10
+          size_bonus: 6
+          wits_bonus: 5
+          tenacity_bonus: 4
+          discipline_bonus: 4
+          aura_bonus: 4
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Oni Spawn
+            - Serenity
+
+          powers:
+            - Demon Form +2
+            - Tainted Talons +2
+            - Tainted Flesh +2
+            - Protean Nemesis +2
+            - Living Nightmare +2
+
+          subclasses:
+            - name: Torment Oni
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 10
+              size_bonus: 6
+              wits_bonus: 5
+              tenacity_bonus: 4
+              discipline_bonus: 4
+              aura_bonus: 4
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Oni Spawn
+                - Serenity
+                - Martial Gnosis
+
+              powers:
+                - Protean Nemesis +6
+                - Living Nightmare +4
+                - Demon Form +4
+                - Tainted Flesh +4
+                - Tainted Talons +2
+
+        - name: Savage Oni
+          age: 300
+
+          brawn_bonus: 12
+          grace_bonus: 5
+          mettle_bonus: 12
+          size_bonus: 7
+          wits_bonus: 5
+          tenacity_bonus: 3
+          discipline_bonus: 3
+          aura_bonus: 3
+
+          brawn_percentage: 25
+          grace_percentage: 10
+          mettle_percentage: 25
+          size_percentage: 15
+          wits_percentage: 10
+          tenacity_percentage: 5
+          discipline_percentage: 5
+          aura_percentage: 5
+
+          talents:
+            - Oni Spawn
+            - Natural Fortitude
+
+          powers:
+            - Demon Form +2
+            - Tainted Talons +4
+            - Tainted Flesh +4
+
+          subclasses:
+            - name: Bestial Oni
+              age: 400
+
+              brawn_bonus: 12
+              grace_bonus: 5
+              mettle_bonus: 12
+              size_bonus: 7
+              wits_bonus: 5
+              tenacity_bonus: 3
+              discipline_bonus: 3
+              aura_bonus: 3
+
+              brawn_percentage: 25
+              grace_percentage: 10
+              mettle_percentage: 25
+              size_percentage: 15
+              wits_percentage: 10
+              tenacity_percentage: 5
+              discipline_percentage: 5
+              aura_percentage: 5
+
+              talents:
+                - Oni Spawn
+                - Natural Fortitude
+                - Unarmed Mastery
+
+              powers:
+                - Demon Form +6
+                - Tainted Talons +6
+                - Tainted Flesh +6
+                - Inferno +2
