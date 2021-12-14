@@ -10,3 +10,5 @@ title: Guides
 [Tasks and Rewards](tasks)
 
 [Epic Details](epics)
+
+[Item Crafting](item_crafting)
