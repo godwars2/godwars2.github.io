@@ -56,6 +56,10 @@ Assuming you are holding your lock pick set in your left hand, and assisting wit
 your right hand, the following combination of moves can help you open the lock. 
 They are formatted as aliases to be used with the mud's built-in alias system.
 
+Warning: These moves will work in general, but certain internal combinations can 
+cause these to fail (and some locks are trapped as well). Use caution with these,
+and try other moves if these are stuck.
+
 ```
 c = chest
 r = raise
