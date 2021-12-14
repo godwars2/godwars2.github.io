@@ -1,0 +1,10 @@
+Living Fog, age 500, found in desert
+Wild Nightmare, age 500, found in desert
+Shadow Knight, age 400, found in forest
+Blood Knight, age 400, found in forest
+Shadow Beast, age 300, found in swamp
+Shadow Stalker, age 300, found in swamp
+Gloom Bat, age 200, found in mountain
+Shadow Mastiff, age 200, found in mountain
+Night Stag, age 100, found in plain
+Shade, age 100, found in plain

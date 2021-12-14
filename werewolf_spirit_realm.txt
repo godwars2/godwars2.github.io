@@ -1,0 +1,12 @@
+King Cobra, age 500, found in desert
+Woolly Rhino, age 400, found in swamp
+Imperial Mammoth, age 400, found in swamp
+Grizzly Bear, age 300, found in forest
+Gray Fox, age 300, found in forest
+Forest Raven, age 300, found in forest
+Bull Shark, age 200, found in water
+Electric Eel, age 200, found in water
+Wild Boar, age 125, found in the Calydonian boar task
+Cave Lion, age 100, found in mountain
+Moon Hare, age 100, found in mountain
+Mountain Gazelle, age 100, found in mountain
