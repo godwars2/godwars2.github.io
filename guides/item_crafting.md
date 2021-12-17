@@ -6,8 +6,7 @@ title: Item Crafting
 Certain Mobs can drop items that are materials. You can craft those into other items, using the techniques in the tables provided.
 
 <table>
-<tr>
-<td>
+<tr><td>
 
 <h3>Small Shard</h3>
 
@@ -182,7 +181,7 @@ tcsh       = Craft shift
 tfscsfh    = Craft net
 </pre>
 
-</td><tr>
+</td></tr>
 <tr><td>
 
 <h3>Short Leather Strip</h3>
