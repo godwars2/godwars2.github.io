@@ -12,3 +12,5 @@ title: Guides
 [Epic Details](epics)
 
 [Lock Picks](lockpicks)
+
+[Item Crafting](item_crafting)
