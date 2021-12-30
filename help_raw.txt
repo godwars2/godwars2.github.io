@@ -1,52 +1,10 @@
 === AFFECTS ===
-  - affects
-
-This command will list any magical affects currently on your character, along 
-with their remaining duration and the bonuses they grant.
-
-Note that spell affects are colour-coded based on your normal colour scale - 
-negative, positive, permanent and non-spell affects (the latter of which 
-cannot be dispelled).
-
-See also: clearaffects
 
 === FOUND ===
-  - found
-
-This command is only available once you have become Anointed (which requires 
-completing a special task), and allows you to found a religion.  By default 
-your religion will be based on monotheism, but you can change to polytheism 
-by typing 'pantheon upgrade' (see 'help pantheon' for more details).
-
-You may use the 'spheres' command to specify a sphere of influence for your 
-new religion, and the 'pantheon' command to select a corresponding power.
-
-It costs 100000 soul points to found a religion.  If you wish to join another 
-pantheon, you must first leave your own by typing 'pantheon leave'.  You 
-must outcast all existing members first, and you will be refunded all soul 
-points you invested.  Should you 'found' your religion again, it will be in 
-the same state you left it.
-
-See also: pantheon spheres induct promote title
 
 === CLEAR ===
-  - clear
-
-This command clears your character's target or destination.  See also 'stop'.
-
-See also: stop
 
 === BEGIN ===
-  - begin
-
-This command allows your character to begin a task when standing within a task 
-location in the Nexus.  To leave the quest you may type 'leave', or (when you 
-complete it the first time) 'home'.
-
-Note that tasks are instanced, meaning that if someone else begins the same 
-task as you, they will have their own copy and cannot interfere with yours.
-
-See also: tasks leave
 
 === RULES ===
 There are no real rules here; just use your common sense.  If you're smart 

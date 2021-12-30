@@ -33,7 +33,7 @@ Highgate Tor        |150|-10600&nbsp;-17200 |Prometheus         |2250  |0       
 The Great Web       |200|7900&nbsp;-19200   |Arachne            |4000  |100      |a baneful katar
 Hunger Marsh        |225|49500&nbsp;-19200  |The matriarch      |5000  |0        |Visor of Vision
 Oakdale Forest      |250|44900&nbsp;-23800  |the umbral hornets |6250  |0        |
-Briar Lake          |250|36300&nbsp;-23200  |the kappa          |6250  |0        |
+Briar Lake          |250|36300&nbsp;-23200  |the kappa          |6250  |0        |the philosopher's stone
 Whispering Wood     |300|15200&nbsp;-23800  |the dryad          |9000  |0        |an ironwood briarstaff
 Longfang Ridge      |350|12600&nbsp;-43600  |Medusa             |12500 |0        |
 Mirage Desert       |400|-23200&nbsp;-31700 |Surtur             |16000 |0        |a blazing flameblade

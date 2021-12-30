@@ -1,0 +1,42 @@
+> 
+> ----------------------------[ CHARACTER CREATION ]-----------------------------
+Please specify which character creation method you would like to use:
+
+[1] Quickstart : Play a heroic demigod like Cuchulain, Hercules or Achilles.
+
+[2] Concept    : Select a themed character concept from a list of choices.
+
+If this is your first visit, we strongly recommended that you choose one of the
+above two options, as they have been carefully optimised.  You can redesign all
+aspects of your character (except name) whenever you like, so don't worry about
+any long term impact - your initial setup is just to help you get started.
+
+[3] Customised : For veteran God Wars II players who know how to optimise.
+-------------------------------------------------------------------------------
+
+Enter your choice (1-3) and then press enter: Quickstart
+
+--------------------------------[ QUICKSTART ]---------------------------------
+This option will provide you with a decent fighting character, well armed and 
+strongly armoured, yet agile enough to move fast on his or her feet.  Although
+lacking the variety offered by the concept creation method, this character is 
+still an excellent choice, particularly for those unfamiliar with the mud.
+-------------------------------------------------------------------------------
+Brawn      : Ten    Grace      : Seven  Mettle     : Eight  Size       : Seven
+Wits       : Seven  Tenacity   : Four   Discipline : Five   Aura       : Two
+----------------------------------[ TALENTS ]----------------------------------
+Chthonic Demigod         : The blood of a primordial god runs in your veins.
+Damage Style Mastery     : +30/+25/+20/+15% Damage bonus to fighting style.
+Mighty Blow              : You may boost the damage of your techniques.
+----------------------------------[ WEAPONS ]----------------------------------
+Unarmed  : 50   Swords   : 75   Daggers  : 0    Axes     : 0    Clubs    : 0
+Shields  : 75   Flails   : 0    Polearms : 0    Bows     : 0    Improv.  : 50
+-----------------------------------[ MAGIC ]-----------------------------------
+Purple   : 0    Red      : 0    Blue     : 0    Green    : 0    Yellow   : 0
+------------------------------[ FIGHTING STYLES ]------------------------------
+Viper    : 100  Crane    : 0    Crab     : 0    Mongoose : 0    Bull     : 100
+Mantis   : 0    Dragon   : 0    Tiger    : 50   Monkey   : 0    Swallow  : 0
+Bear     : 0    Cobra    : 0    Eagle    : 0    Scorpion : 0    Fox      : 0
+-------------------------------------------------------------------------------
+
+Do you want to quickstart? (Y/N): restore
