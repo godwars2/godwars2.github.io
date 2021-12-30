@@ -39,4 +39,4 @@ Mantis   : 0    Dragon   : 0    Tiger    : 50   Monkey   : 0    Swallow  : 0
 Bear     : 0    Cobra    : 0    Eagle    : 0    Scorpion : 0    Fox      : 0
 -------------------------------------------------------------------------------
 
-Do you want to quickstart? (Y/N): restore
+Do you want to quickstart? (Y/N): 
