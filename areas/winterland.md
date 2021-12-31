@@ -27,3 +27,29 @@ Peartree Forest  | 25740 47520 | Forest    | Age 100     | Dire partridge
 Snowy Glade      | 26730 1980  | Forest    | Age 500     | Santa Claws, cutter, and the grotto
 The White Forest | 25740 14520 | Forest    | Age 100     | Killer turkeys and dire reindeer
 Winter Wood      | 44880 28050 | Forest    | Age 400-500 | Winter witches (Christmas treants at night)
+
+## Mob List
+
+{:.sortale}
+Mob Name             | Age Range | Item Drops    | Fang Drops
+-------------------- | --------- | ------------- | ----------
+Yule Boar            | 100       | None          | Health
+Killer Turkey        | 100       | Bone Shard    | None (no teeth)
+Dire Reindeer        | 100       | Deerskin Pelt | Healtlh
+Dire Partridge       | 100       | Bone Shard    | None (no teeth)
+Dire carol singers   | 100       | Giftbox       | None
+Snap Dragons         | 100-400   | Dragonscale Fragments and Dragonbone Shards | Health, Mana, Protection, Mental Armour
+Animated nutcrackers | 200       | Wooden shards | Health
+Yule Goats           | 200       | Goatskin pelts | None
+Elves                | 200       | None           | None
+Snowmen              | 200-300   | Icemetal shards | None
+Gingerbread giants/titans | 300-400 | the epic halberd | None
+Animated snoballs    | 400       | Icemetal shards | None
+Christmas treants    | 500       | Ironwood shards | None
+Winter Witches       | 400       | Cauldrons       | Health
+Broomstick           | 400       | Banewood shards | None
+Santa Claws          | 500       | Unerring spears | Health
+The Doom Sleigh      | 500       | Brown Sacks     | None
+Santa's Grotto       | 100       | None            | None
+Mrs Claws            | 500       | Brown sacks     | Health
+Cutter the Reindeer  | 500       | Deerskin pelts  | Health
