@@ -30,7 +30,7 @@ Winter Wood      | 44880 28050 | Forest    | Age 400-500 | Winter witches (Chris
 
 ## Mob List
 
-{:.sortale}
+{:.sortable}
 Mob Name             | Age Range | Item Drops    | Fang Drops
 -------------------- | --------- | ------------- | ----------
 Yule Boar            | 100       | None          | Health

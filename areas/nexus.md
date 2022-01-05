@@ -107,7 +107,7 @@ Witchwood River    | 51300 -7660   | River      |             | None
 
 ## Mob List
 
-{:.sortale}
+{:.sortable}
 Mob Name             | Age Range | Item Drops    | Fang Drops
 -------------------- | --------- | ------------- | ----------
 Cloud Giant          | 300-350   | Skysteel boots, battle bracers, greaves, breastplate, full helm, greatsword | Health, Brawn, Mettle, Hand-based mental bypass
