@@ -104,3 +104,19 @@ Windy Mountain     | -18320 -60000 | Mountain   | Age 300-350 | Cloud giants (el
 Witchwood          | 52840 -6660   | Forest     | Age 600     | Carnivorous plants
 Witchwood Lake     | 42320 -13000  | Lake       |             | None
 Witchwood River    | 51300 -7660   | River      |             | None
+
+## Mob List
+
+{:.sortale}
+Mob Name             | Age Range | Item Drops    | Fang Drops
+-------------------- | --------- | ------------- | ----------
+Cloud Giant          | 300-350   | Skysteel boots, battle bracers, greaves, breastplate, full helm, greatsword | Health, Brawn, Mettle, Hand-based mental bypass
+Fire Giant           | 200-300   | Brass boots, bracers, greaves, breastplate, codpiece, full helm flachion  | Health, Brawn, Mettle, Hand-based heat bypass
+Frost Giant          | 250-300   | Silver boots, bracers, gauntlets, breastplate, codpiece, full helm, spear, target shield | Health, Brawn, Mettle, Hand-based cold bypass
+Storm Giant          | 250-350   | Copper boots, bracers, guantlets, breastplate, codpiece, full helm, maul | Health, Brawn, Mettle, Hand-based shock bypass
+Hill Giant           | 125       | Cudgel        | Health
+Stone Giant          | 150       | Cudgel        | Health
+Black Dragon         | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Poison Armour
+Blue Dragon          | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Shock Armour, Ascendancy
+Red Dragon           | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Heat Armour, Power
+White Dragon         | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Cold Armour, Speed
