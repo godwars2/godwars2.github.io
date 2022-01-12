@@ -120,3 +120,19 @@ Black Dragon         | 100-500   | Dragonscale Fragment and Dragonbone Shard | H
 Blue Dragon          | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Shock Armour, Ascendancy
 Red Dragon           | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Heat Armour, Power
 White Dragon         | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Cold Armour, Speed
+Centaurs             | 100       | Various, precious metal items, bows, endless quivers, Dragon Barding | Health
+Cerberi              | 200       | Spiked demonsteel collars | Health, Brawn, Grace
+Cyclops              | 300       | Skysteel greaves, bracers, trident, war hammer | Health
+Demonic Ibex         | 350       | Goatskin pelts | Health
+Dire Apes            | 150       | Apeskin pelts | Health, Unarmed Attack & Damage, Fist & Claw Bypass
+Dire Boar            | 110       | None | Health
+Dire Tiger           | 110       | Tigerskin pelts | Health, Grace, Wits
+Dire Bear            | 110       | Bearskin pelts | Health, Brawn, Mettle
+Dire Crocodile       | 125       | Crocodile skin hides | Health, Mettle
+Dire Lion            | 110       | Lionskin pelts | Health, Grace, Wits
+Dire Shark           | 110       | Sharkskin hides | Health, Discipline, Bite Attack & Damage
+Dire Wolf            | 100       | Wolfskin pelts | Health, Brawn, Grace
+Dire Stag            | 100       | Deerskin pelts | Health
+Dire Owl             | 100       | Metalic Feathers (Dragon Hoard) | None
+Dire Bat             | 100       | Batskin pelts | Health
+Harpies              | 100       | Precious Metal Wing-spikes, Spiked Collars | Health

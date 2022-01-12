@@ -112,7 +112,7 @@ Certain Mobs can drop items that are materials. You can craft those into other i
 </td></tr>
 <tr><td>
 
-<h3>Small Pelt</h3>
+<h3>Small Pelt/Hide</h3>
 
 <ul>
 <li>tcch       = cap</li>
@@ -125,7 +125,7 @@ Certain Mobs can drop items that are materials. You can craft those into other i
 
 </td><td>
 
-<h3>Medium Pelt</h3>
+<h3>Medium Pelt/Hide</h3>
 
 <ul>
 <li>tfcfh      = trousers</li>
@@ -134,11 +134,12 @@ Certain Mobs can drop items that are materials. You can craft those into other i
 
 </td><td>
 
-<h3>Large Pelt</h3>
+<h3>Large Pelt/Hide</h3>
 
 <ul>
 <li>tcfcsh     = jerkin</li>
 <li>tcffh      = hooded cloak</li>
+<li>tcfh       = cloak</li>
 </ul>
 
 </td></tr>
