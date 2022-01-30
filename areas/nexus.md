@@ -108,31 +108,56 @@ Witchwood River    | 51300 -7660   | River      |             | None
 ## Mob List
 
 {:.sortable}
-Mob Name             | Age Range | Item Drops    | Fang Drops
--------------------- | --------- | ------------- | ----------
-Cloud Giant          | 300-350   | Skysteel boots, battle bracers, greaves, breastplate, full helm, greatsword | Health, Brawn, Mettle, Hand-based mental bypass
-Fire Giant           | 200-300   | Brass boots, bracers, greaves, breastplate, codpiece, full helm flachion  | Health, Brawn, Mettle, Hand-based heat bypass
-Frost Giant          | 250-300   | Silver boots, bracers, gauntlets, breastplate, codpiece, full helm, spear, target shield | Health, Brawn, Mettle, Hand-based cold bypass
-Storm Giant          | 250-350   | Copper boots, bracers, guantlets, breastplate, codpiece, full helm, maul | Health, Brawn, Mettle, Hand-based shock bypass
-Hill Giant           | 125       | Cudgel        | Health
-Stone Giant          | 150       | Cudgel        | Health
-Black Dragon         | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Poison Armour
-Blue Dragon          | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Shock Armour, Ascendancy
-Red Dragon           | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Heat Armour, Power
-White Dragon         | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Cold Armour, Speed
-Centaurs             | 100       | Various, precious metal items, bows, endless quivers, Dragon Barding | Health
-Cerberi              | 200       | Spiked demonsteel collars | Health, Brawn, Grace
-Cyclops              | 300       | Skysteel greaves, bracers, trident, war hammer | Health
-Demonic Ibex         | 350       | Goatskin pelts | Health
-Dire Apes            | 150       | Apeskin pelts | Health, Unarmed Attack & Damage, Fist & Claw Bypass
-Dire Boar            | 110       | None | Health
-Dire Tiger           | 110       | Tigerskin pelts | Health, Grace, Wits
-Dire Bear            | 110       | Bearskin pelts | Health, Brawn, Mettle
-Dire Crocodile       | 125       | Crocodile skin hides | Health, Mettle
-Dire Lion            | 110       | Lionskin pelts | Health, Grace, Wits
-Dire Shark           | 110       | Sharkskin hides | Health, Discipline, Bite Attack & Damage
-Dire Wolf            | 100       | Wolfskin pelts | Health, Brawn, Grace
-Dire Stag            | 100       | Deerskin pelts | Health
-Dire Owl             | 100       | Metalic Feathers (Dragon Hoard) | None
-Dire Bat             | 100       | Batskin pelts | Health
-Harpies              | 100       | Precious Metal Wing-spikes, Spiked Collars | Health
+Mob Name               | Age Range | Item Drops    | Fang Drops
+---------------------- | --------- | ------------- | ----------
+Black Armoured Dragon  | 300-350   | Bronze dragon barding | Health, Mana, Protection, Poison Armour
+Black Dragon           | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Poison Armour
+Black Skylords         | 300-350   | Bronze armour & falchion | Health
+Blue Armoured Dragon   | 300-350   | Copper dragon barding | Health, Mana, Protection, Shock Armour, Ascendancy
+Blue Dragon            | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Shock Armour, Ascendancy
+Blue Skylords          | 300-350   | Copper armour & war hammer | Health
+Carnivorous plants     | 600       | Red, Blue, and Yellow Flowers | None
+Centaurs               | 100       | Various, precious metal items, bows, endless quivers, Dragon Barding | Health
+Cerberi                | 200       | Spiked demonsteel collars | Health, Brawn, Grace
+Cloud Giant            | 300-350   | Skysteel boots, battle bracers, greaves, breastplate, full helm, greatsword | Health, Brawn, Mettle, Hand-based mental bypass
+Cyclops                | 300       | Skysteel greaves, bracers, trident, war hammer | Health
+Demonic Ibex           | 350       | Goatskin pelts | Health
+Dire Apes              | 150       | Apeskin pelts | Health, Unarmed Attack & Damage, Fist & Claw Bypass
+Dire Bat               | 100       | Batskin pelts | Health
+Dire Bear              | 110       | Bearskin pelts | Health, Brawn, Mettle
+Dire Boar              | 110       | None | Health
+Dire Crocodile         | 125       | Crocodile skin hides | Health, Mettle
+Dire Lion              | 110       | Lionskin pelts | Health, Grace, Wits
+Dire Mammoths          | 500       | Mammothskin pelts | Health (DO NOT WORK)
+Dire Owl               | 100       | Metalic Feathers (Dragon Hoard) | None
+Dire Shark             | 110       | Sharkskin hides | Health, Discipline, Bite Attack & Damage
+Dire Stag              | 100       | Deerskin pelts | Health
+Dire Tiger             | 110       | Tigerskin pelts | Health, Grace, Wits
+Dire Wolf              | 100       | Wolfskin pelts | Health, Brawn, Grace
+Draugen Warrior        | 250       | Bronze armour & greatswords | None
+Ettins                 | 350-450   | Leather jerkin, collar, trousers; Skysteel morning star | Health, Hand-based cut bypass, Hand-based stab bypass, Hand-based crush bypass
+Fire Giant             | 200-300   | Brass boots, bracers, greaves, breastplate, codpiece, full helm flachion  | Health, Brawn, Mettle, Hand-based heat bypass
+Frost Giant            | 250-300   | Silver boots, bracers, gauntlets, breastplate, codpiece, full helm, spear, target shield | Health, Brawn, Mettle, Hand-based cold bypass
+Giant Ants             | 110-125   | Black chitin fragments | Health
+Giant Scorpions        | 100-150   | Black chitn fragments | Health, Physical Armour
+Giant Spiders          | 150       | Spidersilk pieces | Health
+Gorgons                | 300       | Shortbows, quivers | Health
+Green Armoured Dragon  | 300-350   | Brass dragon barding | Health, Mana, Protection
+Green Skylords         | 300-350   | Brass armour & morning stars | Health
+Harpies                | 100       | Precious Metal Wing-spikes, Spiked Collars | Health
+Hill Giant             | 125       | Cudgel        | Health
+Lizardmen (and mount)  | 100       | Precious Metal breastplate, champron, criniere, dragonspurs | Health
+Mehktish demons        | 350-400   | Obsidian and onyx rings, Orange tigerskin belts | None
+Prometheans            | 400       | Precious gems rings | None
+Red Armoured Dragon    | 300-350   | Gold dragon barding | Health, Mana, Protection, Heat Armour, Power
+Red Dragon             | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Heat Armour, Power
+Red Skylords           | 300-350   | Gold armour & sabre | Health
+Storm Giant            | 250-350   | Copper boots, bracers, guantlets, breastplate, codpiece, full helm, maul | Health, Brawn, Mettle, Hand-based shock bypass
+Stone Giant            | 150       | Cudgel        | Health
+Treants                | 100-500   | Ironwood shards | None
+White Armoured Dragon  | 300-350   | Silver dragon barding | Health, Mana, Protection, Cold Armour, Speed
+White Dragon           | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Cold Armour, Speed
+White Skylords         | 300-350   | Silver armour & battleaxe | Health
+Winter wolves          | 250       | Wolfskin pelts | Health, Brawn, Grace
+Yellow Armoured Dragon | 300-350   | Platinum dragon barding | Health, Mana, Protection
+Yellow Skylords        | 300-350   | Platinum armour & rapiers | Health
