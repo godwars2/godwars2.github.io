@@ -149,6 +149,7 @@ Hill Giant             | 125       | Cudgel        | Health
 Lizardmen (and mount)  | 100       | Precious Metal breastplate, champron, criniere, dragonspurs | Health
 Mehktish demons        | 350-400   | Obsidian and onyx rings, Orange tigerskin belts | None
 Prometheans            | 400       | Precious gems rings | None
+Ratlings               | 200       | Crossbows, case of crossbow bolts | Health
 Red Armoured Dragon    | 300-350   | Gold dragon barding | Health, Mana, Protection, Heat Armour, Power
 Red Dragon             | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Heat Armour, Power
 Red Skylords           | 300-350   | Gold armour & sabre | Health
