@@ -147,7 +147,7 @@ Gorgons                | 300       | Shortbows, quivers | Health
 Green Armoured Dragon  | 300-350   | Brass dragon barding | Health, Mana, Protection
 Green Skylords         | 300-350   | Brass armour & morning stars | Health
 Harpies                | 100       | Precious Metal Wing-spikes, Spiked Collars | Health
-Hill Giant             | 125       | Cudgel        | Health
+Hill Giant             | 125       | Cudgel | Health
 Ice Troll              | 450       | Rings | Health, Resistance, Damage
 Lizardmen (and mount)  | 100       | Precious Metal breastplate, champron, criniere, dragonspurs | Health
 Mehktish demons        | 350-400   | Obsidian and onyx rings, Orange tigerskin belts | None
@@ -157,10 +157,12 @@ Ratlings               | 200       | Crossbows, case of crossbow bolts | Health
 Red Armoured Dragon    | 300-350   | Gold dragon barding | Health, Mana, Protection, Heat Armour, Power
 Red Dragon             | 100-500   | Dragonscale Fragment and Dragonbone Shard | Health, Mana, Protection, Heat Armour, Power
 Red Skylords           | 300-350   | Gold armour & sabre | Health
+River Troll            | 100       | Rings | Health, Resistance, Damage
 Rock Troll             | 400       | Rings | Health, Resistance, Damage
+Sea Troll              | 300       | Rings | Health, Resistance, Damage
 Spectres               | 125       | Ethereal rings & robes | None
 Storm Giant            | 250-350   | Copper boots, bracers, guantlets, breastplate, codpiece, full helm, maul | Health, Brawn, Mettle, Hand-based shock bypass
-Stone Giant            | 150       | Cudgel        | Health
+Stone Giant            | 150       | Cudgel | Health
 Swamp Troll            | 200       | Rings | Health, Resistance, Damage
 Treants                | 100-500   | Ironwood shards | None
 White Armoured Dragon  | 300-350   | Silver dragon barding | Health, Mana, Protection, Cold Armour, Speed
