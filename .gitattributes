@@ -1,4 +1,4 @@
-text=auto
+* text=auto
 
 # These files are text and should be normalized (convert crlf => lf)
 *.html    text
