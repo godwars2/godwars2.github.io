@@ -4,24 +4,28 @@ title: Blood Forging
 description: You may reforge metal items with your blood.
 info:
   Required class      : Vampire
-  Power spheres       : Burst and Weapon
+  Power spheres       : Forging
 reqs:
-  Required powers     : Path of Shadows 10+ and Shadow Crafting 10+
+  Required powers     : Blood Legacy 5+
+  Banned powers       : Shadow Crafting
 ---
 
-This power allows you to conjure a darkblade - a shimmering blade of elemental
-shadow.  You can create the blade via the 'conjure' command, and each rank in
-this power gives it +2 Attack, +2 Defence, +2 Damage and +1 physical bypass.  
-Each rank in Shadow Crafting grants it an additional +1 physical bypass.
+This power allows you to reforge metal weapons and armour, using your blood to
+imbue them with supernatural might.  You can use this power on both magical and
+non-magical items, and the process will transform the material into bloodsteel.
 
-The weapon can also be transformed into an ethereal blade of writhing shadow
-which causes cold damage, and can shoot beams of cold energy at your opponents.
+If you use this power on a weapon, it will gain +1 Blood Taint and +1 bypass
+per rank.  When the weapon inflicts damage it will soak up blood, causing it to
+throb and eventually pulsate.  When throbbing the weapon grants +1 bypass for 
+each rank you have in this power.  When pulsating, it gets +2 bypass per rank.
 
-If you also have House DarkBlade, then each rank in Blade of Darkness gives you
-a +10% chance of a frost burst on a critical hit, and +2 burst bypass.  Each
-rank also gives +1 cold bypass, which aids both ethereal form and burst attack.
+If you use this power on armour, it will gain +1 Blood Taint, and +1% physical
+or energy soak (or +2% to a specific soak type) as well as half the soak value
+as auto-absorb, per rank.  If the armour already has magical soak, that soak
+type will be used, otherwise heavy armour (breastplate, full helm, etc) will
+gain physical soak and other types of armour will gain energy soak.
 
-At rank 20, your darkblade inflicts dual cold damage in physical form and dual
-mental damage in ethereal form.  It also gains +1 mental bypass per rank.
-
-The darkblade will vanish if removed, but can be resummoned at any time.
+You may reforge blood tainted items at any time, specifying how much taint you 
+wish it to have, up to a maximum equal to your rank in this power.  If you use
+items with a taint higher than your rank, each point of difference counts as 10
+points of radiation.  Non-vampires may use bloodsteel if the taint is removed.
