@@ -40,7 +40,7 @@ Shadowglade Forest   | 2000 21000                  | Forest        | Black bears
 Shimmer Pond         | 11880 0                     | Pond          | None
 Snow River           | 1300 13350 and 8600 5900    | River         | White dragon hatchlings
 Storm River          | 19100 -200 and 15183 1280   | River         | None
-Tartarus             | 20394 21054                 | Desert        | Nomads
+Tartarus             | 20394 21054                 | Desert, Class Dungeon        | Nomads
 The Abandoned Temple | -792 2508                   | Settlement    | None
 The Black Castle     | 594 -660                    | Settlement    | None
 The Crater           | 2706 15774                  | Dungeon       | Fire elementals, dragons
