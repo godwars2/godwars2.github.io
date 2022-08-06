@@ -9,9 +9,8 @@ permalink:        pretty
 title:            God Wars 2 Library
 tagline:          'God Wars 2 Library'
 description:      'Details for the awesome game of God Wars 2'
-url:              https://mleo2003.github.io
-baseurl:          /gw2
+url:              https://godwars2.github.io
 
 author:
   name:           'Matthew Robinson'
-  url:            https://mleo2003.github.io
+  url:            https://godwars2.github.io
