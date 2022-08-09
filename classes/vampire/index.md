@@ -41,7 +41,7 @@ Then focus on one of the following power/talent combinations:
         {% assign gamma_list = beta_class.subclasses %}
         {% for gamma_class in gamma_list %}
         <li>
-          <strong>{{ beta_class.name }}</strong> <em>({{ beta_class.age }})</em> -> <strong>{{ gamma_class.name }}</strong> <em>({{ gamma_class.age }})</em>
+          <strong>{{ beta_class.name }}</strong> <em>({{ beta_class.age }})</em> - <strong>{{ gamma_class.name }}</strong> <em>({{ gamma_class.age }})</em>
         </li>
         {% endfor %}
         {% endfor %}
