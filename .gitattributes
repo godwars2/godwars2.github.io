@@ -4,9 +4,10 @@
 *.html    text
 *.css     text
 *.js      text
-*.xml     text
-*.yml     text
-*.md      text
+*.txt     text eol=lf
+*.xml     text eol=lf
+*.yml     text eol=lf
+*.md      text eol=lf
 
 # Images should be treated as binary
 # (binary is a macro for -text -diff)
