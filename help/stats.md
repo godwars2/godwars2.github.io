@@ -18,6 +18,22 @@ Tenacity | +4 Ascendancy, +3 Attack, +1 Power, +1 Damage and +1 Mana.
 Discipline | +4 Protection, +2 Resistance, +2 Health, +1 Damage and +1 Mana.
 Aura | +2 Power, +2 Ascendancy, +2 Protection, +3 Mana and +1 spell range.
 
+To see these grouped by secondary stats easier:
+
+\-|Brawn|Grace|Mettle|Size|Wits|Tenacity|Discipline|Aura
+---|---|---|---|---|---|---|---|---
+Attack|1|4||2||3||
+Defense||3|1|2|4|||
+Damage|2|||1||1|1|
+Resistance|||2|1|||2|
+Health|4||6|8|||2|
+Ascendency||3|||1|4||2
+Protection|||3||1||4|2
+Power|1||||1|1||2
+Mana|||1|||1|1|3
+Speed||1/3|||2/3|||
+Extras|1 throw range|||||||1 spell range
+
 Brawn is also used for encumbrance (see 'help encumbrance'), while every 3 
 points of Size increases your reach by one foot and reduces your Defence by 2.
 
