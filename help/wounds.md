@@ -1,6 +1,6 @@
 ---
 layout: help
-title: clear
+title: wounds
 syntax:
   - wounds
 ---

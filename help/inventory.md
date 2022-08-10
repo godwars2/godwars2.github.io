@@ -1,6 +1,6 @@
 ---
 layout: help
-title: clear
+title: inventory
 syntax:
   - inventory
   - inventory <keyword>

@@ -120,159 +120,20 @@ Note that you will automatically take 1 damage, regardless of how successful
 your attack is.  Mercenaries will never completely destroy a city.
 
 === GIVE ===
-  - give <object>
-  - give <object> <creature>
-  - give <object> to <creature>
-  - give <creature> [the] <object>
-  - give to <creature> [the] <object>
-
-  - accept <object>
-  - accept <object> <creature>
-  - accept <object> from <creature>
-  - accept <creature> <object>
-  - accept from <creature> [the] <object>
-
-This command allows you to offer to give something you are carrying to another 
-creature.  You must either specify the creature you wish to give it to, or 
-target them first, and they must be standing within reach.  They then have 30 
-seconds to accept, if they wish to take it from you.
-
-You should use the optional word 'the' (listed in the syntax above) if you wish
-to use multiple keywords for the first token.  For example if you want to give 
-your gold collar to a black wolf you can type 'give wolf gold collar' or 'give 
-collar black wolf', but not 'give black wolf gold collar' - instead you should 
-type 'give black wolf the gold collar' (or 'give gold collar to black wolf').
-
-Note that '@' is an alias for 'to' (and 'from' when accepting an object).
-
-See also: wear wield remove get drop swap buy sell
 
 === PROMPT ===
-  - prompt <text>
-  - cprompt <text>
-  - display
-
-These commands allow you to customise your prompts.  Type 'display' to view a 
-list of the variables that can be used within your prompts.
-
-For example, you could type 'prompt $h/$H ($a)> ' to show your current Health, 
-maximum Health, and action points (this is also the default prompt).
-
-The 'prompt' command sets your normal prompt, while 'cprompt' sets your combat 
-prompt.  If you have a combat prompt defined, you will see it instead of your 
-regular prompt while you have an adrenaline rush.  If you only want to see the 
-one prompt, type 'cprompt clear' and stick to the regular 'prompt' command.
-
-Typing 'config prompt' will hide your prompt/s.
-
-See also: display colour
 
 === COMBAT ===
-NOTE: If you find this help file too confusing, type 'help tutorial'.
-
-Type 'l?' to view the combat table for your left hand.  At the top you'll see a
-list of valid commands, each of which are one letter, followed by their AP cost
-in brackets.  To perform one of these commands, type 'l' followed by the 
-letter - for example, if one of the commands is 'd' (for defence), you can type
-'ld' to perform a left-handed defence.
-
-Below the commands you'll see a list of all of the techniques available to you.
-To perform these techniques, you need to type the commands for that location in
-the appropriate order - for example, if one of the techniques for your left
-hand is 'fss', you should type 'lf', 'ls' and 'ls' as three separate commands.
-This may well trigger other techniques on the way - for example if 'fs' is also
-a listed technique, then you will perform that technique on your second command
-and the 'fss' technique on your third, allowing powerful combination attacks.
-
-Type 'r?', 'f?' and 'h?' to view the combat tables for your right hand, feet
-and head respectively.  These work in exactly the same way as your left hand,
-although each of your four locations will have its own combat table.
-
-See also: actions assist attack defence kill techniques interleaving
 
 === WIELD ===
-  - wield <thing>
-
-This command allows you to wield the specified thing in your hand, using it as 
-a weapon, even if it is not intended to be used as such.  You must be carrying 
-the thing in order to do this.
-
-You cannot wield while you have an adrenaline rush.  The only exception is if
-the item was disarmed, or lost due to having a body part chopped off - if this 
-happens, you have 30 seconds during which you may rewield.  Doing so will cost 
-1000 action points, -100 for every second you wait, to a minimum of 100 action 
-points after 9 seconds.  Throwing a weapon doesn't count as a disarm, but if 
-one of your hands is severed it can be rewielded as if it had been disarmed.
-
-To use a weapon two-handed you must first wield it in one hand, then assist 
-with the other (see 'help assist').
-
-See also: wear remove get give drop swap actions
 
 === OPEN ===
-  - open eyes/<object>
-  - close eyes/<object>
-
-These commands allow you to open and close your eyes, or a specified object 
-that you are wearing.  You can see if an object can be opened and closed by 
-looking at it (there will be a 'Special' field in the top section).
-
-While your eyes are closed, you cannot see your opponent, and will suffer the 
-usual -50% Defence penalty for visibility (see 'help blind fighting').  Certain
-powers, such as Ears of the Bat, may give you additional benefits while your 
-eyes are closed.  You will also be immune to attacks which require eye contact,
-and have half your normal natural armour on your eyes (instead of none).
-
-If you are wearing a helmet with a lowered visor, you suffer a -25% penalty to 
-your Defence, applied after pain modifiers.  If you have Blind Fighting, this 
-penalty is reduced to -10% (representing reduced hearing).  However the lowered
-visor will protect the eyes, and also doubles the helmet's face protection.
-
-See also: wear remove
 
 === REPAIR ===
-  - repair
-  - repair <creature>
-
-This command allows you to fully repair all of your equipment, or that of the 
-specified creature (including pets and other players).  It will remove heat 
-and corrosion (rust/tarnish/etc) damage as well as normal physical damage.
-
-Note that you only have access to this command while on your home plane.
-
-See also: home
 
 === MTARGET ===
-  - mtarget <thing>
-  - mtarget <x coordinate> <y coordinate>
-
-While mounted, this command replaces the target command for movement 
-purposes.  The regular target command is still used for other activities 
-such as combat.
-
-See also: target
 
 === ARMOUR2 ===
-To read the first part of this help file, type 'help armour'.
-
-If your total bypass is 3% or more of your opponent's total armour, then at 
-least 1% of your total damage is guaranteed to get through their combined 
-armour layers.  This increases to 2% if your bypass is 6% of their armour, 3% 
-at 9%, 4% at 12%, 5% at 15%, and so on, up to a maximum of 33% damage at 99%.
-
-If your opponent's total armour is 3% or more of your total bypass, then at
-least 1% of your total damage will be soaked by their combined armour layers.  
-This increases to 2% damage if their armour is 6% of your bypass, 3% at 9%, 4% 
-at 12%, 5% at 15%, and so on, up to a maximum of 33% damage at 99%.
-
-Last but not least comes your immunity, which is treated the same as natural 
-armour except that it is capped at 95%, and cannot be bypassed.
-
-After applying all soak percentages, your total auto-absorb is subtracted from
-the remaining damage.  This auto-absorb will typically be the same as the
-total of all encumbrance worn on the struck location, although it may well be
-adjusted by talents, powers and magical item bonuses.  If struck by a critical
-hit, your opponent's total bypass will be subtracted from your auto-absorb.
 
 === RELIGION ===
   - jihad <opponent>
@@ -289,1837 +150,218 @@ of damage.  Your opponent takes 2 damage on a draw, and 1 damage if they beat
 you, but in both cases you will also take 5 damage.
 
 === ENCUMBRANCE ===
-Your encumbrance rating represents how much you are wearing, and affects you as
-follows, colour-coded the same as the 'encumbrance' stat in your score:
-
-Encumbrance is less than or equal to your Brawn: Unencumbered.  +5 Speed. 
-You have access to all feet techniques.  Encumbrance coloured CYAN in your
-score.  
-
-Encumbrance is more than your Brawn: Light encumbrance.  +3 Speed.  Lose
-access to acrobatic techniques.  Encumbrance coloured BLUE in your score.  
-
-Encumbrance is more than two times your Brawn: Medium encumbrance.  No Speed
-modifier.  Lose access to run and most kick techniques.  Encumbrance coloured
-MAGENTA in your score.  
-
-Encumbrance is more than three times your Brawn: Heavy encumbrance.  -5 Speed
-(or half, whichever is better).  Can no longer jog, kick, or jump.  Encumbrance
-coloured RED in your score.  
-
-Your encumbrance is also subtracted from your Defence rating for your feet, 
-and affects how quickly your locations can recover from preventing an attack.
-Note that Encumbrance 25+ means you're always at least lightly encumbered, and 
-50+ means you're always at least at medium encumbrance, regardless of Brawn.
 
 === DAMAGE ===
-Damage represents the raw physical power of your character, and is calculated 
-in six steps for each body location as follows:
-
-1) Add together the stat modifiers and subtract any weapon penalties.
-2) Add any modifiers for the weapon table and bonuses for the weapon itself.
-3) Add any modifiers for magical items you're wearing.
-4) Apply the percentage modifier if using a two-handed weapon.
-5) Add bonuses from talents/powers that specifically state 'after percentages'.
-6) Add any modifiers for spell affects.
-
-The maximum damage you can inflict is then calculated by multiplying your 
-Damage by a percentage value based on the difference between your Core Damage 
-and your opponent's Resistance (see 'help resistance').  Note that percentage 
-modifiers for fighting styles are ONLY applied to Core Damage.
-
-The actual amount of damage you inflict will depend upon how well you hit your 
-opponent, weighed increasingly in your favour the higher above 50% your chance 
-to hit is.  With a 50% chance to hit you'll do an average of 25.7% damage per 
-blow (treating misses as 0% damage).  This goes up to 31.82% at 55%, 38.75% at 
-60%, 45.38% at 65%, 51.79% at 70%, 58.00% at 75%, 64.06% at 80%, 70.00% at 85%,
-75.83% at 90% and 81.58% damage at 95% chance to hit.
-
-In your score, your damage for each location is colour-coded to indicate its
-bypass bonus - 20% of your weapon skill, 10% of your weapon skill, 5% of 
-your weapon skill, or no bypass bonus.
-
-See also: assist attack combat critical defence resistance
 
 === WHISPER ===
-  - whisper <text>
-  - whisper to <target> <text>
-
-This command works in much the same way as 'say', except that you can only be 
-heard by people within 5 feet.
-
-See also: say shout
 
 === KARMA ===
-If you belong to a pantheon, you will earn Karma while in the Nexus.  The 
-amount of Karma earned is the same as the amount of Primal earned, minus your 
-number of daily kills.  Once you've earned 1000 Karma, any further points are 
-automatically transferred to your pantheon.  When you leave the Nexus (through
-death, entering a task or shifting) then half of your current Karma will be 
-transferred to your pantheon and the rest will be lost.
-
-If you kill another player in the Nexus, they are old enough to give Primal, 
-and both of you are in top 10 pantheons, then you will steal all Karma that 
-they haven't yet transferred to their pantheon.  If you successfully steal 
-any Karma from them, it will count as a pantheon kill.
-
-Note that new recruits cannot earn Karma.  When someone joins a pantheon they 
-remain a new recruit until the scoreboard resets at the end of the week.
-
-See also: pantheon pantheons
 
 === WEAPON ===
-  - weapon <left/right/head/feet>
-
-This command will display the weapon used in the specified hand as if you had 
-looked at it using 'look +<weapon name>'.  If you are not using a weapon, or 
-are viewing your left or right hand, it will instead display the stats for the
-specified location in the same format as it would a weapon.
-
-Note that your appropriate weapon skill (uncapped, but not including Combat) is
-applied as a multiplier to your wielded weapons' first 100 points in each of 
-Attack, Defence and Damage.  The same applies to natural weapons.
 
 === GENDER ===
-  - gender
-  - gender <male/female>
-  - gender <name> (test the gender analyser for the specified name)
-
-This command allows you to change your gender - the Supernaturalis are never 
-truly mortal, and can change gender at will.  Typing 'gender' on its own (while
-on your home plane) will tell you whether you are currently male or female.
-
-During the quickstart and concept character creation, your starting gender is 
-chosen for you, to reduce the number of choices you need to make.  Some of the 
-concepts give you a fixed starting gender (for example an amazon always starts 
-female while a monk always starts male), while others have a random gender.
-
-In the case of a random gender, the mud will analyse your name using pattern 
-matching and a phonetic algorithm, comparing it with real names to choose your 
-starting gender.  The name 'Player' sounds masculine (61% probability).
-
-Note that this command is only available when you are on your home plane.
 
 === WHOIS ===
-  - who
-  - who brief/where/full/idle
-  - whois <player>
-
-The 'who' command will list which players are currently connected to the mud, 
-with names colour-coded to indicate whether each player is in the outer Nexus,
-the inner Nexus, a named Nexus area, a home plane (not necessarily their own) 
-or somewhere else (such as the Realm, a dungeon, etc).  If you are classed, the
-class names of other players in the Nexus will be colour-coded to indicate if 
-they would or wouldn't give you primal, should you kill them.
-
-Typing 'who brief' will list only the colour-coded player names, with a '*' 
-indicating that the player is link-dead.
-
-Typing 'who where' and 'who full' list where each player is located.
-
-The 'whois' command allows you to view information about a specific player, 
-such as when they last connected and how long they've played.  The 'finger' 
-command is an alias for 'whois'.
 
 === PROTECTION ===
-Your character has three defence ratings - one for your left hand, one for your
-right hand, and one for your feet.  You cannot defend with your head, however -
-instead, it has a Protection rating.  This rating is calculated in the same way
-as Ascendancy (see 'help ascendancy') and allows you to defend against indirect
-spells in exactly the same way as Defence lets you defend against direct spells
-and physical attacks (see 'help defence').  Note that the highest of your Blue 
-and Green magic colours is used when calculating your Protection.
-
-Unlike Defence, Protection does not suffer a cooldown (see 'help cooldown'), 
-and therefore your mental defences will always be in perfect condition, barring
-pain penalties.
-
-See also: magic defence ascendancy power penalties speed
 
 === SHIFT ===
-  - shift
-
-This command allows you to shift between the Realm plane and the Nexus.  The
-process takes 9 seconds when travelling from the Realm, or 30 seconds from the 
-Nexus, and cannot be performed while your adrenaline rush is active.  If it 
-becomes active while you are in the process of using this ability, your planar 
-shift will be interrupted.  You may also choose to interrupt the planar shift 
-at any time by typing 'shift' before the process is complete.
-
-Note that this command will only work when you are in the material plane, and 
-will not change your coordinate position.  When your shift is complete, those
-with supernatural senses may detect the power surge of your arrival, although 
-this will depend on how powerful their senses are and how far away from them 
-you appear.
-
-See also: nexus realm
 
 === SWAP ===
-  - swap
-
-This command swaps the content of your left and right hands.  If this is done 
-during combat, it will not affect any techniques currently in progress - they 
-will simply continue with the new hand.
-
-See also: wear wield remove get give drop
 
 === WHAT ===
-  - what
-
-Do you sometimes find yourself wondering 'What should I do now?'.
-
-If so, the answer is simple - type 'what'.
-
-You can type 'what' at any time.  It will give you a suggestion for what you 
-can do next - you don't have to follow the suggestion of course, but if you're 
-not really sure what to do it can point you in the right direction.
 
 === FAME ===
-Fame and Glory are earned from the Great War (see 'help great war').  They are 
-earned at the same rate, but your Fame cannot exceed 10% of your Age and never 
-goes down, while Glory has no maximum but goes down as it is spent.
-
-You may use the 'epic' command to add your Glory points to your epic items and 
-customise their bonuses, with each point of Glory adding 1 Fame, 25 radiation 
-and 50 epic points to the item.  These epic points are then spent to add actual
-bonuses.  Note that you can only use one epic item at a time, and cannot use or
-create epic items that have a higher Fame rating than you.
-
-See also: epic
 
 === LOAD ===
-  - load <name> <password>
-
-This command allows you to load the character of the specified name, assuming 
-that you know the password.  The character must already have been created 
-before it can be loaded up.
-
-See also: create
 
 === AGE ===
-The Supernaturalis do not grow old like mortals do, and the rules of time do 
-not apply to them like they do to us.  A Supernaturalis 'ages' by focusing 
-their innate Primal energy to strengthen their physical form, often reaching 
-full maturity within minutes of being born.
-
-An Imbued Supernaturalis is able to strengthen their form even further by 
-absorbing primal energy from those they slay and then focusing it to train 
-their attributes and raise their supernatural powers.
-
-Your Age stat (also called 'Divine Age') is equal to the total of your Primary
-stats, before magical adjustments.  Your Divine Age is 500.
 
 === REALM ===
-The Realm plane is where you initially start, and consists of three main 
-islands.  On the main island is Glyphstone village, which consists of a few 
-buildings.  Outside of the village it is possible to encounter wild animals 
-and the occasional monster, but for real challenges (and magical treasure) 
-you should explore the monster lairs which dot the landscape.
-
-There is also a graphical version of the map available on the website, which 
-you can visit here: http://www.godwars2.org/realmplane.php
-
-The Realm plane is non-PK, providing a reasonably safe way to explore, but 
-once you're classed it probably won't offer you much of a challenge any more.
-At this point you should use the 'shift' command to enter the Nexus.
-
-See also: area nexus shift
 
 === ARCHERY ===
-Bows and crossbows are specialised two-handed weapons.  You should first swap 
-them to your off-hand (see 'help swap'), and then assist with your other hand 
-(see 'help assist').  This is because you won't be using the hand holding the 
-bow - in archery, you use your primary hand to draw the string.
-
-Make sure you are wearing a quiver (or a case of bolts if using a crossbow) and
-then use the load command with your assisting hand (i.e., 'll' for left load, 
-or 'rl' for right load, depending on which hand is assisting).  You will have 
-to reload again after you fire.
-
-If you are using elementally enhanced arrows or crossbow bolts, you can use the
-charge command to charge them up before firing.  Non-charged arrows and bolts 
-perform burst attacks on a critical hit, while charged arrows and bolts only 
-need to successfully hit your opponent in order to perform a burst attack.
-
-Arrows and crossbow bolts can be blocked with shields, deflected with magical 
-defences such as forcefields, or dodged.  A dodge only has half its normal 
-defence when used against ranged weapons, however.  Certain talents, such as 
-Expert Marksman, can help make bows a more viable choice.
 
 === TITAN ===
-Titans are a powerful race of elder deities, born from the primal forces of 
-the universe.  They gain the following stat bonuses:
 
 === PETS ===
-Various spells and powers will allow you to summon creatures to serve you.  You
-may order these creatures to perform actions by directing a 'say' at them - for
-example 'say to wolf follow me' or 'say to elemental kill goblin'.
-
-Available orders are: Kill, stop, style, get, drop, give, accept, wear, remove,
-perch, enter, leave, heal, follow, advance, north, south, east, west.
-
-Note that 'stop' will stop the pet attacking.  The 'advance' command will cause
-the pet to start moving faster, if it can.  Only specific creatures are able to
-obey the heal and perch commands.
-
-If you give the 'leave' order to a pet summoned with a spell, it will try to 
-leave it's current location (just like a player).  If the pet was summoned with
-a class power, the 'leave' command will make it vanish.
-
-All pets have 'pet' as an extra keyword.  You may also address all of your pets
-at once by typing 'say @pets <order>'.
-
-See also: pscore
 
 === HEALING ===
-Five seconds after being struck in combat, you will start healing at half your 
-regen rate.  After an additional ten seconds you will start healing at your 
-full regen rate.  Your full regen rate is 0.5 health per second, plus bonuses 
-from powers, spells and equipment, with your green magic then being applied as 
-a percentage bonus to the end result.  Fractions are stored and added later.
-
-For example, if you have 4 ranks in Regeneration and 100 in green magic, your 
-full regen rate would be 0.5 + 2.0 = 2.5, modified by green magic = 5 health 
-per second.  Your half regen rate would be 2.5 health per second, meaning that 
-you'd heal 2 health the first second, 3 health the next, then 2, then 3, etc.
-
-Please note that your regen rate will be reset the moment you are successfully 
-struck by another player, regardless of whether any damage was actually caused 
-by the blow.  If your regen rate is 1.0 or higher (0.5 base plus at least 0.5 
-from powers, spells or equipment) then being struck will only cause you to fall
-back to your half regen rate, unless the blow was a critical hit.
-
-You may also eat food to recover health more quickly (see 'help eat').
-
-See also: cap replenishment
 
 === STOP ===
-  - stop <l/r/f/h>
-  - stop
-
-This command is designed to stop you from both moving and fighting.  It will 
-stop you from performing any location-based actions with your left or right 
-hand, and will stop your legs from performing any movement-based techniques 
-such as walking or jogging (although it will not stop jumps, ducks or kicks).
-
-This command also clears any stacked-up commands in your command queue.
-
-Note that you may specifically choose to just clear your left hand, right 
-hand, feet or head by typing 'stop l', 'stop r', 'stop f' or 'stop h' 
-respectively.  You may also use the shortcuts 'l!', 'r!', 'f!' and 'h!'.
-
-See also: clear
 
 === WAR2 ===
 
 === GODWARS ===
-The original God Wars was created in 1995, and is based upon Merc 2.1 (by 
-Mitchell Tse, Michael Chastain and Michael Quan) which in turn is based upon 
-DikuMUD (by Katja Nyboe, Tom Madsen, Hans Henrik Staerfeldt, Michael Seifert 
-and Sebastian Hammer).  The God Wars code is available for public download, 
-although no further work has been done on it since 1998.  God Wars itself 
-eventually changed direction, being renamed to Dark City, then later to Last 
-City, as it took a gradual turn towards RP in a World of Darkness setting.  
-Sadly, development on Last City eventually ground to a halt in 2001.
-
-God Wars II has been written from scratch, but draws upon many of the ideas 
-and much of the inspiration of the original God Wars, as well as some of the 
-technical concepts utilised in Last City and Gladiator Pits.  We wouldn't be 
-where we are today were it not for the valuable lessons we learned from the 
-past, and for that we extend our thanks to the Diku and Merc teams, as well 
-as all those who contributed towards the original God Wars.
 
 === TUTORIAL2 ===
-Continued from 'help tutorial':
-
-To view the full combat table for your right hand, type 'r?'.  On the first 
-line you'll see a list of one-letter commands - these are the options that can 
-be typed after the 'r', with their cost in action points listed in brackets 
-afterwards.  Below the valid commands is a brief definition of what each 
-command means, and underneath that is a table of fighting techniques.
-
-Each time you type your two-letter command, the second letter is added to a 
-queue, which is then used to determine which technique you'll perform.  You 
-should be able to see the 'fs' jab (which you performed with 'rf' followed by 
-'rs') as well as the 'fss' hook (which you performed with the second 'rs'), as 
-well as various other techniques.  Try some of the other commands, and then try
-doing the same with your left hand (exactly the same process, but the first 
-letter of the command is 'l').  Then type 'draw all' to draw your weapons, and 
-see what combos you can perform with them.
-
-You may also find it useful to read 'help techniques' and 'help assist'.
 
 === TUTORIAL ===
-When learning the combat system, it is useful to remember the two-letter rule:
-Every combat command is two letters long.
-
-The first letter specifies which location the command should use: 'l' (left
-hand), 'r' (right hand), 'f' (feet) or 'h' (head).  The second letter is the
-action performed, and the choice of actions depends on your combat table.  To 
-view a combat table for any location, use the '?' action, e.g. 'r?'.
-
-Make sure your weapons are sheathed ('sheathe all'), and try throwing a punch
-with your right hand by typing 'rs' (right strike).  Next, try a jab.  A jab is
-a combo technique - a fist move followed by a strike: type 'rf' (right fist),
-then 'rs' (right strike) as separate commands - remember the two-letter rule!
-There is also a hook combo, a fist move followed by two strike moves - but
-you've already done the first two for your jab, so to follow up with a hook,
-all you need to do is another 'rs' (right strike).
-
-One special exception to the two-letter rule is enhanced moves, where you can
-add a '+' after the second letter - but best not to worry about those for now.
-
-To learn more, please type 'help tutorial2'.
 
 === RATE ===
-Your movement rate is calculate in fps (feet per second), as follows:
-
-Walking rate: (Size/3) + 3 - Encumbrance Level + (Athletics/100) + Misc.
-Jogging rate: (Size/3) + 10 - (Encumbrance Level * 2) + (Athletics/50) + Misc.
-Running rate: (Size/3) + 20 - (Encumbrance Level * 4) + (Athletics/25) + Misc.
-
-Mounted walking rate: 10 + (Riding/100) + Misc.
-Mounted jogging rate: 20 + (Riding/50) + Misc.
-Mounted running rate: 40 + (Riding/25) + Misc.
-
-Your Encumbrance Level is 0 if you are unencumbered, 1 for light encumbrance, 2
-for medium encumbrance and 3 for heavy encumbrance.
-
-Misc refers to any bonuses from powers, magic items and spells.  The end result
-is then capped at 66.  Penalties from wounds are applied after the cap, so that
-if you've been hamstrung in one leg, your movement rate can never exceed 61.
-
-Different terrain types may also apply a penalty: -1 for deserts, ice or rocky 
-ground, -2 for mountains, forests and swamps, -3 when wading in shallow water, 
--4 for swimming in deep water, and -5 for quicksand, whirlpools and lava.
 
 === TRAIN ===
-  - train <primary stat>
-  - train subclass <subclass>
-  - train reroll
-
-This command allows you to train 6 of your 8 primary stats - Brawn, Grace, 
-Mettle, Wits, Tenacity and Discipline (Size and Aura cannot be trained).  
-Every time you train a stat, the mud will randomly train another stat for 
-you, based on your subclass.
-
-You may also use the train command to select a subclass (see 'help subclass') 
-and to reroll your stats.  The latter will clear your subclass and talents, as
-well as your trained stats and powers, and give you a corresponding number of 
-free stat and power trains - but it can only be done once per calendar month.
-
-See also: stats subclass
 
 === SHIELDS ===
-Shields are specialised weapons which focus on defence.  They are also able to 
-soak damage in much the same way as armour (see 'help armour').
-
-Small shields only protect the hands and arms by default, but when wielded they
-provide techniques for extending their protection to additional locations.  It 
-is also possible to sheathe small shields.
-
-Large shields protect a wide range of fixed locations, but cannot be sheathed.
-
-The soak of a shield is halved during cooldown, or if the shield is currently 
-performing a technique (if both are true, the soak is only halved once).  The 
-Rapid Shield Block talent prevents this penalty from being applied.
-
-If you are holding a shield in each hand, their soak is not combined.  Instead, 
-only the highest soak for each particular location and damage type will apply.
-
-Shields do not provide auto-absorb, unless they are sheathed.
-
-See also: armour armour2 cooldown
 
 === EAT ===
-  - eat <thing>
-
-The Supernaturalis are not required to eat food, but they often find it useful
-to do so because of the rapid speed at which their powerful metabolism can 
-break it down, providing a boost to their natural healing.
-
-When you eat a piece of food, it will usually take a few seconds to chew 
-before being automatically swallowed.  Once swallowed it will instantly heal 
-you of some damage and your stomach will start trying to digest it to make 
-space for more food.  If you try to eat too much too quickly, you'll become 
-stuffed and have to wait for your digestive system to catch up.
-
-Note that different types of food can be eaten and digested at different 
-speeds, and provide variable amounts of healing.  If you wish to eat while 
-your adrenaline rush is active, it will cost you one hundred action points.
-
-Your speed is reduced by 1 when your stomach contains food, 2 if you're stuffed
-or 3 if you're sick.  In addition, your cooldown suffers a +1 penalty while you
-are eating (i.e., after typing 'eat' until you receive the 'swallow' message).
 
 === SHOUT ===
-  - shout <text>
-  - shout to <target> <text>
-
-This command works in much the same way as 'say' except that you can be heard 
-by everyone within 10000 feet.
-
-See also: say whisper
 
 === TILE ===
-  - tile
-  - tilematch
-  - tilematch next
-
-These commands only work within your home plane.  Type 'tile' to view the data 
-of the tile you're currently standing on.  A tile consists of 10 by 10 plots, 
-each of which is a terrain type.  For example tile 2 consists of 10 by 10 plots
-of plain, while tile 103 is the same except for having a river flowing through 
-it (thus including plots for riverbank and east-flowing river).  You will also 
-see whether or not the current tile matches the surrounding tiles.
-
-The 'tilematch' command checks your entire home plane for non-matching tiles, 
-starting with the bottom left corner and finishing with the top right corner.  
-The search will be stopped if a non-matching tile is found, and you will be 
-transported to that location.  If you type 'tilematch next', you will move on 
-to the next non-matching tile.
-
-See also: terraform home zone
 
 === TERRAFORM ===
-  - terraform <ocean/lake/plain/forest/mountain/desert/marsh>
-  - terraform next
-
-This command only works within your home plane.  Type 'terraform plain' to 
-change the ocean in your current tile to solid plain, and the surrounding 8 
-tiles will be converted to coast.  Type 'area' to see your entire plane, and 
-use 'nn', 'ss', 'ee' and 'ww' commands to move one or more tiles at a time.
-
-Only a plain can go right up to the ocean, so in order to create forests, 
-mountains, etc, you'll need to make a larger plain first and then place the 
-new terrain type in the centre of that.
-
-You may also type 'terraform next', which will cycle to the next tile that 
-fits your current location without changing any of the surrounding tiles (for
-example you might have a pond or a clearing in your forest).  To view the 
-metadata for your current tile, type 'tile'.
-
-See also: home tile zone
 
 === TELL ===
-  - tell <person> <message>
-  - tell <number of previous messages you wish to view>
-  - tell
-
-This allows you to send a private message to another player, regardless of 
-distance.  This message is sent between accounts rather than characters.
-
-If you type 'tell' on its own, you'll see the last 20 tells or replies that 
-other people have sent you, along with how long ago they were sent.  You can 
-also specify the number of tells you wish to see, for example 'tell 5' will 
-display the last five tells you'd been sent
-
-See also: reply replylock ignore
 
 === STORE ===
-  - store <1-10>
-
-This command allows you to summon an equipment store from the ground.  You have
-10 separate stores, and each can hold up to 25 items.  Enter the store, drop 
-the items you want to keep inside, and they'll automatically save for the next
-time you visit.
-
-You may only have one store summoned at any one time, but it will vanish after
-a while if there are no players inside it (this may take up to 30 seconds).
-
-See also: home
 
 === TECHNIQUES ===
-Highlighted techniques are those granted by your current fighting style, while 
-those coloured cyan are available because of the weapon in your other hand (see
-'help assist'), and highlighted cyan means both.  Equally, yellow indicates a 
-technique specific to your encumbrance (or because you're mounted) while green 
-represents a combination of yellow and cyan.  Purple means the technique is 
-available because of a talent you possess.
-
-You should also be aware of the special characters; '*' is automatically added
-whenever a technique requires you to act within a limited time frame (such as 
-when jumping, or after catching an opponent's blade with your own), '-' means 
-you are falling, '_' is added whenever you fall onto the ground, and '#' means
-that you're entangled by something (such as a net).
-
-As well as techniques, your combat table also colours other things - if the 
-Delay is coloured red, that means it includes the penalty for your off-hand. 
-Att(ack) is coloured to indicate its attack strength, just as Def(ence) is for 
-defence strength and Dam(age) for its bypass bonus.  To see how these modifiers
-are applied, and to learn what the attack and defence strengths mean, see 'help
-attack', 'help defence' and 'help damage'.
-
-See also: assist attack combat defence kill interleaving
 
 === TASKS ===
-  - tasks
-  - task <name of task>
-
-This command displays your list of current tasks.  Each character may only 
-complete each task once, and each task gives a special reward.  Completing 
-a task may also result in new tasks being unlocked.
-
-You can type 'task <name of task>' or 'help <name of task>' to find out more 
-information about each specific task, including what reward it gives.
-
-Some tasks take place in dungeons.  The 'find' and 'area' commands can make it 
-easier to locate the entrances to such dungeons, and you should probably also 
-fabricate a wand before you set off (see 'help fabricate').
 
 === TARGET ===
-  - target <thing>
-  - target <x coordinate> <y coordinate>
-  - target clear
-
-This allows you to target something in the world.  This target is then used to
-allow relative movement such as advancing and retreating, as well as being used
-as an 'opponent' in combat.
-
-You may also use this command to target a specific x/y coordinate location 
-in the world.
-
-Note that if you are currently moving towards a specific coordinate location, 
-that destination will be lost in favour of the new target.
-
-See also: mtarget
 
 === HELP ===
-  - help
-  - help <subject>
-
-This command will display the help information on the specified subject, if 
-there is any available.  If no matching keyword is found, the mud will 
-provide you with some similar-sounding suggestions.  Typing 'help' without 
-any parameters will list the help topics available.
 
 === TALENTS ===
-  - talents
-  - talent <list/all/vampire/mage/werewolf/demon/dragon/titan>
-  - talent category <category name>
-  - talent <talent name>
-  - talent add/drop <talent name>
-
-This command without any arguments displays your current talents, along with a 
-summary of each, while 'talent list' shows all talents for which you qualify.
-
-You may also type 'talent all' to show every talent, 'talent category <name>' 
-to show all talents of a specified category, or 'talent <class name>' to show 
-all talents of a specified class.  These three options colour-code the talents 
-to indicate those you've got, those you do qualify for, and those you don't.
-
-You may view the specific details of a talent by typing 'talent' or 'help' 
-followed by the talent name - for example 'help mind over matter'.
-
-You may add a talent to your character by typing 'talent add <talent name>', as
-long as you have a free slot.  You start with three talent slots, and earn a 
-fourth by mastering (i.e., getting to 100) five skills (any of core skills, 
-weapons and magic).  You earn a fifth talent slot when you master your first 
-super fighting style.  You also earn a free Weapon Mastery talent by mastering 
-five weapon skills, a second Weapon Mastery talent by mastering eight weapon 
-skills, and a third Weapon Mastery talent by mastering all ten weapon skills.
-
-Classed characters also gain a new talent at age 100, another at age 200, etc.
 
 === RESTORE ===
-  - restore
-  - restore <creature>
-
-This command allows you to fully restore yourself or the specified creature, 
-returning the target to maximum health, mana and action points, and removing 
-any wounds they have received.
-
-Note that you only have access to this command while on your home plane.
-
-See also: home wounds
 
 === INVITE ===
-  - invite <player>
-  - join <player>
-  - banish <player>
-
-The invite command only works within your home plane.  It allows you to invite
-another player to join you within your home plane, which they can accept by  
-typing 'join Player'.
-
-The banish command allows you to get rid of guests who have outstayed their 
-welcome, sending them back to their own home plane.  This will also work on 
-people who are in your stores, and you don't need to be able to see the 
-person you banish.
-
-See also: home
 
 === TACK ===
-  - tack
-
-This command shows whatever your mount is currently wearing.
-
-See also: equipment put mount dismount
 
 === MEASUREMENTS ===
-God Wars II uses imperial units to measure lengths and distances.  This was 
-partly done because it seemed more appropriate than metric for a non-modern 
-setting, but also because one foot was considered a nicer unit than one metre 
-when it comes to measuring the reach of a weapon (particularly a melee weapon).
-
-The smallest unit of measurement is a foot, which is approximately 30 cm.  3 
-feet make a yard, which is slightly under 1 metre.  22 yards (or 66 feet) make 
-a chain, which is approximately 20 metres.  10 chains (or 220 yards/660 feet) 
-make a furlong, which is approximately 200 metres.  8 furlongs (or 80 chains/ 
-1760 yards/5280 feet) make a mile, which is approximately 1.6 kilometres.
 
 === ITEMS ===
-Magical items come in any combination of five types and three rarities.  The 
-types are magical, legendary, mythical, relic and artifact, and depend on the 
-age of the monster they drop from.  The rarities are common, uncommon and rare,
-and these drop 89%, 10% and 1% of the time respectively (regardless of type).
-
-A common magical item will have 1-2 bonuses.  Each type beyond magical will 
-increase the number of bonuses by 1, and each rarity beyond common increases 
-the number of bonuses by 2.  Thus a rare artifact will have 9-10 bonuses.
-
-The actual bonuses will be randomly generated depending on the item, and to a 
-lesser extent the material and type.  Some bonuses can be applied multiple 
-times, others only once.  Some items (eg fangs) may only allow a single bonus.
-
-The radiation is calculated by adding up the bonus costs (every bonus has its 
-own cost).  Each bonus beyond the first reduces the radiation by 5%, up to a 
-maximum of 25%, and each bonus beyond that reduces the radiation by 2%.  Each 
-type beyond magical reduces the radiation by 2% and each rarity beyond common 
-reduces the radiation by 5%.  The mud then randomly applies an extra modifier 
-between -5% and +5%.  The total radiation cannot be below 50% of the base.
 
 === BACKSTAB ===
-If you have the Assassin Training talent, you gain the ability to backstab or 
-throatslit your opponents while standing behind them.  To do this, you first 
-need to know which direction your opponent is facing by typing 'display $o', or
-by adding '$o' to your prompt.
-
-An easy way to get behind your opponent is to move two feet opposite to the 
-direction they are facing, then type either 'rs' (right slash) to slit their 
-throat, or 'rt' (right thrust) to backstab them. If you have the Mighty Blow 
-talent you can enhance your attack by adding a '+' (i.e., 'rs+' or 'rt+').
-
-Another option is to circle around your opponent with the 'fl' (feet left) and 
-'fr' (feet right) commands.  You automatically stop once you're behind them.
-
-You can also check whether an opponent can be backstabed by typing 'display $B'
-or by setting your backstab colour (see 'help colour').  Remember, in order to 
-backstab or throatslit an opponent you must also have the weapon mastery talent
-for the weapon you're using (see 'help Assassin Training').
-
-Note that you can always perform a backstab on someone who can't see you, even 
-if you're not technically behind them.
 
 === STYLE ===
-  - style <style name>
- 
-There are 25 different fighting styles: five basic, ten advanced and ten super.
-Each style provides various special combat techniques which are only available 
-with certain weapons (these are highlighted in the technique table), as well 
-as percentage bonuses to one or more of Attack, Defence, Damage, Speed and 
-Resistance, as reflected in your score.  Please note that the style bonuses 
-for Attack, Defence and Damage are also applied to their magical counterparts 
-Ascendancy, Protection and Power respectively.
-
-The basic styles are Crane (Defence), Mongoose (Attack), Bull (Damage), Crab
-(Resistance) and Viper (Speed).
-
-The advanced styles are Bear (Attack and Damage), Monkey (Attack and Defence), 
-Swallow (Attack and Resistance), Cobra (Attack and Speed), Eagle (Damage and 
-Defence), Tiger (Damage and Speed), Dragon (Damage and Resistance), Mantis 
-(Defence and Speed), Scorpion (Defence and Resistance) and Fox (Resistance and 
-Speed).
-
-The super styles are Hawk (Attack, Damage and Defence), Rhino (Attack, Damage 
-and Resistance), Lion (Attack, Damage and Speed), Ape (Attack, Defence and 
-Resistance), Asp (Attack, Defence and Speed), Serpent (Attack, Resistance and 
-Speed), Leopard (Damage, Defence and Speed), Hydra (Damage, Defence and 
-Resistance), Wolf (Damage, Resistance and Speed) and Flea (Defence, Resistance 
-and Speed).
 
 === GRAPHICS ===
-God Wars II offers a graphical interface in the form of a custom MUSHclient 
-plugin.  You can see some screenshots of it here:
-
-   http://www.godwars2.org/screenshots.php
-
-Instructions for downloading and installing it can be found here:
-
-   http://www.godwars2.org/plugins.php
-
-If you have done this correctly you will be using MUSHclient 4.51 or higher, 
-and the MSDP protocol.  Type 'whois Player' to verify these details.
-
-See also: hotkey
 
 === SAY ===
-  - say <text>
-  - say @<target> <text>
-  - say @pets <text> (see 'help pets')
-
-This command allows your character to speak out loud.  You will be heard by 
-everyone within 1000 feet (although it will not carry outside your current 
-location).  You may also choose to direct your speech at a specific person, by
-typing 'to <their name>' before the text ('@' also works instead of 'to').
-
-Note that if you place a smiley at the end of your spoken text, it will add an
-emote to your 'say' message.  This smiley can be one of: ':)' (smile), ';)' 
-(wink), ':P' (grin), ':D' (laugh), ':>' (giggle), ':(' (frown), ':O' (gasp), 
-':o' (sigh), ':*' (snort), ':}' (chuckle), ':/' (grimace), ':x' (whistle), ':{'
-(pout), ':\' (sneer), ':]' (smirk), ':[' (scowl), ':X' (snarl) or ':#' (groan).
-
-You may also prefix the text with '+' for affirmative (a nod of the head), '-'
-for negative (a shake of the head), '%' for rolling your eyes, '^' to raise an
-eyebrow or '~' to shrug your shoulders.  Eg try typing 'say +I understand! :)'.
-
-Due to popular request, the ' character has been added as an alias for 'say'.
-
-See also: shout whisper
 
 === ACTIONS ===
-Your action points, sometimes called AP (and referred to as 'Actions' in your 
-score) are an abstract way of reflecting how fast you can fight.  Each second 
-you gain a number of action points equal to your Speed, although this cannot 
-exceed your speed cap.  You then spend these action points to perform various 
-combat techniques, eat food, rewield disarmed weapons, and so on.
-
-Your maximum action points are 800, plus 20 for each point of Speed.  Your true
-Speed stat (before the cap) is used when calculating this maximum.
-
-If you enter a rage (for example via Berserker Rage, or a class power) and your
-maximum number of action points increases, your current action points will also
-increase by the same amount.  These extra action points will vanish when the 
-rage ends, unless doing so would take you below 0.
-
-If your action points fall below 0, you become fatigued (see 'help fatigue').
-
-See also: speed combat eat wield
 
 === STANCE ===
-  - stance <style>
-  - stance
-
-This is a shortcut command designed to move your feet into a fighting stance 
-appropriate for your current fighting style (see 'help style').  You may also
-provide a style name as an argument, which will set your fighting style at 
-the same time.
-
-Note that this command will clear your feet location of any actions before 
-moving you into a stance.  In addition, there may not always be a stance 
-available, depending on the style you're using and the amount of encumbrance 
-you're carrying.
 
 === SUBCLASS ===
-  - subclass
-  - subclass list
-  - subclass show <name of subclass>
-  - subclass raise/lower <power>
-  - subclass reset
-
-This command, when typed on its own, views your current subclass.  You may also
-use list all available subclasses for your class, view a specific subclass, or 
-customise your current subclass by raising and lower power bonuses.
-
-When customising your subclass powers, you cannot raise any power above +2, +4 
-or +6 (for age 200, 300 and 400 subclasses respectively), unless it was higher 
-than that originally.  Nor may you have more than one power that isn't normally
-granted by your subclass.
-
-If your subclass gives a free talent, then you will always have that talent, 
-regardless of whether or not you fulfill the requirements.  If it conflicts 
-with one of your existing talents, you will lose the old talent.
-
-If your subclass gives power bonuses, you must have at least 1 rank in the 
-power before you will benefit from that bonus.  If you don't have any ranks 
-then the bonus will be coloured red in 'subclass <subclass name>', and won't 
-show a '+X' after your rank in the power when you type 'powers'.  The bonuses 
-count as ranks, except for meeting the requirements to raise other powers.
-
-Note that in order to train a subclass you must be at least age 200.  You will
-not be able to rise above age 200 until you have trained your first subclass.
-
-See also: class train powers
 
 === POWERS ===
-  - powers
-  - powers spheres
-  - power raise/lower <power name>
-  - power raise/lower <number of ranks> <power name>
-
-A power is a special ability available to Supernaturalis of a certain class.
-It cannot be increased through use, only by the expenditure of Primal.  Like 
-talents, each character has a limited number of available powers.
-
-You may have a number of points in your powers equal to your (Age*Age)/1000, 
-however your three highest powers don't count towards this total.  Further, no
-power may have more ranks than your Age/10 (rounded down).  Thus as an age 100
-character you could have 3 powers at 10, and another 10 points distributed 
-however you please.
-
-To view your current powers, type 'powers'.  If a power is coloured red, then
-you don't fulfill all of its requirements, and therefore cannot raise it at 
-this time (type 'help <power name>' to view the requirements).
-
-You may also lower a power while in your home plane.  The mud keeps track of 
-powers you've lowered, and allows you to raise that number of new powers for 
-no primal cost - so feel free to try out the different powers.
 
 === FIND ===
-  - find <area/dungeon/building>
-
-This command will show you the approximate distance and direction of the 
-specified area, dungeon or building.
-
-See also: area
 
 === SPHERES ===
-  - spheres add <new sphere>
-  - spheres swap <old sphere> <new sphere>
-
-This command allows you to specify your pantheon's spheres of influence.  You 
-may add a primary sphere for free, but the secondary sphere costs 100000 soul 
-points, while the tertiary sphere costs 250000 soul points.
-
-You may also swap your spheres for other spheres, but this may impact members 
-of the pantheon if they are relying on the sphere you change.
-
-Only the Supreme God of the pantheon can add or swap the spheres.
-
-See also: pantheon
 
 === SPEED ===
-Speed indicates the attack speed of your character.  Each second, you gain a 
-number of action points (APs) equal to your Speed rating which can then be 
-spent on performing combat techniques.  This statistic is rounded down to the 
-nearest whole number, and is calculated as follows:
-
-1) Add your Grace to double your Wits, and divide the result by 3.
-2) Add any bonuses from class powers.
-3) Apply multiplier based on fighting style.
-4) Add any bonuses/penalties from spells, items or encumbrance.
-
-Your Speed has a maximum cap (usually 25-35, depending on encumbrance).  Each 
-full point of Speed beyond the Speed cap will be converted into 1 point in each
-of Attack, Defence, Ascendancy and Protection, applied at the same time as your
-primary stats.
-
-Your maximum action points are 800, plus 20 for each point of Speed.  Your 
-true Speed stat (before the cap) is used when calculating this maximum.
-
-See also: actions encumbrance stats
 
 === SOCIALS ===
-  - socials
-  - socials <begins with>
-  - <social name>
-  - <social name> <social type>
-  - <social name> <target>
-  - <social name> <social type> <target>
-
-This command lists all available socials, optionally listing only those that
-begin with a certain character sequence.  To perform a social, simply type the
-name of the social as if it were a command - for example type 'smile' if you
-wish Player to smile.  You may also specify a social type - for example 'smile
-shyly' or 'smile coldly'.  If you do not explicitly specify a type, the default
-for that particular social will be used.  To view the available types for a
-particular social, type the social followed by 'types' - for example 'smile
-types' to list the different types of smile.
-
-You may also aim your socials at a specific person by using 'to' or '@'
-followed by a target name.  In this case ordering is irrelevant - either 'grin
-@Player evilly' or 'grin evilly @Player' are fine.
 
 === CREATE ===
-  - create <name> <password>
-
-This command allows you to create a character of the specified name, with the 
-specified password.  If you have already previously created the character, you 
-should use the 'load' command to load it up.
-
-See also: load
 
 === GREAT WAR ===
-At 11pm mud time (i.e., every 6 real-life hours) the God of War initiates a 
-Great War.  At midnight mud time (i.e., 15 minutes later) the Lords of War 
-join (1 for each player, up to a maximum of 40) and the Great War begins.
-
-A Great War is played in the same way as a planar war (see 'help war'), except 
-each turn lasts only 30 seconds, and you must kill two Lords before you can 
-attack the God or another player (unless all the Lords are dead).  The maximum 
-number of Lords who can attack you each turn is initially 2, +1 for every Lord 
-or player you kill.  This maximum doesn't apply to players attacking you.
-
-Every kill you make (either Lord or player) gives 1 recruit point, which can
-be used to recruit special individuals - see 'help recruit'.
-
-If you survive the Great War, you earn 1 point of Fame and Glory.  You earn an 
-extra point if you also kill one or more Lords, and a third point if you kill 
-the God.  If you die, you gain nothing, even if you killed a Lord or the God.
 
 === SELL ===
-  - sell <object> for <amount>
-  - sell <object> <creature> for <amount>
-  - sell <object> to <creature> for <amount>
-  - sell <creature> <object> for <amount>
-  - sell to <creature> <object> for <amount>
-
-  - buy/view <object>
-  - buy/view <object> <creature>
-  - buy/view <object> from <creature>
-  - buy/view <creature> <object>
-  - buy/view from <creature> <object>
-
-Buy and sell work much like give and accept, except they allow you to exchange
-items for a specified price (see 'help soul points').  The offer to sell will 
-remain open for 30 seconds.  You may also use the view command to see the stats
-of the item being sold.
-
-Note that '@' is an alias for 'to' (and 'from' when buying an object).
-
-See also: give accept
 
 === SKILLS ===
-You have five core skills.  Core skills increase with use, although the higher
-they get the slower they increase.  You can use boosts to raise them faster 
-(see 'help boost'), but they must still be used in order to raise them.  The 
-highest a skill can get to is 100, or your Age, whichever is higher.
-
-Combat represents your general fighting ability.  It goes up as you fight, and 
-is added to all of your weapon skills when calculating their bonuses.
-
-Athletics represents your physical fitness.  It is applied to your health as a 
-percentage (see 'help health') and also increases your movement speed.
-
-Riding represents your skill at riding mounts.  While mounted this skill works 
-like a weapon skill for your feet, and like Athletics for movement speed.
-
-Meditate works in the same way as Combat, but is applied to magic colours.
-
-Focus is applied as a percentage modifier to your mana (see 'help mana').
 
 === TITLE ===
-  - title <pantheon name>
-
-This command allows you to set the title name for your pantheon, which then 
-appears beside the names of your pantheon's deities on the 'who' list.  Only 
-the Supreme God of the pantheon can set the title, and it only appears after 
-it has been authorised by an admin.
-
-If no title has been set (or authorised), your pantheon's name will use the 
-default of 'Player's pantheon'.
-
-Also note that no title will appear anywhere if your religion is based on 
-monotheism.  This option is for players who have no interest in the concept 
-of clans, but still want the benefits of bonus powers.
-
-See also: pantheon who titlebrackets titlecolours
 
 === TITLEBRACKETS ===
-  - titlebrackets <opening brackets>
-
-This command allows you to set the brackets that are placed around your 
-pantheon title on the 'who' list.  Only the Supreme God of the pantheon can 
-set the brackets, although they may be changed at any time.
-
-The opening brackets must be two characters in length, and only certain 
-characters are permitted.  The closing brackets are calculated automatically.
-
-See also: pantheon who title titlecolours
 
 === SETUP ===
-  - setup
-
-This command provides you with some hints and tips about your current 
-character setup - specifically about your stats and equipment.  Please 
-note that it should only be used as a guideline for new players, while 
-more experienced players should feel free to ignore it.
-
-See also: build
 
 === HANDED ===
-  - handed
-  - handed <left/right>
-
-This command allows you to view or change your primary hand.  Your other hand 
-(i.e., your off-hand) suffers a +1 cooldown penalty (see 'help cooldown'), and
-any commands performed with it cost an extra five action points and take an 
-extra second to execute.  The 'Delay' column for your off-hand will have its 
-entries coloured MAGENTA to indicate the 1 second penalty.
-
-If you have the Ambidextrous talent, you don't have an off-hand.
-
-Note that this command is only available when you are on your home plane.
 
 === PRAY ===
-  - pray <message>
-  - pray <number of previous messages you wish to view>
-  - pray
-
-This command broadcasts your message to every deity in your pantheon who is 
-currently online.  If you don't specify a message, then you'll see the last 
-20 messages made, along with how long ago they were made.  The channel can be 
-switched on and off by typing 'config pray' (see 'help config').
-
-Note that this command is only available if you belong to a pantheon.
-
-See also: ignore
 
 === SAVE ===
-Some muds require the player to manually type 'save'.  In God Wars II the 
-process is automatic, but if you really like typing it you can create an 
-alias as follows: 'alias add save display Ok.'
-
-See also: alias
 
 === PAIN ===
-Your pain modifier represents penalties to Attack and Defence caused by your
-injuries, and provides modifiers as follows (colour-coded the same as the 'pain
-mod' rating in your score):
-
-Current Health is at 75% or more of your maximum Health: No penalty.  Your
-pain modifier will be coloured CYAN in your score.  
-
-Current Health is at 50% or more of your maximum Health: -10% Attack and
-Defence.  Your pain modifier will be coloured BLUE in your score.  
-
-Current Health is at 25% or more of your maximum Health: -25% Attack and
-Defence.  Your pain modifier will be coloured MAGENTA in your score.  
-
-Current Health is less than 25% of your maximum Health: -50% Attack and
-Defence.  Your pain modifier will be coloured RED in your score.  
-
-Your pain modifier only affects Attack and Defence, but can still put you at a
-serious disadvantage.  Note that certain talents or abilities may reduce or
-even completely negate pain penalties.
 
 === SAFE ===
-  - safe
-  - safe off
-
-This command will show you whether or not you're currently safe from PK.  While
-on your home plane you may also type 'safe off' to switch off safe mode.
-
-If you are killed by another player and have at least 1 active boost remaining,
-you will be safe from PK (Player Killing) until you quit, use your last active 
-boost, or enter a magical node, task location or duelling arena.  The safety 
-also vanishes after half an hour, or an hour if the death earned you primal.
-
-If you are killed while you have 0 active boosts, you will remain vulnerable to
-PK - typing 'boost' afterwards will not help.
-
-Note that if you have safe mode on and have reached your primal cap, you don't 
-earn any soul points for your kills.
-
-See also: boost death home
 
 === BANNER ===
-  - banner
-  - banner line <1-32> <letter/s>
-  - banner column <1-64> <letter/s>
-  - banner <1-32> <1-64> <letter>
-  - banner replace <old letter> <new letter>
-  - banner copy <from line> <to line>
-
-This command allows you to design a banner for your pantheon.  The banner must 
-be 64 characters wide and 32 characters high, and consist solely of letters.
-
-The letters will be converted into coloured pixels: B/G/R/Y/M/C for light blue,
-green, red, yellow, magenta and cyan, lower case letters for dark colours.  You
-may also use A/J/L/P/V/T/O for the extended colours azure, jade, lime, pink, 
-violet, tan and orange.  'W' is bright white, while 'w' is more of a grey, and 
-any other letter is black.
-
-For example, to make line 10 all light blue, type 'banner line 10 B', to make 
-column 1 orange, type 'banner column 1 RY' (it will alternate red and yellow, 
-which will appear orange on the banner).  To turn the top left character dark 
-red type 'banner 1 1 r'.
-
-This command only works on your home plane, and is available to the Supreme and
-Major Gods.  The banner will be shown on the MWI (http://www.godwars2.org/mwi).
 
 === SACRIFICE ===
-  - sacrifice <number of soul points>
-
-This command transfers the specified number of soul points from your character
-to your pantheon.  There is no direct benefit in doing this, but when being 
-promoted by anything below a Major God, you must have contributed at least 
-enough soul points to cover the cost of your promotion.
-
-The total number of soul points you've contributed is displayed beside your 
-name when viewing the deities of a pantheon.  Should you be outcast from the 
-pantheon, all soul points you've contributed will be refunded.
-
-For obvious reasons, this command is only available to those in pantheons.
-
-See also: pantheon
 
 === ALIAS ===
-  - alias list
-  - alias add <new alias name> <expanded string>
-  - alias show <alias name>
-  - alias delete <alias name>
-
-This command allows you to set aliases - customised commands, so to speak.  So
-for example typing 'alias add forwards ff' would mean that whenever you typed 
-'forwards', the mud would treat it as if you had typed 'ff' (feet forwards).
-
-You may also include wildcards - %1, %2, %3, etc to represent single words, or
-@1, @2, @3, etc to represent the word argument plus everything else up until 
-the end of the line.  Thus if you typed 'alias add mutter say %1', the mutter 
-alias would only say the first word you typed (so 'mutter hello there' would 
-be the same as 'say hello'). But 'alias add mutter say @1' would cause the 
-mutter alias to work exactly the same as say.
-
-It is possible to have an alias with the same name as a command or social, in 
-which case the alias will have priority.  So 'alias add grin grin %1 wickedly' 
-(for example) would effectively give you a new default for the grin social.
-
-Finally, you may also use the ':' character to separate multiple aliases - for 
-example 'alias add walk stop:clear:target %1:ff'.
 
 === HOME ===
-  - home
-  - home <x> <y>
-
-This command allows you to teleport back to your home plane from within the 
-main world.  If you are already in your home plane, then it will move you 
-back to the centre of the main world (i.e., the settlement).  Within your home
-plane you may type 'repair' to repair your equipment, and 'restore self' to 
-restore your health, mana and action points.  You may also 'slay' mobs, as 
-well as 'invite' and 'banish' other players.  You also have a number of stores 
-which you can summon from the ground, for keeping your spare equipment.
-
-While on your home plane you may also 'fabricate' equipment from thin air.
-
-You may view your home plane by typing 'area', and view your current tile by 
-typing 'tile'.  You may also move an entire tile at a time by typing 'nn', 
-'ss', 'ee' or 'ww' (optionally followed by the number of tiles you wish to 
-move in that direction).
-
-See also: terraform invite store tile zone creation fabricate
 
 === DEFENCE ===
-Your character has three defence ratings - one for your left hand, one for your
-right hand, and one for your feet - and these are calculated in the same seven 
-steps as your Attack rating (see 'help attack').  Whenever you are struck in 
-combat, the mud will use your best available location to try and prevent the 
-blow from landing.
-
-Each location takes a period of time (see 'help cooldown') to recover before 
-it can be used for another defence.  While it is recovering, your second best 
-defence will be used - and then your third best.  If all of your locations are 
-still recovering then you will have a Defence of 1.
-
-In your score your current best available defensive location is marked between
-'>' and '<'.  No markers means you have no defence.  Each location is also 
-colour coded to indicate whether it is able to stop all attacks, paired melee
-attacks, normal melee attacks or unarmed attacks (with '-' indicating that no 
-defence is available for that location).  If you have an ethereal defence, it 
-will only be able to stop ethereal attacks.
-
-Please note that any defensive technique bonuses from your feet combat table 
-are applied to all locations, but are doubled for your feet location.  Your 
-total encumbrance is also subtracted from your feet Defence.
-
-See also: assist attack combat critical encumbrance kill cooldown
 
 === RESISTANCE ===
-Resistance represents your character's physical toughness and ability to shrug 
-off damage, and is calculated as follows:
-
-1) Add together all the stat modifiers (Mettle, Size and Discipline).
-2) Add bonuses from magical items, and most talents and powers.
-3) Apply fighting style percentage modifier.
-4) Add bonuses from talents/powers that specifically state 'after percentages'.
-5) Add bonuses from spell affects.
-
-When someone strikes you in combat, their Core Damage is calculated (in exactly
-the same way as your Resistance), multiplied by 100, then divided by the sum of
-their Core Damage and your Resistance, rounded up.  This is then applied as a 
-percentage to their actual Damage rating (so if their Core Damage is exactly 
-the same as your Resistance, their maximum damage will be half of their Damage,
-as described in 'help damage').  This percentage will never fall below 25%.
-
-Once the damage has been calculated, your armour will soak a percentage, then 
-auto-absorb is applied, and then any remaining damage is subtracted from your 
-health (see 'help health').
-
-See also: assist attack combat damage defence
 
 === CLASSED ===
-Once you've classed, it is recommended that you read 'help boost', and use 
-either the casual or hardcore boosts to increase the amount of primal you earn.
-
-In order to earn decent amounts of primal you should type 'shift' to transport 
-yourself to the Nexus.  Be aware that there are no PK restrictions within the 
-Nexus, and many players will be able to sense your arrival if you shift near 
-them.  Thus it is recommended that you do not shift near Glyphstone Village.
-
-You can use the 'area' command to locate terrain within the Nexus, and 'scan' 
-to view task entry points.  Each new area you explore will earn you 100 primal,
-and many of these areas will also unlock new tasks (type 'tasks' to list them).
-
-As the primal you earn from kills is based on your age relative to that of your
-opponent, the most efficient way to earn primal is to raise your potential to 
-100% before you train any stats (because you'll be stronger for your age).  You
-should spend primal as soon as possible, because although you lose primal for 
-being killed, you cannot lose primal that you've already spent.
-
-See also: area boost build death primal potential powers scan shift tasks
 
 === REPLENISHMENT ===
-You automatically replenish 0.5 mana per second, plus any bonuses from powers, 
-spells or equipment, with your green magic applied as a percentage bonus to 
-the end result (capped at 100%). During an adrenaline rush you replenish only 
-half of this amount.
-
-Unlike healing, mana replenishment is not affected by being struck in combat.
-
-See also: mana healing
 
 === BOOST ===
-  - boost
-  - boost casual/hardcore/skills
-
-This command shows information about your boosts and auto-advance.  Typing 
-'boost casual' costs 0.5 boost points and gives triple primal for your next 10
-kills.  Typing 'boost hardcore' costs 0.25 boost points and gives double primal
-for your next 10 kills.  Typing 'boost skills' costs 0.50 boost points and 
-gives you 10 skill boosts (see 'help autoadvance' to see how they work).
-
-You earn 2.5 boost points each day you log on, minus 0.01 for every non-boosted
-kill you made the previous day (so 2.49 if you killed 1 mob the previous day, 
-2.48 if you killed 2 mobs, 2.0 if you killed 50 mobs, etc).  If you don't log 
-on for several days, you will not get any boosts for the days you missed.
-
-Every kill beyond 250 that you earn on a particular day will be added to your 
-Age for the purposes of calculating primal for kills, and will also be carried 
-over to the next day (eg if you get 300 daily kills, you'll start the next day 
-with 50).  Mobs which give 0 primal don't count towards this limit unless they 
-are newbie training mobs (which count as 2 kills).  Some tasks reward you with 
-kill buffer points - daily kills beyond 250 are absorbed by this buffer.
-
-If you make a boosted kill, the chance of the item drop being rare or uncommon 
-is triple, or double if it's a piece of craftable material.  See 'help items'.
 
 === SCALING ===
-Many dragon powers use a system called 'scaling' for calculating their bonuses,
-meaning that the first four ranks give a bigger bonus than the later points.
-
-For example, the Fires of the Volcano power gives an immunity bonus of +5% for 
-the first rank, +4% for the second rank, +3% for the third rank, +2% for the 
-fourth rank and +1% for the fifth and later ranks.  This would be described as 
-a +5/4/3/2/1 scaling bonus.
 
 === WEAR ===
-  - wear <thing>
-  - wear <thing> on <back/belt/leg/arm/chest>
-
-This command allows you to wear the specified thing, if possible.  You must 
-be carrying the thing in order to do this.
-
-If the item you're wearing is a weapon, then you can also specify an exact 
-location for it, such as on your belt or forearm.  If you don't specify a 
-location in this way then the default for that weapon type will be used.  
-Note also that only tiny weapons can be strapped to your chest or forearm, 
-only small (or tiny) weapons can be strapped on your leg and only medium (or 
-smaller) weapons can be strapped to your belt.
-
-You cannot wear something while you have an adrenaline rush.
-
-See also: wield remove get give drop swap draw sheathe
 
 === RADIATION ===
-Magical items provide a source of power - but like all things magical, their 
-power comes from the same primal energy that makes the Supernaturalis what they
-are.  This results in an incompatibility, referred to as 'radiation', which
-represents how much external magical power the Supernaturalis is able to bend 
-to his or her will.
-
-In game terms, each character may wear as much radiation as their Age times 10,
-and it is not possible to exceed this maximum - attempting to wear further 
-equipment is like trying to press together two opposing magnets.
 
 === PUT ===
-  - put <object>
-  - put <object> <creature>
-  - put <object> on <creature>
-  - put <creature> <object>
-  - put on <creature> <object>
-
-This command allows you to put an object on to the specified creature.
-If you've already targeted the person you wish to put the object on, you 
-can simply type 'put <object>'.
-
-Note that '@' is an alias for 'on'.
-
-See also: target
 
 === INNATE ===
-Titans gain various innate bonuses based on their total power ranks, regardless
-of the actual distribution of those ranks, as follows:
-
-1) +1 Speed per rank (up to 2*max rank) and half that bonus to Speed Cap.
-2) +2 Attack and Defence per rank (up to 5*max rank).
-3) +1 Damage and Resistance per rank (up to 5*max rank).
-4) +1% Health per two ranks (up to 4*max rank).
-5) +1% immunity vs all damage types per rank (up to 1*max rank).  30% max.
-6) +1 physical bypass per rank (up to 3*max rank).
-7) +1 energy and mental bypass per three ranks (up to 3*max rank).
-8) +2% natural armour vs all damage types per rank (up to 4*max rank).
-
-Note that if you are wearing armour, half of its soak will be subtracted from 
-the above natural armour bonus, although this cannot reduce it below 0%.
 
 === PSCORE ===
-  - pscore <pet name>
-  - pscore <pet name> skills
-  - pscore <pet name> affects
-  - pscore <pet name> armour
-  - pscore <pet name> inventory
-  - pscore <pet name> talents
-  - pscore <pet name> powers
-  - pscore <pet name> wounds
-
-This command enables you to view the attributes and abilities of creatures 
-you control (see 'help pets'), in much the same way as the 'score' command 
-works for yourself.
-
-See also: score pets
 
 === WHO ===
-  - who
-  - who brief/where/full/idle
-  - whois <player>
-
-The 'who' command will list which players are currently connected to the mud, 
-with names colour-coded to indicate whether each player is in the outer Nexus,
-the inner Nexus, a named Nexus area, a home plane (not necessarily their own) 
-or somewhere else (such as the Realm, a dungeon, etc).  If you are classed, the
-class names of other players in the Nexus will be colour-coded to indicate if 
-they would or wouldn't give you primal, should you kill them.
-
-Typing 'who brief' will list only the colour-coded player names, with a '*' 
-indicating that the player is link-dead.
-
-Typing 'who where' and 'who full' list where each player is located.
-
-The 'whois' command allows you to view information about a specific player, 
-such as when they last connected and how long they've played.  The 'finger' 
-command is an alias for 'whois'.
 
 === MAP ===
-  - map
-
-This command toggles map mode on and off.  When map mode is on, you will see 
-the map displayed when you type 'look'.
-
-For information on decyphering ancient maps, type 'help maps'.
 
 === COOLDOWN ===
-When your character successfully defends against an attack, it takes some time 
-before that defence can be used again - this is called 'cooldown'.  For your 
-feet (or unarmed attacks) this cooldown is between 4 and 7 seconds, depending 
-on your encumbrance (4 for unencumbered, 5 for light, 6 for medium and 7 for 
-heavy).  For a weapon it varies depending on the weapon type, but encumbrance 
-is also a factor - you can find out the cooldown time for a weapon by looking 
-at it.  Note that the weapon in your off-hand will also have +1 cooldown.
-
-The cooldown timer won't go down while a combat technique is in its delay 
-period and waiting to be performed (although it can still parry or block while 
-being used to perform a technique - only the recovery time is delayed).
-
-While wielding a weapon two handed, the assisting hand will automatically be 
-used to help the cooldown timer for the other hand.  Thus the cooldown for a 
-two-handed weapon will be half the normal time, or normal time while performing
-techniques.
-
-See also: defence
 
 === PROMOTE ===
-  - promote <player>
-  - demote <player>
-
-These commands let you promote and demote other pantheon deities.  You cannot 
-promote people to (or demote them from) your own rank or higher, and can only 
-effect those you inducted unless you are a Major or Supreme God.  The ranks, 
-with power bonuses and (total non-cumulative) promotion costs are as follows:
-
-Supreme God : Gains a +3 power bonus.  The founder of the religion.
-Major God   : Gains a +3 power bonus.  Costs 100000 soul points.
-Greater God : Gains a +3 power bonus.  Costs 50000 soul points.
-Lesser God  : Gains a +2 power bonus.  Costs 25000 soul points.
-Minor God   : Gains a +2 power bonus.  Costs 10000 soul points.
-Godling     : Gains a +1 power bonus.  Costs 5000 soul points.
-Demigod     : Gains a +1 power bonus.  Costs 1000 soul points.
-Immortal    : Gains a +0 power bonus.  Costs 0 soul points.
-
-Note that the diety must have sacrificed enough soul points to cover their 
-promotion cost, unless promoted by a Major or Supreme God.  The cost is paid 
-by the pantheon, but is refunded if the player is later demoted or outcast.
-
-In addition to the Supreme God, each pantheon may have a maximum of 15 deities 
-at Minor God or higher, of which a maximum of 5 may be Greater God or higher.
-
-See also: induct sacrifice
 
 === REMOVE ===
-  - remove <thing>
-
-This command allows you to remove the specified thing.  You must be wearing 
-the specified thing in order to do this.
-
-You cannot remove something while you have an adrenaline rush.
-
-See also: wear wield get give drop swap
 
 === POWER ===
-If you're looking for information on class powers, type 'help powers'.
-
-Power represents the raw mental power of your character, and is calculated in 
-five steps for each body location as follows:
-
-1) Add together the stat modifiers.
-2) Add any modifiers for the spell table.
-3) Add any modifiers for magical items you're wearing.
-4) Apply your style percentage, if any.
-5) Add any modifiers for spell affects.
-
-Your Power is used instead of Damage when you cast spells (both physical and 
-mental).  The calculation is applied against Resistance in exactly the same 
-way as Damage (see 'help damage'), using Core Power instead of Core Damage.
-
-See also: magic damage ascendancy protection
 
 === POTENTIAL ===
-Every imbued Supernaturalis has access to number of powers (see 'help powers').
-The maximum number of ranks you may have divided among your powers is equal to 
-your Age squared, divided by 1000, with your three highest ranked powers not 
-counting towards the total.  The maximum rank you may have in any one power is 
-equal to 10% of your Age.
-
-This means that a newly classed character at Age 100 can have 3 powers at rank 
-10, and an additional 10 ranks distributed as desired.  An Age 200 character 
-can have 3 powers at rank 20, and an additional 40 distributed ranks.  An Age 
-300 character can have 3 powers at rank 30, and an additional 90 distributed 
-ranks.  And so on.
-
-Your 'potential' (as listed in your score, assuming you're classed) represents 
-what percentage of your maximum ranks you've trained.  Thus 100% potential for 
-an Age 100 character means they have 3 powers at rank 10, and an additional 10 
-ranks divided among their other powers.
 
 === WARBOARD ===
-  - warboard
-
-This command displays the warboard - a scoreboard listing the top 10 Great War
-players of the week (see 'help great war').  It will also indicate if you 
-have not yet fought a war today.
-
-The warboard only counts your first Great War of the day.  If you quit before 
-turn 1 begins, it won't count, but if you quit after turn 1 has begun you will
-earn no points for that particular day.
-
-Your score is based on your Glory, with your Kills used as a tie-breaker.
-
-See also: war war2
 
 === CLOSE ===
-  - open eyes/<object>
-  - close eyes/<object>
-
-These commands allow you to open and close your eyes, or a specified object 
-that you are wearing.  You can see if an object can be opened and closed by 
-looking at it (there will be a 'Special' field in the top section).
-
-While your eyes are closed, you cannot see your opponent, and will suffer the 
-usual -50% Defence penalty for visibility (see 'help blind fighting').  Certain
-powers, such as Ears of the Bat, may give you additional benefits while your 
-eyes are closed.  You will also be immune to attacks which require eye contact,
-and have half your normal natural armour on your eyes (instead of none).
-
-If you are wearing a helmet with a lowered visor, you suffer a -25% penalty to 
-your Defence, applied after pain modifiers.  If you have Blind Fighting, this 
-penalty is reduced to -10% (representing reduced hearing).  However the lowered
-visor will protect the eyes, and also doubles the helmet's face protection.
-
-See also: wear remove
 
 === CONFIG ===
-  - config
-  - config <option>
-
-The config command allows you to customise certain aspects of the mud, such as 
-the type of messages you get, which channels you can hear, whether your prompt 
-is shown or not, and so on.  Typing 'config' on its own will list the options 
-available, while 'config <option>' will toggle that particular setting on and 
-off.  The config options are colour-coded to indicate if they have changed, or 
-are set to their default (starting) value.
 
 === ASSIST ===
-Some weapons are designed to be used two-handed, others one-handed, and a rare
-few are equally viable either way.  To use a weapon two-handed you must assist
-with the other hand (type 'ra' for right assist or 'la' for left assist).  
-
-In most cases an assisting hand has no techniques of its own other than 'r' to 
-release that hand from its two-handed grip.  Equally, an assisting hand cannot 
-be used to defend against attacks.  However there are benefits to be had from 
-using a weapon in this way - typing 'l?' or 'r?' for the assisting hand will 
-display the bonuses it grants (+100% divided among Attack, Defence and Damage 
-if the weapon is designed to be used two-handed in melee, +10% to each if not).
-In addition, using a weapon in this way will generally unlock more techniques, 
-or upgrade the bonuses of existing ones - such techniques will be displayed in 
-cyan in the combat table.  Furthermore, your defence cooldown time (see 'help 
-cooldown') will be halved, or work at normal speed if you normally couldn't 
-recover at all (for example, while performing a combat technique).
-
-The exception to the above is bows.  A bow can only be used as a basic club 
-when wielded one-handed, but when used two-handed the assisting hand gains 
-access to a selection of ranged attacks.  The other hand may continue to make 
-bashing attacks with the bow itself, but this will interfere with any attacks 
-being made with the assisting hand.  Like other weapons, a bow can be released 
-from two-handed use via the 'r' command.  See also 'help archery'.
 
 === CAP ===
-Your bonuses from skills and styles are capped at 100, meaning that only the 
-first 100 points are used to determine bonuses, with the following exceptions:
-
-Your current fighting style is applied as an uncapped percentage bonus to the 
-attack, defence and damage of all your combat techniques.  For example if your 
-strike normally has +20 attack and +10 damage, but you have 400 in your current 
-style, the technique will actually have a +400% (i.e. 5 times) bonus giving it 
-+100 attack and +50 damage (you can see this full bonus on your combat table).
-
-Spells work as above, except they use their appropriate magic colour instead of
-your style, with the bonus being applied to their range, ascendancy and power.
-
-Your weapon skills are applied as an uncapped percentage bonus to the attack, 
-defence and damage of your weapons, as per 'help weapon'.
-
-Points of Athletics over 100 are applied as a flat bonus, as per 'help health'.
-
-Note that if you are using an advanced or super style, the cap will still apply
-to the first 100 points, distributed as a 50%/50% or 34%/33%/33% bonus.
 
 === GET ===
-  - get <thing>
-  - get all
-
-This command allows you to pick something up off the ground, as long as you are
-standing right beside it.  If you are some distance away, you will need to 
-'target' it and walk up to it first.
-
-See also: wear wield remove give drop swap fabricate
 
 === SCAN ===
-  - scan
-
-This command shows you information about the surrounding terrain, a bit like 
-typing 'look' on its own except that the map uses the same scale as the 'area' 
-command.  Unlike the area command, however, scan will also show you subareas 
-as well as task locations.
-
-See also: area look
 
 === COUNTER-ATTACK ===
-Many weapons have some sort of counter-attack, usually in the form of a 'ddd' 
-technique (eg 'rd', 'rd', 'rd' to perform right handed).  These counter-attacks
-operate exactly like defensive techniques, except that when you successfully 
-defend they follow up with an attack.
-
-This follow-up attack is usually automatic, except for swordbreakers and tiger 
-claws, which give you 5 seconds to choose a response - allowing you to disarm 
-your opponent, break their weapon, or perform an attack.  A main gauche also 
-has the ability to lock the weapons it parries, which freezes the main gauche 
-and the attacking weapon for 5 seconds (very useful vs two-handed weapons).
-
-A counter-attack can only be dodged, or blocked by shields.  After execution 
-it will need to be reset, although it still provides a regular defence.
-
-It's important to remember that the counter-attack waits until triggered by a 
-successful block or parry, so after setting it up you shouldn't perform any 
-other commands with that location or you'll lose the counter-attack.
-
-See also: combo interleaving techniques tutorial
 
 === PANTHEONS ===
-  - pantheons
-
-This command displays the pantheon scoreboard - a scoreboard listing the top 10
-pantheons of the week, sorted in order of Karma.
-
-If you've earned less Karma in the current week than you did the previous week,
-the Karma in the scoreboard will be the average of the two weeks.  Otherwise it
-will be the Karma you've earned the current week.  Thus you will usually begin 
-the week with a certain amount of Karma on the scoreboard.
-
-Your pantheon power gains a +2 bonus if your pantheon ended the previous week 
-on rank 1-5, or a +1 bonus if it ended on rank 6-10.
-
-See also: pantheon karma
 
 === CRITICAL ===
-Your percentage chance to hit someone is your attack times 100, divided by the 
-total of your attack plus your opponent's defence.  For example, if you have 
-the same attack as your opponent has defence, you will have a 50% chance of 
-hitting them.  If your attack is double your opponent's defence, you will have 
-a 66% chance of hitting them.  If your attack is three times your opponent's 
-defence, you will have a 75% chance of hitting them.  And so on.
-
-The mud then makes your attack roll by generating a random number between 1 and
-100.  If you are using Expert Axeman and roll below 96, the result is reduced 
-by 5.  If the roll is 5 or less, your attack is a critical hit.  If the roll is
-greater than your chance of hitting, or greater than 95, then the attack fails.
-
-If your attack is successful, it may still be a critical hit.  Calculate your 
-accuracy bonus by subtracting 50 from your chance of hitting, to a minimum of 
-1.  The percentage success of your attack is equal to your chance of hitting, 
-minus your attack roll, plus your accuracy bonus, multiplied by 100 and then 
-divided by your chance of hitting.  This percentage success will always be at 
-least 1% and never more than 100%.  If it is 100% then you inflict a critical 
-hit.  This percentage also indicates how much of your damage you inflict - if 
-you hit with a 50% success, you cause half of your maximum damage.
 
 === INTERLEAVING ===
-When queuing up multiple combat techniques, you should use an approach called 
-interleaving.  For example if you want to perform three strikes with each hand,
-rather than typing 'ls', 'ls', 'ls', 'rs', 'rs', 'rs', you should instead type 
-'ls', 'rs', 'ls', 'rs', 'ls', 'rs', so that the techniques alternate between 
-your left and right hand.
-
-The reason for this is that commands come off the queue in the order that they
-were added.  If you enter all of the left strikes first, then no right strikes
-will come off the queue until all of the left ones have first been used.  While
-this might initially seem counterintuitive, it does ensure that all your queued
-commands will be performed.
-
-If you type 'config interleaving', each location will instead pull techniques 
-off the queue as soon as possible.  However you should be aware that this may 
-result in situations where high-AP techs never came off the queue, because the 
-cheaper techs are performed the moment you have sufficient AP.
 
 === HINT ===
-  - hint
-
-This command toggles hint mode on and off.  When hint mode is on, you will be 
-given hints based on what you are currently doing.  This is very useful for 
-new players, but may be switched off by more confident players.
 
 === BUILD ===
-Each class can be played in a wide variety of different ways, and your 'build' 
-refers to your current combination of stats, powers and talents.  You will most
-likely try lots of different builds before settling on one you like.
-
-If you don't know where to start, select one of the following:
-
-1) Blood Legacy and Blood Potency.
-2) Rage of the Beast, Extended Rage and Berserker Rage.
-3) Mind Magic, Serenity, Mind Over Matter, Martial Gnosis and a Style Mastery.
-
-Then focus on one of the following power/talent combinations:
-
-1) Bat Form, House NightWing, Venom and Evasion.
-2) Wolf Form, Claws of the Wolf, Lupine Fortitude, Sure Footed and Evasion.
-3) Mist Form, Shadow Crafting, Path of Shadows and House ShadowSworn.
-4) Blood Runes, Blood Forging, Armour Proficiency and Heavy Armour Expert.
-5) Shadow Crafting, Blade of Darkness, Assassin Training and House DarkBlade.
 
 === EVENTS ===
-  - events
-
-This command displays the list of currently available events.  There can be up 
-to ten events running at any one time, and shortly after one is completed a 
-new one will begin.
-
-Event mobs give twice as much primal as regular mobs of the same age, and this 
-bonus DOES stack with boost (i.e., killing an event mob with casual boost gives
-you six times the normal amount of primal).
-
-The chance of an event mob dropping a rare or uncommon item is tripled, or 
-doubled if they drop craftable material.  This is the same improved drop bonus 
-that is granted by boost, which means that the two do NOT stack.
 
 === NEWBIE ===
-This is a basic introduction for new players.  Make sure you read the hints as 
-well!  For a more detailed newbie guide, see: http://www.godwars2.org/guide.php
-
-Type 'target practice grounds' then 'ff' (feet forwards).  When you arrive type
-'enter practice grounds' and 'target dummy'.  Read 'help tutorial' to learn how
-combat works, practicing your different fighting moves on the training dummy.
-
-Once you've worked out the basics, type 'leave' to exit the practice grounds, 
-then 'target prison' and 'ff' (feet forwards).  When you reach the prison, type
-'enter prison', 'target prisoner', then use what you've learned; kill him.
-
-When you're comfortable fighting someone who hits back, type 'leave' to get out
-of the prison, then 'target dojo' and 'ff'.  When you arrive, type 'enter dojo'
-and then type 'challenge' to fight a white-sash martial artist.  After killing 
-him, wear the sash and 'challenge' again to fight a stronger martial artist.
-
-Once you've earned your black sash, use the 'area' command to locate monster 
-lairs (see 'help tasks').  You can also return to your home plane to change 
-your character setup, or to fabricate some equipment.  Read 'help classes' 
-for a summary of each class, and 'help classing' to learn how to join one.
-
-See also: classing combat movement kill setup skills style talents
 
 === WEATHER ===
-  - weather
-
-This command, when typed outdoors, will display the surrounding weather 
-patterns.  Each character represents 660x660 feet (one square furlong, or a 
-single tile), and the 'X' in the centre represents your current tile.  The 
-'@' represents a thunderstorm, 'O' represents rain, 'o' represents heavy 
-clouds and '.' represents light clouds, while everything else is clear sky.
 
 === MOVEMENT ===
-  - n/s/e/w/u/d
-  - n/s/e/w/u/d <distance>
-  - n/s/e/w/u/d <distance> yards/chains/furlongs/miles/leagues/tiles
-
-These commands allow you to move around, by setting your destination to the 
-specified offset of your currently selected destination (which by default is 
-your current location).  If you don't specify a distance, then you will move a 
-default distance based on the scale of the area you are in.
-
-For example, if you are standing at coordinate position 0/0 and type 'n 20', 
-your destination will be set to 20/0 and you will immediately start moving 
-(unless you are intentionally standing still) towards that location.  Should 
-you then type 'e 10', the destination will become '20/10' and you will start 
-moving east as well as north.
-
-This command will override any current 'target' (and vice versa).  Select your 
-movement speed by typing 'ff' (feet forwards) and 'fb' (feet backwards).
-
-Note that you may also use 'ne', 'nw', 'se' and 'sw' to move diagonally.  These
-commands are the same as typing both directions separately - so 'ne 100' would 
-set your destination to 100 north and 100 east (i.e., 141 feet north-east).
-
-See also: clear rate target
 
 === BYPASS ===
-  - bypass
-
-When you strike someone in combat, your attack has to go through their armour 
-before it can inflict damage.  Your bypass helps you to do this.
-
-Certain talents, such as Cleave, Smash and Pierce, provide a bypass bonus to
-specific damage types.  Some weapons also have this as an innate ability for 
-certain commands, which are coloured cyan (along with their AP cost) at the top
-of the combat table.  It's also possible to receive bypass bonuses from certain
-powers or magical item bonuses - and these will all be added together.
-
-Whenever you strike an opponent, every point of bypass will negate one point of
-your opponent's armour.  If you completely negate their first layer of armour, 
-you'll then move on to the second layer, then the third, and so on, until you 
-run out of bypass or they run out of armour.  For example, if you had 50 bypass
-and your opponent was wearing a 40% armour helm and a 50% armour coif, the helm
-would end up soaking 0% damage while the coif would soak 40% damage.
-
-Bypass has no effect on immunities, and only effects auto-absorb on a critical
-hit.  This is described further in 'help armour' and 'help armour2'.  You also 
-gain a bonus when you inflict a critical hit - see 'help critical-bypass'.
 
 === DIPLOMACY ===
   - assassinate <opponent>
@@ -2364,26 +606,6 @@ To ignore everyone, use 'config chat' and 'config tell'.
 See also: tell reply chat config
 
 === ARMOUR ===
-  - armour
-  - armour <worn/total/spell/natural/immunity/bypass>
-  - armour <cut/stab/etc> <face/body/etc> <damage> (<bypass>)
-
-This command lists the total percentage damage soaked by a blow after it has 
-passed through all of your layers of armour (including natural and immunity), 
-for each body location, vs each type of damage.  The second value (after the %)
-is the auto-absorb - eg '50%/5' means 50% soak and 5 points of auto-absorb.
-
-Each layer of armour you wear soaks a percentage of the damage that strikes it.
-For example, if wearing a breastplate and a chainmail shirt, and both soaked 
-50% damage, when struck by 100 points of damage the breastplate would soak the 
-first 50 and the chainmail shirt the next 25 (i.e., 50% of the 50 damage that 
-got past the breastplate).  No single layer of armour can soak more than 75% 
-damage, and will be capped at 75% after applying bypass (see 'help bypass').
-
-After worn armour comes your spell armour, then your natural armour, each of 
-which are treated exactly like a layer of worn armour.
-
-To read the rest of this help file, type 'help armour2'.
 
 === LEAVE ===
   - leave
