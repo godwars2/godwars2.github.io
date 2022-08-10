@@ -7,823 +7,104 @@
 === BEGIN ===
 
 === RULES ===
-There are no real rules here; just use your common sense.  If you're smart 
-enough to learn how to play this mud, then I'm sure you're also more than 
-smart enough to understand what result different actions have on the mud.
-
-If you abuse bugs instead of reporting them, then the admin have to spend time 
-tracking those bugs down instead of adding more game content for you to enjoy.
-
-If you constantly harass other players, then the admin have to take time away 
-from developing cool features so they can add ways to protect your victims.
-
-If you repeatedly kill newbies, then they'll probably quit, giving you fewer
-people to interact with and reducing your long-term enjoyment.  Newbies are 
-like fruit: for maximum pleasure you should let them grow and ripen before 
-plucking them from the branch and devouring their succulent flesh.
-
-You can help make the mud a better place, or you can worsen it.  We hope you 
-choose the former, and help us produce something that we can all enjoy.
 
 === DURABILITY ===
-Every piece of equipment has both condition and durability.  Condition works 
-like health and is based on item type, while durability works like immunity 
-and is based on material type (although it can also be improved as a magic 
-item bonus, up to a maximum of 99%).
-
-Magic items automatically repair damaged condition at the rate of 1-5 points 
-per second based on their type: 1 for magical, 2 for legendary, 3 for mythical,
-4 for relics and 5 for artifacts.  Corrosion can reduce this by up to 4, and if
-the item is reduced to 0 condition it will no longer repair itself at all.  To 
-fix a broken item you will need to type 'repair' while on your home plane.
-
-Note that corrosion can reduce the durability of an item by up to 10, while 
-heat can reduce the durability by up to 6.  This penalty is applied after 
-the durability bonuses is capped at 99%, so that a very rusty white-hot sword 
-can never have more than 99-10-6=83% durability.
-
-See also: repair
 
 === COMMANDS ===
-  - commands
-  - commands <begins with>
-
-This command lists all of your currently available commands.  You may 
-optionally choose to list only those that begin with a certain character 
-sequence, for example 'commands s' or 'commands sh'.
-
-If a command is highlighted in white, that means it is only available because 
-you are currently mounted.  If a command is highlighted in cyan, then it has 
-been granted by a talent or power, or by your class.
 
 === REPLYLOCK ===
-  - replylock on/off
-
-This allows you to lock your reply command to the last person who sent you 
-a tell, so that if someone else sends you a tell your replies will continue 
-to be sent to the original person.
-
-See also: tell reply ignore
 
 === SOUL POINTS ===
-Whenever an Imbued Supernaturalis kills another being, he will absorb primal 
-energy from the victim.  When one Supernaturalis kills another, only excess 
-energy can be taken in this way, but against other beings the entire essence 
-of the creature is consumed.  Once the primal energy is stripped away, the 
-remaining soul is retained as a form of supernatural currency, referred to 
-as Soul Points.  These Soul Points can be exchanged or traded, or used to 
-fuel magical devices.  They may also be "reincarnated" into new bodies in 
-order to better serve their owner.
 
 === DUAL-DAMAGE ===
-Certain attacks are described as inflicting 'dual damage'.  This means that the
-mud will check both damage types each time you hit, and choose the one which 
-causes the most damage, taking into account all factors (including bypass, worn
-armour, powers, talents, spells, and everything else).
-
-For example: Bat Form inflicts dual cut/poison damage, meaning that each time 
-you hit the damage type will be either cut or poison, whichever is better.  If 
-your opponent is wearing a steel breastplate but no head armour, you might end 
-up inflicting poison damage to his body, but cut damage to his head.
 
 === NEXUS ===
-The Nexus is the world at the centre of existence, and is where the main game 
-takes place.  Powerful monsters can be encountered here, and there are no 
-restrictions on PK, making it a very dangerous place for the unprepared - but 
-the potential rewards are more than enough to make such risks worthwhile.
-
-You may leave the Nexus and return to the Realm plane via the 'shift' command,
-although death will also result in you being banished back to your home plane,
-where your physical body will be reformed.
-
-See also: area death realm safe shift scan
 
 === PENALTIES ===
-Many weapons have minimum requirements for Brawn, Grace and Size.  Should you
-not meet those requirements, you can still use the weapon, but you will suffer
-a penalty to Attack/Defence/Damage equal to twice the bonus normally gained 
-from that stat for every point below the requirement you are (with a maximum 
-penalty of 3 times).  The penalties per stat are therefore as follows:
-
-Brawn: -0/-4/-8/-12 Damage, depending on penalty.
-Grace: -0/-8/-16/-24 Attack and -0/-6/-12/-18 Defence, depending on penalty.
-Size : -0/-4/-8/-12 Attack and -0/-2/-4/-6 Damage, depending on penalty.
-
-Note that the above penalties are colour-coded the same as when you look at 
-the weapon, and are applied to your character before percentage modifiers.
 
 === MANA ===
-Spellcasting doesn't cost mana, but you may choose to spend it to enhance many
-of your spells.  In many cases, enhanced spells will temporarily lower your 
-maximum mana, as well as your current, but only for the duration of the spell.
-
-Your mana is calculated as follows:
-
-1) Mettle + Tenacity + Discipline + 3 times Aura.
-2) Add any Mana bonuses from class powers.
-3) Apply the +25% bonus for the Magically Gifted talent, if you have it.
-4) Add any Mana bonuses from magical items.
-5) Apply your Focus skill as a percentage.
-6) Apply any Mana modifiers from spells.
-
-Note that if you have any bonuses to primary stats (from either spells or magic
-items) then these are calculated prior to step 1.
-
-See also: replenishment
 
 === DEMON ===
-Demons are powerful Nephilim, dark and twisted beings from another dimension 
-who feed upon fear and pain.  They gain the following stat bonuses:
 
 === COLOUR ===
-  - colour <on/off/ansi/xterm>
-  - colour <good/okay/bad/awful> <colour/COLOUR>
-  - colour <say/chat/tell/gossip/newbie/pray> <colour/COLOUR>
-  - colour <name/backstab> <colour/COLOUR>
-  - colour <info/war> <colour/COLOUR>
-  - colour <YouSweepThem/YouHitThem/YouCritThem> <colour/COLOUR>
-  - colour <TheySweepYou/TheyHitYou/TheyCritYou> <colour/COLOUR>
-
-This command allows you to switch colour on/off, as well as customise your 
-scaled colours (which are used for things like health, encumbrance, pain, etc)
-and various other default colours.  Note that if you enter the colour name in 
-uppercase (eg 'colour good CYAN') it will use bright colours, while 
-entering it in lowercase (eg 'colour good cyan') will use dull colours.
-
-Your colours are currently set to CYAN/BLUE/MAGENTA/RED.
-
-Available colours are GREY/RED/GREEN/YELLOW/BLUE/MAGENTA/CYAN/WHITE, as well as
-their lowercase equivalents.  As your client supports 256 colours, you may also
-specify a three digit 'rgb' sequence, with each digit representing a colour 
-intensity from 0 to 5 (eg '533' for pink, '530 for orange, etc).  If you wish 
-to include a background colour as well, just add three more digits to the end.
-
-You may also use colour codes within your prompt, or for the display command, 
-as follows: ^R (light red), ^r (dark red), ^G (light green), ^g (dark green), 
-^Y (light yellow), ^y (dark yellow), ^B (light blue), ^b (dark blue), ^M (light
-magenta), ^m (dark magenta), ^C (light cyan), ^c (dark cyan) and ^W (white).
-
-Your client supports extended colours, so you may also use: ^A (light azure), 
-^a (dark azure), ^J (light jade), ^j (dark jade), ^L (light lime), ^l (dark 
-lime), ^P (light pink), ^p (dark pink), ^V (light violet), ^v (dark violet), 
-^T (light tan), ^t (dark tan), ^O (light orange) and ^o (dark orange).
-
-There's also: ^1 (good), ^2 (okay), ^3 (bad), ^4 (awful), ^5 (chat), ^6 (say).
 
 === CHAT ===
 
 === INFO ===
-  - info
-
-This command displays information about the mud, such as when the mud started, 
-when it was compiled, how many connections (and the highest at once), how many 
-combat techniques, etc.  The information is all generated rather than typed in,
-so is guaranteed to always be up to date.
 
 === APPEARANCE ===
 
 === COMBO ===
-A 'combo' is a combat technique which requires a combination of commands.
-
-When you type 'r?', you'll see the combat table for your right hand.  The first
-line lists your valid (one-letter) commands, followed in brackets by their cost
-in AP (see 'help actions').  The second line lists the definitions of what each
-one-letter command stands for (for example 'e' might stand for 'elbow').  Below
-that is a separator line, followed by your techniques (including combos).
-
-Suppose you see a 'pfs' combo in the combat table for your right hand.  Looking
-at the top of your table you see 'p (50)' above the definition 'palm', 'f (50)'
-above the definition 'fist', and 's (100)' above the definition 'strike'.  That
-means that you can perform the 'pfs' combo with your right hand by typing 'rp',
-'rf', 'rs' (which literally means right palm, right fist, right strike).
-
-The same approach is used for spells.  If you have an 'energy bolt' spell which
-uses the 'sp' combo, you can cast it right-handed by typing 'rs', 'rp' (meaning
-right snap, right point), or left-handed by typing 'ls', 'lp'.  Don't forget to
-type 'r? info' to see the names of your spells.
-
-See also: tutorial interleaving counter-attack techniques
 
 === INDUCT ===
-  - induct <player>
-  - ascend <player>
-  - outcast <player>
-
-The induct command allows you to invite another player to join your pantheon, 
-and they can accept by typing 'ascend Player'.
-
-The outcast command allows you to remove other players from your pantheon.
-
-Note that only Lesser Gods and higher may induct or outcast, and you can only 
-outcast those inducted by you unless you are a Supreme or Major God.  Outcast 
-players are refunded all the soul points they've sacrificed, and the pantheon 
-is refunded the cost (if any) for promoting that member.  If the pantheon has 
-insuffient soul points to refund the player, then they cannot be outcast.
-
-See also: promote sacrifice
 
 === AUTO-ADVANCE ===
-You earn an auto-advance point whenever you kill a mob your own age or higher, 
-although this cannot bring you above 100 auto-advance points.  You can also 
-earn auto-advance points by completing certain tasks (see 'help tasks'), and 
-these can take you above 100, although they can only be earned once per task.
-
-Whenever the mud checks for a skill or style increase and fails, one of your 
-auto-advance points will be spent to change that failure into a success.  In 
-this way you are able to raise your skills and styles much quicker through 
-tasks and difficult kills than you are from repetitive grinding.
-
-If you have any skill boosts (see 'help boosts') then these work exactly like 
-auto-advance points, except that you also earn 100 primal each time a skill 
-boost is spent, as long as your primal is below your primal cap.
-
-Note that skill boosts are spent before auto-advance points as long as your 
-primal is below your primal cap - otherwise, auto-advance will be spent first.
 
 === SHEATHE ===
-  - sheathe <weapon>
-  - sheathe <weapons>
-  - sheathe all
-  - sheathe *
-
-This command allows you to sheathe the specified weapon from your hand.  The 
-weapon will be placed back in whichever sheathed location it came from, as 
-long as that location isn't already taken by another weapon.  You may also 
-choose to sheathe multiple weapons at the same time by providing the plural 
-form of that weapon (eg 'sheathe knives' rather than 'sheathe knife') - if 
-the weapon's singular and plural form are the same (eg a kris) then the mud 
-will attempt to sheathe both.  You may also type 'sheathe all' to sheathe both 
-of your held weapons, or 'sheathe *' to sheathe the first available weapon.
-
-This command also allows you to strap a target shield to your back, or to hang
-a buckler loose on your arm.  While this is not really 'sheathing 'as such, it
-uses the same command for the sake of simplicity.
-
-See also: draw
 
 === FORM ===
-Vampires have the ability to transform into alternative forms - a huge wolf, a 
-cloud of bats, or a floating mist.  You cannot switch directly between these 
-forms without passing through human form, unless you have 10 or more ranks in 
-the Shapechanging power.
-
-Each of your three forms has its own equipment and inventory set.  This is in 
-fact a benefit, since each form has different equipment restrictions: as a 
-wolf you can only wear collars, as a mist you can only wear items crafted from 
-shadowcloth or shadowsteel, and as a cloud of bats you cannot wear anything at 
-all.  If you transform into a giant bat (via the Chiroptera Blood Rune), you 
-will be able to wear a collar and wing spikes, but will share your equipment 
-and inventory set with that of your wolf form.
-
-The most convenient way to move equipment between your forms is to use a store 
-on your home plane (see 'help store').
-
-To see which wear locations your current form has, type 'equipment slots'.
 
 === HEAVY ARMOUR ===
-Certain talents and powers provide bonuses for heavy armour.  If you look at 
-an item, it'll tell you whether or not it's classified as heavy armour, but 
-the following is a complete list:
-
-Head  : Full helm (also protects face and neck, but blocks spiked collar).
-Neck  : Spiked collar, braided collar (epic) and torc of eternal health (epic).
-Body  : Breastplate (also protects the back).
-Groin : Codpiece.
-Arms  : Bracers, battle bracers (also protects hands) and runic bracers (epic).
-Hands : Gauntlets (not usable by Demon Form, so use battle bracers instead).
-Legs  : Greaves.
-Feet  : Boots (not usable by Demon Form).
-Wings : Wing-spikes and barbed wing-spikes (epic).  Not for human form.
-
-Dragons instead have a champron on their head, a criniere on their neck, a 
-peytral on their chest, flanchards or reinforced flanchards on their flanks 
-and a croupiere on their hind quarters.  Their dragonspurs are also treated 
-as heavy armour, as are their wing-spikes (as listed above).
-
-Draconians wear the same as humans, except they must wear a champron instead 
-of a full helm, and they can also wear dragonspurs and wing-spikes.
 
 === VAMPIRE ===
-Vampires are a parasitic form of Revenant who have returned from the dead to 
-drink the blood of the living.  They gain the following stat bonuses:
 
 === MAGE ===
-Mages are powerful Illuminati who have learned to control and manipulate the 
-elements.  They gain the following stat bonuses:
 
 === MSDP ===
-MSDP stands for MUD Server Data Protocol.  It allows the transparent sending 
-and receiving of variables between the server and client, providing a useful 
-tool for scripts and plugins.
-
-MSDP is supported by MUSHCLIENT, allowing you to benefit from its features.
-
-Read more about it here: http://tintin.sourceforge.net/msdp/
-
-MSDP is also used by the official God Wars II plugin (see 'help gui').
 
 === ' ===
-  - say <text>
-  - say @<target> <text>
-  - say @pets <text> (see 'help pets')
-
-This command allows your character to speak out loud.  You will be heard by 
-everyone within 1000 feet (although it will not carry outside your current 
-location).  You may also choose to direct your speech at a specific person, by
-typing 'to <their name>' before the text ('@' also works instead of 'to').
-
-Note that if you place a smiley at the end of your spoken text, it will add an
-emote to your 'say' message.  This smiley can be one of: ':)' (smile), ';)' 
-(wink), ':P' (grin), ':D' (laugh), ':>' (giggle), ':(' (frown), ':O' (gasp), 
-':o' (sigh), ':*' (snort), ':}' (chuckle), ':/' (grimace), ':x' (whistle), ':{'
-(pout), ':\' (sneer), ':]' (smirk), ':[' (scowl), ':X' (snarl) or ':#' (groan).
-
-You may also prefix the text with '+' for affirmative (a nod of the head), '-'
-for negative (a shake of the head), '%' for rolling your eyes, '^' to raise an
-eyebrow or '~' to shrug your shoulders.  Eg try typing 'say +I understand! :)'.
-
-Due to popular request, the ' character has been added as an alias for 'say'.
-
-See also: shout whisper
 
 === MAIL SYNTAX ===
-  - mail                         - View your inbox.
-  - mail read [<num>]            - Read specified (or unread) message. 
-  - mail write @<name> <subject> - Write a new message.
-  - mail reply <num>             - Write a reply to the specified message.
-  - mail delete <num>            - Delete specified message from inbox.
-
-  - mail show                    - Show message you're currently writing.
-  - mail list                    - List line numbers for current message.
-  - mail +[<num>] <text>         - Add (or insert) line to current message.
-  - mail ++[<num>] <text>        - As above, but paragraph instead of line.
-  - mail -<num>                  - Delete line number of current message.
-  - mail find <text>             - Find specified text in current message.
-  - mail replace <a> with <b>    - Replace text in current message.
-  - mail format                  - Format the text in the current message.
-
-  - mail discard                 - Discard the current message.
-  - mail send                    - Send the current message.
 
 === SCREEN READER ===
-If you're using a screen reader, you should type 'config screen reader'.  This 
-changes some of the tables to a more readable format, including the removal of 
-dashed lines from the table displays.  It also unlocks a series of shortcut 
-commands for quickly displaying specific information - type 'show' for a full 
-list of all available shortcut commands.
-
-Should you require further shortcuts, you can use the 'alias' command to set 
-your own.  For example 'alias add age display Current age is {*age*}' will 
-create an 'age' command for displaying your current age.
-
-Depending on your client, you will probably want to switch off your prompt as 
-well.  You can do this by typing 'config prompt'.  You can still set a prompt
-and type 'prompt' to view it, much like the previously mentioned shortcuts.
-
-You can view combat tables in a screen reader friendly format by adding the 
-word 'long' after the two letter command, eg 'r? long', 'l? long', etc.
-
-Colour can be switched off by typing 'colour off', while the amount of combat 
-spam can be reduced by typing 'config combat spam', 'combat defence spam' and 
-'config technique spam'.
-
-See also: dungeons
 
 === CLASSES ===
-This is a brief summary of the six classes in God Wars II:
-
-Vampire: Strong defence, very stealthy, decent psionics, focuses on cold-based
-energy.  Can use heavy bloodsteel armour or weightless shadowsteel armour (but 
-not both).  Forms: human, cloud of bats, mist and wolf (and later, giant bat).
-
-Werewolf: Very fast, good attack, powerful bursts (see 'help burst'), focuses 
-on shock-based energy.  Can use moonweave clothing and weightless moonsilver 
-weapons/armour in human form.  Forms: human, wolfman and wolf.
-
-Mage: Strong magic, superb ranged attacks, decent psionics, item enchantments, 
-can focus on heat, cold, or shock based energy (but is usually pretty good at 
-the other two as well).  Forms: human, fire, air, earth, water and ethereal.
-
-Demon: Strong damage, powerful tail, highly customisable, focuses on heat-based
-energy.  Decent mount for human form.  Usually heavily armoured (although demon
-form can also be customised to work with no armour).  Forms: human and demon.
-
-Dragon: Scaled powers (see 'help scaling'), gains bonuses from valuable metals,
-fairly customisable, can choose to focus on either heat, cold, shock, poison or
-mental (both as offence and defence).  Forms: human, draconian and dragon.
-
-Titan: Pure physical fighter, very easy to play.  Ideal for newbies.
-
-See also: class classing classed vampire werewolf mage demon dragon titan
 
 === WOUNDS ===
-  - wounds
-
-This command allows you to view any special wounds you may be suffering from, 
-along with a brief summary of any penalties they may give.  These cover a range
-of different things, including physical wounds (such as lost limbs), sensory 
-problems (such as blindness), emotional inflictions (such as temptation) and 
-magical exhaustion (such as burnout).
-
-All wounds are cleared when you die, or when you restore yourself on your home 
-plane.  Some wounds (particularly the physical ones) may also be healed with 
-certain class powers, such as Regeneration.
 
 === CRAFTING ===
-Some monsters drop craftable material when they are killed, such as pieces of 
-spidersilk, fragments of chitin or shards of bone.  You may use this material 
-to create an item of your choice by wielding it and then using the appropriate 
-combination technique.  The types of item available will depend on the size and
-type of the material; small, medium and large each have their own item lists.
-
-To view which techniques create which items, type 'r? info' (or 'l? info', if 
-you are crafting with your left hand).  The item you create will have the same 
-magical type and rarity as the material it came from (see 'help magic items'), 
-and its power will be based on the age of the mob that the material came from.
-
-Large and medium pieces of material may be split into two smaller pieces by 
-performing the use command while assisting (eg 'ru' while holding the material 
-in your right hand and assisting with the left).  Each of the smaller pieces 
-will retain the magical type, rarity and age power of the original.
-
-Small and medium pieces of material may be joined together into a larger piece 
-by performing the use command while holding both smaller pieces (eg 'ru' while 
-holding two small wolfskin pelts).  Both smaller pieces must have exactly the 
-same magical type and rarity, and their age power will be averaged.
 
 === DROP ===
-  - drop <thing>
-  - drop all
-
-This command allows you to drop something that you are currently carrying 
-(but NOT wearing).  The dropped thing will appear right beside you.
-
-See also: wear wield remove get give swap
 
 === IMMUNITY ===
-  - immunity
-
-Your immunity is applied after your armour (see 'help armour'), and works much
-like another layer of armour except that it cannot by bypassed.
-
-If you have immunity bonuses from multiple sources, they will all be added 
-together, but the total cannot exceed 95% unless an ability explicitly states
-otherwise (for example Elemental Scion or Shadow Infusion).
 
 === PRIMAL ===
-Primal is the equivalent of experience points on the original God Wars, and 
-represents the Primal Energy you have absorbed from external sources.  Imbued 
-characters earn Primal for various activities (such as killing opponents) and 
-can then spend it to improve their Age or Powers.  An Unimbued character is 
-not able to earn Primal.
-
-Note that your Primal cap is (Age*Age)/5 - i.e., 2000 points at Age 100, 8000 
-points at Age 200, 18000 at Age 300, and so on.  This number is also exactly 
-twice the cost for training a stat.  Your primal can go above this cap, but if 
-you kill something after you have already reached or exceeded the Primal cap, 
-your Primal will not go any higher - you will earn nothing for that kill.
-
-It is also possible to earn 'Safe Primal', which doesn't count towards your 
-Primal cap, and isn't lost if you are killed.  Your Safe Primal is spent in 
-exactly the same way as regular Primal, but is always used up first.  It is 
-generally earned from exploration and completing tasks.
 
 === TITLECOLOURS ===
-  - titlecolours <first colour> <second colour> <third colour>
-
-This command allows you to set the colours for your pantheon title.  The 
-first colour is used for your outer brackets, the second for your inner 
-brackets, and the third for the pantheon title itself.  Only the Supreme 
-God of the pantheon can set the brackets, although they may be changed at 
-any time.
-
-Each colour must be a single letter - 'R' for light red, 'c' for dark cyan, 
-etc.  The available colours are listed in 'help colour'.
-
-See also: pantheon who title titlecolours
 
 === MAGIC ===
-  - magic (assuming you have a magic talent - type 'talents').
-
-Magic works much like combat (see 'help combat'), and is available to those
-with the appropriate talents.  Just like a combat table, you might have a spell
-listed as 'sp', which means you can cast it with your right hand by typing 'rs'
-followed by 'rp'.  The 'Asc' and 'Pow' columns represent Ascendancy and Power, 
-which are the magical equivalent of Attack and Damage respectively.
-
-Some spells also have a mana cost.  This is only used if you enhance the spell
-by typing a '+' after the two-letter command.  For example, you could cast a 
-zero-mana forcefield spell with your left hand by typing 'lo' - or instead cast
-an enhanced forcefield by typing 'lo+' (assuming you've sufficient mana, and 
-are not already affected by a forcefield spell).
-
-Spells are also colour-coded - red is offensive, blue defensive, yellow is for
-objects, green affects only the caster, and purple is for anything else.  Your
-magic colour increases your Ascendancy like a weapon skill (with Meditate the 
-equivalent of Combat) and the highest of your Blue and Green magic is used as 
-bonus for Protection.  Your magic colour also provides a percentage bonus to 
-the range, duration, bonuses, etc of each spell.
 
 === WAR ===
-There are infinite planes, but the Supernaturalis are not able to physically 
-manifest on all of them.  On some planes you can only interact through visions 
-and manipulation, achieving victory through your mortal worshippers.
-
-To start a new war, type 'war start'.  To join a war type 'war <name>'.  Once 
-the war has started, type 'war' on its own to see your resources.  Note that 
-you must be on your home plane in order to play in a war (see 'help home').
-
-Each turn lasts 60 seconds, and you have 3 actions.  These may be used for: 
-
-Offence <resource>: Moves a resource to Offence, creates a new resource.
-Defence <resource>: Moves a resource to Defence, creates a new resource.
-Dismiss <resource>: Discards Offence/Defence/Resource (may also 'dismiss all').
-
-Note that the resource is either the letter and number (M2, R4, etc) or just 
-the number (2, 4, etc).  You may also spend an action to perform special 
-activities, depending on your current Offence and Defence.
-
-You may perform one combat action each turn (attack, jihad, mercenary or 
-assassinate), but there is no restriction on the other commands.
-
-See also: war2 military religion economy diplomacy recruit faction
 
 === KILL ===
-  - kill <creature>
-  - kill
-
-In many muds, combat consists of little more than typing 'kill' and sitting 
-back to watch the show.  In order to provide a gentler introduction to players
-from such muds, a similar command has been made available here.  To begin 
-automated combat, type 'kill' followed by the target's name - they will 
-automatically be targeted if they are not already (see 'help target).  Your 
-automated attacks will continue until either you or your opponent are dead, 
-although you may turn them off before that point by typing 'kill' on its own, 
-or by entering a manual combat command (see 'help combat').  During automated 
-combat your right hand is used to make attacks while your left hand is used to 
-defend - so make sure your best defensive weapon is in your left hand!
-
-You may also perform certain actions with your feet during automated combat, 
-using the 'advance', 'retreat', 'jump', 'duck' and 'kick' commands, or select a
-fighting stance via the 'stance' command (see 'help stance').
-
-Please note that automated combat is only designed to be a simple front-end for
-newbies, and is vastly inferior to the manual system (see 'help combat').  Do 
-not expect to win any challenging fights with it.
 
 === LOCKPICKING ===
-To pick the lock on a chest or door you first need a lockpick set, which you 
-should wield in one hand while assisting with the other (see 'help assist').
-
-You should then target the chest or door you wish to open, using your assisting
-hand to perform the available techniques.  Every time you perform a lockpicking
-technique, the lock will make a sound to indicate the state of its tumblers; a 
-*clUnk* means that the tumbler is under the desired value, a *clOnk* means that
-the tumbler is over the desired value, and a *click* means that the tumbler is
-correctly aligned.  When all the tumblers *click*, the lock will open.
-
-Each technique (except for probe) will move one or more tumblers by one or two 
-positions in a direction - '>' increases a tumbler by one, '<<' decreases a 
-tumbler by two, and so on.  Each of the three lockpicks has different available
-moves, and you'll usually have to use them all to open a lock.
-
-If you try to move a tumbler too high or low, the lock will jam, meaning your 
-lockpicking technique failed to do anything; try using a different technique.
-
-The chest must be lying on the ground in order to be opened.  The safest way to
-do this is to drop the chest in a store on your home plane, where it autosaves.
 
 === STATS ===
-There are two types of stat: Primary and secondary.  Primary stats represent 
-the strengths and weaknesses of each character, and are used to determine the 
-secondary stats.  The primary stats determine the secondary stats as follows:
-
-Brawn: +2 Damage, +1 Power, +1 Attack, +4 Health and +1 thrown range.
-Grace: +4 Attack, +3 Defence, +1/3 Speed and +3 Ascendancy.
-Mettle: +2 Resistance, +1 Defence, +3 Protection, +1 Mana and +6 Health.
-Size: +1 Damage, +1 Resistance, +2 Attack, +2 Defence and +8 Health.
-Wits: +4 Defence, +2/3 Speed, +1 Protection, +1 Ascendancy and +1 Power.
-Tenacity: +4 Ascendancy, +3 Attack, +1 Power, +1 Damage and +1 Mana.
-Discipline: +4 Protection, +2 Resistance, +2 Health, +1 Damage and +1 Mana.
-Aura: +2 Power, +2 Ascendancy, +2 Protection, +3 Mana and +1 spell range.
-
-Brawn is also used for encumbrance (see 'help encumbrance'), while every 3 
-points of Size increases your reach by one foot and reduces your Defence by 2.
-
-If you have a Size bonus from your subclass or stat training, and are in human 
-form, this bonus is treated as Density instead of Size.  Density gives the same
-bonuses as Size, except for the reach and the -2 Defence every 3 points.  It 
-also doesn't effect your movement rate (see 'help rate') or weapon requirement 
-penalties (see 'help penalties').
 
 === SCORE ===
-  - score
-
-This command displays important information about your character.  The first 
-section contains your name, status, played time and creation date.  If you're 
-classed it'll show your Divine Age and your Potential (% of powers trained).
-
-The second section contains your encumbrance (see 'help encumbrance'), primal, 
-kills and deaths.
-
-The third section lists your primary stats (see 'help stats'), which are used 
-to calculate your secondary stats, and grant various other benefits.
-
-The fourth section lists your Attack, Defence, Damage and Combat Queue for your
-head, left hand, right hand and feet (represented by '(H)', '(L)', '(R)' and 
-'(F)' respectively).  Note that your head location doesn't have a Defence, but 
-instead has Protection, which works against mental attacks.
-
-The fifth and final section lists your other attributes, including Speed, 
-Resistance, Core Damage/Power, and so on.
-
-See also: pscore
 
 === BURST ===
-Certain attacks have a chance of inflicting a burst, usually only on a critical
-hit (see 'help critical').  A burst is treated as an exact duplicate of the 
-fighting technique that caused it, except that it usually inflicts a different 
-damage type, sometimes hits a different body part, occurs instantly and never 
-misses (although a roll to hit is still made to determine the effectiveness of 
-the burst attack).  This means that the burst has the same attack (and attack 
-strength), damage, natural bypass, etc, as the technique that caused it.
-
-You cannot inflict more than one burst per attack.  If you have a percentage 
-chance of causing multiple bursts of different damage types, then the mud will 
-go through them in the following order: Storm Talons, poison, fire, lightning, 
-sonic, frost.  If a burst fails its percentage chance to perform, then the next
-will be checked, until a burst is performed or there are no more left to try.
-
-Bursts of the same damage type from multiple sources do not stack.  For example
-a vampire with Umbrage hand runes (gives a percentage chance of causing a cold 
-burst) who has House DarkBlade and wields a darkblade (also gives a percentage 
-chance of causing a cold burst) will only get the percentage burst chance from 
-the darkblade, not from the runes, because both have the same damage type.  If 
-the vampire instead had the Ember rune (fire burst) then the mud would check 
-for the fire burst first (fire has a higher priority than frost), and if that 
-percentage failed, then check for the frost burst from the darkblade.
 
 === EMOTE ===
-  - emote <text>
-  - emote @ <target> <verb> <text from target's perspective>
-  - emote @ <target> <text containing 'you', 'your' or 'yours'>
-
-This command allows your character to 'emote' an action - whatever text you 
-type will appear after your name.  For example, 'emote grins' will display the 
-message 'Player grins' to everyone within 25 feet.
-
-Note that you may also specify a target, by placing '@ <their name>' as the 
-first argument - for example 'emote @kavir grins' (no space is needed after 
-the '@').  The first word you type ('grins' in the previous example) is the 
-verb, and the mud will automatically insert an 'at you' after it unless you 
-specifically include the word 'you', 'your' or 'yours' somewhere in the text.
-
-Note that a full stop (period) is automatically added at the end of the text 
-unless you've explicitly terminated the text with your own punctuation.
-
-The , (comma) character is a shortcut for 'emote'.  You may also substitute 
-'to' for '@' if you wish.
 
 === REPLY ===
-  - reply <message>
-
-This allows you to reply to the last person who sent you a tell.  This 
-message is sent between accounts rather than characters.
-
-See also: tell replylock ignore
 
 === LOOK ===
-  - look <thing in your inventory, or nearby>
-  - look +<thing worn, or nearby>
-  - look -<thing nearby>
-  - look
-
-This command shows you information about whatever you are looking at - the 
-exact information depends on the thing itself.  For example, if you look at 
-another player you will see their description and equipment, while looking 
-at a weapon or piece of armour will show you what bonuses it grants.
-
-If you place a '+' before the item you wish to look at, it will search your
-worn equipment, otherwise it'll search your inventory.  In both cases it'll 
-search the area around you if nothing was found on your person.
-
-You may also place a '-' before the item you wish to look at, in which case
-it will only look nearby, ignoring anything you are wearing or carrying.
-
-Typing 'look' without any arguments will show you everything nearby, while
-'look self will display your current description.
-
-See also: area equipment scan
 
 === MOUNT ===
-  - mount <creature>
-
-This command allows your character to mount a horse or other creature capable 
-of being ridden, providing you with the appropriate combat table for your feet 
-and giving modifiers to certain weapon techniques.
-
-Note that many weapons give bonuses when you are riding.  Techniques which are 
-enhanced for riders are highlighted in green or yellow in the combat table.
-
-You cannot ride a mount while shapechanged.
-
-See also: dismount tack
 
 === INVENTORY ===
-  - inventory
-  - inventory <keyword>
-  - inventory radiation
-
-This command lists whatever you are currently carrying (but not wearing).  You 
-may also specify a keyword, which will result in only the matching items being 
-listed.
-
-Typing 'inventory radiation' will list the radiation of each carried item.
-
-See also: equipment
 
 === ZONE ===
-  - zone
-  - zone <sea/land> (-t/-b/-l/-r/-tl/-tr/-bl/-br) (0-10)
-
-This command only works within your home plane.  Type 'zone' to view the 
-tile IDs for your entire home plane.  If you add arguments to the command, it 
-will replace your entire plane with the specified default zone.
-
-For example, typing 'zone land-t' will change your home plane so that the 
-top half is land and the rest is sea, while 'zone sea-br' will change it 
-so that the bottom-right is sea and the rest is land.  Some zones have a 
-selection of different types, and you may alternate between these by 
-specifying the ID - for example 'zone land 1', 'zone land 2', etc.
-
-See also: home terraform
 
 === WEREWOLF ===
-Werewolves are a form of Lycanthrope, infused with great physical strength and 
-power.  They gain the following stat bonuses:
 
 === AREA ===
-  - area
-  - area list
-  - area <from age> <to age>
-  - area <name>
-
-This command displays a small-scale map of the surrounding world.  Every two 
-characters represents 660x660 feet (660 feet is 1 furlong, while 66 feet is 
-1 chain), which is slightly larger than is displayed in the large-scale map 
-you see when typing 'look' - for example the starting settlement, which is 1 
-square furlong in size, appears as '[]' on the area map.
-
-Note that your current location is displayed as '><' in the centre of the map.
-You'll also see '@@' for oceans, '~~' for rivers and lakes, '::' for grassy 
-plains, '::' for mountains, '^^' for forests, '::' for beaches, deserts and 
-swamps, and so on.  You may also see '*' for a volcano or '*' for a pond or 
-oasis.  In particular you should look out for 'o', which represents a monster 
-lair, and is therefore a source of magical treasure.
-
-You may also type 'area list' to list all available areas, and 'area <name>' to
-view information about a specific area, including difficulty.
-
-See also: nexus realm find scan
 
 === AFK ===
-  - afk
-  - afk <estimated number of minutes, between 1 and 60>
-  - afk semi
-
-This command is used to indicate to other players that you are AFK (Away From 
-Keyboard).  An '*AFK*' tag will appear after your name on the who list and your
-prompt will be changed to remind you that you have the flag switched on.
-
-If someone send you a tell while you are AFK, the message will appear as normal
-but they will also be informed (via a hint) that you may not respond.
-
-Typing this command a second time switches it back off.
-
-You may also specify an estimated AFK duration if you wish.  This is purely 
-informative, and doesn't result in the flag being removed when the duration 
-expires, nor does it prevent you switching it off earlier.
-
-Alternatively, you may type 'afk semi' to indicate that you are semi-AFK 
-(perhaps in another window) and thus may not respond very quickly.
-
-See also: who tell hint
 
 === HEALTH ===
-Health represents your maximum pain and damage threshold, and is calculated as 
-follows:
-
-1) 2 times Discipline + 4 times Brawn + 6 times Mettle + 8 times Size.
-2) Add any Health bonuses from class powers.
-3) Apply the +25% bonus for the Endurance talent, if you have it.
-4) Apply the combined percentage bonuses from powers, spells and equipment.
-5) Add any Health bonuses from magical items.
-6) Apply your Athletics as a percentage (capped at +100%).
-7) Add any points of Athletics over 100 as a flat bonus.
-8) Add any Health bonuses from spells.
-
-Note that if you have any bonuses to primary stats (from either spells or magic
-items) then these are calculated prior to step 1.
 
 === ECONOMY ===
   - mercenary <opponent>
@@ -1330,26 +611,6 @@ respectively.  You may also use the shortcuts 'l!', 'r!', 'f!' and 'h!'.
 See also: clear
 
 === WAR2 ===
-Within a war, the scoring works a little bit like a poker game, as follows:
-
-Having 5 of the same suit in ranked sequence is Perfect, and gives +10.
-Having all 4 resources of the same rank is Superior, and gives +9.
-Having 4 of the same suit in ranked sequence is Enhanced, and gives +8.
-Having any 5 resources of the same suit is Focused, and gives +7.
-Having 5 of mixed suits in ranked sequence is Straight, and gives +6.
-Having 3 matching resources and 2 matching resources is Full, and gives +5.
-Having 3 matching resources is a Triple and gives +4.
-Having a pair of 2 matching resources is Forked, and gives +3.
-Having 2 matching resources is Double, and gives +2.
-Having any Offence or Defence at all is Basic, and gives +1.
-
-Note that 'matching resources' can be either of the same rank (eg Military 5, 
-Religion 5 and Economy 5) or in sequence within the same suit (eg Military 5, 
-Military 6 and Military 7).  The rows and columns are counted separately, so 
-for example Military 5, Military 6 and Religion 6 is Forked, giving +3.
-
-If you have 3 or more of a particular suit, you gain a +1 bonus whenever it is 
-used (eg 3+ Religion resources in Defence gives you +1 Defence vs Jihad).  
 
 === GODWARS ===
 The original God Wars was created in 1995, and is based upon Merc 2.1 (by 
