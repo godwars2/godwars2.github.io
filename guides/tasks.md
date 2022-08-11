@@ -40,7 +40,12 @@ Mirage Desert       |400|-23200&nbsp;-31700 |Surtur             |16000 |0       
 Southgash Crag      |400|-12000&nbsp;-46300 |Bergelmir          |16000 |0        |a shimmering frostblade
 Tempest Mountain    |400|-4000&nbsp;-50900  |Thunor             |16000 |0        |a humming stormblade
 Nightglade Forest   |400|-26500&nbsp;-23800 |Thrainn            |16000 |0        |a flickering spiritblade
-Lowland Meadow\*    |450|52100&nbsp;6600    |a Skylord king     |20000 |0        |Barbed platinum wingspikes
+Lowland Meadow\*    |450|52140&nbsp;6534    |yellow Skylord king|20000 |0        |Barbed platinum wingspikes, Platinum Aerie/Wisdom (Dragon)
+                    |450|50160&nbsp;7194    |green Skylord king | -    |0        |Barbed brass wingspikes, Brass Aerie/Wisdom (Dragon)
+                    |450|54054&nbsp;4620    |blue Skylord king  | -    |0        |Barbed copper wingspikes, Copper Aerie/Wisdom (Dragon)
+                    |450|52074&nbsp;2640    |white Skylord king | -    |0        |Barbed silver wingspikes, Silver Aerie/Wisdom (Dragon)
+                    |450|48890&nbsp;9837    |red Skylord king   | -    |0        |Barbed gold wingspikes, Gold Aerie/Wisdom (Dragon)
+                    |450|48840&nbsp;5214    |black Skylord king | -    |0        |Barbed bronze wingspkes, Bronze Aerie/Wisdom (Dragon)
 Windy Mountain      |450|-19900&nbsp;-60100 |Pallas             |20000 |0        |a plain aegis shield
 Grotto Mountain     |500|25050&nbsp;-54800  |the Troll King     |25000 |0        |
 Ettin Wood          |500|18500&nbsp;-34400  |Thrudgelmir        |25000 |0        |a pair of runic bracers
