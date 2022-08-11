@@ -7,7 +7,7 @@ title: Task Locations and Rewards
 
 \* indicates multiple task entrances ^ task is located in the realm
 
-NAME                |AGE|COORDS (X Y)       |TARGET             |PRIMAL|AUTOTRAIN|EPIC
+NAME                |AGE|COORDS&nbsp;(X&nbsp;Y)       |TARGET             |PRIMAL|AUTOTRAIN|EPIC
 ---                 |---|---                |---                |---:  |---:     |---
 Crypt^              |50 |-792&nbsp;2376     |the living statue  |0     |100      |
 Dark cave^          |50 |6006&nbsp;4026     |the goblin king    |0     |100      |
