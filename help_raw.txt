@@ -394,276 +394,39 @@ point of damage.  On a draw, both you and your opponent will take a point of
 damage.  If you lose, you take a point of damage.
 
 === DRAW ===
-  - draw <weapon>
-  - draw <weapons>
-  - draw all
-  - draw *
-
-This command allows you to draw the specified weapon from its sheathed 
-location, placing it into your first available hand.  You may also choose 
-to draw multiple weapons at the same time by providing the plural form of 
-that weapon (eg 'draw knives' rather than 'draw knife') - if the weapon's 
-singular and plural form are the same (eg a kris) then the mud will attempt 
-to draw both.  You may also type 'draw all' to draw the first two sheathed 
-weapons you're wearing, or 'draw *' to draw the first available weapon.
-
-This command also allows you to unstrap a target shield from your back, or 
-grip a buckler which was previously hanging loose on your arm.  While this 
-is not really 'drawing' as such, it uses the same command for the sake of 
-simplicity.
-
-See also: sheathe
 
 === FACTION ===
-  - faction
-  - faction human
-  - faction goblinoid
-  - faction undead
-  - faction nature
-
-This command allows you to view and change your war faction, although you 
-cannot change while already participating in a war.
-
-The four suits have different commands and options for each faction, so you 
-should be sure to read the military, religion, economy and diplomacy help 
-files whenever you change to a new faction.
-
-In addition, each faction has its own set of recruits.
-
-See also: war military religion economy diplomacy recruit
 
 === MCCP ===
-The Mud Client Compression Protocol (MCCP) is a protocol for compressing data 
-sent from the mud.  God Wars II only supports MCCP2, as MCCP1 is obsolete.
-
-MCCP2 is supported by MUSHCLIENT, and has been automatically enabled.  
-
-Read more about it here: http://mccp.smaugmuds.org/protocol.html
 
 === CLASS ===
-A newly created Supernaturalis is often referred to as an 'unimbued' - an empty
-avatar which hasn't yet found its calling.
-
-To become imbued you need to have at least five talents, wear a black sash 
-that you've earned from the dojo, and be holding two classing tokens for the 
-class you wish to join.  Type 'class <class name>' to join a class - but once 
-you've chosen you can never go back, so think carefully before deciding.  Upon
-becoming imbued you will gain 50 bonus stat points, distributed according to 
-your class.  You will also gain access to a range of class powers, and be able
-to train your stats.  Each time you train a stat, the mud will also boost 
-another stat, randomly selected based on your class.
-
-Each class belongs to one of four callings: Revenant are those who draw their 
-power from a state of undeath, Lycanthropes gain power through animal spirits, 
-Illuminati study ancient lore and master their inner potential, and Nephilim 
-gain power by possessing or merging with non-human entities.
-
-See also: vampire werewolf mage demon dragon titan classes classing
 
 === CLEARAFFECTS ===
-  - clearaffects
-
-This command strips all spell and power affects from you (i.e., all affects 
-displayed by the 'affects' command).
-
-Note that you only have access to this command while on your home plane.
-
-See also: affects
 
 === MAPS ===
-To decypher a map you must first wield it, and assist with the other hand (see
-'help assist').  Each hand then has access to a selection of techniques, each 
-of which increases or decreases two or more of the five cyphers on the map.
-
-You should use your techniques to adjust the cyphers so that they are all set
-as correct.  If your technique would raise or lower a cypher too far, you will
-be told that you're confused, which means that the technique failed to work.
-
-Once you've finished decyphering the map, you can examine it to get directions
-to a magical node in the Nexus.  Examine the map again at the node, defeat the
-guardian spirit, and your boost points (NOT active boosts) will be converted
-into primal at the rate of 50 primal per 0.01 boost points (although it won't
-convert more than the number you need to train a single stat).
-
-Your first completed map each day gives you an alternative benefit (except for 
-energy maps, which always work as described above): An age map costs 1.0 boost 
-points and gives you a free stat train, a power map costs 0.5 boost points and 
-gives you a free power train, and a renewal map costs 5.0 boost points and 
-resets your monthly 'train reroll' option (see 'help reroll').
-
-Upon reaching age 300, age maps will function as energy maps.  Equally, after 
-reaching 180 total power ranks, power maps will also function as energy maps.
 
 === CRITICAL-BYPASS ===
-When you inflict a critical hit, your bypass will be increased to reflect your 
-blow striking a particularly vulnerable location.  You have a critical bypass 
-of 150% by default - for example, if your bypass is normally +10, your critical
-hit will actually have a total of +15 bypass (i.e., 150% of +10).
-
-Some weapons have a critical bypass bonus for one of their commands, coloured 
-cyan (along with the AP cost) at the top of the combat table.  Weapons with a 
-critical bypass bonus will state how much bonus they give (+10% or +25%) within
-their description.  This is added directly to the 150% base critical bypass, so
-for example a rapier gives +25% critical bypass to all stab attacks, meaning 
-that your critical stab attacks will have 175% of your regular bypass bonus.
-
-Each combat technique may also provide an additional critical bypass bonus, 
-depending on the colour-coding of its damage bonus: +20%, +10%, +5% or +0%.
-
-Finally, certain Expert talents may also provide a critical bypass bonus (this 
-will be described in the help file for each talent, if appropriate).  All of 
-these bonuses are added together before being applied to your base bypass.
 
 === FABRICATE ===
-  - fabricate
-  - fabricate <item>
-
-This allows you to fabricate items out of thin air.
-
-Note that this command is only available when you are on your home plane.
-
-See also: home
 
 === DRAGON ===
-Dragons are an ancient and powerful race of Nephilim, and come in many shapes 
-and forms.  They gain the following stat bonuses:
 
 === PASSWORD ===
-  - password <old> <new>
-
-This command allows you to change your password.  Note that while passwords 
-are encrypted, we strongly recommend that you make them unique.
 
 === RECRUIT ===
-During a Planar War or Great War, you have the option to recruit specialised 
-individuals using recruit points.  You begin with 1 recruit point, and earn an
-extra point every time you kill an opponent.
-
-To view the available recruits along with their bonuses, type 'recruits' - 
-the letter after the name represents the cost to purchase the recruit (eg 'M' 
-costs 1 Military resource).  Some bonuses include both a Basic and an Expert 
-bonus; you only get the Expert bonus if you already had the Basic bonus (eg 
-Treasurer gives you the invest command, but if you already had that command 
-you instead get +1 action per turn).
-
-Type 'recruit <name>' to recruit the specified individual.  The recruit will 
-remain in your service for the duration of the war, but vanishes along with 
-any unused recruit points after the war has finished.
-
-Note the 'treaty' command (granted by the Ambassadors recruit) can only be used
-if your Offence and Defence each have 5 resources, and the former has a higher 
-bonus than the latter.  Your Offence and Defence hands will be swapped, and you
-will be unable to attack until next turn.  The person you target will also have
-their own Offence and Defence hands swapped, and be unable to attack this turn.
 
 === EQUIPMENT ===
-  - equipment
-  - equipment <keyword>
-  - equipment sheathed
-  - equipment slots
-  - equipment radiation
-
-This command shows whatever you are currently wearing (but not carrying).  You 
-may also specify a keyword, which will result in only the matching items being
-listed.  Alternatively, you may specify the keyword 'sheathed', which will list
-all sheathed items you are wearing.
-
-Typing 'equipment slots' will list what equipment your current form can wear.
-
-Typing 'equipment radiation' will list the radiation of each worn item.
-
-See also: inventory tack
 
 === ENTER ===
-  - enter <thing>
-
-This command allows you to enter the specified thing, usually a place (such as 
-a town), but it will also work on containers if they are large enough, or even 
-(potentially) other creatures.
-
-See also: leave
 
 === IGNORE ===
-  - ignore
-  - ignore <player>
-
-This command allows you to ignore the specified player, meaning that you will 
-no longer see anything they chat, and they will be unable to send you tells or 
-replies, or invite you to their home plane.  Equally, you will be unable to 
-send them tells.
-
-If you're already ignoring the specified person, this command will remove them 
-from your ignore list.
-
-Typing 'ignore' on its own will show who you are currently ignoring.  Please 
-note that you may only ignore up to twenty-five people at a time, and the 
-ignore list does not save.
-
-Adding a '*' after the person's name ignores all of their known alts as well.
-
-To ignore everyone, use 'config chat' and 'config tell'.
-
-See also: tell reply chat config
 
 === ARMOUR ===
 
 === LEAVE ===
-  - leave
-
-This command allows you to leave whatever you are currently inside of, if such
-a possibility is available (for example it is not generally that easy to leave
-a monster that has just eaten you).  For example typing 'leave' right now would
-result in you attempting to leave Player's home plane.
-
-See also: enter
 
 === ASCENDANCY ===
-Your Ascendancy rating for each location is calculated as follows:
-
-1) Add together the stat modifiers.
-2) Add any modifiers for the spell table.
-3) Add any modifiers for magical items you're wearing.
-4) Add Meditate and the spell colour, then apply them as a percentage.
-5) Apply your style percentage, if any.
-6) Add any modifiers for spell affects.
-7) Apply any pain modifiers as a percentage.
-
-Your Ascendancy is used instead of Attack when you cast spells, but your chance
-to hit is worked out in exactly the same way (see 'help attack').  The only 
-exception is for indirect spells, which use your opponent's Protection instead 
-of Defence when determining whether or not your spell is successful.
-
-See also: magic attack protection power penalties speed
 
 === DISMOUNT ===
-  - dismount
-
-This command allows your character to dismount.
-
-See also: mount tack
-
-=== . ===
 
 === ATTACK ===
-Your Attack rating for each location is calculated as follows:
-
-1) Add together the stat modifiers and subtract any weapon penalties.
-2) Add any modifiers for the weapon table and bonuses for the weapon itself.
-3) Add any modifiers for magical items you're wearing.
-4) Add Combat to your appropriate weapon skill, then apply as a percentage.
-5) Apply your two-handed percentages modifier, if any.
-6) Apply your style percentage, if any.
-7) Add any modifiers for spell affects.
-8) Apply any pain modifiers as a percentage.
-
-Your percentage chance to hit is calculated by multiplying your Attack rating 
-by 100, then dividing it by your Attack plus your opponent's Defence.  Note 
-that there is always at least a 5% chance to hit, and a 5% chance to miss.
-
-In your score, your attack for each location is colour-coded to indicate its 
-current attack strength, representing what defence strength is needed to 
-counter it - a shield or dodges, paired weapons, normal weapons or any (non-
-attacks are indicated by a '-').  In addition, ethereal attacks can only be
-stopped by a shield or dodges, or by an ethereal defence.
-
-See also: assist combat critical damage defence kill penalties speed
