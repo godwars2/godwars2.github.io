@@ -25,6 +25,7 @@ will be unable to attack until next turn.  The person you target will also have
 their own Offence and Defence hands swapped, and be unable to attack this turn.
 
 ### Human
+
 \- | -
 --- | ---
 Ambassadors (D)| Gain treaty (see the last paragraph of 'help recruit').
@@ -41,6 +42,7 @@ Spymaster (D)  | +3 spy Defence.  Basic: Gain spy.  Expert: Free spy per turn.
 Treasurer (E)  | Basic: Gain invest.  Expert: +1 action per turn.
 
 ### Goblin
+
 \- | -
 --- | ---
 Armourer (M)   | You ignore the second point of damage per turn when attacked.
@@ -57,6 +59,7 @@ Weaponsmith (M)| Your Offence commands all inflict +1 damage if successful.
 Zeppelin (D)   | Informs you each turn which opponent has the weakest defence.
 
 ### Undead
+
 \- | -
 --- | ---
 Animator (E)   | You can move any 1 Resource to Offence per turn for free.
@@ -73,6 +76,7 @@ Vampires (E)   | You can dismiss any 1 Resource per turn for free.
 Zombie Lord (E)| You gain +1 Religion Offence and Defence.
 
 ### Nature
+
 \- | -
 --- | ---
 Animals (D)    | +3 spy Offence.  Basic: Gain spy.  Expert: Free spy per turn.
