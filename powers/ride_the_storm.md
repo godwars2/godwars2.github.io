@@ -27,3 +27,13 @@ Bolt and Lightning Bolt spells.  At rank 3 you also get Lightning Stream.  At
 rank 8 you get Resist Energy (shock).  At rank 10 you get Shockshield.  Your
 rank is also used to determine the strength of your Invisibility and Detect
 Invisibility spells.
+
+Each world has its own spirit plane, so make sure you are in the Nexus first, 
+then you will need to type 'ride' to transport yourself.
+
+On the spirit plane you will find age 100 hare, gazelle and lion spirits in 
+mountains, age 200 eel and shark spirits in water, age 300 raven, fox and bear
+spirits in forests, age 400 rhino and mammoth spirits in swamps and age 500 
+cobra spirits in deserts.
+
+You can also kill a wild boar in the Sacred Hill task for its spirit.

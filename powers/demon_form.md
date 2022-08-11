@@ -28,3 +28,31 @@ If you travel to hell from the nexus (using Pathway to Hell), each mob you kill
 there will unlock a different warp, allowing you to customise your demon form.
 To view or apply your available warps, type 'warp'.  If a warp gives a ranked 
 bonus without specifying a power, it's referring to your rank in Demon Form.
+
+### Warp Information
+
+Name                                                                          | Description
+---                                                                           | ---
+[Barbed Devil]({{ site.baseurl }}{% link knowledge/warp_barbed_devil.md %})    | Grants cut-related bonuses.
+[Bird Fiend]({{ site.baseurl }}{% link knowledge/warp_bird_fiend.md %})      | Grants stab-related bonuses.
+[Blight Demon]({{ site.baseurl }}{% link knowledge/warp_blight_demon.md %})    | Grants disease-oriented bonuses.
+[Bone Devil]({{ site.baseurl }}{% link knowledge/warp_bone_devil.md %})      | Grants stab-related bonuses.
+[Chelonian Fiend]({{ site.baseurl }}{% link knowledge/warp_chelonian_fiend.md %}) | Grants shell-oriented bonuses.
+[Crab Fiend]({{ site.baseurl }}{% link knowledge/warp_crab_fiend.md %})      | Grants crab-oriented bonuses.
+[Crystal Devil]({{ site.baseurl }}{% link knowledge/warp_crystal_devil.md %})   | Grants crystal-oriented bonuses.
+[Dust Devil]({{ site.baseurl }}{% link knowledge/warp_dust_devil.md %})      | Grants dust-oriented bonuses.
+[Frog Fiend]({{ site.baseurl }}{% link knowledge/warp_frog_fiend.md %})      | Grants leaping and knockdown bonuses.
+[Frost Demon]({{ site.baseurl }}{% link knowledge/warp_frost_demon.md %})     | Grants cold-oriented bonuses.
+[Hellhound Fiend]({{ site.baseurl }}{% link knowledge/warp_hellhound_fiend.md %}) | Grants hellhound-oriented bonuses.
+[Pit Devil]({{ site.baseurl }}{% link knowledge/warp_pit_devil.md %})       | Grants tentacle-oriented bonuses.
+[Rage Demon]({{ site.baseurl }}{% link knowledge/warp_rage_demon.md %})      | Grants rage bonuses.
+[Rat Fiend]({{ site.baseurl }}{% link knowledge/warp_rat_fiend.md %})       | Grants disease bonuses.
+[Rock Devil]({{ site.baseurl }}{% link knowledge/warp_rock_devil.md %})      | Grants crush and unarmoured bonuses.
+[Rust Demon]({{ site.baseurl }}{% link knowledge/warp_rust_demon.md %})      | Grants rust-oriented bonuses.
+[Serpent Fiend]({{ site.baseurl }}{% link knowledge/warp_serpent_fiend.md %})   | Grants poison-oriented bonuses.
+[Slug Fiend]({{ site.baseurl }}{% link knowledge/warp_slug_fiend.md %})      | Grants slime-oriented bonuses.
+[Smoke Demon]({{ site.baseurl }}{% link knowledge/warp_smoke_demon.md %})     | Grants heat-oriented bonuses.
+[Spider Fiend]({{ site.baseurl }}{% link knowledge/warp_spider_fiend.md %})    | Grants detection and web bonuses.
+[Storm Demon]({{ site.baseurl }}{% link knowledge/warp_storm_demon.md %})     | Grants lightning-oriented bonuses.
+[Succubus Devil]({{ site.baseurl }}{% link knowledge/warp_succubus_devil.md %})  | Grants lust-oriented bonuses.
+[Terror Demon]({{ site.baseurl }}{% link knowledge/warp_terror_demon.md %})    | Grants nemesis-oriented bonuses.

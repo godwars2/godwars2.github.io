@@ -33,3 +33,16 @@ At rank 25 you get Dimensional Anchor.
 
 Finally, this power also grants you firebreath (unless you already have a more
 powerful breath attack) which can be accessed via head commands (type 'h?').
+
+Each world has its own hell, so make sure you are in the Nexus first, then type 
+'pathway'.
+
+In hell you will find age 100 barbed devils and bird fiends on the plains, age
+100 frog, slug and crab fiends on the lava rivers, age 200 smoke demons and 
+rock devils on mountains, age 200 rust demons, serpent fiends and terror demons
+in forests, age 300 bone devils, frost demons, rage demons, crystal devils and 
+hellhounds in swamps, age 400 succubi, dust devils, spider fiends and storm 
+demons in deserts, age 500 chelonian fiends and blight demons in lava lakes, 
+and age 500 pit devils in the lava oceans.
+
+You can also kill the Matriarch in the Hunger Marsh task for her warp.

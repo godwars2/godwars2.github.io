@@ -27,3 +27,26 @@ Shadow spells.  At rank 8 you also get Resist Energy (cold).  At rank 10 you
 get Shadow Flux and a second Shadowbolt.  At rank 15 you get Black Lightning.
 At rank 20 you get Drain Lifeforce and Foul Rot.  At rank 25 you get Tenebrous
 Chains.
+
+Each world has its own shadow plane, so make sure you are in the Nexus first, 
+then you will need to type 'path' to transport yourself.
+
+On the shadow plane you will find age 100 shades and night stags on the plains,
+age 200 gloom bats and shadow mastiffs in mountains, age 300 shadow beasts and 
+shadow stalkers in swamps, age 400 shadow knights and blood knights in forests 
+and age 500 wild nightmares and living fogs in deserts.
+
+You can also kill Thrainn in the Nightglade Forest task for his rune.
+
+### Shadow creatures to Rune Mappings
+- Shade - Animus
+- Night Stag - Valor
+- Gloom bat - Chiroptera
+- Shadow mastiff - Canidae
+- Shadow beast - Savagery
+- Shadow stalker - Aegis
+- Shadow knight - Umbrage
+- Blood knight - Sanguine
+- Wild nightmare - Ember
+- Living fog - Thunder
+- Thrainn - Spiritus
