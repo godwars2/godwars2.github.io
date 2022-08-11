@@ -29,3 +29,18 @@ colour, and you will not benefit from any pattern bonus regardless of infusion.
 
 At rank 10, you gain the ability to draw spell sigils with your claws, although
 the actual spells are unlocked by other powers (eg Eye of the Storm rank 10+).
+
+### Infuse Information
+
+Name                                                                          | Description
+---                                                                           | ---
+[Brass Snake]({{ site.baseurl }}{% link knowledge/infuse_brass_snake.md %})     | You have learned the wisdom of brass.
+[Bronze Snake]({{ site.baseurl }}{% link knowledge/infuse_bronze_snake.md %})    | You have learned the wisdom of bronze.
+[Copper Snake]({{ site.baseurl }}{% link knowledge/infuse_copper_snake.md %})    | You have learned the wisdom of copper.
+[Flame Dragonkin]({{ site.baseurl }}{% link knowledge/infuse_flame_dragonkin.md %}) | You have learned the wisdom of the volcano.
+[Frost Dragonkin]({{ site.baseurl }}{% link knowledge/infuse_frost_dragonkin.md %}) | You have learned the wisdom of the tundra.
+[Gold Snake]({{ site.baseurl }}{% link knowledge/infuse_gold_snake.md %})      | You have learned the wisdom of gold.
+[Platinum Snake]({{ site.baseurl }}{% link knowledge/infuse_platinum_snake.md %})  | You have learned the wisdom of platinum.
+[Silver Snake]({{ site.baseurl }}{% link knowledge/infuse_silver_snake.md %})    | You have learned the wisdom of silver.
+[Storm Dragonkin]({{ site.baseurl }}{% link knowledge/infuse_storm_dragonkin.md %}) | You have learned the wisdom of the storm.
+[Venom Dragonkin]({{ site.baseurl }}{% link knowledge/infuse_venom_dragonkin.md %}) | You have learned the wisdom of the pit.
