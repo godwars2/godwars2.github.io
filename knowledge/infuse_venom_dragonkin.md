@@ -21,5 +21,5 @@ also have Venom.
 
 As a human, you can draw glyphs on your forearms with this wisdom, giving them 
 +1 poison bypass per rank, or +2 per rank if you have Venom.  When used on your
-forehead, you gain +1% poison immunity per rank, up to a maximum of 20% at rank
-20.  Used on your chest or stomach, you gain +3% poison armour per rank.
+forehead, you gain +1% poison immunity per rank, up to a maximum of 20% at rank 20.  
+Used on your chest or stomach, you gain +3% poison armour per rank.
