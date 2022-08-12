@@ -21,3 +21,15 @@ If you have Great Burn, Great Freeze or Great Shock, the associated Wave spell w
 As with all purebreed dragons, your scales are stronger than normal. Each rank in Dragon Form gives you +1% armour vs cut, stab and crush damage, +3% armour vs heat, cold and shock damage, and +4% armour vs mental damage.
 
 Note that these bonuses only apply while you are in Dragon Form.
+
+### Colouring
+The colouring of a Crystal dragon is based on its Descendant type, with a special case for purebreed dragons that have Psychic Mastery and no Descendant talent.
+
+Talent | Colour
+--- | ---
+Black Dragon Descendant | Onyx
+Blue Dragon Descendant | Sapphire
+Red Dragon Descendant | Ruby
+White Dragon Descendant | Pearl
+Psychic Mastery | Diamond
+None of the above | Emerald

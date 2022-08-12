@@ -23,3 +23,6 @@ If you have access to psionics, this power strengthens your mental spells by
 +10 range, +2 Ascendancy and +1 Power per rank.  At rank 5 you learn Mind Whip
 (with bypass upgraded at ranks 15 and 25).  At rank 10 you learn Mindshield.  
 At rank 15 you learn Regrowth.  At rank 20 you learn Psychic Lance.
+
+### Tips
+The scaled armour bonuses means the first few ranks give the most benefits. Having just 4 ranks in this power gives you +14% mental immunity and +28% mental soak.

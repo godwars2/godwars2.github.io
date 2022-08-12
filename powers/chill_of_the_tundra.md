@@ -23,3 +23,6 @@ physical and magical frost breath attacks while in Dragon Form.
 
 At rank 10, this power unlocks the Cold Wave spell sigil, with more powerful
 versions available at rank 20, 30 and 40.
+
+### Tips
+The scaled armour bonuses means the first few ranks give the most benefits. Having just 4 ranks in this power gives you +14% cold immunity and +28% cold soak.

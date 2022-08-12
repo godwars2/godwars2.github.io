@@ -19,3 +19,15 @@ In addition, the more hurt you are the more dangerous you become. While raging y
 As with all purebreed dragons, your scales are stronger than normal. Each rank in Dragon Form gives you +3% armour vs cut, stab and crush damage, +1% armour vs heat, cold and shock damage, and +4% armour vs poison damage.
 
 Note that these bonuses only apply while you are in Dragon Form.
+
+### Colouring
+The colouring of a Metallic dragon is based on its Descendant type, with a special case for purebreed dragons that have Psychic Mastery and no Descendant talent.
+
+Talent | Colour
+--- | ---
+Black Dragon Descendant | Bronze
+Blue Dragon Descendant | Copper
+Red Dragon Descendant | Gold
+White Dragon Descendant | Silver
+Psychic Mastery | Platinum
+None of the above | Brass

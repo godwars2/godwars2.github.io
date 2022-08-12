@@ -30,6 +30,12 @@ colour, and you will not benefit from any pattern bonus regardless of infusion.
 At rank 10, you gain the ability to draw spell sigils with your claws, although
 the actual spells are unlocked by other powers (eg Eye of the Storm rank 10+).
 
+### Equipment
+Draconian Form can only wear 6 types of armour due to their body shape: spiked collar, wing-spikes, breastplate, (battle) bracers, greaves, and codpiece. They are also able to wear 2 rings and use all weapons.
+
+### Combat tables
+Draconians have a claw table similar to Dragon Form, and a feet table like wolfmen (with pounce and stamp). They also have a basic lashing tail (even without ranks in that power), and a head table with headbutt, bite, and both physical and magic breath attacks.
+
 ### Infuse Information
 
 Name                                                                          | Description

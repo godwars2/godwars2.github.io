@@ -19,3 +19,15 @@ In addition, your semi-ethereal state causes all of your physical attacks to bec
 As with all purebreed dragons, your scales are stronger than normal. Each rank in Dragon Form gives you +1% armour vs cut, stab and crush damage, +2% armour vs heat, cold and shock, +3% armour vs mental and +4% armour vs poison damage.
 
 Note that these bonuses only apply while you are in Dragon Form.
+
+### Colouring
+The colouring of a Celestial dragon is based on its Descendant type, with a special case for purebreed dragons that have Psychic Mastery and no Descendant talent.
+
+Talent | Colour
+--- | ---
+Black Dragon Descendant | Void
+Blue Dragon Descendant | Star
+Red Dragon Descendant | Solar
+White Dragon Descendant | Lunar
+Psychic Mastery | Astral
+None of the above | Celestial
