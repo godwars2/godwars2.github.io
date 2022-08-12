@@ -23,3 +23,13 @@ rank to that of Draconian Form for the purposes of these three locations.
 
 While wearing rings and heavy armour made from valuable metals, you will also
 receive additional bonuses.  You can view these bonuses by typing 'gift'.
+
+### Example Armour Bonuses
+\- | -
+--- | ---
+Gold       | 8 items. Gives +448 Damage and Power.
+Silver     | 0 items. Gives +0 Attack and Ascendancy.
+Copper     | 0 items. Gives +0 Speed.
+Bronze     | 0 items. Gives +0 Defence and Protection.
+Brass      | 4 items. Gives +1120 Health and Mana.
+Platinum   | 0 items. Gives +0 Resistance.
