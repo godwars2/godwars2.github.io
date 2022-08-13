@@ -25,3 +25,8 @@ Extended Rage to their effective Rage rank for resisting the fear effect of
 your Thundering Roar.  If you still beat them, their rage is stripped away.
 
 The roar technique gets natural bypass at rank 10, upgraded at ranks 20 and 30.
+
+### Tips
+
+- Thundering Roar is an area attack, useful for handling weaker pets like the Imp Servant and spell-summoned elementals. However, area attacks will also hurt your own pets and allies (and cause your pets to attack you as well).
+- The roar also knocks opponents down on critical hits and, used in conjunction with pounce, can effectively prevent an enemy from escaping a fight.

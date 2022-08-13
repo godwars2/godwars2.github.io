@@ -27,3 +27,7 @@ You may reforge moonsilver items at any time, specifying how much taint you
 wish them to have, up to a maximum equal to twice your rank in this power.  If
 you use items with a taint higher than your rank, each point of difference
 counts as 10 points of radiation.  The taint cannot be completely removed.
+
+### Tips
+
+- Moonsilver items have 0 encumbrance, so you can have a heavy armour build and retain access to acrobatic feet techniques.

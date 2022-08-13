@@ -28,3 +28,9 @@ This power also gives you access to the 'scent' command, which has the same
 range as your death/power sense, and will reveal the approximate distance and
 direction of the nearest creature within range.  Every 10 ranks will allow you
 to sense an additional creature (eg at rank 20 you can sense the nearest 3).
+
+### Tips
+
+- Having just one rank in this power gives you the 'scent' command, which is useful for sniffing out others in your area. You can't smell Transcendence, Mist Form, or Bat Form, however.
+- The Speed and Speed Cap bonuses make this especially useful for non-ragers, including casters and Serenity builds. Rage builds typically get Speed from Extended Rage.
+- Werewolf casters can get two-second Lightning, Spirit, and Ice bolts with 30 ranks in Feral Senses, or the equivalent of one bolt spell every second when using both hands with Ambidextrous.

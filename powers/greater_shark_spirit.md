@@ -32,3 +32,7 @@ cut burst will only be performed if the poison burst fails to activate).
 At rank 20, your bite only has to inflict damage to perform the burst attack.
 
 Note that you may still call the aid of a Lesser Totem Spirit as usual.
+
+### Tips
+
+- The +1 health per rank for bite is added before the 2x healing multiplier from Powerful Metabolism.

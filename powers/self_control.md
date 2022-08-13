@@ -28,3 +28,7 @@ At rank 5, you no longer suffer penalties while shapechanging.  At rank 10,
 you gain the ability to shift directly between forms, rather than having to
 change back to human form first.  At rank 15 you are able to shapechange in 4
 seconds rather than 5, while at rank 20 you can shapechange in only 3 seconds.
+
+### Tips
+
+- Self Control ranks are used when calculating bonuses for Serenity (and Martial Gnosis).

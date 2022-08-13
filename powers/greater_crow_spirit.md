@@ -24,3 +24,9 @@ will give you +2% armour and +1 bypass per rank vs mental damage.  It will also
 grant you +1% mental immunity per rank, up to a maximum of +20% at rank 20.
 
 Note that you may still call the aid of a Lesser Totem Spirit as usual.
+
+### Tips
+
+- One rank in this power gives access to hand magic, so Werewolves can avoid Magically Gifted and take a Lesser Calling other than Spirit Wolfkin if they wish.
+- One rank in this power gives Icebolt, which is an easy way for Werewolf casters to get the standard spell chain.
+- Ranks in Greater Crow Spirit add to the armour bonus from Forest Raven forehead tattoo.

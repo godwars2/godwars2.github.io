@@ -30,3 +30,7 @@ respectively.  If you have Psychic Wall or Mental Barrier, you are also able to
 use your Protection against mental bursts.
 
 Note that you may still call the aid of a Lesser Totem Spirit as usual.
+
+### Tips
+
+- Greater Fox Spirit with Foxkin Family and Assassin Training allows Werewolves to achieve 60+ ranks in Invisibility.
