@@ -32,3 +32,7 @@ After using this power, you will be at -10 Defence, -10 Protection and -5 Speed
 for 30 seconds.  Mind Over Matter negates these penalties, and Iron Will lowers
 the duration to 20 seconds.  These two talents each increase the duration of
 your enlightenment by 10 seconds, give +2 speed cap, and +5 to resist fear.
+
+### Tips
+
+Enlightenment is actually a rage for the most part, so it gives pain immunity and interferes with Serenity and Martial Gnosis.
