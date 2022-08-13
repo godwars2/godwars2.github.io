@@ -1,6 +1,7 @@
 ---
 layout: help
 title: say
+syntax:
   - say <text>
   - say @<target> <text>
   - say @pets <text> (see 'help pets')
