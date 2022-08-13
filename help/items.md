@@ -22,3 +22,14 @@ maximum of 25%, and each bonus beyond that reduces the radiation by 2%.  Each
 type beyond magical reduces the radiation by 2% and each rarity beyond common 
 reduces the radiation by 5%.  The mud then randomly applies an extra modifier 
 between -5% and +5%.  The total radiation cannot be below 50% of the base.
+
+### Radiation Discount Ranges
+
+\- | Common | Uncommon | Rare
+--- | --- | --- | ---
+Magical | -5% to 10% | 10% to 25% | 25% to 40%
+Legendary | 2% to 17% | 17% to 32% | 32% to 44%
+Mythical | 9% to 24% | 24% to 39% | 36% to 48%
+Relic | 16% to 31% | 31% to 43% | 40% to 50%
+Artifact | 23% to 38% | 35% to 47% | 44% to 50%
+
