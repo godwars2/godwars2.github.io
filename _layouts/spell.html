@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="page">
+    <h1 class="page-title">{{ page.title }}</h1>
+  
+    <table>
+      <tbody>
+        {% assign info_list = page.info %}
+        {% for info in info_list %}
+        <tr>
+          <td>{{ info[0] }}</td>
+          <td>{{ info[1] }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  
+    <h3 id="description">Description</h3>
+  
+{{ content }}
+</div>
