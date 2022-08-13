@@ -28,3 +28,21 @@ damage, the appropriate physical or energy armour bonus will change to the type
 of damage you just received.  This natural armour is always active, covers all 
 locations, updates each time you take damage and applies against all attackers.
 You may lock the armour to its current damage types by typing 'nemesis lock'.
+
+### Notes
+
+The bypass granted by this power is a common source of confusion. Players performing a cut or cold attack on a dragon may be confused to see Protean Nemesis granting them a bonus to stab or heat bypass. The reason for this is the bypass bonus is based on the weakness of your opponent (on the location you struck them), and not the type of damage you used.
+
+To put it in simple terms, it works like this:
+
+- When you first inflict cut, stab or crush damage after activating this power, it checks which of those three damages types would have inflicted the most damage, and assigns that as your physical bypass bonus.
+- When you first inflict heat, cold or shock damage after activating this power, it checks which of those three damages types would have inflicted the most damage, and assigns that as your energy bypass bonus.
+
+Thus in order to utilise this power fully, you need to be capable of inflicting all three physical damage types (cut, stab and crush) and all three energy damage types (heat, cold and shock).
+
+One way of doing this is to apply the Terror Demon arms warp to your Demon Form, combined with the Demon Spawn talent. The warp allows you to freely change your arms between cut, stab and crush modes, while Demon Spawn (as a special combination bonus for using the Terror Demon warp) allows you to inflict a burst type based on your current Protean Nemesis bonus.
+
+Another option would be to use Oni Spawn with the Bird Fiend eyes warp, to give your tetsubo warclub dual crush/stab damage, and rely on your talons for cut damage (the tetsubo benefits from Tainted Talons, so your talons will probably be pretty decent). You could also use the Terror Demon Inferno warp to give your tetsubo a burst type based on your current Protean Nemesis bonus.
+
+A third option would be to use Infernal Binding to arm yourself with a selection of weapons with different damage and burst types, and then change weapons when necessary.
+
