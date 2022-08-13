@@ -15,11 +15,16 @@ defence will be used - and then your third best.  If all of your locations are
 still recovering then you will have a Defence of 1.
 
 In your score your current best available defensive location is marked between
-'>' and '<'.  No markers means you have no defence.  Each location is also 
-colour coded to indicate whether it is able to stop all attacks, paired melee
-attacks, normal melee attacks or unarmed attacks (with '-' indicating that no 
-defence is available for that location).  If you have an ethereal defence, it 
-will only be able to stop ethereal attacks.
+'>' and '<'.  No markers means you have no defence.  Each location is also colour coded to indicate its defence strength, as follows:
+
+Default colour | Attacks which can be defended against
+--- | ---
+Cyan | all attacks
+Blue | paired melee attacks
+Pink | normal melee attacks
+Red | unarmed attacks
+
+Non-defensive techniques are indicated by a '-'. In addition, etheral defences are only able to stop ethereal attacks.
 
 Please note that any defensive technique bonuses from your feet combat table 
 are applied to all locations, but are doubled for your feet location.  Your 

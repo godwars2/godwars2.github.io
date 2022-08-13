@@ -6,11 +6,11 @@ title: resistance
 Resistance represents your character's physical toughness and ability to shrug 
 off damage, and is calculated as follows:
 
-1) Add together all the stat modifiers (Mettle, Size and Discipline).
-2) Add bonuses from magical items, and most talents and powers.
-3) Apply fighting style percentage modifier.
-4) Add bonuses from talents/powers that specifically state 'after percentages'.
-5) Add bonuses from spell affects.
+1. Add together all the stat modifiers (Mettle, Size and Discipline).
+2. Add bonuses from magical items, and most talents and powers.
+3. Apply fighting style percentage modifier.
+4. Add bonuses from talents/powers that specifically state 'after percentages'.
+5. Add bonuses from spell affects.
 
 When someone strikes you in combat, their Core Damage is calculated (in exactly
 the same way as your Resistance), multiplied by 100, then divided by the sum of

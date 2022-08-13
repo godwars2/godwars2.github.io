@@ -6,12 +6,12 @@ title: damage
 Damage represents the raw physical power of your character, and is calculated 
 in six steps for each body location as follows:
 
-1) Add together the stat modifiers and subtract any weapon penalties.
-2) Add any modifiers for the weapon table and bonuses for the weapon itself.
-3) Add any modifiers for magical items you're wearing.
-4) Apply the percentage modifier if using a two-handed weapon.
-5) Add bonuses from talents/powers that specifically state 'after percentages'.
-6) Add any modifiers for spell affects.
+1. Add together the stat modifiers and subtract any weapon penalties.
+2. Add any modifiers for the weapon table and bonuses for the weapon itself.
+3. Add any modifiers for magical items you're wearing.
+4. Apply the percentage modifier if using a two-handed weapon.
+5. Add bonuses from talents/powers that specifically state 'after percentages'.
+6. Add any modifiers for spell affects.
 
 The maximum damage you can inflict is then calculated by multiplying your 
 Damage by a percentage value based on the difference between your Core Damage 
@@ -26,7 +26,13 @@ blow (treating misses as 0% damage).  This goes up to 31.82% at 55%, 38.75% at
 75.83% at 90% and 81.58% damage at 95% chance to hit.
 
 In your score, your damage for each location is colour-coded to indicate its
-bypass bonus - 20% of your weapon skill, 10% of your weapon skill, 5% of 
-your weapon skill, or no bypass bonus.
+bypass bonus:
+
+Default colour | Defence needed to counter the attack
+--- | ---
+cyan | 20% of your weapon skill
+blue | 10% of your weapon skill
+purple | 5% of your weapon skill
+red | no bypass bonus
 
 See also: assist attack combat critical defence resistance
