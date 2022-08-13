@@ -6,6 +6,19 @@ description: Titans are a powerful race of elder deities, born from the primal f
 
 ### [Powers](powers) - [Talents](talents) - [Subclasses](subclasses)
 
+Titans gain various innate bonuses based on their total power ranks, regardless of the actual distribution of those ranks, as follows:
+
+- +1 Speed per rank (up to 2*max rank) and half that bonus to Speed Cap.
+- +2 Attack and Defence per rank (up to 5*max rank).
+- +1 Damage and Resistance per rank (up to 5*max rank).
+- +1% Health per two ranks (up to 4*max rank).
+- +1% immunity vs all damage types per rank (up to 1*max rank). 30% max
+- +1 physical bypass per rank (up to 3*max rank).
+- +1 energy and mental bypass per three ranks (up to 3*max rank).
+- +2% natural armour vs all damage types per rank (up to 4*max rank).
+
+Note that if you are wearing armour, half of its soak will be subtracted from the above natural armour bonus, although this cannot reduce it below 0%.
+
 ### Build Basics
 
 Titans become increasingly powerful as their potential increases, regardless of
@@ -41,3 +54,11 @@ should always consider investing a few ranks in each of the following:
   </ul>
   {% endfor %}
  </div>
+
+### Tips
+
+Titans are considered a “miniclass”, and differ in a significant way from the older five “full” classes.
+
+“Full” classes are designed to allow a wide variety of character build styles (high or low armour, caster, fighter or semi-caster, and a variety of available “forms”). Titans do not have any powers that significantly enhance their spellcasting abilities, so are likely to always remain “fighter” type characters. They only have two forms, human and giant, and the giant form does not change their capabilities significantly (other than affecting their stats).
+
+However, Titans get the innate bonuses based on total power ranks, which means no particular choice of powers leads to an inherently inferior character. For this reason, Titans are a good choice for beginning players.
