@@ -36,7 +36,7 @@ Hellmouth            | 21714 0                     | Class Dungeon | Demons
 Mirror Lake          | 10000 6500                  | Lake          | Naga and blue dragon hatchlings
 Misty Forest         | 19000 6000                  | Forest        | Wolfkin and timber wolves
 Mount Stormreach     | 20000 0                     | Mountain      | None
-Shadowglade Forest   | 2000 21000                  | Forest        | Black bears, timber wolves and unicorns
+Shadowglade Forest   | 2000 21000                  | Forest        | Black bears, timber wolves and unicorns (day only)
 Shimmer Pond         | 11880 0                     | Pond          | None
 Snow River           | 1300 13350 and 8600 5900    | River         | White dragon hatchlings
 Storm River          | 19100 -200 and 15183 1280   | River         | None
