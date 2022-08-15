@@ -14,3 +14,5 @@ title: Guides
 [Lock Picks](lockpicks)
 
 [Item Crafting](item_crafting)
+
+[Mage Knowledges](mage_knowledges)
