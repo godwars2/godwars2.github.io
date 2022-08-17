@@ -13,9 +13,11 @@ you must be on your home plane in order to play in a war (see 'help home').
 
 Each turn lasts 60 seconds, and you have 3 actions.  These may be used for: 
 
-Offence <resource>: Moves a resource to Offence, creates a new resource.
-Defence <resource>: Moves a resource to Defence, creates a new resource.
-Dismiss <resource>: Discards Offence/Defence/Resource (may also 'dismiss all').
+\- | 
+--- | ---
+Offence <resource> | Moves a resource to Offence, creates a new resource.
+Defence <resource> | Moves a resource to Defence, creates a new resource.
+Dismiss <resource> | Discards Offence/Defence/Resource (may also 'dismiss all').
 
 Note that the resource is either the letter and number (M2, R4, etc) or just 
 the number (2, 4, etc).  You may also spend an action to perform special 
