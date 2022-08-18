@@ -7,8 +7,8 @@ There are infinite planes, but the Supernaturalis are not able to physically
 manifest on all of them.  On some planes you can only interact through visions 
 and manipulation, achieving victory through your mortal worshippers.
 
-To start a new war, type 'war start'.  To join a war type 'war <name>'.  Once 
-the war has started, type 'war' on its own to see your resources.  Note that 
+To start a new war, type `war start`.  To join a war type `war \<name\>`.  Once 
+the war has started, type `war` on its own to see your resources.  Note that 
 you must be on your home plane in order to play in a war (see 'help home').
 
 Each turn lasts 60 seconds, and you have 3 actions.  These may be used for: 
