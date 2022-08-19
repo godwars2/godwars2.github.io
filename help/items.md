@@ -4,8 +4,8 @@ title: items
 ---
 
 Magical items come in any combination of five types and three rarities.  The 
-types are magical, legendary, mythical, relic and artifact, and depend on the 
-age of the monster they drop from.  The rarities are common, uncommon and rare,
+types are **magical**, **legendary**, **mythical**, **relic** and **artifact**, and depend on the 
+age of the monster they drop from.  The rarities are **common**, **uncommon** and **rare**,
 and these drop 89%, 10% and 1% of the time respectively (regardless of type).
 
 A common magical item will have 1-2 bonuses.  Each type beyond magical will 
