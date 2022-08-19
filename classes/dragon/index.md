@@ -8,7 +8,7 @@ description: Dragons are an ancient and powerful race of Nephilim, and come in m
 
 ### Build Basics
 
-Scaled powers (see '[scaling]({{ site.baseurl }}{% link help/scaling.md %}) '), gains bonuses from valuable metals,
+Scaled powers (see '[scaling]({{ site.baseurl }}{% link help/scaling.md %})'), gains bonuses from valuable metals,
 fairly customisable, can choose to focus on either heat, cold, shock, poison or
 mental (both as offence and defence).  Forms: human, draconian and dragon.
 
