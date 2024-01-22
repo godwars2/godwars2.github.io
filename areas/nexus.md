@@ -82,6 +82,7 @@ Teardrop Pond      | -12210 -7392  | Lake       | Age 125     | Dire crocodiles
 Teardrop Village   | 0 0           | Settlement |             | None
 Tempest Mountain   | -4000 -50660  | Mountain   | Age 250-350 | Storm giants (elder at night)
 The Burning Desert | -20780 4660   | Desert     |             | None
+The Calydonian Boar's Den| 9178 -8674| Mountain |             | None
 The Elemental Isle | -19602 4158   | Island     |             | None
 The Forest of Woes | -15840 -12540 | Forest     | Age 125     | Treants (day only)<br />Spectres (night only)
 The Gash           | 19340 -7020   | Ocean      |             | None
